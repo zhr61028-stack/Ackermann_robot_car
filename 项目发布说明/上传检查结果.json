@@ -56,5 +56,19 @@
     "One original saved ROS inspection text has trailing whitespace. Original evidence unchanged.",
     "Historical report attachments are local-only and intentionally excluded."
   ],
-  "large_data_backup": "Videos and rosbag remain only on original computer; not backed up by this upload"
+  "large_data_backup": "Videos and rosbag remain only on original computer; not backed up by this upload",
+  "post_upload_clone_audit": {
+    "legacy_compatibility_shortcuts_added": [
+      "ackermann_sim_ws/docs",
+      "ackermann_sim_ws/records",
+      "ackermann_sim_ws/artifacts",
+      "m0_dev_ws/records"
+    ],
+    "local_only_backup_shortcuts_excluded": [
+      "ackermann_sim_ws/项目文档/relocation-backup",
+      "ackermann_sim_ws/项目文档/历史说明/artifacts",
+      "ackermann_sim_ws/项目文档/历史说明/实验记录"
+    ],
+    "reason": "A real GitHub checkout exposed symlinks requiring these entries; originals remain local."
+  }
 }

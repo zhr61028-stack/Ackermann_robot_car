@@ -31,3 +31,8 @@ ackermann_sim_ws/项目文档/实验记录整理档案/legacy-aliases/
 # Pre-edit document copies retain obsolete relative links; keep local.
 **/文档修改前/
 **/修改前文档/
+
+# Shortcuts whose targets are intentionally local-only backups.
+/ackermann_sim_ws/项目文档/relocation-backup
+/ackermann_sim_ws/项目文档/历史说明/artifacts
+/ackermann_sim_ws/项目文档/历史说明/实验记录
