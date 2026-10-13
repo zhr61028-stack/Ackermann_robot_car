@@ -1,0 +1,236 @@
+[
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": false,
+    "name": "\u539f\u8def\u7ebfA_\u590d\u6d4b1",
+    "start": "A",
+    "goal": 4,
+    "target": [
+      24,
+      0,
+      0
+    ],
+    "expected_nodes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FINISHED",
+    "video": false
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": false,
+    "name": "\u539f\u8def\u7ebfB_\u590d\u6d4b1",
+    "start": "B",
+    "goal": 5,
+    "target": [
+      16,
+      8,
+      1.5707963267948966
+    ],
+    "expected_nodes": [
+      7,
+      2,
+      3,
+      5
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FINISHED",
+    "video": true
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": false,
+    "name": "\u539f\u8def\u7ebfB_\u590d\u6d4b2",
+    "start": "B",
+    "goal": 5,
+    "target": [
+      16,
+      8,
+      1.5707963267948966
+    ],
+    "expected_nodes": [
+      7,
+      2,
+      3,
+      5
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FINISHED",
+    "video": false
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/stability/tight_route.yaml",
+    "map_updates": false,
+    "name": "\u8fd1\u6781\u9650\u5f2f\u9053_\u590d\u6d4b1",
+    "start": "B",
+    "goal": 5,
+    "target": [
+      16,
+      8,
+      1.5707963267948966
+    ],
+    "expected_nodes": [
+      7,
+      2,
+      3,
+      5
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FINISHED",
+    "video": true
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/stability/tight_route.yaml",
+    "map_updates": false,
+    "name": "\u8fd1\u6781\u9650\u5f2f\u9053_\u590d\u6d4b2",
+    "start": "B",
+    "goal": 5,
+    "target": [
+      16,
+      8,
+      1.5707963267948966
+    ],
+    "expected_nodes": [
+      7,
+      2,
+      3,
+      5
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FINISHED",
+    "video": false
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/stability/continuous_roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/stability/continuous_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": false,
+    "name": "\u8fde\u7eed\u8def\u53e3\u5206\u652f_\u590d\u6d4b1",
+    "start": "A",
+    "goal": 5,
+    "target": [
+      16,
+      6,
+      0
+    ],
+    "expected_nodes": [
+      1,
+      2,
+      6,
+      5
+    ],
+    "required_junctions": [
+      2,
+      6
+    ],
+    "expected": "FINISHED",
+    "video": true
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/stability/continuous_roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/stability/continuous_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": false,
+    "name": "\u8fde\u7eed\u8def\u53e3\u5206\u652f_\u590d\u6d4b2",
+    "start": "A",
+    "goal": 5,
+    "target": [
+      16,
+      6,
+      0
+    ],
+    "expected_nodes": [
+      1,
+      2,
+      6,
+      5
+    ],
+    "required_junctions": [
+      2,
+      6
+    ],
+    "expected": "FINISHED",
+    "video": false
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": true,
+    "name": "\u9014\u4e2d\u5c01\u8def_\u590d\u6d4b1",
+    "start": "A",
+    "goal": 4,
+    "target": [
+      24,
+      0,
+      0
+    ],
+    "expected_nodes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FAILED",
+    "video": true
+  },
+  {
+    "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+    "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+    "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+    "map_updates": true,
+    "name": "\u9014\u4e2d\u5c01\u8def_\u590d\u6d4b2",
+    "start": "A",
+    "goal": 4,
+    "target": [
+      24,
+      0,
+      0
+    ],
+    "expected_nodes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "required_junctions": [
+      2,
+      3
+    ],
+    "expected": "FAILED",
+    "video": false
+  }
+]

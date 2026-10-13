@@ -1,0 +1,1205 @@
+<sdf version="1.6">
+  <world name="ackermann_test">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>50</mu>
+              </ode>
+              <bullet>
+                <friction>1</friction>
+                <rolling_friction>0.1</rolling_friction>
+              </bullet>
+            </friction>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="ackermann">
+      <pose>0.0 0.0 0.10500000000000001 0 0 0.0</pose>
+      <link name="base_link">
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <mass>5.0</mass>
+          <inertia>
+            <ixx>0.07083333333333335</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.5148333333333334</iyy>
+            <iyz>0</iyz>
+            <izz>0.5643333333333335</izz>
+          </inertia>
+          <pose>0.4 0 0.1 0 0 0</pose>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.1 0.38 0.16</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 1.0 1</ambient>
+            <diffuse>0.5 0.5 1.0 1</diffuse>
+            <specular>0.0 0.0 1.0 1</specular>
+          </material>
+          <pose>0.4 0 0.1 0 0 0</pose>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.1 0.38 0.16</size>
+            </box>
+          </geometry>
+          <pose>0.4 0 0.1 0 0 0</pose>
+        </collision>
+        <sensor name="contacts_base_link" type="contact">
+          <always_on>true</always_on>
+          <update_rate>100</update_rate>
+          <contact>
+            <collision>collision</collision>
+            <topic>/model/ackermann/contacts/base_link</topic>
+          </contact>
+        </sensor>
+      </link>
+      <link name="front_left_wheel">
+        <pose>0.8 0.25 0 -1.5707963267948966 0 0</pose>
+        <inertial>
+          <mass>0.2</mass>
+          <inertia>
+            <ixx>0.0005600000000000001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0005600000000000001</iyy>
+            <iyz>0</iyz>
+            <izz>0.0010000000000000002</izz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+                <fdir1>0 0 1</fdir1>
+              </ode>
+              <bullet>
+                <friction>0.5</friction>
+                <friction2>1</friction2>
+                <rolling_friction>0.1</rolling_friction>
+              </bullet>
+            </friction>
+          </surface>
+        </collision>
+        <sensor name="contacts_front_left_wheel" type="contact">
+          <always_on>true</always_on>
+          <update_rate>100</update_rate>
+          <contact>
+            <collision>collision</collision>
+            <topic>/model/ackermann/contacts/front_left_wheel</topic>
+          </contact>
+        </sensor>
+      </link>
+      <link name="rear_left_wheel">
+        <pose>0 0.25 0 -1.5707963267948966 0 0</pose>
+        <inertial>
+          <mass>0.2</mass>
+          <inertia>
+            <ixx>0.0005600000000000001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0005600000000000001</iyy>
+            <iyz>0</iyz>
+            <izz>0.0010000000000000002</izz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+                <fdir1>0 0 1</fdir1>
+              </ode>
+              <bullet>
+                <friction>0.5</friction>
+                <friction2>1</friction2>
+                <rolling_friction>0.5</rolling_friction>
+              </bullet>
+            </friction>
+          </surface>
+        </collision>
+        <sensor name="contacts_rear_left_wheel" type="contact">
+          <always_on>true</always_on>
+          <update_rate>100</update_rate>
+          <contact>
+            <collision>collision</collision>
+            <topic>/model/ackermann/contacts/rear_left_wheel</topic>
+          </contact>
+        </sensor>
+      </link>
+      <link name="front_right_wheel">
+        <pose>0.8 -0.25 0 -1.5707963267948966 0 0</pose>
+        <inertial>
+          <mass>0.2</mass>
+          <inertia>
+            <ixx>0.0005600000000000001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0005600000000000001</iyy>
+            <iyz>0</iyz>
+            <izz>0.0010000000000000002</izz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+                <fdir1>0 0 1</fdir1>
+              </ode>
+              <bullet>
+                <friction>0.5</friction>
+                <friction2>1</friction2>
+                <rolling_friction>0.1</rolling_friction>
+              </bullet>
+            </friction>
+          </surface>
+        </collision>
+        <sensor name="contacts_front_right_wheel" type="contact">
+          <always_on>true</always_on>
+          <update_rate>100</update_rate>
+          <contact>
+            <collision>collision</collision>
+            <topic>/model/ackermann/contacts/front_right_wheel</topic>
+          </contact>
+        </sensor>
+      </link>
+      <link name="rear_right_wheel">
+        <pose>0 -0.25 0 -1.5707963267948966 0 0</pose>
+        <inertial>
+          <mass>0.2</mass>
+          <inertia>
+            <ixx>0.0005600000000000001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0005600000000000001</iyy>
+            <iyz>0</iyz>
+            <izz>0.0010000000000000002</izz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+          </material>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <length>0.06</length>
+              <radius>0.1</radius>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+                <fdir1>0 0 1</fdir1>
+              </ode>
+              <bullet>
+                <friction>0.5</friction>
+                <friction2>1</friction2>
+                <rolling_friction>0.5</rolling_friction>
+              </bullet>
+            </friction>
+          </surface>
+        </collision>
+        <sensor name="contacts_rear_right_wheel" type="contact">
+          <always_on>true</always_on>
+          <update_rate>100</update_rate>
+          <contact>
+            <collision>collision</collision>
+            <topic>/model/ackermann/contacts/rear_right_wheel</topic>
+          </contact>
+        </sensor>
+      </link>
+      <link name="front_left_wheel_steering_link">
+        <pose>0.8 0.25 0 0 0 0</pose>
+        <inertial>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.0001</ixx>
+            <iyy>0.0001</iyy>
+            <izz>0.0001</izz>
+          </inertia>
+        </inertial>
+        <visual name="steering_link_visual">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.04</length>
+              <radius>0.01</radius>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1 1 1</ambient>
+            <diffuse>1 1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <link name="front_right_wheel_steering_link">
+        <pose>0.8 -0.25 0 0 0 0</pose>
+        <inertial>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.0001</ixx>
+            <iyy>0.0001</iyy>
+            <izz>0.0001</izz>
+          </inertia>
+        </inertial>
+        <visual name="steering_link_visual">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <length>0.04</length>
+              <radius>0.01</radius>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1 1 1</ambient>
+            <diffuse>1 1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <joint name="front_left_wheel_steering_joint" type="revolute">
+        <child>front_left_wheel_steering_link</child>
+        <parent>base_link</parent>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-0.6</lower>
+            <upper>0.6</upper>
+            <velocity>2.0</velocity>
+            <effort>25</effort>
+          </limit>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <joint name="front_right_wheel_steering_joint" type="revolute">
+        <parent>base_link</parent>
+        <child>front_right_wheel_steering_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-0.6</lower>
+            <upper>0.6</upper>
+            <velocity>2.0</velocity>
+            <effort>25</effort>
+          </limit>
+        </axis>
+      </joint>
+      <joint name="front_left_wheel_joint" type="revolute">
+        <parent>front_left_wheel_steering_link</parent>
+        <child>front_left_wheel</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-1.79769e+308</lower>
+            <upper>1.79769e+308</upper>
+          </limit>
+        </axis>
+      </joint>
+      <joint name="front_right_wheel_joint" type="revolute">
+        <parent>front_right_wheel_steering_link</parent>
+        <child>front_right_wheel</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-1.79769e+308</lower>
+            <upper>1.79769e+308</upper>
+          </limit>
+        </axis>
+      </joint>
+      <joint name="rear_left_wheel_joint" type="revolute">
+        <parent>base_link</parent>
+        <child>rear_left_wheel</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-1.79769e+308</lower>
+            <upper>1.79769e+308</upper>
+          </limit>
+        </axis>
+      </joint>
+      <joint name="rear_right_wheel_joint" type="revolute">
+        <parent>base_link</parent>
+        <child>rear_right_wheel</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-1.79769e+308</lower>
+            <upper>1.79769e+308</upper>
+          </limit>
+        </axis>
+      </joint>
+      <plugin filename="gz-sim-ackermann-steering-system" name="gz::sim::systems::AckermannSteering">
+        <left_steering_joint>front_left_wheel_steering_joint</left_steering_joint>
+        <right_steering_joint>front_right_wheel_steering_joint</right_steering_joint>
+        <kingpin_width>0.5</kingpin_width>
+        <steering_limit>0.436525365377011</steering_limit>
+        <wheel_base>0.8</wheel_base>
+        <wheel_separation>0.5</wheel_separation>
+        <wheel_radius>0.1</wheel_radius>
+        <min_velocity>-0.6</min_velocity>
+        <max_velocity>0.6</max_velocity>
+        <min_acceleration>-3.0</min_acceleration>
+        <max_acceleration>3.0</max_acceleration>
+        <left_joint>rear_left_wheel_joint</left_joint>
+        <right_joint>rear_right_wheel_joint</right_joint>
+        <steer_p_gain>8.0</steer_p_gain>
+        <topic>/model/ackermann/cmd_vel</topic>
+        <odom_topic>/model/ackermann/odometry</odom_topic>
+        <tf_topic>/model/ackermann/tf</tf_topic>
+        <frame_id>wheel_odom</frame_id>
+        <child_frame_id>base_footprint</child_frame_id>
+        <odom_publish_frequency>50.0</odom_publish_frequency>
+      </plugin>
+      <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+        <topic>/model/ackermann/joint_state</topic>
+      </plugin>
+      <plugin filename="gz-sim-pose-publisher-system" name="gz::sim::systems::PosePublisher">
+        <publish_link_pose>false</publish_link_pose>
+        <publish_nested_model_pose>true</publish_nested_model_pose>
+        <publish_model_pose>true</publish_model_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <update_frequency>50</update_frequency>
+      </plugin>
+    </model>
+    <model name="metre_grid">
+      <static>true</static>
+      <link name="grid">
+        <visual name="line_0_-10">
+          <pose>-10 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-9">
+          <pose>-9 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-8">
+          <pose>-8 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-7">
+          <pose>-7 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-6">
+          <pose>-6 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-5">
+          <pose>-5 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-4">
+          <pose>-4 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-3">
+          <pose>-3 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-2">
+          <pose>-2 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_-1">
+          <pose>-1 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_0">
+          <pose>0 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_1">
+          <pose>1 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_2">
+          <pose>2 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_3">
+          <pose>3 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_4">
+          <pose>4 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_5">
+          <pose>5 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_6">
+          <pose>6 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_7">
+          <pose>7 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_8">
+          <pose>8 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_9">
+          <pose>9 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_10">
+          <pose>10 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_11">
+          <pose>11 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_12">
+          <pose>12 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_13">
+          <pose>13 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_14">
+          <pose>14 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_0_15">
+          <pose>15 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.012 25 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-10">
+          <pose>2.5 -10 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-9">
+          <pose>2.5 -9 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-8">
+          <pose>2.5 -8 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-7">
+          <pose>2.5 -7 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-6">
+          <pose>2.5 -6 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-5">
+          <pose>2.5 -5 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-4">
+          <pose>2.5 -4 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-3">
+          <pose>2.5 -3 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-2">
+          <pose>2.5 -2 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_-1">
+          <pose>2.5 -1 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_0">
+          <pose>2.5 0 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_1">
+          <pose>2.5 1 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_2">
+          <pose>2.5 2 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_3">
+          <pose>2.5 3 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_4">
+          <pose>2.5 4 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_5">
+          <pose>2.5 5 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_6">
+          <pose>2.5 6 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_7">
+          <pose>2.5 7 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_8">
+          <pose>2.5 8 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_9">
+          <pose>2.5 9 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_10">
+          <pose>2.5 10 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_11">
+          <pose>2.5 11 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_12">
+          <pose>2.5 12 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_13">
+          <pose>2.5 13 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_14">
+          <pose>2.5 14 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+        <visual name="line_1_15">
+          <pose>2.5 15 0.001 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>25 0.012 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <plugin filename="gz-sim-contact-system" name="gz::sim::systems::Contact" />
+    <model name="road_visual_0">
+      <static>true</static>
+      <pose>12.0 0.0 0.002 0 0 0</pose>
+      <link name="surface">
+        <visual name="asphalt">
+          <geometry>
+            <box>
+              <size>28.0 6.0 0.004</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.22 0.22 0.22 1</ambient>
+            <diffuse>0.22 0.22 0.22 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="road_visual_1">
+      <static>true</static>
+      <pose>8.0 0.0 0.002 0 0 0</pose>
+      <link name="surface">
+        <visual name="asphalt">
+          <geometry>
+            <box>
+              <size>6.0 20.0 0.004</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.22 0.22 0.22 1</ambient>
+            <diffuse>0.22 0.22 0.22 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="road_visual_2">
+      <static>true</static>
+      <pose>16.0 3.5 0.002 0 0 0</pose>
+      <link name="surface">
+        <visual name="asphalt">
+          <geometry>
+            <box>
+              <size>6.0 13.0 0.004</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.22 0.22 0.22 1</ambient>
+            <diffuse>0.22 0.22 0.22 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="road_visual_3">
+      <static>true</static>
+      <pose>12.0 8.0 0.002 0 0 0</pose>
+      <link name="surface">
+        <visual name="asphalt">
+          <geometry>
+            <box>
+              <size>14.0 6.0 0.004</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.22 0.22 0.22 1</ambient>
+            <diffuse>0.22 0.22 0.22 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="road_visual_4">
+      <static>true</static>
+      <pose>24.0 8.0 0.002 0 0 0</pose>
+      <link name="surface">
+        <visual name="asphalt">
+          <geometry>
+            <box>
+              <size>4.0 4.0 0.004</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.22 0.22 0.22 1</ambient>
+            <diffuse>0.22 0.22 0.22 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

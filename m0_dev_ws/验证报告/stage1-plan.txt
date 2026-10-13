@@ -1,0 +1,259 @@
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  libfwupd2
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu bzip2 cmake-data
+  docutils-common dpkg-dev fakeroot g++ g++-13 g++-13-x86-64-linux-gnu
+  g++-x86-64-linux-gnu gcc gcc-13 gcc-13-x86-64-linux-gnu gcc-x86-64-linux-gnu
+  javascript-common libalgorithm-diff-perl libalgorithm-diff-xs-perl
+  libalgorithm-merge-perl libasan8 libbinutils libcc1-0 libctf-nobfd0 libctf0
+  libdpkg-perl libfakeroot libfile-fcntllock-perl libgcc-13-dev libgprofng0
+  libhwasan0 libitm1 libjs-jquery libjs-jquery-hotkeys libjs-jquery-isonscreen
+  libjs-jquery-metadata libjs-jquery-tablesorter
+  libjs-jquery-throttle-debounce libjsoncpp25 liblsan0 libquadmath0 librhash0
+  libsframe1 libstdc++-13-dev libtsan2 libubsan1 lto-disabled-list make
+  python3-argcomplete python3-catkin-pkg-modules python3-colcon-argcomplete
+  python3-colcon-bash python3-colcon-cd python3-colcon-cmake
+  python3-colcon-core python3-colcon-defaults python3-colcon-devtools
+  python3-colcon-installed-package-information python3-colcon-library-path
+  python3-colcon-metadata python3-colcon-notification python3-colcon-output
+  python3-colcon-override-check python3-colcon-package-information
+  python3-colcon-package-selection python3-colcon-parallel-executor
+  python3-colcon-pkg-config python3-colcon-powershell
+  python3-colcon-python-setup-py python3-colcon-recursive-crawl
+  python3-colcon-ros python3-colcon-test-result python3-colcon-zsh
+  python3-coverage python3-distlib python3-docutils python3-empy
+  python3-iniconfig python3-notify2 python3-packaging python3-pluggy
+  python3-pytest python3-pytest-cov python3-roman python3-rosdep-modules
+  python3-rosdistro-modules python3-rospkg-modules python3-setuptools
+Suggested packages:
+  binutils-doc gprofng-gui bzip2-doc cmake-doc cmake-format elpa-cmake-mode
+  ninja-build debian-keyring g++-multilib g++-13-multilib gcc-13-doc
+  gcc-multilib autoconf automake libtool flex bison gcc-doc gcc-13-multilib
+  gcc-13-locales gdb-x86-64-linux-gnu apache2 | lighttpd | httpd bzr
+  libstdc++-13-doc make-doc python3-pytest-repeat python3-pytest-rerunfailures
+  python-coverage-doc docutils-doc fonts-linuxlibertine | ttf-linux-libertine
+  texlive-lang-french texlive-latex-base texlive-latex-recommended
+  python-setuptools-doc
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu build-essential bzip2
+  cmake cmake-data docutils-common dpkg-dev fakeroot g++ g++-13
+  g++-13-x86-64-linux-gnu g++-x86-64-linux-gnu gcc gcc-13
+  gcc-13-x86-64-linux-gnu gcc-x86-64-linux-gnu javascript-common
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libasan8 libbinutils libcc1-0 libctf-nobfd0 libctf0 libdpkg-perl libfakeroot
+  libfile-fcntllock-perl libgcc-13-dev libgprofng0 libhwasan0 libitm1
+  libjs-jquery libjs-jquery-hotkeys libjs-jquery-isonscreen
+  libjs-jquery-metadata libjs-jquery-tablesorter
+  libjs-jquery-throttle-debounce libjsoncpp25 liblsan0 libquadmath0 librhash0
+  libsframe1 libstdc++-13-dev libtsan2 libubsan1 lto-disabled-list make
+  python3-argcomplete python3-catkin-pkg-modules python3-colcon-argcomplete
+  python3-colcon-bash python3-colcon-cd python3-colcon-cmake
+  python3-colcon-common-extensions python3-colcon-core python3-colcon-defaults
+  python3-colcon-devtools python3-colcon-installed-package-information
+  python3-colcon-library-path python3-colcon-metadata
+  python3-colcon-notification python3-colcon-output
+  python3-colcon-override-check python3-colcon-package-information
+  python3-colcon-package-selection python3-colcon-parallel-executor
+  python3-colcon-pkg-config python3-colcon-powershell
+  python3-colcon-python-setup-py python3-colcon-recursive-crawl
+  python3-colcon-ros python3-colcon-test-result python3-colcon-zsh
+  python3-coverage python3-distlib python3-docutils python3-empy
+  python3-iniconfig python3-notify2 python3-packaging python3-pluggy
+  python3-pytest python3-pytest-cov python3-roman python3-rosdep
+  python3-rosdep-modules python3-rosdistro-modules python3-rospkg-modules
+  python3-setuptools python3-vcstool
+0 upgraded, 93 newly installed, 0 to remove and 11 not upgraded.
+Inst libjs-jquery (3.6.1+dfsg+~3.5.14-1 Ubuntu:24.04/noble [all])
+Inst libjs-jquery-hotkeys (0~20130707+git2d51e3a9+dfsg-2ubuntu2 Ubuntu:24.04/noble [all])
+Inst binutils-common (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libsframe1 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libbinutils (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libctf-nobfd0 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libctf0 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libgprofng0 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst binutils-x86-64-linux-gnu (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst binutils (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libcc1-0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libitm1 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libasan8 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst liblsan0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libtsan2 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libubsan1 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libhwasan0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libquadmath0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libgcc-13-dev (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst gcc-13-x86-64-linux-gnu (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst gcc-13 (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst gcc-x86-64-linux-gnu (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst gcc (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst libstdc++-13-dev (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst g++-13-x86-64-linux-gnu (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst g++-13 (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst g++-x86-64-linux-gnu (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst g++ (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst make (4.3-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libdpkg-perl (1.22.6ubuntu6.6 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Inst bzip2 (1.0.8-5.1ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst lto-disabled-list (47 Ubuntu:24.04/noble [all])
+Inst dpkg-dev (1.22.6ubuntu6.6 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Inst build-essential (12.10ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst libjsoncpp25 (1.9.5-6build1 Ubuntu:24.04/noble [amd64])
+Inst librhash0 (1.4.3-3build1 Ubuntu:24.04/noble [amd64])
+Inst cmake-data (3.28.3-1build7 Ubuntu:24.04/noble [all])
+Inst cmake (3.28.3-1build7 Ubuntu:24.04/noble [amd64])
+Inst docutils-common (0.20.1+dfsg-3 Ubuntu:24.04/noble [all])
+Inst libfakeroot (1.33-1 Ubuntu:24.04/noble [amd64])
+Inst fakeroot (1.33-1 Ubuntu:24.04/noble [amd64])
+Inst javascript-common (11+nmu1 Ubuntu:24.04/noble [all])
+Inst libalgorithm-diff-perl (1.201-1 Ubuntu:24.04/noble [all])
+Inst libalgorithm-diff-xs-perl (0.04-8build3 Ubuntu:24.04/noble [amd64])
+Inst libalgorithm-merge-perl (0.08-5 Ubuntu:24.04/noble [all])
+Inst libfile-fcntllock-perl (0.22-4ubuntu5 Ubuntu:24.04/noble [amd64])
+Inst libjs-jquery-metadata (12-4 Ubuntu:24.04/noble [all])
+Inst libjs-jquery-tablesorter (1:2.31.3+dfsg1-3 Ubuntu:24.04/noble [all])
+Inst libjs-jquery-throttle-debounce (1.1+dfsg.1-2 Ubuntu:24.04/noble [all])
+Inst python3-argcomplete (3.1.4-1ubuntu0.1 Ubuntu:24.04/noble-updates [all])
+Inst python3-roman (3.3-3 Ubuntu:24.04/noble [all])
+Inst python3-docutils (0.20.1+dfsg-3 Ubuntu:24.04/noble [all])
+Inst python3-packaging (24.0-1 Ubuntu:24.04/noble [all])
+Inst python3-catkin-pkg-modules (1.1.1-1 ROS noble:noble [all])
+Inst python3-distlib (0.3.8-1 Ubuntu:24.04/noble [all])
+Inst python3-empy (3.3.4-2 Ubuntu:24.04/noble [all])
+Inst python3-iniconfig (1.1.1-2 Ubuntu:24.04/noble [all])
+Inst python3-pluggy (1.4.0-1 Ubuntu:24.04/noble [all])
+Inst python3-pytest (7.4.4-1 Ubuntu:24.04/noble [all])
+Inst python3-setuptools (68.1.2-2ubuntu1.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Inst python3-colcon-core (0.21.3+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-argcomplete (0.3.3+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-bash (0.5.0-100 ROS noble:noble [all])
+Inst python3-colcon-package-information (0.4.1+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-cd (0.2.1-100 ROS noble:noble [all])
+Inst python3-colcon-library-path (0.2.1-100 ROS noble:noble [all])
+Inst python3-colcon-test-result (0.3.8-100 ROS noble:noble [all])
+Inst python3-colcon-cmake (0.2.30+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-defaults (0.2.9+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-devtools (0.3.0-100 ROS noble:noble [all])
+Inst python3-colcon-metadata (0.3.1+upstream-1 ROS noble:noble [all])
+Inst python3-notify2 (0.3-5 Ubuntu:24.04/noble [all])
+Inst python3-colcon-notification (0.3.3+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-output (0.2.15+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-package-selection (0.2.10-100 ROS noble:noble [all])
+Inst python3-colcon-parallel-executor (0.3.0-100 ROS noble:noble [all])
+Inst python3-colcon-powershell (0.5.0+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-python-setup-py (0.2.9-100 ROS noble:noble [all])
+Inst python3-colcon-recursive-crawl (0.2.3-100 ROS noble:noble [all])
+Inst python3-colcon-pkg-config (0.1.0-100 ROS noble:noble [all])
+Inst python3-colcon-ros (0.5.0+upstream-1 ROS noble:noble [all])
+Inst python3-colcon-zsh (0.5.0-100 ROS noble:noble [all])
+Inst python3-colcon-common-extensions (0.3.0-100 ROS noble:noble [all])
+Inst python3-colcon-installed-package-information (0.2.1-100 ROS noble:noble [all])
+Inst python3-colcon-override-check (0.0.1-100 ROS noble:noble [all])
+Inst python3-coverage (7.4.4+dfsg1-0ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libjs-jquery-isonscreen (1.2.0-1.1 Ubuntu:24.04/noble [all])
+Inst python3-pytest-cov (4.1.0-1 Ubuntu:24.04/noble [all])
+Inst python3-rospkg-modules (1.6.3-1 ROS noble:noble [all])
+Inst python3-rosdistro-modules (1.1.0-1 ROS noble:noble [all])
+Inst python3-rosdep-modules (0.27.0-1 ROS noble:noble [all])
+Inst python3-rosdep (0.27.0-1 ROS noble:noble [all])
+Inst python3-vcstool (0.3.0-1 ROS noble:noble [all])
+Conf libjs-jquery (3.6.1+dfsg+~3.5.14-1 Ubuntu:24.04/noble [all])
+Conf libjs-jquery-hotkeys (0~20130707+git2d51e3a9+dfsg-2ubuntu2 Ubuntu:24.04/noble [all])
+Conf binutils-common (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libsframe1 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libbinutils (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libctf-nobfd0 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libctf0 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libgprofng0 (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf binutils-x86-64-linux-gnu (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf binutils (2.42-4ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libcc1-0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libitm1 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libasan8 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf liblsan0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libtsan2 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libubsan1 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libhwasan0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libquadmath0 (14.2.0-4ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libgcc-13-dev (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf gcc-13-x86-64-linux-gnu (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf gcc-13 (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf gcc-x86-64-linux-gnu (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf gcc (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf libstdc++-13-dev (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf g++-13-x86-64-linux-gnu (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf g++-13 (13.3.0-6ubuntu2~24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf g++-x86-64-linux-gnu (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf g++ (4:13.2.0-7ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf make (4.3-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libdpkg-perl (1.22.6ubuntu6.6 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Conf bzip2 (1.0.8-5.1ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf lto-disabled-list (47 Ubuntu:24.04/noble [all])
+Conf dpkg-dev (1.22.6ubuntu6.6 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Conf build-essential (12.10ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf libjsoncpp25 (1.9.5-6build1 Ubuntu:24.04/noble [amd64])
+Conf librhash0 (1.4.3-3build1 Ubuntu:24.04/noble [amd64])
+Conf cmake-data (3.28.3-1build7 Ubuntu:24.04/noble [all])
+Conf cmake (3.28.3-1build7 Ubuntu:24.04/noble [amd64])
+Conf docutils-common (0.20.1+dfsg-3 Ubuntu:24.04/noble [all])
+Conf libfakeroot (1.33-1 Ubuntu:24.04/noble [amd64])
+Conf fakeroot (1.33-1 Ubuntu:24.04/noble [amd64])
+Conf javascript-common (11+nmu1 Ubuntu:24.04/noble [all])
+Conf libalgorithm-diff-perl (1.201-1 Ubuntu:24.04/noble [all])
+Conf libalgorithm-diff-xs-perl (0.04-8build3 Ubuntu:24.04/noble [amd64])
+Conf libalgorithm-merge-perl (0.08-5 Ubuntu:24.04/noble [all])
+Conf libfile-fcntllock-perl (0.22-4ubuntu5 Ubuntu:24.04/noble [amd64])
+Conf libjs-jquery-metadata (12-4 Ubuntu:24.04/noble [all])
+Conf libjs-jquery-tablesorter (1:2.31.3+dfsg1-3 Ubuntu:24.04/noble [all])
+Conf libjs-jquery-throttle-debounce (1.1+dfsg.1-2 Ubuntu:24.04/noble [all])
+Conf python3-argcomplete (3.1.4-1ubuntu0.1 Ubuntu:24.04/noble-updates [all])
+Conf python3-roman (3.3-3 Ubuntu:24.04/noble [all])
+Conf python3-docutils (0.20.1+dfsg-3 Ubuntu:24.04/noble [all])
+Conf python3-packaging (24.0-1 Ubuntu:24.04/noble [all])
+Conf python3-catkin-pkg-modules (1.1.1-1 ROS noble:noble [all])
+Conf python3-distlib (0.3.8-1 Ubuntu:24.04/noble [all])
+Conf python3-empy (3.3.4-2 Ubuntu:24.04/noble [all])
+Conf python3-iniconfig (1.1.1-2 Ubuntu:24.04/noble [all])
+Conf python3-pluggy (1.4.0-1 Ubuntu:24.04/noble [all])
+Conf python3-pytest (7.4.4-1 Ubuntu:24.04/noble [all])
+Conf python3-setuptools (68.1.2-2ubuntu1.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Conf python3-colcon-core (0.21.3+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-argcomplete (0.3.3+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-bash (0.5.0-100 ROS noble:noble [all])
+Conf python3-colcon-package-information (0.4.1+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-cd (0.2.1-100 ROS noble:noble [all])
+Conf python3-colcon-library-path (0.2.1-100 ROS noble:noble [all])
+Conf python3-colcon-test-result (0.3.8-100 ROS noble:noble [all])
+Conf python3-colcon-cmake (0.2.30+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-defaults (0.2.9+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-devtools (0.3.0-100 ROS noble:noble [all])
+Conf python3-colcon-metadata (0.3.1+upstream-1 ROS noble:noble [all])
+Conf python3-notify2 (0.3-5 Ubuntu:24.04/noble [all])
+Conf python3-colcon-notification (0.3.3+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-output (0.2.15+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-package-selection (0.2.10-100 ROS noble:noble [all])
+Conf python3-colcon-parallel-executor (0.3.0-100 ROS noble:noble [all])
+Conf python3-colcon-powershell (0.5.0+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-python-setup-py (0.2.9-100 ROS noble:noble [all])
+Conf python3-colcon-recursive-crawl (0.2.3-100 ROS noble:noble [all])
+Conf python3-colcon-pkg-config (0.1.0-100 ROS noble:noble [all])
+Conf python3-colcon-ros (0.5.0+upstream-1 ROS noble:noble [all])
+Conf python3-colcon-zsh (0.5.0-100 ROS noble:noble [all])
+Conf python3-colcon-common-extensions (0.3.0-100 ROS noble:noble [all])
+Conf python3-colcon-installed-package-information (0.2.1-100 ROS noble:noble [all])
+Conf python3-colcon-override-check (0.0.1-100 ROS noble:noble [all])
+Conf python3-coverage (7.4.4+dfsg1-0ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libjs-jquery-isonscreen (1.2.0-1.1 Ubuntu:24.04/noble [all])
+Conf python3-pytest-cov (4.1.0-1 Ubuntu:24.04/noble [all])
+Conf python3-rospkg-modules (1.6.3-1 ROS noble:noble [all])
+Conf python3-rosdistro-modules (1.1.0-1 ROS noble:noble [all])
+Conf python3-rosdep-modules (0.27.0-1 ROS noble:noble [all])
+Conf python3-rosdep (0.27.0-1 ROS noble:noble [all])
+Conf python3-vcstool (0.3.0-1 ROS noble:noble [all])

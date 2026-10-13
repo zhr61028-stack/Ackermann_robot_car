@@ -1,0 +1,6 @@
+/command_guard:
+  ros__parameters:
+    allow_reverse: false
+    config_path: /home/zhanghaoran/.codex/.chatgpt-projects/g-p-6ac0a6b986d08191a18b6f104acd916d/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/config/vehicle.yaml
+    start_type_description_service: true
+    use_sim_time: true

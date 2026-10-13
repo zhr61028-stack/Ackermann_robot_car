@@ -1,0 +1,73 @@
+{
+  "all_pass": true,
+  "checks": {
+    "expected_terminal": true,
+    "road_footprint_inside": true,
+    "no_non_ground_contact": true,
+    "command_constraints": true,
+    "actual_curvature": true,
+    "forward_only": true,
+    "no_in_place_rotation": true,
+    "steering_limits": true,
+    "local_goals_within_window": true,
+    "odom_frame": true,
+    "no_intermediate_stops": true,
+    "failure_reason": true,
+    "failure_stopped": true
+  },
+  "route": [
+    {
+      "nodes": [
+        7,
+        2,
+        3,
+        5
+      ],
+      "edges": [
+        106,
+        101,
+        103
+      ],
+      "cost": 24.0,
+      "frame": "odom"
+    }
+  ],
+  "terminal": {
+    "state": "FAILED",
+    "reason": "ROUTE_UNREACHABLE error_code=405",
+    "progress_m": 2.0000076293945312,
+    "visited_junctions": [],
+    "local_path_sequence": 3,
+    "monotonic_s": 14503.340476667
+  },
+  "endpoint_position_error_m": null,
+  "endpoint_yaw_error_rad": null,
+  "road_outside_pose_samples": 0,
+  "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+  "maximum_local_goal_axis_extent_m": 3.9972813200356674,
+  "truth_samples": 361,
+  "minimum_actual_radius_m": 999812278.8855327,
+  "physical_minimum_radius_m": 1.8921779360312885,
+  "safe_command_violations": 0,
+  "raw_nav_constraint_violations": 0,
+  "max_steering_joint_rad": 8.000000002532365e-10,
+  "non_ground_contact_count": 0,
+  "contact_messages": {
+    "/sim/contacts/front_left_wheel": 7232,
+    "/sim/contacts/rear_right_wheel": 7231,
+    "/sim/contacts/front_right_wheel": 7231,
+    "/sim/contacts/rear_left_wheel": 7231
+  },
+  "intermediate_stops_s": [],
+  "failure_stop": {
+    "command_zero_after_report_s": 0.00057220458984375,
+    "actual_stop_after_report_s": 0.10011601448059082,
+    "stop_confirmed_after_report_s": 0.30021047592163086
+  },
+  "local_goal_count": 2,
+  "plan_count": 4,
+  "actual_path_length_m": 2.0300000000118823,
+  "localization": "TEST_GAZEBO_TRUTH",
+  "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+  "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+}

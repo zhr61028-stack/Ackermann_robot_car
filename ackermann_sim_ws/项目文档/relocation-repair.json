@@ -1,0 +1,420 @@
+{
+  "backup": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/docs/relocation-backup",
+  "old_root": "/home/zhanghaoran/.codex/.chatgpt-projects/g-p-6ac0a6b986d08191a18b6f104acd916d",
+  "new_root": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car",
+  "changes": [
+    {
+      "path": "m0_dev_ws/build/m0_smoke/colcon_command_prefix_build.sh.env",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeCache.txt",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CTestTestfile.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install_targets_0_.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/cmake_install.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/symlink_install_manifest.txt",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/Makefile",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CTestConfiguration.ini",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/TargetDirectories.txt",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/Makefile2",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeConfigureLog.yaml",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/Makefile.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeDirectoryInformation.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/build.make",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/build.make",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/DependInfo.cmake",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/smoke_node.cpp.o.d",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/build.make",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-m0_smoke_uninstall-0dfd564b44cbc338e1b6.json",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/codemodel-v2-51091afae91ba9b2b39b.json",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/directory-.-693f3d81b98277a4aa37.json",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/install/setup.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/install/local_setup.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/ament_index/resource_index/package_run_dependencies/m0_smoke",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/ament_index/resource_index/packages/m0_smoke",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/ament_index/resource_index/parent_prefix_path/m0_smoke",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/local_setup.zsh",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/local_setup.dsv",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/local_setup.bash",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/local_setup.sh",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/environment/ament_prefix_path.dsv",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/environment/path.dsv",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/cmake/m0_smokeConfig-version.cmake",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/cmake/m0_smokeConfig.cmake",
+      "kind": "generated_link"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/lib/m0_smoke/smoke_node",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/setup.py",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/colcon_command_prefix_setup_py.sh.env",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/colcon_command_prefix_setup_py.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/package.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/setup.cfg",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/rviz/ackermann.rviz",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/prefix_override/sitecustomize.py",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/resource/ackermann_nav",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.ps1",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.dsv",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/launch/navigation.launch.py",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/config/test_scene.yaml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/config/nav2.yaml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/config/forward_only.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/config/LICENSE",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/config/gui.config",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/config/NOTICE.md",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/setup.py",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/colcon_command_prefix_setup_py.sh.env",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/package.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/setup.cfg",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/rviz/ackermann.rviz",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/prefix_override/sitecustomize.py",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/resource/ackermann_sim",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/vendor/LICENSE",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/vendor/ackermann_steering.sdf",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/vendor/NOTICE.md",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.ps1",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.dsv",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/launch/__pycache__",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/launch/sim.launch.py",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/config/vehicle.yaml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/config/gui.config",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/setup.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/install/local_setup.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/rviz/ackermann.rviz",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/launch/navigation.launch.py",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/config/test_scene.yaml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/config/nav2.yaml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/config/forward_only.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/config/LICENSE",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/config/gui.config",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/config/NOTICE.md",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ament_index/resource_index/packages/ackermann_nav",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/lib/python3.12/site-packages/ackermann-nav.egg-link",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.xml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.sh",
+      "kind": "generated_text"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/rviz/ackermann.rviz",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/vendor/LICENSE",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/vendor/ackermann_steering.sdf",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/vendor/NOTICE.md",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/launch/sim.launch.py",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/config/vehicle.yaml",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/config/gui.config",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ament_index/resource_index/packages/ackermann_sim",
+      "kind": "generated_link"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/lib/python3.12/site-packages/ackermann-sim.egg-link",
+      "kind": "generated_text"
+    }
+  ],
+  "source_parameters_scripts_modified": false
+}

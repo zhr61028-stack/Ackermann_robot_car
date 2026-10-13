@@ -1,0 +1,566 @@
+{
+  "project_root": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car",
+  "directories": [
+    {
+      "before": "latest/navigation",
+      "after": "M3_导航/验收成果/仿真_简单场地导航",
+      "date": "2026-10-12",
+      "result": "通过（简单场地仿真）"
+    },
+    {
+      "before": "latest/watchdog",
+      "after": "跨阶段_安全验证/验收成果/仿真_完整负载断指令停车",
+      "date": "2026-10-12",
+      "result": "通过（当前假设模型与本机负载）"
+    },
+    {
+      "before": "latest/contact-probe",
+      "after": "跨阶段_安全验证/验收成果/仿真_车身接触检测正向测试",
+      "date": "2026-10-12",
+      "result": "通过（检测接口）"
+    },
+    {
+      "before": "history/watchdog-unloaded-pass",
+      "after": "跨阶段_安全验证/过程记录/仿真_基础负载断指令停车",
+      "date": "2026-10-12",
+      "result": "通过，但被完整负载复测补充"
+    },
+    {
+      "before": "history/watchdog-80ms-failed",
+      "after": "跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过",
+      "date": "2026-10-12",
+      "result": "未通过"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03",
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本",
+      "date": "2026-10-03",
+      "result": "当时基础检查通过，旧版本"
+    },
+    {
+      "before": "history/basic-run-001",
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制窗口匹配调试",
+      "date": "2026-10-03",
+      "result": "调试记录，不作为通过证据"
+    },
+    {
+      "before": "history/basic-run-002",
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制数值类型失败",
+      "date": "2026-10-03",
+      "result": "未完成"
+    },
+    {
+      "before": "history/basic-run-003",
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试",
+      "date": "2026-10-03",
+      "result": "数值通过，录像无效，旧版本"
+    },
+    {
+      "before": "history/nav-headless-failed",
+      "after": "M3_导航/过程记录/仿真_转弯绕圈未通过",
+      "date": "2026-10-12",
+      "result": "未通过"
+    },
+    {
+      "before": "history/nav-first-gui-failed",
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过",
+      "date": "2026-10-12",
+      "result": "未通过"
+    }
+  ],
+  "files": [
+    {
+      "before": "latest/navigation/bag-record.log",
+      "sha256": "cceb9e80ed2aaafb629d5a1625d19289ef124043fad7c50a6944fe385c38bba3",
+      "size": 2946,
+      "inode": 2630369,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/原始数据/bag-record.log"
+    },
+    {
+      "before": "latest/navigation/demo.mp4",
+      "sha256": "dfca36ad066287d6b408abb3a1e630506c18b66d2acdd37348692ca1e0eb4a45",
+      "size": 538820,
+      "inode": 2630370,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/演示视频/demo.mp4"
+    },
+    {
+      "before": "latest/navigation/trajectory.json",
+      "sha256": "51f86a73213c4f3ed7a47da90eedb412e06e8c47dd5934c68fd6b5364e317b1d",
+      "size": 312430,
+      "inode": 2630446,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/测试结果/trajectory.json"
+    },
+    {
+      "before": "latest/navigation/preview-360.png",
+      "sha256": "dac1938d0bc42dffbf6d563ba6f7bfee9c1bd7dd8e14cba12c1a2a15abf062d3",
+      "size": 233303,
+      "inode": 2630378,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-360.png"
+    },
+    {
+      "before": "latest/navigation/video-check-200.png",
+      "sha256": "1f0e509ecd625ec2ba8c4052bcba043f5d0e6d2d65e2bfc25e8ae6c198eea170",
+      "size": 348204,
+      "inode": 2630422,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/video-check-200.png"
+    },
+    {
+      "before": "latest/navigation/video-check-450.png",
+      "sha256": "cf46086030c3a42814da986b28209bf1b1189b1464797e792e81d057c89d10bf",
+      "size": 352633,
+      "inode": 2630423,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/video-check-450.png"
+    },
+    {
+      "before": "latest/navigation/preview-1.png",
+      "sha256": "185ada45248405a0444a6a04f577f40fc25d466c7636311e07a69435d490597f",
+      "size": 228263,
+      "inode": 2630371,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-1.png"
+    },
+    {
+      "before": "latest/navigation/goal-results.json",
+      "sha256": "9dc41a26a3d6efc542280e58c57d0172198663e6e7369fbddf1f2558eae21758",
+      "size": 1721,
+      "inode": 2630376,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/测试结果/goal-results.json"
+    },
+    {
+      "before": "latest/navigation/preview-300.png",
+      "sha256": "84700cc17c95bc1c821eb229ae071713798d418022e95c7aa9bea2ead0cc6b9c",
+      "size": 231207,
+      "inode": 2630377,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-300.png"
+    },
+    {
+      "before": "latest/navigation/video-verification.json",
+      "sha256": "f93c2b80671651dd4c03c2834374267e9b2d23ba585d58fd4d588b77d72b7b6d",
+      "size": 126,
+      "inode": 2630425,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/测试结果/video-verification.json"
+    },
+    {
+      "before": "latest/navigation/results.json",
+      "sha256": "93d409d794f9b369a4741462ae66cce48e209fe8fe952fab99a9ee4127067f26",
+      "size": 6717,
+      "inode": 2630379,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/测试结果/results.json"
+    },
+    {
+      "before": "latest/navigation/video-check-600.png",
+      "sha256": "8d5037489327df6c083545ff9bbe9d30c76c3e684280fe6f84866571e7f6c977",
+      "size": 350724,
+      "inode": 2630424,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/video-check-600.png"
+    },
+    {
+      "before": "latest/navigation/preview-120.png",
+      "sha256": "5fdb09b10442e92ac1a733afaa4f7cd3b6da34255e176c8226004d2f35ebcc26",
+      "size": 227261,
+      "inode": 2630375,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-120.png"
+    },
+    {
+      "before": "latest/navigation/navigation_trajectory.png",
+      "sha256": "cfd7a2c59d0281bb099767b55aadae542c47e627c38eddc45b6350f39ab4a22d",
+      "size": 100266,
+      "inode": 2630421,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/navigation_trajectory.png"
+    },
+    {
+      "before": "latest/navigation/bag/metadata.yaml",
+      "sha256": "574721621cbc8dc4fb478be920125c86cb1f2232b41639e293b7f1a8d63d4de8",
+      "size": 15253,
+      "inode": 2630380,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "latest/navigation/bag/bag_0.mcap",
+      "sha256": "5de00ef61f82d6d06174431467756669f15059d0ad24686b37c4d05fb0e67145",
+      "size": 210576653,
+      "inode": 2630374,
+      "after": "M3_导航/验收成果/仿真_简单场地导航/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "latest/watchdog/bag-record.log",
+      "sha256": "492fdd475a57b1b225dd8ad757908c2e7ab0c26e44757c24a042a99eb683f8bc",
+      "size": 1700,
+      "inode": 2630410,
+      "after": "跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/原始数据/bag-record.log"
+    },
+    {
+      "before": "latest/watchdog/guard-rejections.json",
+      "sha256": "ee94226ee52fb861fd2f7f471c835857dfe06d8ee166745f7084b5ee003992de",
+      "size": 254,
+      "inode": 2630417,
+      "after": "跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/测试结果/guard-rejections.json"
+    },
+    {
+      "before": "latest/watchdog/results.json",
+      "sha256": "23793b03dce1a2b70470d0c50fc54a401ff56ad5f05330efb1e5ee5223cdbe3c",
+      "size": 6334,
+      "inode": 2630419,
+      "after": "跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/测试结果/results.json"
+    },
+    {
+      "before": "latest/watchdog/bag/metadata.yaml",
+      "sha256": "dd57aebdce9a1ab1ce05d7d477c3cc6733a607cd07cc4889bed67ec87830b70b",
+      "size": 4253,
+      "inode": 2630099,
+      "after": "跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "latest/watchdog/bag/bag_0.mcap",
+      "sha256": "e609280e0a44b76af710fb4eda5eab70ff4af9b01c99ab102e65ef1bcf0c5ccd",
+      "size": 3477661,
+      "inode": 2630413,
+      "after": "跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "latest/contact-probe/spawn.log",
+      "sha256": "4b99a4c963ee0e7f62cbaa32566a7805916137e33b71537a2d72f6a4fdf7f862",
+      "size": 72,
+      "inode": 2630388,
+      "after": "跨阶段_安全验证/验收成果/仿真_车身接触检测正向测试/原始数据/spawn.log"
+    },
+    {
+      "before": "latest/contact-probe/results.json",
+      "sha256": "ef8e237d81a743388d049bdcb0269b3edf2e2f136356359b8f62b2194dcd41bc",
+      "size": 298,
+      "inode": 2630389,
+      "after": "跨阶段_安全验证/验收成果/仿真_车身接触检测正向测试/测试结果/results.json"
+    },
+    {
+      "before": "history/watchdog-unloaded-pass/bag-record.log",
+      "sha256": "f09c8d73c225fbae0faa671bb6ae4534ce520925f18b97dc64a9ac3210c46e68",
+      "size": 1696,
+      "inode": 2630113,
+      "after": "跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/watchdog-unloaded-pass/results.json",
+      "sha256": "21a4f4d98e3287566392e4928f89363c20211c8a1c48033ac01f4a7d56824805",
+      "size": 6324,
+      "inode": 2630118,
+      "after": "跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/测试结果/results.json"
+    },
+    {
+      "before": "history/watchdog-unloaded-pass/bag/metadata.yaml",
+      "sha256": "49500803da0743ce38a5a47a616e267802cc4ae758c8f359b42d731e6ed985e3",
+      "size": 4253,
+      "inode": 2630117,
+      "after": "跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/watchdog-unloaded-pass/bag/bag_0.mcap",
+      "sha256": "7c8895c9ae8da2d7361505ef376be36ef0496834534e862093b9add1297d2afd",
+      "size": 3481075,
+      "inode": 2630116,
+      "after": "跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "history/watchdog-80ms-failed/bag-record.log",
+      "sha256": "d88fdc5fda2d4f0c1b87a55a0f273b972b2bf65b37f6cf427055636bbec33525",
+      "size": 1693,
+      "inode": 2630089,
+      "after": "跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/watchdog-80ms-failed/results.json",
+      "sha256": "9b7d4ad7cd2acf8cc0e9a7601e419cc640d0ce7627f19be16cfa1e5879a7bd0b",
+      "size": 6330,
+      "inode": 2630094,
+      "after": "跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/测试结果/results.json"
+    },
+    {
+      "before": "history/watchdog-80ms-failed/bag/metadata.yaml",
+      "sha256": "797e32358182c19ab41e9e1c47cecfde29f6e3f8351313f99afd86fed3e64fdf",
+      "size": 4253,
+      "inode": 2630093,
+      "after": "跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/watchdog-80ms-failed/bag/bag_0.mcap",
+      "sha256": "023e5759edd51c3bd61495146fe6bd7003696554cdedbc6790f7a83f6e607a92",
+      "size": 3467831,
+      "inode": 2630092,
+      "after": "跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/bag-record.log",
+      "sha256": "5a4d0fe9ef726d9372da06ef01654b54b06f20072bb569d71c63b3102d582002",
+      "size": 1995,
+      "inode": 2629774,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/demo.mp4",
+      "sha256": "4b38a159556c2ce44c992d7fae9b315dc3467e9de3eacb4305d60096dde21681",
+      "size": 409887,
+      "inode": 2629775,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/演示视频/demo.mp4"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/preview-360.png",
+      "sha256": "0f11f5d6223715a96b863f72b82cceb19338850a34e02c5d1467f7705f68ca88",
+      "size": 157742,
+      "inode": 2629782,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-360.png"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/preview-1.png",
+      "sha256": "40c94de701f5126bf7d70b42e524c47a54163cf00e7ecee98ec3bc8e486c8f41",
+      "size": 153504,
+      "inode": 2629776,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-1.png"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/observations.json",
+      "sha256": "d3f049787811d3872c5f4fa678a1107fd71156762e581a51e5f71bdd5ae5ccfa",
+      "size": 1168126,
+      "inode": 2629784,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/observations.json"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/preview-300.png",
+      "sha256": "efc2102de8fd82461f479de7e20ae8b4dd7cdf99aeb51ae8ef932d5f17de7d2e",
+      "size": 104827,
+      "inode": 2629781,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-300.png"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/trajectory.png",
+      "sha256": "a56cd291b5bc63c440a070ee7e35a0c81239a5a06efbcc7b714c35d37b708027",
+      "size": 79532,
+      "inode": 2629802,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/trajectory.png"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/results.json",
+      "sha256": "88dad86d3cb02856dc833492e8a32e9501eb4599a576b0b79bdc778ae47c4a23",
+      "size": 8061,
+      "inode": 2629783,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/测试结果/results.json"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/preview-120.png",
+      "sha256": "ad8b86d021b8ab5eee6d23bf7d6c10717ff76933d1709667a71317c5e7063933",
+      "size": 156154,
+      "inode": 2629780,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-120.png"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/stopping.png",
+      "sha256": "97b9042071ac33b7c78f3a7d97d9e8a214cab511c97dcb2cf17ec079ee6dca87",
+      "size": 73997,
+      "inode": 2629803,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/stopping.png"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/bag/metadata.yaml",
+      "sha256": "eb6d3c3ab0527ba3be77e91c28d9341e97fa7be9ff760cc9f26fb59d2efc5f71",
+      "size": 8426,
+      "inode": 2629785,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/basic-pass-2026-10-03/bag/bag_0.mcap",
+      "sha256": "079f83fded452f85ab2e5230ac4aa0c835f08dd767077c5fe991850bc8922b85",
+      "size": 21688952,
+      "inode": 2629779,
+      "after": "M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "history/basic-run-001/bag-record.log",
+      "sha256": "d67f08154517956d827779262d072bc449ef768444189695a807929c779e0759",
+      "size": 3010,
+      "inode": 2629708,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制窗口匹配调试/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/basic-run-002/bag-record.log",
+      "sha256": "f9702c5def6c75b47b180a30871f1b284e19a3b180a8d4a5427f8d52989d99ad",
+      "size": 1815,
+      "inode": 2629714,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/basic-run-002/demo.mp4",
+      "sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+      "size": 48,
+      "inode": 2629715,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/演示视频/demo.mp4"
+    },
+    {
+      "before": "history/basic-run-002/bag/metadata.yaml",
+      "sha256": "9c31da957129159ac702a0dbb12025233430de56425d52755f4eef95c5a76b29",
+      "size": 6946,
+      "inode": 2629719,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/basic-run-002/bag/bag_0.mcap",
+      "sha256": "55b9a1c3863d254c67b39896302c11cce387c15040fc4a78ebc3db745afc392f",
+      "size": 49662305,
+      "inode": 2629718,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "history/basic-run-003/bag-record.log",
+      "sha256": "25a7268737f14a906c484dc8965fcca0b3115523bfc71ac7e3f785508ce98e52",
+      "size": 2093,
+      "inode": 2629727,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/basic-run-003/demo.mp4",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "inode": 2629728,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/演示视频/demo.mp4"
+    },
+    {
+      "before": "history/basic-run-003/demo-frame.png",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "inode": 2629531,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/轨迹或分析图/demo-frame.png"
+    },
+    {
+      "before": "history/basic-run-003/observations.json",
+      "sha256": "2b0d9a97db6d0e356151782bd472a0c20aadf843df24b7e7247241370dfce71e",
+      "size": 2009196,
+      "inode": 2629733,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/observations.json"
+    },
+    {
+      "before": "history/basic-run-003/VIDEO_NOT_RETAINED.md",
+      "sha256": "5bb84bb8dee5129ae2cd95f7a18720199d778a7c54d3f3b9ae133683432f0a2b",
+      "size": 182,
+      "inode": 2629735,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/测试结果/VIDEO_NOT_RETAINED.md"
+    },
+    {
+      "before": "history/basic-run-003/results.json",
+      "sha256": "c709a27331f00c0f922f0d8d3921caa2d0ae03e0e80d91c14e2fff6ce1bb44d6",
+      "size": 6965,
+      "inode": 2629732,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/测试结果/results.json"
+    },
+    {
+      "before": "history/basic-run-003/bag/metadata.yaml",
+      "sha256": "8c59164f3a2e37aa10251c650604cc9417b256890a0d1856a62b235798024d45",
+      "size": 7961,
+      "inode": 2629734,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/basic-run-003/bag/bag_0.mcap",
+      "sha256": "881b44b626ee7cad8ba4a9af28d15a1255d53e39cea4f71a0faf58ed7c0abdc7",
+      "size": 21568404,
+      "inode": 2629731,
+      "after": "M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "history/nav-headless-failed/bag-record.log",
+      "sha256": "f189a44bfbe7a83620b04c9fcdbc9964eca1352b4936f9a5b9a58508dfd09d5a",
+      "size": 2943,
+      "inode": 2630278,
+      "after": "M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/nav-headless-failed/failed-bag-audit.json",
+      "sha256": "be9ef5362f1c286331ac839f041b45e7631066377d0535c651ea97318b4738f2",
+      "size": 1344,
+      "inode": 2630323,
+      "after": "M3_导航/过程记录/仿真_转弯绕圈未通过/测试结果/failed-bag-audit.json"
+    },
+    {
+      "before": "history/nav-headless-failed/bag/metadata.yaml",
+      "sha256": "727e908c05e52a9b43588d0f0e160cfcb64539d4a0a47c5950b8f40189435713",
+      "size": 14778,
+      "inode": 2630285,
+      "after": "M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/nav-headless-failed/bag/bag_0.mcap",
+      "sha256": "387bfb42f31daf3d19d3a9cb594d5ec6152194a43684d289c9f7a546db1a1739",
+      "size": 120277082,
+      "inode": 2630281,
+      "after": "M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag/bag_0.mcap"
+    },
+    {
+      "before": "history/nav-first-gui-failed/bag-record.log",
+      "sha256": "488cc555725913fe9a4e81bac1fecff9fc9eaf9433809063820d9cffbc6f23de",
+      "size": 2940,
+      "inode": 2630299,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag-record.log"
+    },
+    {
+      "before": "history/nav-first-gui-failed/demo.mp4",
+      "sha256": "5a20b94e20829a5cb10338da38026b685223f89641b8f8cf66572aaa54d9bc53",
+      "size": 530392,
+      "inode": 2630324,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/演示视频/demo.mp4"
+    },
+    {
+      "before": "history/nav-first-gui-failed/preview-1.png",
+      "sha256": "e6ae71ac4423c65c5a72cf7cb18828582a163d0a728d236be4a8543f61a15300",
+      "size": 227476,
+      "inode": 2630325,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/轨迹或分析图/preview-1.png"
+    },
+    {
+      "before": "history/nav-first-gui-failed/goal-results.json",
+      "sha256": "c6e64d3dd4c35c43851480d70a3f2af0ba09b245c628634bc704d01b76e165a2",
+      "size": 1140,
+      "inode": 2630330,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/测试结果/goal-results.json"
+    },
+    {
+      "before": "history/nav-first-gui-failed/preview-300.png",
+      "sha256": "9064bc6b623c959ed52d0868467150d73adc4cd8213f15348f7796675f231037",
+      "size": 178312,
+      "inode": 2630331,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/轨迹或分析图/preview-300.png"
+    },
+    {
+      "before": "history/nav-first-gui-failed/preview-120.png",
+      "sha256": "839eb4ac1d02426f2ed37f85e60901c51b01e8b4f4528cbb445bbc0af5ead28c",
+      "size": 166343,
+      "inode": 2630329,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/轨迹或分析图/preview-120.png"
+    },
+    {
+      "before": "history/nav-first-gui-failed/bag/metadata.yaml",
+      "sha256": "3a781bb7f4d9cc9e106dae1b1a120a72440edad8483016cab163b1537eef316c",
+      "size": 14772,
+      "inode": 2630332,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag/metadata.yaml"
+    },
+    {
+      "before": "history/nav-first-gui-failed/bag/bag_0.mcap",
+      "sha256": "9f1a76e3d1ffa44868080eb2deaf6374dd324df85f4e5d7425275f134aceb107",
+      "size": 30788487,
+      "inode": 2630328,
+      "after": "M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag/bag_0.mcap"
+    }
+  ],
+  "script_path_only_updates": [
+    "plot_nav.py",
+    "validate_watchdog.py",
+    "probe_contact.py",
+    "plot_results.py",
+    "check_nav_guard.py"
+  ],
+  "duplicate_byte_groups": [
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "files": [
+        "history/basic-run-003/demo.mp4",
+        "history/basic-run-003/demo-frame.png"
+      ]
+    }
+  ]
+}

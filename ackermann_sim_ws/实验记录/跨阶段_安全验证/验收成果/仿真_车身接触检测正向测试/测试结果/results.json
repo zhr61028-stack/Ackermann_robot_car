@@ -1,0 +1,8 @@
+{
+  "body_sensor_detected_injected_virtual_contact": true,
+  "samples": [
+    "ackermann::base_link::collision contact_probe::probe::box"
+  ],
+  "spawn_returncode": 0,
+  "note": "AFTER successful navigation bag closed. Deliberate positive control, not part of no-collision navigation trajectory."
+}

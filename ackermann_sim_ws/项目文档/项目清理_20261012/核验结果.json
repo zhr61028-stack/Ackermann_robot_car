@@ -1,0 +1,10 @@
+{
+  "protected_files": 664,
+  "protected_failures": [],
+  "document_links": 174,
+  "broken_document_links": [],
+  "broken_build_install_links": [],
+  "runtime_tests_repeated": false,
+  "reason": "Only disposable caches/logs removed; source cache container preserved for existing build link; build/install untouched",
+  "all_pass": true
+}

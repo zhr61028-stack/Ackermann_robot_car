@@ -1,0 +1,40 @@
+[
+  {
+    "command": [
+      "gz",
+      "service",
+      "-s",
+      "/gui/follow",
+      "--reqtype",
+      "gz.msgs.StringMsg",
+      "--reptype",
+      "gz.msgs.Boolean",
+      "--timeout",
+      "3000",
+      "--req",
+      "data: \"ackermann\""
+    ],
+    "code": 0,
+    "stdout": "data: true\n\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "gz",
+      "service",
+      "-s",
+      "/gui/follow/offset",
+      "--reqtype",
+      "gz.msgs.Vector3d",
+      "--reptype",
+      "gz.msgs.Boolean",
+      "--timeout",
+      "3000",
+      "--req",
+      "x: -7, y: -10, z: 15"
+    ],
+    "code": 0,
+    "stdout": "data: true\n\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "all_pass": true,
+  "result_file": "artifacts/final-run/results.json",
+  "measurement": "Full rosbag audit; live subscriber timing retained only as diagnostic"
+}

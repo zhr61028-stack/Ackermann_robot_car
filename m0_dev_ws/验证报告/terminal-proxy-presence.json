@@ -1,0 +1,8 @@
+{
+  "http_proxy": false,
+  "https_proxy": false,
+  "all_proxy": false,
+  "HTTP_PROXY": false,
+  "HTTPS_PROXY": false,
+  "ALL_PROXY": false
+}

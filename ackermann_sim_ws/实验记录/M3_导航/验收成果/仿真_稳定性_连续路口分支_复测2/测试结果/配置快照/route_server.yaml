@@ -1,0 +1,18 @@
+route_server:
+  ros__parameters:
+    use_sim_time: true
+    route_frame: odom
+    base_frame: base_footprint
+    path_density: 0.05
+    smooth_corners: true
+    smoothing_radius: 2.5
+    max_planning_time: 2.0
+    graph_file_loader: GeoJsonGraphFileLoader
+    graph_file_loader.plugin: nav2_route::GeoJsonGraphFileLoader
+    edge_cost_functions: [DistanceScorer]
+    DistanceScorer.plugin: nav2_route::DistanceScorer
+    operations: [ReroutingService]
+    ReroutingService.plugin: nav2_route::ReroutingService
+    enable_nn_search: false
+    prune_start: false
+    prune_goal: false

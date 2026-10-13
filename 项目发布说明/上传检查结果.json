@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-13",
+  "repository": "https://github.com/zhr61028-stack/Ackermann_robot_car",
+  "visibility": "public",
+  "visibility_authorized_by_user": true,
+  "author": {
+    "name": "zhr61028-stack",
+    "email": "Zhr61028@126.com"
+  },
+  "remote_before_upload": "empty: git ls-remote returned no refs",
+  "structure": "One root repository; both workspaces are ordinary directories; original .git metadata retained locally; original workspaces had no commits",
+  "candidate_files_before_this_record": 789,
+  "candidate_bytes_before_this_record": 38803597,
+  "secret_pattern_hits": [],
+  "forbidden_files_in_index": [],
+  "nonexistent_markdown_targets": [],
+  "historical_local_attachment_links": 38,
+  "build": {
+    "m0": "PASS: 1 package; clean temporary workspace",
+    "simulation": "PASS: 3 packages; clean temporary workspace",
+    "installed_long_distance_configs": "PASS: 100m/310m roads and graphs and RViz files"
+  },
+  "basic_simulation": {
+    "odom_received": true,
+    "frame": "odom",
+    "child_frame": "base_footprint"
+  },
+  "route_B_smoke_test": {
+    "elapsed_s": 55.25972545500008,
+    "status": {
+      "state": "FINISHED",
+      "reason": "",
+      "progress_m": 21.65386532898514,
+      "visited_junctions": [
+        2,
+        3
+      ],
+      "local_path_sequence": 27,
+      "monotonic_s": 14305.814173621
+    },
+    "odom_samples": 3013,
+    "first_position": [
+      7.9999999999998765,
+      -7.999999999988631
+    ],
+    "last_position": [
+      15.990800029148831,
+      7.8028009759163
+    ]
+  },
+  "gui_validation_this_upload": "NOT REPEATED: smoke tests headless; earlier graphical evidence retained",
+  "source_changes": "Packaging only: install long_distance configs and RViz; no algorithms or vehicle/nav parameters changed",
+  "syntax": "Python AST and Bash syntax checks passed",
+  "known_findings": [
+    "Ctrl+C shutdown emits command_guard RCLError because ROS context is already invalid; observed after intentional shutdown, no running-navigation failure. Retained as a follow-up cleanup issue; not real-vehicle stop validation.",
+    "One original saved ROS inspection text has trailing whitespace. Original evidence unchanged.",
+    "Historical report attachments are local-only and intentionally excluded."
+  ],
+  "large_data_backup": "Videos and rosbag remain only on original computer; not backed up by this upload"
+}

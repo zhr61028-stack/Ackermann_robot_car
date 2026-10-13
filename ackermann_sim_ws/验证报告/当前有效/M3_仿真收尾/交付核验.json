@@ -1,0 +1,30 @@
+{
+  "status": "M3 仿真完成，实车验收待做",
+  "scope": "测试地图、本地平面图、仿真真值、假设车辆，保护节点存活时指令输入断流",
+  "interruptions": 2,
+  "regressions": 3,
+  "all_interrupt_and_regression_checks_pass": true,
+  "zero_grace_stop_hold_pass": true,
+  "core_constrained_files_unchanged": {
+    "src/ackermann_sim/config/vehicle.yaml": true,
+    "src/ackermann_sim/ackermann_sim/guard.py": true,
+    "src/ackermann_nav/config/nav2.yaml": true,
+    "src/ackermann_route/config/roads.yaml": true,
+    "src/ackermann_route/config/route_server.yaml": true,
+    "src/ackermann_route/launch/route.launch.py": true,
+    "src/ackermann_route/ackermann_route/assets.py": true
+  },
+  "intentional_source_change": "generator.fail() invalidates epoch and pending-plan state; batch tool shadow fix; no planner/controller/physical tuning",
+  "prior_evidence_mismatches": 0,
+  "document_link_files": 14,
+  "broken_links": [],
+  "broken_runtime_symlinks": [],
+  "staged_media_files": [],
+  "all_large_files_ignored": true,
+  "author_confirmed": false,
+  "commit_created": false,
+  "push_performed": false,
+  "remaining_disk_bytes": 39944609792,
+  "reproduction_validation": "Core interrupt components executed twice; new output naming wrapper syntax/dry-run verified, not repeated wholesale",
+  "known_unverified": "real odometry/frame/source-stamp/TF correction, GNSS/WGS84, real road perception, independent MCU/safety, guard process crash/host disconnect"
+}

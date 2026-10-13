@@ -1,0 +1,71 @@
+{
+  "original_file_count": 275,
+  "byte_and_inode_preserved": 218,
+  "authorized_document_or_path_edits": 57,
+  "missing_or_changed_raw_files": [],
+  "local_links_checked": 171,
+  "broken_document_links": [],
+  "broken_active_links": [],
+  "preserved_historical_invalid_links": [],
+  "old_root_in_current_runtime": [],
+  "startup_basic": {
+    "mode": "基础仿真",
+    "topics": [
+      "clock",
+      "odom"
+    ],
+    "odom_to_base_link": true,
+    "nav2_lifecycle": "not applicable",
+    "pass": true,
+    "no_motion_goal_sent": true
+  },
+  "startup_nav2": {
+    "mode": "Nav2",
+    "topics": [
+      "clock",
+      "odom"
+    ],
+    "odom_to_base_link": true,
+    "nav2_lifecycle": "active [3]",
+    "pass": true,
+    "no_motion_goal_sent": true
+  },
+  "no_driving_regression": "Runtime package/launch/vehicle paths unchanged; only documentation/data-tool paths changed",
+  "all_pass": true,
+  "script_computation_unchanged": [
+    {
+      "path": "ackermann_sim_ws/scripts/plot_nav.py",
+      "path_only_change": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_watchdog.py",
+      "path_only_change": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/probe_contact.py",
+      "path_only_change": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/plot_results.py",
+      "path_only_change": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/check_nav_guard.py",
+      "path_only_change": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate.bash",
+      "path_only_change": true
+    },
+    {
+      "path": "m0_dev_ws/scripts/verify_ros.py",
+      "path_only_change": true
+    },
+    {
+      "path": "m0_dev_ws/scripts/nav2_goal.py",
+      "path_only_change": true
+    }
+  ],
+  "actual_build_install_broken_links": [],
+  "moved_rosbag_readable": true
+}

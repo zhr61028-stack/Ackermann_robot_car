@@ -1,0 +1,11 @@
+build/
+install/
+log/
+downloads/
+验证报告/*.log
+
+# Historical compatibility entry points; actual files use Chinese directories
+/records
+/docs
+/artifacts
+/downloads

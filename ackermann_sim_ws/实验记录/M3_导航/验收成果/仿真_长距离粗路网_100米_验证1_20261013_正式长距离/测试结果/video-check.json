@@ -1,0 +1,11 @@
+{
+  "codec": "avc1",
+  "frames": 2405,
+  "fps": 10.0,
+  "duration_video_s": 240.5,
+  "decoded_frames": [
+    0,
+    1202,
+    2404
+  ]
+}

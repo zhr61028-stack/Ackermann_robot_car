@@ -1,0 +1,25 @@
+{
+  "project": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car",
+  "phase": "M3 仿真长距离，非实车",
+  "official_runs": 3,
+  "long_runs": 2,
+  "long_graph_lengths": [
+    310.0,
+    310.0
+  ],
+  "long_actual_distances": [
+    303.8076935844634,
+    303.8101745161724
+  ],
+  "all_tests_pass": true,
+  "markdown_files_checked": 13,
+  "broken_document_links": [],
+  "broken_runtime_symlinks": [],
+  "disk_free_bytes": 40545013760,
+  "original_implementation_unchanged": true,
+  "video_review": "原速视频首中末解码；两次长路线关键截图人工查看；10倍速预览另存",
+  "data_loss_scope": "bag记录覆盖全任务核心topic，不承诺逐消息零丢失；通知和关键topic覆盖分别保留",
+  "software_installed": false,
+  "hardware_connected": false,
+  "git_commit_or_push": false
+}

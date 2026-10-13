@@ -1,0 +1,11 @@
+--- generator_before.py
++++ generator_current.py
+@@ -34,6 +34,8 @@
+   x,y,a=pose;c=math.cos(a);s=math.sin(a)
+   return all(self.on_road(x+c*u-s*v,y+s*u+c*v) for u,v in self.footprint)
+  def fail(self,reason):
++  # Invalidate pending callbacks before closing command forwarding.
++  self.epoch+=1;self.plan_busy=False
+   self.state='FAILED';self.reason=reason;self.cmd.publish(Twist())
+   if self.follow:self.follow.cancel_goal_async()
+   self.get_logger().error(reason)

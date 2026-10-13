@@ -1,0 +1,35 @@
+# 全部车辆、动力学参数为“仿真假设，待实测”，不是实车参数。
+assumption_status: "仿真假设，待实测"
+vehicle:
+  wheelbase_m: 0.8
+  track_m: 0.5
+  wheel_radius_m: 0.1
+  wheel_width_m: 0.06
+  body_length_m: 1.1
+  body_width_m: 0.38
+  body_height_m: 0.16
+  body_center_x_m: 0.4
+  body_center_z_m: 0.10
+  body_mass_kg: 5.0
+  wheel_mass_kg: 0.2
+  steering_link_mass_kg: 0.05
+  center_steering_limit_rad: 0.4
+  wheel_joint_limit_rad: 0.6
+  steering_gain: 8.0
+  max_speed_mps: 0.6
+  max_acceleration_mps2: 3.0
+  tire_friction: 1.0
+control:
+  timeout_s: 0.06  # 仿真提前触发，为减速留出时间；不是实车安全保证
+  timer_period_s: 0.002
+  zero_speed_threshold_mps: 0.001
+simulation:
+  step_size_s: 0.001
+  odom_frequency_hz: 50.0
+validation:
+  stop_speed_threshold_mps: 0.02
+  stop_yaw_rate_threshold_radps: 0.02
+  stop_hold_s: 0.2
+  steady_speed_tolerance_mps: 0.08
+  trajectory_radius_relative_tolerance: 0.12
+  odom_truth_position_tolerance_m: 0.25

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "demo.mp4",
+    "frames": 572,
+    "fps": 10.0,
+    "codec": "avc1",
+    "duration_s": 57.2,
+    "decoded_frames": [
+      0,
+      286,
+      571
+    ]
+  }
+]

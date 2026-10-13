@@ -1,0 +1,317 @@
+[
+  {
+    "case": {
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": false,
+      "name": "原路线A_复测1",
+      "start": "A",
+      "goal": 4,
+      "target": [
+        24,
+        0,
+        0
+      ],
+      "expected_nodes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_junctions": [
+        2,
+        3
+      ],
+      "expected": "FINISHED",
+      "video": false
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_收尾回归_原路线A_复测1_20261013_失败锁定修复",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "wheel_contacts_present": true,
+        "expected_terminal": true,
+        "road_footprint_inside": true,
+        "no_non_ground_contact": true,
+        "command_constraints": true,
+        "actual_curvature": true,
+        "forward_only": true,
+        "no_in_place_rotation": true,
+        "steering_limits": true,
+        "local_goals_within_window": true,
+        "odom_frame": true,
+        "no_intermediate_stops": true,
+        "endpoint_position": true,
+        "endpoint_yaw": true,
+        "junction_order": true,
+        "route_selection": true
+      },
+      "route": [
+        {
+          "nodes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "edges": [
+            100,
+            101,
+            102
+          ],
+          "cost": 24.0,
+          "frame": "odom"
+        }
+      ],
+      "terminal": {
+        "state": "FINISHED",
+        "reason": "",
+        "progress_m": 23.799880981445312,
+        "visited_junctions": [
+          2,
+          3
+        ],
+        "local_path_sequence": 29,
+        "monotonic_s": 10941.588331886
+      },
+      "endpoint_position_error_m": 0.1950386954955437,
+      "endpoint_yaw_error_rad": 2.3796829216435155e-08,
+      "road_outside_pose_samples": 0,
+      "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+      "maximum_local_goal_axis_extent_m": 4.0112737383262385,
+      "truth_samples": 3226,
+      "minimum_actual_radius_m": 1000317465.207264,
+      "physical_minimum_radius_m": 1.8921779360312885,
+      "safe_command_violations": 0,
+      "raw_nav_constraint_violations": 0,
+      "max_steering_joint_rad": 8.000000006484828e-10,
+      "non_ground_contact_count": 0,
+      "contact_messages": {
+        "/sim/contacts/rear_right_wheel": 64530,
+        "/sim/contacts/front_right_wheel": 64529,
+        "/sim/contacts/front_left_wheel": 64526,
+        "/sim/contacts/rear_left_wheel": 64525
+      },
+      "intermediate_stops_s": [],
+      "failure_stop": {},
+      "local_goal_count": 29,
+      "plan_count": 30,
+      "actual_path_length_m": 23.80496130449331,
+      "localization": "TEST_GAZEBO_TRUTH",
+      "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+      "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+    },
+    "current_output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_收尾回归_原路线A_复测1_20261013_失败锁定修复"
+  },
+  {
+    "case": {
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": false,
+      "name": "原路线B_复测1",
+      "start": "B",
+      "goal": 5,
+      "target": [
+        16,
+        8,
+        1.5707963267948966
+      ],
+      "expected_nodes": [
+        7,
+        2,
+        3,
+        5
+      ],
+      "required_junctions": [
+        2,
+        3
+      ],
+      "expected": "FINISHED",
+      "video": true
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_收尾回归_原路线B_复测1_20261013_继续B与封路",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "wheel_contacts_present": true,
+        "expected_terminal": true,
+        "road_footprint_inside": true,
+        "no_non_ground_contact": true,
+        "command_constraints": true,
+        "actual_curvature": true,
+        "forward_only": true,
+        "no_in_place_rotation": true,
+        "steering_limits": true,
+        "local_goals_within_window": true,
+        "odom_frame": true,
+        "no_intermediate_stops": true,
+        "endpoint_position": true,
+        "endpoint_yaw": true,
+        "junction_order": true,
+        "route_selection": true
+      },
+      "route": [
+        {
+          "nodes": [
+            7,
+            2,
+            3,
+            5
+          ],
+          "edges": [
+            106,
+            101,
+            103
+          ],
+          "cost": 24.0,
+          "frame": "odom"
+        }
+      ],
+      "terminal": {
+        "state": "FINISHED",
+        "reason": "",
+        "progress_m": 21.65386532898514,
+        "visited_junctions": [
+          2,
+          3
+        ],
+        "local_path_sequence": 27,
+        "monotonic_s": 11128.917332374
+      },
+      "endpoint_position_error_m": 0.19533912168748324,
+      "endpoint_yaw_error_rad": 0.02840779887573008,
+      "road_outside_pose_samples": 0,
+      "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+      "maximum_local_goal_axis_extent_m": 4.002447561588284,
+      "truth_samples": 2947,
+      "minimum_actual_radius_m": 1.892699439827726,
+      "physical_minimum_radius_m": 1.8921779360312885,
+      "safe_command_violations": 0,
+      "raw_nav_constraint_violations": 38,
+      "max_steering_joint_rad": 0.45320930508557355,
+      "non_ground_contact_count": 0,
+      "contact_messages": {
+        "/sim/contacts/rear_left_wheel": 58959,
+        "/sim/contacts/rear_right_wheel": 58955,
+        "/sim/contacts/front_right_wheel": 58954,
+        "/sim/contacts/front_left_wheel": 58950
+      },
+      "intermediate_stops_s": [],
+      "failure_stop": {},
+      "local_goal_count": 27,
+      "plan_count": 28,
+      "actual_path_length_m": 20.764061743723733,
+      "localization": "TEST_GAZEBO_TRUTH",
+      "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+      "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+    },
+    "current_output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_收尾回归_原路线B_复测1_20261013_继续B与封路"
+  },
+  {
+    "case": {
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": true,
+      "name": "途中封路_时钟一致复测1",
+      "start": "A",
+      "goal": 4,
+      "target": [
+        24,
+        0,
+        0
+      ],
+      "expected_nodes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_junctions": [
+        2,
+        3
+      ],
+      "expected": "FAILED",
+      "video": true
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_收尾回归_途中封路_时钟一致复测1_20261013_继续B与封路",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "wheel_contacts_present": true,
+        "expected_terminal": true,
+        "road_footprint_inside": true,
+        "no_non_ground_contact": true,
+        "command_constraints": true,
+        "actual_curvature": true,
+        "forward_only": true,
+        "no_in_place_rotation": true,
+        "steering_limits": true,
+        "local_goals_within_window": true,
+        "odom_frame": true,
+        "no_intermediate_stops": true,
+        "map_update_accepted": true,
+        "failure_reason": true,
+        "failure_stopped": true
+      },
+      "route": [
+        {
+          "nodes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "edges": [
+            100,
+            101,
+            102
+          ],
+          "cost": 24.0,
+          "frame": "odom"
+        }
+      ],
+      "terminal": {
+        "state": "FAILED",
+        "reason": "LOCAL_PLANNING_FAILED error_code=208",
+        "progress_m": 3.3499979972839355,
+        "visited_junctions": [],
+        "local_path_sequence": 3,
+        "monotonic_s": 11166.766731288
+      },
+      "endpoint_position_error_m": null,
+      "endpoint_yaw_error_rad": null,
+      "road_outside_pose_samples": 0,
+      "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+      "maximum_local_goal_axis_extent_m": 4.013667253339661,
+      "truth_samples": 587,
+      "minimum_actual_radius_m": 1000316027.3817648,
+      "physical_minimum_radius_m": 1.8921779360312885,
+      "safe_command_violations": 0,
+      "raw_nav_constraint_violations": 0,
+      "max_steering_joint_rad": 8.000000007051347e-10,
+      "non_ground_contact_count": 0,
+      "contact_messages": {
+        "/sim/contacts/front_left_wheel": 11740,
+        "/sim/contacts/rear_left_wheel": 11739,
+        "/sim/contacts/rear_right_wheel": 11738,
+        "/sim/contacts/front_right_wheel": 11738
+      },
+      "intermediate_stops_s": [],
+      "failure_stop": {
+        "command_zero_after_report_s": 0.001580953598022461,
+        "actual_stop_after_report_s": 0.10012435913085938,
+        "stop_confirmed_after_report_s": 0.30019211769104004
+      },
+      "local_goal_count": 6,
+      "plan_count": 4,
+      "actual_path_length_m": 3.3732000000102387,
+      "localization": "TEST_GAZEBO_TRUTH",
+      "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+      "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+    },
+    "current_output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_收尾回归_途中封路_时钟一致复测1_20261013_继续B与封路"
+  }
+]

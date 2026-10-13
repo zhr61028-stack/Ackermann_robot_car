@@ -1,0 +1,43 @@
+{
+  "project_root": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car",
+  "original_files": 68,
+  "data_byte_and_inode_failures": [],
+  "no_large_recording_copies": true,
+  "mcap_files": 9,
+  "mp4_files": 5,
+  "active_document_links_checked": 173,
+  "broken_document_links": [],
+  "script_checks": [
+    {
+      "script": "plot_nav.py",
+      "only_artifact_path_literals_changed": true
+    },
+    {
+      "script": "validate_watchdog.py",
+      "only_artifact_path_literals_changed": true
+    },
+    {
+      "script": "probe_contact.py",
+      "only_artifact_path_literals_changed": true
+    },
+    {
+      "script": "plot_results.py",
+      "only_artifact_path_literals_changed": true
+    },
+    {
+      "script": "check_nav_guard.py",
+      "only_artifact_path_literals_changed": true
+    }
+  ],
+  "broken_install_resources": [],
+  "stage_directories": [
+    "M0_环境准备",
+    "M3_导航",
+    "M1_底盘与控制",
+    "跨阶段_安全验证"
+  ],
+  "runtime_flow_changed": false,
+  "navigation_driving_not_rerun": true,
+  "navigation_bag_readable": true,
+  "algorithm_vehicle_parameters_sources_unchanged": true
+}

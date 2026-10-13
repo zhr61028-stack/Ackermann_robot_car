@@ -1,0 +1,22 @@
+assumption_status: "\u4EFF\u771F\u5047\u8BBE\uFF0C\u5F85\u5B9E\u6D4B"
+footprint:
+- - -0.19000000000000003
+  - -0.3944030650891055
+- - 0.9900000000000001
+  - -0.3944030650891055
+- - 0.9900000000000001
+  - 0.3944030650891055
+- - -0.19000000000000003
+  - 0.3944030650891055
+localization: TEST_GAZEBO_TRUTH
+navigation_frame: odom
+physical_min_radius_m: 1.8921779360312885
+planner_min_radius_m: 2.0813957296344174
+scene:
+  bounds_m:
+  - -4.0
+  - -12.0
+  - 28.0
+  - 12.0
+  obstacles: []
+  resolution_m: 0.05

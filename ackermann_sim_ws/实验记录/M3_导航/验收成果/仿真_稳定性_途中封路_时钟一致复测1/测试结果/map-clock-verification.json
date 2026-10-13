@@ -1,0 +1,9 @@
+[
+  {
+    "frame": "odom",
+    "stamp": 8.94,
+    "latest_simclock": 8.942,
+    "difference_s": -0.002000000000000668,
+    "pass_check": true
+  }
+]

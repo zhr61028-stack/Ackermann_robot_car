@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "name": "LOCAL_METRIC_SIM_310m_NOT_WGS84",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "frame": "odom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "frame": "odom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "frame": "odom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "frame": "odom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180,
+          10
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "frame": "odom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "frame": "odom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          290,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "startid": 1,
+        "endid": 2,
+        "metadata": {
+          "speed_limit": 1.0
+        }
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              90,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "startid": 2,
+        "endid": 3,
+        "metadata": {
+          "speed_limit": 1.0
+        }
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              90,
+              0
+            ],
+            [
+              90,
+              10
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "startid": 3,
+        "endid": 4,
+        "metadata": {
+          "speed_limit": 1.0
+        }
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              90,
+              10
+            ],
+            [
+              180,
+              10
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "startid": 4,
+        "endid": 5,
+        "metadata": {
+          "speed_limit": 1.0
+        }
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              180,
+              10
+            ],
+            [
+              180,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "startid": 5,
+        "endid": 6,
+        "metadata": {
+          "speed_limit": 1.0
+        }
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              180,
+              0
+            ],
+            [
+              290,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "startid": 2,
+        "endid": 5,
+        "metadata": {
+          "speed_limit": 0.3
+        }
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              90,
+              0
+            ],
+            [
+              180,
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

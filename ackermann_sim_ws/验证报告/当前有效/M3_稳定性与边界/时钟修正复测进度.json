@@ -1,0 +1,210 @@
+[
+  {
+    "case": {
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": true,
+      "name": "\u9014\u4e2d\u5c01\u8def_\u65f6\u949f\u4e00\u81f4\u590d\u6d4b1",
+      "start": "A",
+      "goal": 4,
+      "target": [
+        24,
+        0,
+        0
+      ],
+      "expected_nodes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_junctions": [
+        2,
+        3
+      ],
+      "expected": "FAILED",
+      "video": true
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/\u5b9e\u9a8c\u8bb0\u5f55/M3_\u5bfc\u822a/\u8fc7\u7a0b\u8bb0\u5f55/\u4eff\u771f_\u7a33\u5b9a\u6027_\u9014\u4e2d\u5c01\u8def_\u65f6\u949f\u4e00\u81f4\u590d\u6d4b1",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "wheel_contacts_present": true,
+        "expected_terminal": true,
+        "road_footprint_inside": true,
+        "no_non_ground_contact": true,
+        "command_constraints": true,
+        "actual_curvature": true,
+        "forward_only": true,
+        "no_in_place_rotation": true,
+        "steering_limits": true,
+        "local_goals_within_window": true,
+        "odom_frame": true,
+        "no_intermediate_stops": true,
+        "map_update_accepted": true,
+        "failure_reason": true,
+        "failure_stopped": true
+      },
+      "route": [
+        {
+          "nodes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "edges": [
+            100,
+            101,
+            102
+          ],
+          "cost": 24.0,
+          "frame": "odom"
+        }
+      ],
+      "terminal": {
+        "state": "FAILED",
+        "reason": "LOCAL_PLANNING_FAILED error_code=208",
+        "progress_m": 3.3499979972839355,
+        "visited_junctions": [],
+        "local_path_sequence": 3,
+        "monotonic_s": 3656.077933751
+      },
+      "endpoint_position_error_m": null,
+      "endpoint_yaw_error_rad": null,
+      "road_outside_pose_samples": 0,
+      "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+      "maximum_local_goal_axis_extent_m": 4.010076980819582,
+      "truth_samples": 587,
+      "minimum_actual_radius_m": 1000314504.6221186,
+      "physical_minimum_radius_m": 1.8921779360312885,
+      "safe_command_violations": 0,
+      "raw_nav_constraint_violations": 0,
+      "max_steering_joint_rad": 8.000000005900569e-10,
+      "non_ground_contact_count": 0,
+      "contact_messages": {
+        "/sim/contacts/front_right_wheel": 11737,
+        "/sim/contacts/rear_left_wheel": 11737,
+        "/sim/contacts/front_left_wheel": 11735,
+        "/sim/contacts/rear_right_wheel": 11733
+      },
+      "intermediate_stops_s": [],
+      "failure_stop": {
+        "command_zero_after_report_s": 0.0005891323089599609,
+        "actual_stop_after_report_s": 0.10001087188720703,
+        "stop_confirmed_after_report_s": 0.32001805305480957
+      },
+      "local_goal_count": 6,
+      "plan_count": 4,
+      "actual_path_length_m": 3.3668000000102722,
+      "localization": "TEST_GAZEBO_TRUTH",
+      "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+      "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+    }
+  },
+  {
+    "case": {
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/roads.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/local_test_graph.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": true,
+      "name": "\u9014\u4e2d\u5c01\u8def_\u65f6\u949f\u4e00\u81f4\u590d\u6d4b2",
+      "start": "A",
+      "goal": 4,
+      "target": [
+        24,
+        0,
+        0
+      ],
+      "expected_nodes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_junctions": [
+        2,
+        3
+      ],
+      "expected": "FAILED",
+      "video": false
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/\u5b9e\u9a8c\u8bb0\u5f55/M3_\u5bfc\u822a/\u8fc7\u7a0b\u8bb0\u5f55/\u4eff\u771f_\u7a33\u5b9a\u6027_\u9014\u4e2d\u5c01\u8def_\u65f6\u949f\u4e00\u81f4\u590d\u6d4b2",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "wheel_contacts_present": true,
+        "expected_terminal": true,
+        "road_footprint_inside": true,
+        "no_non_ground_contact": true,
+        "command_constraints": true,
+        "actual_curvature": true,
+        "forward_only": true,
+        "no_in_place_rotation": true,
+        "steering_limits": true,
+        "local_goals_within_window": true,
+        "odom_frame": true,
+        "no_intermediate_stops": true,
+        "map_update_accepted": true,
+        "failure_reason": true,
+        "failure_stopped": true
+      },
+      "route": [
+        {
+          "nodes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "edges": [
+            100,
+            101,
+            102
+          ],
+          "cost": 24.0,
+          "frame": "odom"
+        }
+      ],
+      "terminal": {
+        "state": "FAILED",
+        "reason": "LOCAL_PLANNING_FAILED error_code=208",
+        "progress_m": 3.2999980449676514,
+        "visited_junctions": [],
+        "local_path_sequence": 3,
+        "monotonic_s": 3678.615388971
+      },
+      "endpoint_position_error_m": null,
+      "endpoint_yaw_error_rad": null,
+      "road_outside_pose_samples": 0,
+      "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+      "maximum_local_goal_axis_extent_m": 4.016470495832926,
+      "truth_samples": 588,
+      "minimum_actual_radius_m": 1000317324.9842294,
+      "physical_minimum_radius_m": 1.8921779360312885,
+      "safe_command_violations": 0,
+      "raw_nav_constraint_violations": 0,
+      "max_steering_joint_rad": 8.00000000380592e-10,
+      "non_ground_contact_count": 0,
+      "contact_messages": {
+        "/sim/contacts/front_right_wheel": 11617,
+        "/sim/contacts/front_left_wheel": 11616,
+        "/sim/contacts/rear_right_wheel": 11613,
+        "/sim/contacts/rear_left_wheel": 11612
+      },
+      "intermediate_stops_s": [],
+      "failure_stop": {
+        "command_zero_after_report_s": 0.001764535903930664,
+        "actual_stop_after_report_s": 0.11011147499084473,
+        "stop_confirmed_after_report_s": 0.3300907611846924
+      },
+      "local_goal_count": 6,
+      "plan_count": 4,
+      "actual_path_length_m": 3.3596000000102095,
+      "localization": "TEST_GAZEBO_TRUTH",
+      "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+      "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+    }
+  }
+]

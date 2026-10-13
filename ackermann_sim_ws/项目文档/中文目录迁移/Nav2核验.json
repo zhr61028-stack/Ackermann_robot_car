@@ -1,0 +1,11 @@
+{
+  "mode": "Nav2",
+  "topics": [
+    "clock",
+    "odom"
+  ],
+  "odom_to_base_link": true,
+  "nav2_lifecycle": "active [3]",
+  "pass": true,
+  "no_motion_goal_sent": true
+}

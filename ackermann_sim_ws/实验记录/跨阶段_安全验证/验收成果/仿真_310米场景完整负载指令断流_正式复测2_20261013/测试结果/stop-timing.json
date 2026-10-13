@@ -1,0 +1,20 @@
+{
+  "measurement_source": "Complete MCAP bag; embedded guard monotonic timestamps; independent model-pose samples at bag-recorder receive time",
+  "timeout_config_s": 0.06,
+  "last_rx_monotonic_s": 10845.643053328,
+  "trigger_monotonic_s": 10845.704255112,
+  "trigger_latency_wall_s": 0.06120178399942233,
+  "trigger_ros_s": 11.813,
+  "safe_v_at_trigger": 0.0,
+  "safe_w_at_trigger": 0.0,
+  "physical_stop_latency_wall_s": 0.20791717866813997,
+  "physical_stop_confirmed_latency_wall_s": 0.40797253946220735,
+  "stop_after_trigger_wall_s": 0.14671539466871764,
+  "physical_stop_sim_s": 11.96,
+  "threshold_speed_mps": 0.02,
+  "threshold_yaw_rate_radps": 0.02,
+  "hold_s": 0.2,
+  "guard_max_tick_gap_near_interrupt_s": 0.002846931998647051,
+  "pose_nominal_sample_period_sim_s": 0.02,
+  "clock_alignment": "Median bag receive epoch minus embedded watchdog monotonic time; includes residual transport/sampling uncertainty"
+}

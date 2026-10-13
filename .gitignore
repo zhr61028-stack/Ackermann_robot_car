@@ -1,0 +1,33 @@
+# One root repository; workspaces are ordinary directories.
+本地备份/
+.本地工具/
+sources/
+AGENTS.md
+.agents/
+.codex/
+**/build/
+**/install/
+**/log/
+**/__pycache__/
+**/*.pyc
+**/*.mcap
+**/*.db3
+**/*.sqlite3
+**/*.mp4
+**/*.log
+**/原始数据/
+**/安装下载/
+**/observations.json
+**/暂存索引_*.bin
+# Historical repairs and copies stay local; originals and current reports are uploaded.
+ackermann_sim_ws/项目文档/路径修复备份/
+ackermann_sim_ws/项目文档/relocation-backup/
+ackermann_sim_ws/项目文档/中文目录迁移/原文备份/
+ackermann_sim_ws/项目文档/实验记录整理档案/original-documents/
+ackermann_sim_ws/项目文档/实验记录整理档案/original-scripts/
+ackermann_sim_ws/项目文档/实验记录整理档案/legacy-aliases/
+**/实验记录/**/过程记录/
+
+# Pre-edit document copies retain obsolete relative links; keep local.
+**/文档修改前/
+**/修改前文档/

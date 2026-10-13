@@ -1,0 +1,536 @@
+[
+  {
+    "experiment": "仿真_长距离粗路网_100米_验证1_20261013_正式长距离",
+    "graph_length_m": 100.0,
+    "smoothed_route_length_m": 95.7077044020366,
+    "actual_truth_distance_m": 93.88370112948098,
+    "actual_odom_distance_m": 93.88370112948098,
+    "straight_distance_m": 79.99999999998865,
+    "terminal_duration_s": 238.8886624679999,
+    "position_error_m": 0.1960485815906133,
+    "yaw_error_rad": 0.0008733395586373734,
+    "limit_fraction": 0.01496755285744191,
+    "limit_raw_messages": 143,
+    "raw_messages": 9554,
+    "maximum_raw_curvature_excess_percent": 7.163265368419647,
+    "maximum_current_plan_point_distance_m": 0.05463517938632152,
+    "planning": {
+      "planning_requests": 116,
+      "published_local_plans": 116,
+      "planning_failed_attempts": 0,
+      "planning_response_observed_s": {
+        "mean": 0.005071011082879428,
+        "p95": 0.007387399673461914,
+        "max": 0.00943756103515625
+      }
+    },
+    "raw_control_interval_s": {
+      "mean": 0.024999971927853262,
+      "p95": 0.02510080337524414,
+      "max": 0.02612018585205078,
+      "above_60ms": 0
+    },
+    "guard_expired_samples_while_running": 0,
+    "resource": {
+      "samples": 121,
+      "aggregate_rss_peak_bytes": 2796847104,
+      "system_available_min_bytes": 25130696704,
+      "cpu_percent_mean": 608.131123578696,
+      "cpu_percent_max": 640.4977454420546,
+      "cpu_note": "100%=one logical core; launch, both GUI groups, validator and bag; RSS shared pages may duplicate",
+      "mean_sim_realtime_factor": 1.0023604877883874
+    },
+    "map": {
+      "width": 1760,
+      "height": 440,
+      "cells": 774400,
+      "resolution": 0.05000000074505806
+    },
+    "topic_coverage": {
+      "/odom": {
+        "full_record_max_gap_s": 0.02201247215270996,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          53.204195499420166,
+          53.226207971572876
+        ],
+        "task_samples": 11944,
+        "task_max_receive_gap_s": 0.02201247215270996,
+        "task_p99_gap_s": 0.020481662750244142
+      },
+      "/ground_truth/poses": {
+        "full_record_max_gap_s": 0.0219419002532959,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          189.36909937858582,
+          189.3910412788391
+        ],
+        "task_samples": 11944,
+        "task_max_receive_gap_s": 0.0219419002532959,
+        "task_p99_gap_s": 0.020423312187194825
+      },
+      "/route/nav_cmd_vel": {
+        "full_record_max_gap_s": 0.02612018585205078,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          5.549526691436768,
+          5.575646877288818
+        ],
+        "task_samples": 9554,
+        "task_max_receive_gap_s": 0.02612018585205078,
+        "task_p99_gap_s": 0.025173254013061523
+      },
+      "/sim/cmd_vel": {
+        "full_record_max_gap_s": 0.003370046615600586,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          219.23051834106445,
+          219.23388838768005
+        ],
+        "task_samples": 119441,
+        "task_max_receive_gap_s": 0.003370046615600586,
+        "task_p99_gap_s": 0.002162270545959473
+      },
+      "/sim/watchdog": {
+        "full_record_max_gap_s": 0.0035653114318847656,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          39.994550943374634,
+          39.99811625480652
+        ],
+        "task_samples": 119441,
+        "task_max_receive_gap_s": 0.0035653114318847656,
+        "task_p99_gap_s": 0.002175569534301758
+      },
+      "/joint_states": {
+        "full_record_max_gap_s": 0.002925872802734375,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          53.22300910949707,
+          53.225934982299805
+        ],
+        "task_samples": 238872,
+        "task_max_receive_gap_s": 0.002925872802734375,
+        "task_p99_gap_s": 0.0012857913970947266
+      },
+      "/route/status": {
+        "full_record_max_gap_s": 0.06934809684753418,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          -0.026961088180541992,
+          0.04238700866699219
+        ],
+        "task_samples": 4778,
+        "task_max_receive_gap_s": 0.051943302154541016,
+        "task_p99_gap_s": 0.050656919479370115
+      },
+      "task_request_bag_time": 1791891461.1463103,
+      "first_finished_bag_time": 1791891700.0284164,
+      "note": "Task interval includes routing/planning/running, begins only at one final goal request. Startup record discovery and terminal hold are separately disclosed."
+    },
+    "transport_lost_notification_count": 1,
+    "all_pass": true,
+    "checks": {
+      "wheel_contacts_present": true,
+      "expected_terminal": true,
+      "road_footprint_inside": true,
+      "no_non_ground_contact": true,
+      "command_constraints": true,
+      "actual_curvature": true,
+      "forward_only": true,
+      "no_in_place_rotation": true,
+      "steering_limits": true,
+      "local_goals_within_window": true,
+      "odom_frame": true,
+      "no_intermediate_stops": true,
+      "endpoint_position": true,
+      "endpoint_yaw": true,
+      "junction_order": true,
+      "route_selection": true
+    },
+    "selected": [
+      {
+        "nodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "edges": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "cost": 100.0,
+        "frame": "odom"
+      }
+    ],
+    "video": {
+      "codec": "avc1",
+      "frames": 2405,
+      "fps": 10.0,
+      "duration_video_s": 240.5,
+      "decoded_frames": [
+        0,
+        1202,
+        2404
+      ],
+      "fast_preview": "快速浏览_10倍速.mp4",
+      "timing_note": "Full capture nominal10fps; compare wall clock overlay. Preview explicitly10x, not real-time evidence."
+    },
+    "directory": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_长距离粗路网_100米_验证1_20261013_正式长距离"
+  },
+  {
+    "experiment": "仿真_长距离粗路网_310米_验证1_20261013_310米正式",
+    "graph_length_m": 310.0,
+    "smoothed_route_length_m": 305.7077074058727,
+    "actual_truth_distance_m": 303.8076935844634,
+    "actual_odom_distance_m": 303.8076935844634,
+    "straight_distance_m": 289.99999999998863,
+    "terminal_duration_s": 763.2970634809999,
+    "position_error_m": 0.19701953656118143,
+    "yaw_error_rad": 0.0007858070415719264,
+    "limit_fraction": 0.0014085429769392034,
+    "limit_raw_messages": 43,
+    "raw_messages": 30528,
+    "maximum_raw_curvature_excess_percent": 5.048979030669676,
+    "maximum_current_plan_point_distance_m": 0.066792625526107,
+    "planning": {
+      "planning_requests": 375,
+      "published_local_plans": 375,
+      "planning_failed_attempts": 0,
+      "planning_response_observed_s": {
+        "mean": 0.005875498453776042,
+        "p95": 0.00797131061553955,
+        "max": 0.01036214828491211
+      }
+    },
+    "raw_control_interval_s": {
+      "mean": 0.02499998937671729,
+      "p95": 0.02511310577392578,
+      "max": 0.026868104934692383,
+      "above_60ms": 0
+    },
+    "guard_expired_samples_while_running": 0,
+    "resource": {
+      "samples": 382,
+      "aggregate_rss_peak_bytes": 3288592384,
+      "system_available_min_bytes": 24974364672,
+      "cpu_percent_mean": 609.3707781387083,
+      "cpu_percent_max": 638.3884047619399,
+      "cpu_note": "100%=one logical core; launch, both GUI groups, validator and bag; RSS shared pages may duplicate",
+      "mean_sim_realtime_factor": 1.0007384485898005
+    },
+    "map": {
+      "width": 5960,
+      "height": 440,
+      "cells": 2622400,
+      "resolution": 0.05000000074505806
+    },
+    "topic_coverage": {
+      "/odom": {
+        "full_record_max_gap_s": 0.022595643997192383,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          532.9217617511749,
+          532.9443573951721
+        ],
+        "task_samples": 38164,
+        "task_max_receive_gap_s": 0.022595643997192383,
+        "task_p99_gap_s": 0.020470800399780272
+      },
+      "/ground_truth/poses": {
+        "full_record_max_gap_s": 0.022439241409301758,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          532.9214131832123,
+          532.9438524246216
+        ],
+        "task_samples": 38164,
+        "task_max_receive_gap_s": 0.022439241409301758,
+        "task_p99_gap_s": 0.020380496978759766
+      },
+      "/route/nav_cmd_vel": {
+        "full_record_max_gap_s": 0.026868104934692383,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          522.8926689624786,
+          522.9195370674133
+        ],
+        "task_samples": 30528,
+        "task_max_receive_gap_s": 0.026868104934692383,
+        "task_p99_gap_s": 0.0252332067489624
+      },
+      "/sim/cmd_vel": {
+        "full_record_max_gap_s": 0.3330867290496826,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          -3.063328504562378,
+          -2.7302417755126953
+        ],
+        "task_samples": 381648,
+        "task_max_receive_gap_s": 0.004162311553955078,
+        "task_p99_gap_s": 0.002201557159423828
+      },
+      "/sim/watchdog": {
+        "full_record_max_gap_s": 0.3352928161621094,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          -3.0656509399414062,
+          -2.730358123779297
+        ],
+        "task_samples": 381648,
+        "task_max_receive_gap_s": 0.004120349884033203,
+        "task_p99_gap_s": 0.0022177696228027344
+      },
+      "/joint_states": {
+        "full_record_max_gap_s": 0.0037627220153808594,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          89.80988836288452,
+          89.8136510848999
+        ],
+        "task_samples": 763279,
+        "task_max_receive_gap_s": 0.0037627220153808594,
+        "task_p99_gap_s": 0.0012774467468261719
+      },
+      "/route/status": {
+        "full_record_max_gap_s": 0.13271260261535645,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          -0.021111249923706055,
+          0.11160135269165039
+        ],
+        "task_samples": 15265,
+        "task_max_receive_gap_s": 0.05249953269958496,
+        "task_p99_gap_s": 0.05082268953323364
+      },
+      "task_request_bag_time": 1791891992.2904837,
+      "first_finished_bag_time": 1791892755.586476,
+      "note": "Task interval includes routing/planning/running, begins only at one final goal request. Startup record discovery and terminal hold are separately disclosed."
+    },
+    "transport_lost_notification_count": 3,
+    "all_pass": true,
+    "checks": {
+      "wheel_contacts_present": true,
+      "expected_terminal": true,
+      "road_footprint_inside": true,
+      "no_non_ground_contact": true,
+      "command_constraints": true,
+      "actual_curvature": true,
+      "forward_only": true,
+      "no_in_place_rotation": true,
+      "steering_limits": true,
+      "local_goals_within_window": true,
+      "odom_frame": true,
+      "no_intermediate_stops": true,
+      "endpoint_position": true,
+      "endpoint_yaw": true,
+      "junction_order": true,
+      "route_selection": true
+    },
+    "selected": [
+      {
+        "nodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "edges": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "cost": 310.0,
+        "frame": "odom"
+      }
+    ],
+    "video": {
+      "codec": "avc1",
+      "frames": 7636,
+      "fps": 10.0,
+      "duration_video_s": 763.6,
+      "decoded_frames": [
+        0,
+        3818,
+        7635
+      ],
+      "fast_preview": "快速浏览_10倍速.mp4",
+      "timing_note": "Full capture nominal10fps; compare wall clock overlay. Preview explicitly10x, not real-time evidence."
+    },
+    "directory": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_长距离粗路网_310米_验证1_20261013_310米正式"
+  },
+  {
+    "experiment": "仿真_长距离粗路网_310米_验证2_20261013_310米正式",
+    "graph_length_m": 310.0,
+    "smoothed_route_length_m": 305.7077074058727,
+    "actual_truth_distance_m": 303.8101745161724,
+    "actual_odom_distance_m": 303.8101745161724,
+    "straight_distance_m": 289.99999999998863,
+    "terminal_duration_s": 763.7442916349992,
+    "position_error_m": 0.19603942417681036,
+    "yaw_error_rad": 0.0005482505543608642,
+    "limit_fraction": 0.0015387637506547932,
+    "limit_raw_messages": 47,
+    "raw_messages": 30544,
+    "maximum_raw_curvature_excess_percent": 6.395503756027865,
+    "maximum_current_plan_point_distance_m": 0.06667292385539918,
+    "planning": {
+      "planning_requests": 375,
+      "published_local_plans": 375,
+      "planning_failed_attempts": 0,
+      "planning_response_observed_s": {
+        "mean": 0.00577932866414388,
+        "p95": 0.007870340347290039,
+        "max": 0.010701894760131836
+      }
+    },
+    "raw_control_interval_s": {
+      "mean": 0.02499999250780368,
+      "p95": 0.025112152099609375,
+      "max": 0.026259183883666992,
+      "above_60ms": 0
+    },
+    "guard_expired_samples_while_running": 0,
+    "resource": {
+      "samples": 383,
+      "aggregate_rss_peak_bytes": 3249303552,
+      "system_available_min_bytes": 24868556800,
+      "cpu_percent_mean": 597.0409987348243,
+      "cpu_percent_max": 646.118750415758,
+      "cpu_note": "100%=one logical core; launch, both GUI groups, validator and bag; RSS shared pages may duplicate",
+      "mean_sim_realtime_factor": 1.000203543252333
+    },
+    "map": {
+      "width": 5960,
+      "height": 440,
+      "cells": 2622400,
+      "resolution": 0.05000000074505806
+    },
+    "topic_coverage": {
+      "/odom": {
+        "full_record_max_gap_s": 0.12015461921691895,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          2.3528387546539307,
+          2.4729933738708496
+        ],
+        "task_samples": 38166,
+        "task_max_receive_gap_s": 0.12015461921691895,
+        "task_p99_gap_s": 0.020505361557006836
+      },
+      "/ground_truth/poses": {
+        "full_record_max_gap_s": 0.11983323097229004,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          2.3526463508605957,
+          2.4724795818328857
+        ],
+        "task_samples": 38166,
+        "task_max_receive_gap_s": 0.11983323097229004,
+        "task_p99_gap_s": 0.02041849136352539
+      },
+      "/route/nav_cmd_vel": {
+        "full_record_max_gap_s": 0.026259183883666992,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          165.19366312026978,
+          165.21992230415344
+        ],
+        "task_samples": 30544,
+        "task_max_receive_gap_s": 0.026259183883666992,
+        "task_p99_gap_s": 0.0252227783203125
+      },
+      "/sim/cmd_vel": {
+        "full_record_max_gap_s": 0.0037908554077148438,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          66.36874604225159,
+          66.3725368976593
+        ],
+        "task_samples": 381872,
+        "task_max_receive_gap_s": 0.0037908554077148438,
+        "task_p99_gap_s": 0.002245187759399414
+      },
+      "/sim/watchdog": {
+        "full_record_max_gap_s": 0.0038890838623046875,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          66.36875414848328,
+          66.37264323234558
+        ],
+        "task_samples": 381872,
+        "task_max_receive_gap_s": 0.0038890838623046875,
+        "task_p99_gap_s": 0.002266407012939453
+      },
+      "/joint_states": {
+        "full_record_max_gap_s": 0.10148501396179199,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          57.57986497879028,
+          57.681349992752075
+        ],
+        "task_samples": 763324,
+        "task_max_receive_gap_s": 0.10148501396179199,
+        "task_p99_gap_s": 0.0012938976287841797
+      },
+      "/route/status": {
+        "full_record_max_gap_s": 0.1497631072998047,
+        "full_max_gap_interval_relative_to_task_request_s": [
+          2.3232920169830322,
+          2.473055124282837
+        ],
+        "task_samples": 15266,
+        "task_max_receive_gap_s": 0.1497631072998047,
+        "task_p99_gap_s": 0.05085177421569824
+      },
+      "task_request_bag_time": 1791893009.571725,
+      "first_finished_bag_time": 1791893773.3155818,
+      "note": "Task interval includes routing/planning/running, begins only at one final goal request. Startup record discovery and terminal hold are separately disclosed."
+    },
+    "transport_lost_notification_count": 3,
+    "all_pass": true,
+    "checks": {
+      "wheel_contacts_present": true,
+      "expected_terminal": true,
+      "road_footprint_inside": true,
+      "no_non_ground_contact": true,
+      "command_constraints": true,
+      "actual_curvature": true,
+      "forward_only": true,
+      "no_in_place_rotation": true,
+      "steering_limits": true,
+      "local_goals_within_window": true,
+      "odom_frame": true,
+      "no_intermediate_stops": true,
+      "endpoint_position": true,
+      "endpoint_yaw": true,
+      "junction_order": true,
+      "route_selection": true
+    },
+    "selected": [
+      {
+        "nodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "edges": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "cost": 310.0,
+        "frame": "odom"
+      }
+    ],
+    "video": {
+      "codec": "avc1",
+      "frames": 7639,
+      "fps": 10.0,
+      "duration_video_s": 763.9,
+      "decoded_frames": [
+        0,
+        3819,
+        7638
+      ],
+      "fast_preview": "快速浏览_10倍速.mp4",
+      "timing_note": "Full capture nominal10fps; compare wall clock overlay. Preview explicitly10x, not real-time evidence."
+    },
+    "directory": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_长距离粗路网_310米_验证2_20261013_310米正式"
+  }
+]

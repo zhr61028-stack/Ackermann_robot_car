@@ -1,0 +1,2 @@
+data: m0_workspace_ok
+---

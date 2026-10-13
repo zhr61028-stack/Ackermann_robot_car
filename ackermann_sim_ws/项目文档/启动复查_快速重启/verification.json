@@ -1,0 +1,21 @@
+{
+  "nav2_lifecycle": "unconfigured [1]",
+  "topics_readable": [
+    "clock",
+    "odom"
+  ],
+  "map_frame": null,
+  "odom_frame": "odom",
+  "tf_checked": [
+    "base_footprint",
+    "base_link",
+    "front_left_wheel",
+    "rear_right_wheel"
+  ],
+  "actual_gui_captures": [
+    "docs/startup-fresh-check/relocation-gazebo.png",
+    "docs/startup-fresh-check/relocation-rviz.png"
+  ],
+  "no_goal_or_velocity_sent": true,
+  "pass": false
+}

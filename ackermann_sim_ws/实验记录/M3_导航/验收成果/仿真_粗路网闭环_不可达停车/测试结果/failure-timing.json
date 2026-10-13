@@ -1,0 +1,12 @@
+{
+  "request_bag_timestamp_s": 1791810954.6115851,
+  "first_zero_bag_timestamp_s": 1791810954.6120124,
+  "failed_bag_timestamp_s": 1791810954.6514032,
+  "actual_stop_bag_timestamp_s": 1791810954.7515192,
+  "stop_confirmation_bag_timestamp_s": 1791810954.9516137,
+  "first_zero_after_request_s": 0.00042724609375,
+  "failure_report_after_request_s": 0.03981804847717285,
+  "actual_stop_after_request_s": 0.13993406295776367,
+  "confirmed_stop_after_request_s": 0.3400285243988037,
+  "note": "Complete bag reception times; localization velocities from 50Hz truth. Includes transport and sample quantization; not MCU timing or watchdog trigger latency."
+}

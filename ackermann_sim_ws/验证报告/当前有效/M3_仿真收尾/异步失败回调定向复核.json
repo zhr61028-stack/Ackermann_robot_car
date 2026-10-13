@@ -1,0 +1,11 @@
+{
+  "before_late_accept_state": "RUNNING",
+  "after_late_accept_state": "FAILED",
+  "after_stale_route_result_state": "FAILED",
+  "after_late_plan_accept_state": "FAILED",
+  "failed_forward_blocked": true,
+  "epoch_after_failure": 5,
+  "pending_plan_cleared": true,
+  "all_pass": true,
+  "test_scope": "Deterministic actual-method execution with fake action handles; not ROS lifecycle or MCU test."
+}

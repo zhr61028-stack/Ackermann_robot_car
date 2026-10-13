@@ -1,0 +1,42 @@
+{
+  "src/ackermann_sim/config/vehicle.yaml": {
+    "before": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "after": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "unchanged": true
+  },
+  "src/ackermann_sim/ackermann_sim/guard.py": {
+    "before": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "after": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "unchanged": true
+  },
+  "src/ackermann_nav/config/nav2.yaml": {
+    "before": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "after": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "unchanged": true
+  },
+  "src/ackermann_route/config/roads.yaml": {
+    "before": "e9a038aa9b370bf8cf72c8613674f38fa975fe6ed9edc50239371d5504c50c9a",
+    "after": "e9a038aa9b370bf8cf72c8613674f38fa975fe6ed9edc50239371d5504c50c9a",
+    "unchanged": true
+  },
+  "src/ackermann_route/config/route_server.yaml": {
+    "before": "64af516d46e1c28c6afa1fb9095e10501bfb601b3ad1acc120d8ebead708461f",
+    "after": "64af516d46e1c28c6afa1fb9095e10501bfb601b3ad1acc120d8ebead708461f",
+    "unchanged": true
+  },
+  "src/ackermann_route/ackermann_route/generator.py": {
+    "before": "8763a3314ed01b51a6a379663f18f2bd9fb18bfeac6dd77ed15b89965bfe4ade",
+    "after": "8763a3314ed01b51a6a379663f18f2bd9fb18bfeac6dd77ed15b89965bfe4ade",
+    "unchanged": true
+  },
+  "src/ackermann_route/launch/route.launch.py": {
+    "before": "d89e0103187974ffe3d0a1fb42448f90054af9fcf346ed7d674ff4fc6912869f",
+    "after": "d89e0103187974ffe3d0a1fb42448f90054af9fcf346ed7d674ff4fc6912869f",
+    "unchanged": true
+  },
+  "src/ackermann_route/ackermann_route/assets.py": {
+    "before": "85f140ad4d9ae69296691c5e6f37e8572d3a4f520e71c3550609e47f1d4ab9e5",
+    "after": "85f140ad4d9ae69296691c5e6f37e8572d3a4f520e71c3550609e47f1d4ab9e5",
+    "unchanged": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "checked_date": "2026-10-12 Asia/Shanghai",
+  "official_sources": [
+    "https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/planners_plugins/smac/smac_hybrid/configuring_smac_hybrid/",
+    "https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/controller_plugins/configuring_regulated_pp/",
+    "https://raw.githubusercontent.com/ros-navigation/navigation2/jazzy/nav2_regulated_pure_pursuit_controller/src/regulated_pure_pursuit_controller.cpp",
+    "https://github.com/ros-navigation/navigation2/blob/jazzy/nav2_bt_navigator/behavior_trees/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml",
+    "https://github.com/gazebosim/gz-sim/blob/gz-sim8/examples/worlds/contact_sensor.sdf"
+  ],
+  "read_only_local_references": [
+    {
+      "path": "/opt/ros/jazzy/share/nav2_bt_navigator/behavior_trees/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml",
+      "sha256": "684c368fff80558623adc50c59d6f4f8f09a6fbc9138fa70cad32ffda03333b4"
+    },
+    {
+      "path": "/opt/ros/jazzy/opt/gz_sim_vendor/share/gz/gz-sim8/worlds/contact_sensor.sdf",
+      "sha256": "939e4dbac5c5435292bc5681d3a88a1f673a848b5b00fd538c702214f427147a"
+    },
+    {
+      "path": "/home/zhanghaoran/文档/xwechat_files/yuan577love_c0aa/msg/file/2026-10/阿克曼小车粗地图自主导航 · 项目任务书.docx",
+      "sha256": "8d586e90484d651fe2c40faab206a668b63c54b7c88b2529c0fbbe3410856eb0"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "graph_selected_length_m": 100.0,
+  "route_smoothed_length_m": 95.7077044020366,
+  "actual_odom_integrated_position_distance_m": 93.88370112948098,
+  "start_to_goal_straight_distance_m": 79.99999999998865,
+  "selected_route": [
+    {
+      "nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "edges": [
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "cost": 100.0,
+      "frame": "odom"
+    }
+  ],
+  "final_goal_requests": [
+    {
+      "goal_id": 6
+    }
+  ],
+  "manual_interventions": 0,
+  "navigation_terminal_wall_s": 238.8886624679999,
+  "total_observation_wall_s": 240.89242008399924,
+  "navigation_sim_time_s": 244.06,
+  "planning_requests": 116,
+  "published_plan_messages_all": 117,
+  "route_server_plan_messages_before_local_goal": 1,
+  "published_local_plans": 116,
+  "unanswered_local_goal_indices": [],
+  "planning_failed_attempts": 0,
+  "planning_response_observed_s": {
+    "mean": 0.005071011082879428,
+    "p95": 0.007387399673461914,
+    "max": 0.00943756103515625
+  },
+  "planning_timing_note": "goal topic received to plan topic received; includes DDS/action dispatch/scheduling, not pure algorithm CPU duration",
+  "raw_control_interval_s": {
+    "mean": 0.024999971927853262,
+    "p95": 0.02510080337524414,
+    "max": 0.02612018585205078,
+    "above_60ms": 0
+  },
+  "guard_expired_samples_while_running": 0,
+  "all_phase_intermediate_pauses": [],
+  "map": {
+    "width": 1760,
+    "height": 440,
+    "cells": 774400,
+    "resolution": 0.05000000074505806
+  },
+  "resource": {
+    "samples": 121,
+    "aggregate_rss_peak_bytes": 2796847104,
+    "system_available_min_bytes": 25130696704,
+    "cpu_percent_mean": 608.131123578696,
+    "cpu_percent_max": 640.4977454420546,
+    "cpu_note": "100%=one logical core; launch, both GUI groups, validator and bag; RSS shared pages may duplicate",
+    "mean_sim_realtime_factor": 1.0023604877883874
+  },
+  "checks": {
+    "length": true,
+    "autonomous_single_task": true,
+    "no_planner_failure": true,
+    "no_intermediate_pause": true,
+    "no_running_watchdog_expiry": true,
+    "memory_available": true
+  },
+  "all_pass": true
+}

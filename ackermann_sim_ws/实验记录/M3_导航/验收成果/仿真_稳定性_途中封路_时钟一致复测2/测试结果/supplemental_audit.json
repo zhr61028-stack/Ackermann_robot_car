@@ -1,0 +1,27 @@
+{
+  "no_intermediate_pause": true,
+  "intermediate_pauses": [],
+  "maximum_route_point_distance_m": 0.024467205655972712,
+  "maximum_current_plan_point_distance_m": 0.035609766691694966,
+  "junction_transitions": [],
+  "map_update_bag_time": 1791888440.7605023,
+  "first_zero_bag_time": 1791888443.9541934,
+  "first_stop_bag_time": 1791888444.1065638,
+  "confirmed_stop_bag_time": 1791888444.326543,
+  "failure_report_bag_time": 1791888443.9964523,
+  "first_zero_after_update_s": 3.1936910152435303,
+  "first_stop_after_zero_s": 0.15237045288085938,
+  "stop_confirmation_after_zero_s": 0.37234973907470703,
+  "stop_after_update_s": 3.3460614681243896,
+  "costmap_acknowledgements": {
+    "local": 1791888441.0582492,
+    "global": 1791888441.301843
+  },
+  "costmaps_accepted": true,
+  "motion_commands_after_failure": 0,
+  "failure_latched": true,
+  "minimum_front_wall_clearance_m": 0.4403999987883118,
+  "stop_performance_pass": true,
+  "wall_clearance_pass": true,
+  "all_pass": true
+}

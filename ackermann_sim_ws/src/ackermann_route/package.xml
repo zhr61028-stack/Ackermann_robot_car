@@ -1,0 +1,25 @@
+<package format="3">
+  <name>ackermann_route</name>
+  <version>0.1.0</version>
+  <description>Local-plane TEST route navigation</description>
+  <maintainer email="local@example.invalid">Project developer</maintainer>
+  <license>Apache-2.0</license>
+  <exec_depend>ackermann_nav</exec_depend>
+  <exec_depend>ackermann_sim</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_route</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+</package>

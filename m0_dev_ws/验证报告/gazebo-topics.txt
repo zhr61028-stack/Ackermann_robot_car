@@ -1,0 +1,15 @@
+/clock
+/gazebo/resource_paths
+/gui/camera/pose
+/gui/currently_tracked
+/gui/track
+/stats
+/world/shapes/clock
+/world/shapes/dynamic_pose/info
+/world/shapes/pose/info
+/world/shapes/scene/deletion
+/world/shapes/scene/info
+/world/shapes/state
+/world/shapes/stats
+/world/shapes/light_config
+/world/shapes/material_color

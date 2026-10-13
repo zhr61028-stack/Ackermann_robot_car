@@ -1,0 +1,250 @@
+{
+  "goals": [
+    {
+      "goal": {
+        "name": "straight",
+        "x": 4.0,
+        "y": 0.0,
+        "yaw": 0.0
+      },
+      "status": 4,
+      "error_code": 0,
+      "error_msg": "",
+      "duration_wall_s": 13.25192512500007,
+      "final_truth_pose": {
+        "t": 2649.705553176,
+        "sim": 199.54,
+        "x": 3.8027613572461143,
+        "y": 7.226628071701889e-09,
+        "yaw": 3.8011329862506905e-09,
+        "z": 0.09999999410242172,
+        "frame": "ackermann_test",
+        "child": "ackermann"
+      },
+      "endpoint_error_m": 0.19723864275388583,
+      "endpoint_yaw_error_rad": 3.8011329862506905e-09
+    },
+    {
+      "goal": {
+        "name": "turn",
+        "x": 10.0,
+        "y": 3.0,
+        "yaw": 0.0
+      },
+      "status": 4,
+      "error_code": 0,
+      "error_msg": "",
+      "duration_wall_s": 20.740856020000138,
+      "final_truth_pose": {
+        "t": 2670.427046984,
+        "sim": 220.26,
+        "x": 9.81111552266167,
+        "y": 2.950022227285519,
+        "yaw": 0.1904290821703808,
+        "z": 0.09999999410216816,
+        "frame": "ackermann_test",
+        "child": "ackermann"
+      },
+      "endpoint_error_m": 0.19538455298429966,
+      "endpoint_yaw_error_rad": 0.1904290821703808
+    },
+    {
+      "goal": {
+        "name": "known_obstacle",
+        "x": 19.0,
+        "y": 3.0,
+        "yaw": 0.0
+      },
+      "status": 4,
+      "error_code": 0,
+      "error_msg": "",
+      "duration_wall_s": 29.771080685000015,
+      "final_truth_pose": {
+        "t": 2700.227170129,
+        "sim": 250.06,
+        "x": 18.80770006092383,
+        "y": 3.038027159830977,
+        "yaw": -0.18466248134750904,
+        "z": 0.09999999410211888,
+        "frame": "ackermann_test",
+        "child": "ackermann"
+      },
+      "endpoint_error_m": 0.19602380328294322,
+      "endpoint_yaw_error_rad": 0.18466248134750904
+    }
+  ],
+  "scene": {
+    "resolution_m": 0.05,
+    "bounds_m": [
+      -5.0,
+      -8.0,
+      24.0,
+      12.0
+    ],
+    "obstacles": [
+      {
+        "name": "known_box",
+        "x": 14.0,
+        "y": 3.0,
+        "size_x": 1.2,
+        "size_y": 2.2,
+        "size_z": 1.0
+      }
+    ],
+    "goals": [
+      {
+        "name": "straight",
+        "x": 4.0,
+        "y": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "name": "turn",
+        "x": 10.0,
+        "y": 3.0,
+        "yaw": 0.0
+      },
+      {
+        "name": "known_obstacle",
+        "x": 19.0,
+        "y": 3.0,
+        "yaw": 0.0
+      }
+    ],
+    "validation": {
+      "endpoint_position_tolerance_m": 0.25,
+      "endpoint_yaw_tolerance_rad": 0.25,
+      "actual_curvature_tolerance_per_m": 0.03,
+      "maximum_goal_duration_s": 120.0
+    }
+  },
+  "assumptions": {
+    "assumption_status": "仿真假设，待实测",
+    "vehicle": {
+      "wheelbase_m": 0.8,
+      "track_m": 0.5,
+      "wheel_radius_m": 0.1,
+      "wheel_width_m": 0.06,
+      "body_length_m": 1.1,
+      "body_width_m": 0.38,
+      "body_height_m": 0.16,
+      "body_center_x_m": 0.4,
+      "body_center_z_m": 0.1,
+      "body_mass_kg": 5.0,
+      "wheel_mass_kg": 0.2,
+      "steering_link_mass_kg": 0.05,
+      "center_steering_limit_rad": 0.4,
+      "wheel_joint_limit_rad": 0.6,
+      "steering_gain": 8.0,
+      "max_speed_mps": 0.6,
+      "max_acceleration_mps2": 3.0,
+      "tire_friction": 1.0
+    },
+    "control": {
+      "timeout_s": 0.06,
+      "timer_period_s": 0.002,
+      "zero_speed_threshold_mps": 0.001
+    },
+    "simulation": {
+      "step_size_s": 0.001,
+      "odom_frequency_hz": 50.0
+    },
+    "validation": {
+      "stop_speed_threshold_mps": 0.02,
+      "stop_yaw_rate_threshold_radps": 0.02,
+      "stop_hold_s": 0.2,
+      "steady_speed_tolerance_mps": 0.08,
+      "trajectory_radius_relative_tolerance": 0.12,
+      "odom_truth_position_tolerance_m": 0.25
+    }
+  },
+  "tf_truth_position_error_m": 0.0,
+  "localization": "TEST_ONLY_GAZEBO_TRUTH",
+  "video": {
+    "frames": 657,
+    "fps": 10,
+    "duration_s": 65.7
+  },
+  "bag_audit": {
+    "samples": {
+      "truth": 3261,
+      "command": 2428,
+      "safe": 32530,
+      "truth_odom": 3267
+    },
+    "minimum_obstacle_clearance_m": 0.7027197686160404,
+    "obstacle_contact_count": 0,
+    "contact_messages": {
+      "/sim/contacts/rear_right_wheel": 65060,
+      "/sim/contacts/rear_left_wheel": 65060,
+      "/sim/contacts/front_right_wheel": 65059,
+      "/sim/contacts/front_left_wheel": 65058
+    },
+    "max_measured_curvature_per_m_above_0_1mps": 0.47998532797096805,
+    "physical_curvature_bound_per_m": 0.5284915234227022,
+    "minimum_measured_radius_m": 2.083397015961465,
+    "max_steering_joint_rad": 0.4114669003297856,
+    "safe_constraint_violations": 0,
+    "raw_nav_constraint_violations": 0,
+    "safe_in_place_rotation_commands": 0,
+    "safe_reverse_commands": 0,
+    "timeout_samples_age_under_200ms_including_normal_goal_stops": 210,
+    "segments": {
+      "straight": {
+        "actual_path_length_m": 3.8027613572347607,
+        "min_y": 1.6258545197076908e-13,
+        "max_y": 7.226628071701889e-09
+      },
+      "turn": {
+        "actual_path_length_m": 6.762196520264684,
+        "min_y": 7.226628071701889e-09,
+        "max_y": 2.950022227285519
+      },
+      "known_obstacle": {
+        "actual_path_length_m": 10.364185265868544,
+        "min_y": 2.950022227285519,
+        "max_y": 5.3542833679814255
+      }
+    },
+    "localization": "Gazebo model pose, TEST ONLY"
+  },
+  "checks": {
+    "no_obstacle_contact": true,
+    "no_geometric_overlap": true,
+    "safe_commands_feasible": true,
+    "no_in_place_rotation": true,
+    "forward_only": true,
+    "physical_curvature": true,
+    "steering_limits": true,
+    "goals_succeeded": true,
+    "endpoint_error": true,
+    "tf_consistent": true,
+    "wheel_ground_contact_streams_present": true,
+    "actual_forward_only": true,
+    "actual_no_in_place_rotation": true,
+    "body_contact_sensor_positive_control": true
+  },
+  "all_pass": true,
+  "initial_contact_check_diagnostic": {
+    "no_obstacle_contact": true,
+    "no_geometric_overlap": true,
+    "contact_stream_present": false,
+    "safe_commands_feasible": true,
+    "no_in_place_rotation": true,
+    "forward_only": true,
+    "physical_curvature": true,
+    "steering_limits": true,
+    "goals_succeeded": true,
+    "endpoint_error": true,
+    "tf_consistent": true
+  },
+  "collision_positive_control": {
+    "body_sensor_detected_injected_virtual_contact": true,
+    "samples": [
+      "ackermann::base_link::collision contact_probe::probe::box"
+    ],
+    "spawn_returncode": 0,
+    "note": "AFTER successful navigation bag closed. Deliberate positive control, not part of no-collision navigation trajectory."
+  },
+  "trajectory_file": "trajectory.json"
+}

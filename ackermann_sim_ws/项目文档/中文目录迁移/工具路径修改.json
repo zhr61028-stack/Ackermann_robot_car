@@ -1,0 +1,10 @@
+[
+  "ackermann_sim_ws/scripts/plot_nav.py",
+  "ackermann_sim_ws/scripts/validate_watchdog.py",
+  "ackermann_sim_ws/scripts/probe_contact.py",
+  "ackermann_sim_ws/scripts/plot_results.py",
+  "ackermann_sim_ws/scripts/check_nav_guard.py",
+  "ackermann_sim_ws/scripts/validate.bash",
+  "m0_dev_ws/scripts/verify_ros.py",
+  "m0_dev_ws/scripts/nav2_goal.py"
+]

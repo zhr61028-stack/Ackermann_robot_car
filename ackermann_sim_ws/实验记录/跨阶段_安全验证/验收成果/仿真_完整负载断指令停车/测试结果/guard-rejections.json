@@ -1,0 +1,13 @@
+{
+  "reverse": {
+    "observed_expected_reason": true,
+    "outputs_zero": true,
+    "position_change_m": 0.0
+  },
+  "pure_rotation": {
+    "observed_expected_reason": true,
+    "outputs_zero": true,
+    "position_change_m": 0.0
+  },
+  "all_pass": true
+}

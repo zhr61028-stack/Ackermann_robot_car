@@ -1,0 +1,59 @@
+{
+  "/odom": {
+    "count": 38402,
+    "first": 1791891989.579455,
+    "last": 1791892757.616934,
+    "span_s": 768.0374791622162,
+    "maximum_receive_gap_s": 0.022595643997192383,
+    "p99_gap_s": 0.020473480224609375
+  },
+  "/ground_truth/poses": {
+    "count": 38402,
+    "first": 1791891989.57928,
+    "last": 1791892757.6165347,
+    "span_s": 768.0372548103333,
+    "maximum_receive_gap_s": 0.022439241409301758,
+    "p99_gap_s": 0.020380496978759766
+  },
+  "/route/nav_cmd_vel": {
+    "count": 30528,
+    "first": 1791891992.408419,
+    "last": 1791892755.5830946,
+    "span_s": 763.1746757030487,
+    "maximum_receive_gap_s": 0.026868104934692383,
+    "p99_gap_s": 0.0252332067489624
+  },
+  "/sim/cmd_vel": {
+    "count": 384253,
+    "first": 1791891989.1167474,
+    "last": 1791892757.620701,
+    "span_s": 768.5039536952972,
+    "maximum_receive_gap_s": 0.3330867290496826,
+    "p99_gap_s": 0.0022017955780029297
+  },
+  "/sim/watchdog": {
+    "count": 384252,
+    "first": 1791891989.118763,
+    "last": 1791892757.6207333,
+    "span_s": 768.5019702911377,
+    "maximum_receive_gap_s": 0.3352928161621094,
+    "p99_gap_s": 0.0022177696228027344
+  },
+  "/joint_states": {
+    "count": 768034,
+    "first": 1791891989.5713568,
+    "last": 1791892757.6213927,
+    "span_s": 768.0500359535217,
+    "maximum_receive_gap_s": 0.0037627220153808594,
+    "p99_gap_s": 0.0012774467468261719
+  },
+  "/route/status": {
+    "count": 15359,
+    "first": 1791891989.6193812,
+    "last": 1791892757.5866375,
+    "span_s": 767.9672563076019,
+    "maximum_receive_gap_s": 0.13271260261535645,
+    "p99_gap_s": 0.05082515478134155
+  },
+  "note": "Transport loss notifications are not per-topic attributable here. Core timing coverage is measured, not a claim of mathematically continuous observation."
+}

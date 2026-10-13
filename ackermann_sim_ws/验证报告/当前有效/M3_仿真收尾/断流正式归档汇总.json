@@ -1,0 +1,66 @@
+[
+  {
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_310米场景完整负载指令断流_正式复测1_20261013",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "route_310_task_selected": true,
+        "single_gate_publisher": true,
+        "single_guard_subscriber": true,
+        "gate_locked": true,
+        "upstream_kept_requesting": true,
+        "no_guard_input_after_timeout": true,
+        "no_input_recovery_in_native_status": true,
+        "safe_zero_after_timeout": true,
+        "native_trigger_within_budget": true,
+        "first_physical_stop_within_budget": true,
+        "sustained_stop_recorded": true
+      },
+      "upstream_nonzero_after_timeout": 120,
+      "input_after_timeout": 0,
+      "nonzero_safe_after_timeout": 0,
+      "phase_to_timeout_bag_s": 0.04124140739440918,
+      "first_zero_after_timeout_bag_s": 0.0018880367279052734,
+      "stop_times_from_last_guard_input_s": {
+        "trigger": 0.061684162999881664,
+        "first_stop": 0.20070515806764888,
+        "confirmed_stop": 0.4007795923480444
+      },
+      "scope": "Only control input interruption with guard alive; not process crash/disconnect/MCU.",
+      "transport_error_note": "Bag receive time quantization and median monotonic/epoch alignment, not hardware hard realtime."
+    },
+    "current_output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_310米场景完整负载指令断流_正式复测1_20261013"
+  },
+  {
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_310米场景完整负载指令断流_正式复测2_20261013",
+    "audit": {
+      "all_pass": true,
+      "checks": {
+        "route_310_task_selected": true,
+        "single_gate_publisher": true,
+        "single_guard_subscriber": true,
+        "gate_locked": true,
+        "upstream_kept_requesting": true,
+        "no_guard_input_after_timeout": true,
+        "no_input_recovery_in_native_status": true,
+        "safe_zero_after_timeout": true,
+        "native_trigger_within_budget": true,
+        "first_physical_stop_within_budget": true,
+        "sustained_stop_recorded": true
+      },
+      "upstream_nonzero_after_timeout": 120,
+      "input_after_timeout": 0,
+      "nonzero_safe_after_timeout": 0,
+      "phase_to_timeout_bag_s": 0.05226922035217285,
+      "first_zero_after_timeout_bag_s": 0.0019655227661132812,
+      "stop_times_from_last_guard_input_s": {
+        "trigger": 0.06120178399942233,
+        "first_stop": 0.20791717866813997,
+        "confirmed_stop": 0.40797253946220735
+      },
+      "scope": "Only control input interruption with guard alive; not process crash/disconnect/MCU.",
+      "transport_error_note": "Bag receive time quantization and median monotonic/epoch alignment, not hardware hard realtime."
+    },
+    "current_output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_310米场景完整负载指令断流_正式复测2_20261013"
+  }
+]

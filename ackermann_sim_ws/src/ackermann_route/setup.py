@@ -1,0 +1,4 @@
+from setuptools import setup
+from glob import glob
+from os.path import isfile
+setup(name='ackermann_route',version='0.1.0',packages=['ackermann_route'],data_files=[('share/ament_index/resource_index/packages',['resource/ackermann_route']),('share/ackermann_route',['package.xml']),*[('share/ackermann_route/'+d,[f for f in glob(d+'/*') if isfile(f)]) for d in ['config','launch','rviz']],*[('share/ackermann_route/'+d,[f for f in glob(d+'/*') if isfile(f)]) for d in ['config/stability','config/long_distance','config/long_distance/rviz']]],install_requires=['setuptools'],zip_safe=True,maintainer='Project developer',maintainer_email='local@example.invalid',description='TEST local-plane route-driven Ackermann navigation',license='Apache-2.0',entry_points={'console_scripts':['local_goal_generator = ackermann_route.generator:main']})

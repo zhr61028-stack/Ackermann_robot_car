@@ -1,0 +1,74 @@
+[
+  {
+    "goal": {
+      "name": "straight",
+      "x": 4.0,
+      "y": 0.0,
+      "yaw": 0.0
+    },
+    "status": 4,
+    "error_code": 0,
+    "error_msg": "",
+    "duration_wall_s": 13.25192512500007,
+    "final_truth_pose": {
+      "t": 2649.705553176,
+      "sim": 199.54,
+      "x": 3.8027613572461143,
+      "y": 7.226628071701889e-09,
+      "yaw": 3.8011329862506905e-09,
+      "z": 0.09999999410242172,
+      "frame": "ackermann_test",
+      "child": "ackermann"
+    },
+    "endpoint_error_m": 0.19723864275388583,
+    "endpoint_yaw_error_rad": 3.8011329862506905e-09
+  },
+  {
+    "goal": {
+      "name": "turn",
+      "x": 10.0,
+      "y": 3.0,
+      "yaw": 0.0
+    },
+    "status": 4,
+    "error_code": 0,
+    "error_msg": "",
+    "duration_wall_s": 20.740856020000138,
+    "final_truth_pose": {
+      "t": 2670.427046984,
+      "sim": 220.26,
+      "x": 9.81111552266167,
+      "y": 2.950022227285519,
+      "yaw": 0.1904290821703808,
+      "z": 0.09999999410216816,
+      "frame": "ackermann_test",
+      "child": "ackermann"
+    },
+    "endpoint_error_m": 0.19538455298429966,
+    "endpoint_yaw_error_rad": 0.1904290821703808
+  },
+  {
+    "goal": {
+      "name": "known_obstacle",
+      "x": 19.0,
+      "y": 3.0,
+      "yaw": 0.0
+    },
+    "status": 4,
+    "error_code": 0,
+    "error_msg": "",
+    "duration_wall_s": 29.771080685000015,
+    "final_truth_pose": {
+      "t": 2700.227170129,
+      "sim": 250.06,
+      "x": 18.80770006092383,
+      "y": 3.038027159830977,
+      "yaw": -0.18466248134750904,
+      "z": 0.09999999410211888,
+      "frame": "ackermann_test",
+      "child": "ackermann"
+    },
+    "endpoint_error_m": 0.19602380328294322,
+    "endpoint_yaw_error_rad": 0.18466248134750904
+  }
+]

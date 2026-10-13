@@ -1,0 +1,7 @@
+{
+  "first_failed_report": 1791888443.9964523,
+  "nonzero_commands_after_first_failed": [],
+  "zero_samples": 1013,
+  "all_pass": true,
+  "note": "No 50ms grace interval; complete bag receive timestamps."
+}

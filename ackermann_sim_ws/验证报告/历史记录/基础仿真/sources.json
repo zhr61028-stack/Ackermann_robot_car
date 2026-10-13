@@ -1,0 +1,10 @@
+{
+  "model_source": "Gazebo Sim 8.15.0 bundled examples/worlds/ackermann_steering.sdf",
+  "local_original": "/opt/ros/jazzy/opt/gz_sim_vendor/share/gz/gz-sim8/worlds/ackermann_steering.sdf",
+  "original_sha256": "37baf9ed43371946899ff02bcffeb4df48b27487d3cf933cb88fb070f1323dfe",
+  "upstream": "https://github.com/gazebosim/gz-sim/tree/gz-sim8/examples/worlds",
+  "controller_documentation": "https://gazebosim.org/api/sim/8/classgz_1_1sim_1_1systems_1_1AckermannSteering.html",
+  "controller_source_reference": "https://github.com/gazebosim/gz-sim/blob/gz-sim8/src/systems/ackermann_steering/AckermannSteering.cc",
+  "license": "Apache-2.0",
+  "choice": "Already installed, native wheel/steering controller and odometry; no new simulator or vehicle controller installation."
+}

@@ -1,0 +1,237 @@
+{
+  "author_configuration": {
+    "ackermann_sim_ws": {
+      "user.name": null,
+      "user.email": null
+    },
+    "m0_dev_ws": {
+      "user.name": null,
+      "user.email": null
+    }
+  },
+  "local_commit_created": false,
+  "reason": "姓名/邮箱均未确认；不虚构，不提交，不推送",
+  "removed_only_from_index": [
+    {
+      "path": "artifacts/final-run/demo.mp4",
+      "bytes": 409887,
+      "git_object_id": "c8849d8692e4aae8f928b64bdcad7fc9f1bc940a"
+    },
+    {
+      "path": "artifacts/m3-nav-final-v2/demo.mp4",
+      "bytes": 538820,
+      "git_object_id": "926a8fba916bfbd66555faaa3aefbf178c1a0898"
+    }
+  ],
+  "large_files": [
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_粗路网闭环_路线A/测试结果/observations.json",
+      "bytes": 11564475,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_粗路网闭环_路线A/原始数据/bag/bag_0.mcap",
+      "bytes": 208260442,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_连续路口分支_复测2/测试结果/observations.json",
+      "bytes": 9697247,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_连续路口分支_复测2/原始数据/bag/bag_0.mcap",
+      "bytes": 208842564,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_粗路网闭环_路线B/测试结果/observations.json",
+      "bytes": 10677942,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_粗路网闭环_路线B/原始数据/bag/bag_0.mcap",
+      "bytes": 185938649,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_简单场地导航/原始数据/bag/bag_0.mcap",
+      "bytes": 210576653,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_原路线B_复测1/测试结果/observations.json",
+      "bytes": 10507178,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_原路线B_复测1/原始数据/bag/bag_0.mcap",
+      "bytes": 227517984,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_途中封路_时钟一致复测2/原始数据/bag/bag_0.mcap",
+      "bytes": 45788456,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_长距离粗路网_310米_验证1_20261013_310米正式/演示视频/demo.mp4",
+      "bytes": 10230421,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_长距离粗路网_310米_验证1_20261013_310米正式/原始数据/bag/bag_0.mcap",
+      "bytes": 2389677596,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_近极限弯道_复测2/测试结果/observations.json",
+      "bytes": 10825460,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_近极限弯道_复测2/原始数据/bag/bag_0.mcap",
+      "bytes": 234880856,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_长距离粗路网_100米_验证1_20261013_正式长距离/演示视频/demo.mp4",
+      "bytes": 7875978,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_长距离粗路网_100米_验证1_20261013_正式长距离/原始数据/bag/bag_0.mcap",
+      "bytes": 759037076,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_粗路网闭环_不可达停车/原始数据/bag/bag_0.mcap",
+      "bytes": 23128161,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_近极限弯道_复测1/测试结果/observations.json",
+      "bytes": 10797238,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_近极限弯道_复测1/原始数据/bag/bag_0.mcap",
+      "bytes": 238148768,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_原路线A_复测1/测试结果/observations.json",
+      "bytes": 11952375,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_原路线A_复测1/原始数据/bag/bag_0.mcap",
+      "bytes": 256929049,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_原路线B_复测2/测试结果/observations.json",
+      "bytes": 10573178,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_原路线B_复测2/原始数据/bag/bag_0.mcap",
+      "bytes": 231224735,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_连续路口分支_复测1/测试结果/observations.json",
+      "bytes": 9689598,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_连续路口分支_复测1/原始数据/bag/bag_0.mcap",
+      "bytes": 206946780,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_长距离粗路网_310米_验证2_20261013_310米正式/演示视频/demo.mp4",
+      "bytes": 10276056,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_长距离粗路网_310米_验证2_20261013_310米正式/原始数据/bag/bag_0.mcap",
+      "bytes": 2389349676,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/验收成果/仿真_稳定性_途中封路_时钟一致复测1/原始数据/bag/bag_0.mcap",
+      "bytes": 46624363,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag/bag_0.mcap",
+      "bytes": 30788487,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_收尾回归_原路线A_复测1_20261013_失败锁定修复/测试结果/observations.json",
+      "bytes": 11891463,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_收尾回归_原路线A_复测1_20261013_失败锁定修复/原始数据/bag/bag_0.mcap",
+      "bytes": 254617186,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_稳定性_途中封路_复测1/原始数据/bag/bag_0.mcap",
+      "bytes": 44203070,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_稳定性_途中封路_复测2/原始数据/bag/bag_0.mcap",
+      "bytes": 45542000,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag/bag_0.mcap",
+      "bytes": 120277082,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_粗路网转弯首次联调/测试结果/observations.json",
+      "bytes": 10791555,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M3_导航/过程记录/仿真_粗路网转弯首次联调/原始数据/bag/bag_0.mcap",
+      "bytes": 184573919,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag/bag_0.mcap",
+      "bytes": 21688952,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag/bag_0.mcap",
+      "bytes": 21568404,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag/bag_0.mcap",
+      "bytes": 49662305,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/跨阶段_安全验证/过程记录/仿真_310米场景完整负载指令断流_正式复测2_20261013/原始数据/bag/bag_0.mcap",
+      "bytes": 10964849,
+      "ignored": true
+    },
+    {
+      "path": "实验记录/跨阶段_安全验证/过程记录/仿真_310米场景完整负载指令断流_正式复测1_20261013/原始数据/bag/bag_0.mcap",
+      "bytes": 10819244,
+      "ignored": true
+    }
+  ],
+  "all_large_files_ignored": true,
+  "old_staging_and_generated_path_migration_pending": true,
+  "data_preservation": "仅删除旧索引内视频项，文件、对象、原始数据、Git历史均不删除；其他已有暂存保留",
+  "backup_index_file": "暂存索引_修改前.bin"
+}

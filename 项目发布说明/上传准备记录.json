@@ -1,0 +1,18 @@
+{
+  "author_name": "zhr61028-stack",
+  "author_email": "Zhr61028@126.com",
+  "visibility": "public",
+  "visibility_authorization": "User explicitly chose public and authorized proceeding",
+  "current_guides_updated": [
+    "ackermann_sim_ws/README.md",
+    "m0_dev_ws/README.md",
+    "ackermann_sim_ws/项目文档/M3_仿真交付总览.md",
+    "ackermann_sim_ws/项目文档/实车接入清单.md",
+    "ackermann_sim_ws/项目文档/M3_自写节点审查.md",
+    "ackermann_sim_ws/项目文档/粗路网闭环/使用说明.md",
+    "ackermann_sim_ws/项目文档/稳定性与边界/使用说明.md",
+    "ackermann_sim_ws/项目文档/长距离粗路网/使用说明.md"
+  ],
+  "raw_reports_modified": false,
+  "source_change": "Package data installation includes existing long_distance config files; algorithm/vehicle unchanged"
+}

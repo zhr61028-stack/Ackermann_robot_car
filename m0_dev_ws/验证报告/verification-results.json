@@ -1,0 +1,34 @@
+{
+  "tools": "PASS",
+  "ros_cli": "PASS",
+  "rosdep_init_update_check": "PASS",
+  "cpp_python_pubsub": "PASS",
+  "workspace_build_run": "PASS",
+  "rviz_gui": "PASS",
+  "gazebo_gui": "PASS",
+  "ros_gz_clock_scan_cmd_vel_bridge": "PASS",
+  "nav2_differential_drive_goal": {
+    "robot": "TurtleBot3 Waffle differential drive",
+    "result": "TaskResult.SUCCEEDED",
+    "success": true,
+    "initial_xy": [
+      -1.9999999999999998,
+      -0.5
+    ],
+    "goal_xy": [
+      -1.0,
+      -0.5
+    ],
+    "final_tf_xy": [
+      -1.2275982751706245,
+      -0.5547927379157175
+    ],
+    "position_error_m": 0.23410087353306439,
+    "elapsed_wall_s": 2.7004804660000445
+  },
+  "route_server_lifecycle": "active [3]",
+  "smac_hybrid_rpp_project_config": "NOT_VERIFIED",
+  "collision_monitor_fault_injection": "NOT_VERIFIED",
+  "robot_localization_with_real_sensors": "NOT_VERIFIED",
+  "ackermann_navigation": "NOT_VERIFIED"
+}

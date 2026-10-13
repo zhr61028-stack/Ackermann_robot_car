@@ -1,0 +1,79 @@
+[
+  {
+    "Package": "ros-dev-tools",
+    "Version": "1.0.3",
+    "Architecture": "all",
+    "Filename": "pool/main/r/ros-dev-tools/ros-dev-tools_1.0.3_all.deb",
+    "SHA256": "05503d1672ec3a9907c639b5e66952aa34a7e4e4cea849342eaec9d285247db6"
+  },
+  {
+    "Package": "ros-jazzy-desktop",
+    "Version": "0.11.0-1noble.20260905.070740",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-desktop/ros-jazzy-desktop_0.11.0-1noble.20260905.070740_amd64.deb",
+    "SHA256": "54854dbc081a12e2ae1027cdb6edce30f289620a52927daeb613aa0f09e4bdd8"
+  },
+  {
+    "Package": "ros-jazzy-nav2-bringup",
+    "Version": "1.3.13-1noble.20260907.023821",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-nav2-bringup/ros-jazzy-nav2-bringup_1.3.13-1noble.20260907.023821_amd64.deb",
+    "SHA256": "7511caaef40f2aeb386b2fd2bb54b2805a28a0b287a2c57c0c57cffef75ab532"
+  },
+  {
+    "Package": "ros-jazzy-nav2-collision-monitor",
+    "Version": "1.3.13-1noble.20260903.031125",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-nav2-collision-monitor/ros-jazzy-nav2-collision-monitor_1.3.13-1noble.20260903.031125_amd64.deb",
+    "SHA256": "be09e47957787e957facf318f0419b9823bfb2dd70c34e29c855a230e215f6dd"
+  },
+  {
+    "Package": "ros-jazzy-nav2-minimal-tb3-sim",
+    "Version": "1.0.1-1noble.20260905.085912",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-nav2-minimal-tb3-sim/ros-jazzy-nav2-minimal-tb3-sim_1.0.1-1noble.20260905.085912_amd64.deb",
+    "SHA256": "017f9c2cb6adeff676747b4c5641d5368ce342ca675f2068b905e0a20b2fb227"
+  },
+  {
+    "Package": "ros-jazzy-nav2-regulated-pure-pursuit-controller",
+    "Version": "1.3.13-1noble.20260903.031928",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-nav2-regulated-pure-pursuit-controller/ros-jazzy-nav2-regulated-pure-pursuit-controller_1.3.13-1noble.20260903.031928_amd64.deb",
+    "SHA256": "0cba67e68a603fbf07ae6774e23b151d0e0f14a4d231aa4f023819a06776eadc"
+  },
+  {
+    "Package": "ros-jazzy-nav2-route",
+    "Version": "1.3.13-1noble.20260903.032339",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-nav2-route/ros-jazzy-nav2-route_1.3.13-1noble.20260903.032339_amd64.deb",
+    "SHA256": "c4646b08584c874bbccca089b90c96c7c42e34e3e3a7bf030ba1165b50185c38"
+  },
+  {
+    "Package": "ros-jazzy-nav2-smac-planner",
+    "Version": "1.3.13-1noble.20260903.032637",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-nav2-smac-planner/ros-jazzy-nav2-smac-planner_1.3.13-1noble.20260903.032637_amd64.deb",
+    "SHA256": "917c5556fd9e0a6321dec4da1dc3fdf314996e7d71294ccf75a152ca0c150cb6"
+  },
+  {
+    "Package": "ros-jazzy-navigation2",
+    "Version": "1.3.13-1noble.20260905.072714",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-navigation2/ros-jazzy-navigation2_1.3.13-1noble.20260905.072714_amd64.deb",
+    "SHA256": "45a60a12082c1b138128004fa5fa187a8f25811e631fc0130b6a05c1d4ee5a6e"
+  },
+  {
+    "Package": "ros-jazzy-robot-localization",
+    "Version": "3.8.3-1noble.20260903.023731",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-robot-localization/ros-jazzy-robot-localization_3.8.3-1noble.20260903.023731_amd64.deb",
+    "SHA256": "72ff001b0565e425c7f81eb409de5440264a2631922f305e0c34addff673b671"
+  },
+  {
+    "Package": "ros-jazzy-ros-gz",
+    "Version": "1.0.24-1noble.20260905.090616",
+    "Architecture": "amd64",
+    "Filename": "pool/main/r/ros-jazzy-ros-gz/ros-jazzy-ros-gz_1.0.24-1noble.20260905.090616_amd64.deb",
+    "SHA256": "2cd2470a85fb17cb7cfff847c824e005aabf96f2843a52fff8517704d1520fb6"
+  }
+]

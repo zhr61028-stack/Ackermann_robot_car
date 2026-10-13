@@ -1,0 +1,75 @@
+{
+  "/odom": {
+    "full_record_max_gap_s": 0.02201247215270996,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      53.204195499420166,
+      53.226207971572876
+    ],
+    "task_samples": 11944,
+    "task_max_receive_gap_s": 0.02201247215270996,
+    "task_p99_gap_s": 0.020481662750244142
+  },
+  "/ground_truth/poses": {
+    "full_record_max_gap_s": 0.0219419002532959,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      189.36909937858582,
+      189.3910412788391
+    ],
+    "task_samples": 11944,
+    "task_max_receive_gap_s": 0.0219419002532959,
+    "task_p99_gap_s": 0.020423312187194825
+  },
+  "/route/nav_cmd_vel": {
+    "full_record_max_gap_s": 0.02612018585205078,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      5.549526691436768,
+      5.575646877288818
+    ],
+    "task_samples": 9554,
+    "task_max_receive_gap_s": 0.02612018585205078,
+    "task_p99_gap_s": 0.025173254013061523
+  },
+  "/sim/cmd_vel": {
+    "full_record_max_gap_s": 0.003370046615600586,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      219.23051834106445,
+      219.23388838768005
+    ],
+    "task_samples": 119441,
+    "task_max_receive_gap_s": 0.003370046615600586,
+    "task_p99_gap_s": 0.002162270545959473
+  },
+  "/sim/watchdog": {
+    "full_record_max_gap_s": 0.0035653114318847656,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      39.994550943374634,
+      39.99811625480652
+    ],
+    "task_samples": 119441,
+    "task_max_receive_gap_s": 0.0035653114318847656,
+    "task_p99_gap_s": 0.002175569534301758
+  },
+  "/joint_states": {
+    "full_record_max_gap_s": 0.002925872802734375,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      53.22300910949707,
+      53.225934982299805
+    ],
+    "task_samples": 238872,
+    "task_max_receive_gap_s": 0.002925872802734375,
+    "task_p99_gap_s": 0.0012857913970947266
+  },
+  "/route/status": {
+    "full_record_max_gap_s": 0.06934809684753418,
+    "full_max_gap_interval_relative_to_task_request_s": [
+      -0.026961088180541992,
+      0.04238700866699219
+    ],
+    "task_samples": 4778,
+    "task_max_receive_gap_s": 0.051943302154541016,
+    "task_p99_gap_s": 0.050656919479370115
+  },
+  "task_request_bag_time": 1791891461.1463103,
+  "first_finished_bag_time": 1791891700.0284164,
+  "note": "Task interval includes routing/planning/running, begins only at one final goal request. Startup record discovery and terminal hold are separately disclosed."
+}

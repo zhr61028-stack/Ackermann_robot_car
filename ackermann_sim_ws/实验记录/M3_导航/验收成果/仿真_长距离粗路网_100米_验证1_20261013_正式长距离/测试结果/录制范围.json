@@ -1,0 +1,35 @@
+{
+  "full_topics": [
+    "/clock",
+    "/odom",
+    "/ground_truth/poses",
+    "/route/request",
+    "/route/path",
+    "/route/selected",
+    "/route/local_goal",
+    "/route/status",
+    "/route/nav_cmd_vel",
+    "/cmd_vel",
+    "/sim/cmd_vel",
+    "/sim/watchdog",
+    "/plan",
+    "/tf",
+    "/tf_static",
+    "/map",
+    "/joint_states",
+    "/sim/stability_event",
+    "/sim/contacts/base_link",
+    "/sim/contacts/front_left_wheel",
+    "/sim/contacts/front_right_wheel",
+    "/sim/contacts/rear_left_wheel",
+    "/sim/contacts/rear_right_wheel"
+  ],
+  "excluded_repeated_auxiliary": [
+    "/local_costmap/costmap",
+    "/global_costmap/costmap",
+    "/trajectory/*",
+    "/received_global_plan",
+    "/lookahead_point"
+  ],
+  "note": "关键topic全部消息；不抽样控制/真值/关节/接触；map静态一次；完整录包指全程关键数据而非所有ROS辅助topic"
+}

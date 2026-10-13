@@ -1,0 +1,121 @@
+[
+  {
+    "phase": "小型闭环",
+    "source": "src/ackermann_sim/config/vehicle.yaml",
+    "recorded_sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "actual_sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "小型闭环",
+    "source": "src/ackermann_nav/config/nav2.yaml",
+    "recorded_sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "actual_sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "小型闭环",
+    "source": "src/ackermann_sim/ackermann_sim/guard.py",
+    "recorded_sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "actual_sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "稳定性",
+    "source": "src/ackermann_sim/config/vehicle.yaml",
+    "recorded_sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "actual_sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "稳定性",
+    "source": "src/ackermann_sim/ackermann_sim/guard.py",
+    "recorded_sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "actual_sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "稳定性",
+    "source": "src/ackermann_nav/config/nav2.yaml",
+    "recorded_sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "actual_sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "稳定性",
+    "source": "src/ackermann_route/config/roads.yaml",
+    "recorded_sha256": "e9a038aa9b370bf8cf72c8613674f38fa975fe6ed9edc50239371d5504c50c9a",
+    "actual_sha256": "e9a038aa9b370bf8cf72c8613674f38fa975fe6ed9edc50239371d5504c50c9a",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "稳定性",
+    "source": "src/ackermann_route/config/local_test_graph.geojson",
+    "recorded_sha256": "1059dc259d68810ac18cb4eb3b3bfe4b73737852af66e6c1dbb45575229c2dca",
+    "actual_sha256": "1059dc259d68810ac18cb4eb3b3bfe4b73737852af66e6c1dbb45575229c2dca",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "稳定性",
+    "source": "src/ackermann_route/config/route_server.yaml",
+    "recorded_sha256": "64af516d46e1c28c6afa1fb9095e10501bfb601b3ad1acc120d8ebead708461f",
+    "actual_sha256": "64af516d46e1c28c6afa1fb9095e10501bfb601b3ad1acc120d8ebead708461f",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_sim/config/vehicle.yaml",
+    "recorded_sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "actual_sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_sim/ackermann_sim/guard.py",
+    "recorded_sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "actual_sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_nav/config/nav2.yaml",
+    "recorded_sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "actual_sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_route/config/roads.yaml",
+    "recorded_sha256": "e9a038aa9b370bf8cf72c8613674f38fa975fe6ed9edc50239371d5504c50c9a",
+    "actual_sha256": "e9a038aa9b370bf8cf72c8613674f38fa975fe6ed9edc50239371d5504c50c9a",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_route/config/route_server.yaml",
+    "recorded_sha256": "64af516d46e1c28c6afa1fb9095e10501bfb601b3ad1acc120d8ebead708461f",
+    "actual_sha256": "64af516d46e1c28c6afa1fb9095e10501bfb601b3ad1acc120d8ebead708461f",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_route/ackermann_route/generator.py",
+    "recorded_sha256": "8763a3314ed01b51a6a379663f18f2bd9fb18bfeac6dd77ed15b89965bfe4ade",
+    "actual_sha256": "8763a3314ed01b51a6a379663f18f2bd9fb18bfeac6dd77ed15b89965bfe4ade",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_route/launch/route.launch.py",
+    "recorded_sha256": "d89e0103187974ffe3d0a1fb42448f90054af9fcf346ed7d674ff4fc6912869f",
+    "actual_sha256": "d89e0103187974ffe3d0a1fb42448f90054af9fcf346ed7d674ff4fc6912869f",
+    "consistent_before_closure": true
+  },
+  {
+    "phase": "长距离",
+    "source": "src/ackermann_route/ackermann_route/assets.py",
+    "recorded_sha256": "85f140ad4d9ae69296691c5e6f37e8572d3a4f520e71c3550609e47f1d4ab9e5",
+    "actual_sha256": "85f140ad4d9ae69296691c5e6f37e8572d3a4f520e71c3550609e47f1d4ab9e5",
+    "consistent_before_closure": true
+  }
+]

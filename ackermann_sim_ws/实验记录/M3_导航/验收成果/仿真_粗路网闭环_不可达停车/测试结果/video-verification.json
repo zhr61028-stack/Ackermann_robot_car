@@ -1,0 +1,19 @@
+{
+  "frame_count": 69,
+  "fps": 10.0,
+  "duration_s": 6.9,
+  "checked_frames": [
+    {
+      "frame": 0,
+      "decoded": true
+    },
+    {
+      "frame": 34,
+      "decoded": true
+    },
+    {
+      "frame": 68,
+      "decoded": true
+    }
+  ]
+}

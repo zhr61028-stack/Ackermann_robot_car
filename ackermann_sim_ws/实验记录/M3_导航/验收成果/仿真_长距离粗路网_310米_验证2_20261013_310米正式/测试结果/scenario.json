@@ -1,0 +1,33 @@
+{
+  "name": "310米_验证2",
+  "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/long_distance/道路_310米.yaml",
+  "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/long_distance/路网_310米.geojson",
+  "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+  "map_updates": false,
+  "start": "A",
+  "goal": 6,
+  "target": [
+    290,
+    0,
+    0
+  ],
+  "expected": "FINISHED",
+  "expected_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "required_junctions": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "graph_route_length_m": 310,
+  "minimum_graph_length_m": 300,
+  "timeout_s": 1455.0,
+  "video": true
+}

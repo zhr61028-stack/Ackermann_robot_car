@@ -1,0 +1,13 @@
+{
+  "codec": "avc1",
+  "frames": 2405,
+  "fps": 10.0,
+  "duration_video_s": 240.5,
+  "decoded_frames": [
+    0,
+    1202,
+    2404
+  ],
+  "fast_preview": "快速浏览_10倍速.mp4",
+  "timing_note": "Full capture nominal10fps; compare wall clock overlay. Preview explicitly10x, not real-time evidence."
+}

@@ -1,0 +1,22 @@
+{
+  "no_intermediate_pause": true,
+  "intermediate_pauses": [],
+  "maximum_route_point_distance_m": 0.43642754558789904,
+  "maximum_current_plan_point_distance_m": 0.07013949607689748,
+  "junction_transitions": [
+    {
+      "t": 1791885928.7219064,
+      "junctions": [
+        2
+      ]
+    },
+    {
+      "t": 1791885945.0718603,
+      "junctions": [
+        2,
+        3
+      ]
+    }
+  ],
+  "all_pass": true
+}

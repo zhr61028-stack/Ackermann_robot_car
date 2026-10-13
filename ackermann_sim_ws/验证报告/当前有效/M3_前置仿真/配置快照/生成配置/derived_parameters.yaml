@@ -1,0 +1,46 @@
+assumption_status: "\u4EFF\u771F\u5047\u8BBE\uFF0C\u5F85\u5B9E\u6D4B"
+footprint:
+- - -0.19000000000000003
+  - -0.3944030650891055
+- - 0.9900000000000001
+  - -0.3944030650891055
+- - 0.9900000000000001
+  - 0.3944030650891055
+- - -0.19000000000000003
+  - 0.3944030650891055
+localization: TEST_GAZEBO_TRUTH
+navigation_frame: odom
+physical_min_radius_m: 1.8921779360312885
+planner_min_radius_m: 2.0813957296344174
+scene:
+  bounds_m:
+  - -5.0
+  - -8.0
+  - 24.0
+  - 12.0
+  goals:
+  - name: straight
+    x: 4.0
+    y: 0.0
+    yaw: 0.0
+  - name: turn
+    x: 10.0
+    y: 3.0
+    yaw: 0.0
+  - name: known_obstacle
+    x: 19.0
+    y: 3.0
+    yaw: 0.0
+  obstacles:
+  - name: known_box
+    size_x: 1.2
+    size_y: 2.2
+    size_z: 1.0
+    x: 14.0
+    y: 3.0
+  resolution_m: 0.05
+  validation:
+    actual_curvature_tolerance_per_m: 0.03
+    endpoint_position_tolerance_m: 0.25
+    endpoint_yaw_tolerance_rad: 0.25
+    maximum_goal_duration_s: 120.0

@@ -1,0 +1,42 @@
+{
+  "/odom": {
+    "receive_gap_s": 0.12015461921691895,
+    "header_gap_s": 0.019999999999999574,
+    "before": {
+      "wall_after_task_s": 2.3528387546539307,
+      "sim": 15.18,
+      "x": 0.8263329373951586,
+      "y": 3.4108274897072637e-10,
+      "v": 0.399999999999637,
+      "w": 3.99870055865697e-10
+    },
+    "after": {
+      "wall_after_task_s": 2.4729933738708496,
+      "sim": 15.2,
+      "x": 0.834332937395153,
+      "y": 3.477195444486169e-10,
+      "v": 0.39999999999973135,
+      "w": 3.998699335078225e-10
+    }
+  },
+  "/joint_states": {
+    "receive_gap_s": 0.10148501396179199,
+    "header_gap_s": 0.000999999999990564,
+    "before": {
+      "wall_after_task_s": 57.57986497879028,
+      "sim": 70.308,
+      "steering": {
+        "front_left_wheel_steering_joint": 7.999988266799819e-10,
+        "front_right_wheel_steering_joint": 7.999988265999475e-10
+      }
+    },
+    "after": {
+      "wall_after_task_s": 57.681349992752075,
+      "sim": 70.309,
+      "steering": {
+        "front_left_wheel_steering_joint": 7.999988267359737e-10,
+        "front_right_wheel_steering_joint": 7.999988265690574e-10
+      }
+    }
+  }
+}

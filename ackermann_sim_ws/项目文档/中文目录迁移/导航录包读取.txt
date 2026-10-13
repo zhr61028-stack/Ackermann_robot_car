@@ -1,0 +1,30 @@
+
+Files:             bag_0.mcap
+Bag size:          200.8 MiB
+Storage id:        mcap
+ROS Distro:        jazzy
+Duration:          65.429289128s
+Start:             Oct 12 2026 17:58:06.156338239 (1791799086.156338239)
+End:               Oct 12 2026 17:59:11.585627367 (1791799151.585627367)
+Messages:          472312
+Topic information: Topic: /clock | Type: rosgraph_msgs/msg/Clock | Count: 65059 | Serialization Format: cdr
+                   Topic: /cmd_vel | Type: geometry_msgs/msg/Twist | Count: 2428 | Serialization Format: cdr
+                   Topic: /ground_truth/poses | Type: tf2_msgs/msg/TFMessage | Count: 3261 | Serialization Format: cdr
+                   Topic: /joint_states | Type: sensor_msgs/msg/JointState | Count: 65057 | Serialization Format: cdr
+                   Topic: /local_costmap/costmap | Type: nav_msgs/msg/OccupancyGrid | Count: 109 | Serialization Format: cdr
+                   Topic: /map | Type: nav_msgs/msg/OccupancyGrid | Count: 1 | Serialization Format: cdr
+                   Topic: /odom | Type: nav_msgs/msg/Odometry | Count: 3267 | Serialization Format: cdr
+                   Topic: /plan | Type: nav_msgs/msg/Path | Count: 3 | Serialization Format: cdr
+                   Topic: /sim/cmd_vel | Type: geometry_msgs/msg/Twist | Count: 32530 | Serialization Format: cdr
+                   Topic: /sim/contacts/base_link | Type: ros_gz_interfaces/msg/Contacts | Count: 0 | Serialization Format: cdr
+                   Topic: /sim/contacts/front_left_wheel | Type: ros_gz_interfaces/msg/Contacts | Count: 65058 | Serialization Format: cdr
+                   Topic: /sim/contacts/front_right_wheel | Type: ros_gz_interfaces/msg/Contacts | Count: 65059 | Serialization Format: cdr
+                   Topic: /sim/contacts/rear_left_wheel | Type: ros_gz_interfaces/msg/Contacts | Count: 65060 | Serialization Format: cdr
+                   Topic: /sim/contacts/rear_right_wheel | Type: ros_gz_interfaces/msg/Contacts | Count: 65060 | Serialization Format: cdr
+                   Topic: /sim/test_phase | Type: std_msgs/msg/String | Count: 3 | Serialization Format: cdr
+                   Topic: /sim/watchdog | Type: std_msgs/msg/String | Count: 32534 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 4561 | Serialization Format: cdr
+                   Topic: /tf_static | Type: tf2_msgs/msg/TFMessage | Count: 1 | Serialization Format: cdr
+                   Topic: /wheel/odom | Type: nav_msgs/msg/Odometry | Count: 3261 | Serialization Format: cdr
+Service:           0
+Service information: 

@@ -1,0 +1,7 @@
+{
+  "first_timeout_bag_epoch_s": 1791895611.0853062,
+  "safe_samples_after_timeout": 1495,
+  "nonzero_safe_samples_after_timeout": 0,
+  "grace_s": 0,
+  "all_pass": true
+}

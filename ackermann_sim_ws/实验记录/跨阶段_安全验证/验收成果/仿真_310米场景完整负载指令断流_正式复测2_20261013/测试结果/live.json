@@ -1,0 +1,62 @@
+{
+  "trip_monotonic_s": 10845.651989653,
+  "upstream_state_at_trip": {
+    "state": "RUNNING",
+    "reason": "",
+    "progress_m": 1.5999995470046997,
+    "visited_junctions": [],
+    "local_path_sequence": 2,
+    "monotonic_s": 10845.641095671
+  },
+  "pose_at_trip": {
+    "t": 10845.651463658,
+    "sim": 11.76,
+    "x": 1.6263329373945203,
+    "y": 1.321458529798645e-09,
+    "yaw": 1.6254076255363288e-09,
+    "z": 0.09999999384329045,
+    "frame": "ackermann_test",
+    "child": "ackermann"
+  },
+  "topology": {
+    "guard_input_subscribers": [
+      {
+        "node": "command_guard",
+        "namespace": "/"
+      },
+      {
+        "node": "rosbag2_recorder",
+        "namespace": "/"
+      }
+    ],
+    "guard_input_publishers": [
+      {
+        "node": "motion_validation",
+        "namespace": "/"
+      }
+    ]
+  },
+  "gate_latched": true,
+  "forwarded_messages": 233,
+  "blocked_upstream_messages": 120,
+  "final_pose": {
+    "t": 10848.651519574,
+    "sim": 14.76,
+    "x": 1.6744000000228225,
+    "y": 1.400740391366091e-09,
+    "yaw": 1.6734592357635151e-09,
+    "z": 0.09999999452015353,
+    "frame": "ackermann_test",
+    "child": "ackermann"
+  },
+  "final_state": {
+    "state": "RUNNING",
+    "reason": "",
+    "progress_m": 1.6499994993209839,
+    "visited_junctions": [],
+    "local_path_sequence": 3,
+    "monotonic_s": 10848.641323042
+  },
+  "scope": "Only control input interruption with guard alive; not process crash/disconnect/MCU.",
+  "simulation_scene": "310m graph; full Nav2/Gazebo/RViz launch; interrupted early during ongoing task"
+}

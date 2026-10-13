@@ -1,0 +1,23 @@
+[
+  {
+    "experiment": "仿真_长距离粗路网_100米_验证1_20261013_正式长距离",
+    "frames": 241,
+    "fps": 10.0,
+    "seconds": 24.1,
+    "decoded_first_middle_last": true
+  },
+  {
+    "experiment": "仿真_长距离粗路网_310米_验证1_20261013_310米正式",
+    "frames": 764,
+    "fps": 10.0,
+    "seconds": 76.4,
+    "decoded_first_middle_last": true
+  },
+  {
+    "experiment": "仿真_长距离粗路网_310米_验证2_20261013_310米正式",
+    "frames": 764,
+    "fps": 10.0,
+    "seconds": 76.4,
+    "decoded_first_middle_last": true
+  }
+]

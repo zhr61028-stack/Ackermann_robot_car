@@ -1,0 +1,445 @@
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  libfwupd2
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  comerr-dev cppzmq-dev fonts-open-sans freeglut3-dev glslang-dev glslc
+  krb5-multidev libavdevice-dev libavdevice60 libavfilter-dev libbenchmark-dev
+  libbenchmark1.8.3 libbsd-dev libccd-dev libccd2 libcli11-dev libfcl-dev
+  libfcl0.7 libfreeimage-dev libfreeimage3 libgflags-dev libgflags2.2
+  libglut-dev libglut3.12 libgssrpc4t64 libgts-dev libjack-jackd2-0 libjxr0t64
+  libkadm5clnt-mit12 libkadm5srv-mit12 libkdb5-10t64 libkrb5-dev libmd-dev
+  libnorm-dev liboctomap-dev liboctomap1.9t64 libode-dev libode8t64
+  libogre-1.9-dev libogre-1.9.0t64 libopenal-data libopenal1 libpcre16-3
+  libpcre3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpgm-dev libpoco-dev
+  libpocoactiverecord80t64 libpococrypto80t64 libpocodata80t64
+  libpocodatamysql80t64 libpocodataodbc80t64 libpocodatapostgresql80t64
+  libpocodatasqlite80t64 libpocoencodings80t64 libpocofoundation80t64
+  libpocojson80t64 libpocojwt80t64 libpocomongodb80t64 libpoconet80t64
+  libpoconetssl80t64 libpocoredis80t64 libpocoutil80t64 libpocoxml80t64
+  libpocozip80t64 libpostproc-dev libprotobuf-dev libprotobuf-lite32t64
+  libprotoc-dev libprotoc32t64 libqt5charts5 libqt5location5
+  libqt5location5-plugins libqt5positioning5-plugins libqt5positioningquick5
+  libqt5quickcontrols2-5 libqt5quicktemplates2-5 libqt5serialport5 libraw23t64
+  libruby libruby3.2 libshaderc-dev libshaderc1 libsodium-dev liburdfdom-dev
+  liburdfdom-headers-dev liburdfdom-model-state4.0 liburdfdom-model4.0
+  liburdfdom-sensor4.0 liburdfdom-world4.0 libx11-xcb-dev libxcb-randr0-dev
+  libxcb-render0-dev libzip-dev libzip4t64 libzmq3-dev libzzip-0-13t64
+  libzzip-dev protobuf-compiler python3-protobuf
+  qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform
+  qml-module-qt-labs-settings qml-module-qtcharts
+  qml-module-qtgraphicaleffects qml-module-qtlocation qml-module-qtpositioning
+  qml-module-qtqml qml-module-qtqml-models2 qml-module-qtquick-controls
+  qml-module-qtquick-controls2 qml-module-qtquick-dialogs
+  qml-module-qtquick-extras qml-module-qtquick-layouts
+  qml-module-qtquick-privatewidgets qml-module-qtquick-templates2
+  qml-module-qtquick-window2 qml-module-qtquick2 qtquickcontrols2-5-dev rake
+  rapidjson-dev ros-jazzy-actuator-msgs
+  ros-jazzy-compressed-depth-image-transport
+  ros-jazzy-compressed-image-transport ros-jazzy-gps-msgs
+  ros-jazzy-gz-common-vendor ros-jazzy-gz-dartsim-vendor
+  ros-jazzy-gz-fuel-tools-vendor ros-jazzy-gz-gui-vendor
+  ros-jazzy-gz-msgs-vendor ros-jazzy-gz-ogre-next-vendor
+  ros-jazzy-gz-physics-vendor ros-jazzy-gz-plugin-vendor
+  ros-jazzy-gz-rendering-vendor ros-jazzy-gz-sensors-vendor
+  ros-jazzy-gz-sim-vendor ros-jazzy-gz-tools-vendor
+  ros-jazzy-gz-transport-vendor ros-jazzy-image-transport-plugins
+  ros-jazzy-marine-acoustic-msgs ros-jazzy-ros-gz-bridge
+  ros-jazzy-ros-gz-image ros-jazzy-ros-gz-interfaces ros-jazzy-ros-gz-sim
+  ros-jazzy-ros-gz-sim-demos ros-jazzy-sdformat-urdf ros-jazzy-sdformat-vendor
+  ros-jazzy-simulation-interfaces ros-jazzy-theora-image-transport
+  ros-jazzy-vision-msgs ros-jazzy-xacro ros-jazzy-zstd-image-transport ruby
+  ruby-net-telnet ruby-rubygems ruby-sdbm ruby-webrick ruby-xmlrpc ruby3.2
+  rubygems-integration spirv-headers spirv-tools
+Suggested packages:
+  doc-base glslang-tools krb5-doc libbenchmark-tools krb5-user libgts-doc
+  jackd2 libnorm-doc ogre-1.9-doc libogre-1.9.0v5-dbg libportaudio2
+  protobuf-mode-el rapidjson-doc ri ruby-dev bundler
+Recommended packages:
+  fonts-lato
+The following NEW packages will be installed:
+  comerr-dev cppzmq-dev fonts-open-sans freeglut3-dev glslang-dev glslc
+  krb5-multidev libavdevice-dev libavdevice60 libavfilter-dev libbenchmark-dev
+  libbenchmark1.8.3 libbsd-dev libccd-dev libccd2 libcli11-dev libfcl-dev
+  libfcl0.7 libfreeimage-dev libfreeimage3 libgflags-dev libgflags2.2
+  libglut-dev libglut3.12 libgssrpc4t64 libgts-dev libjack-jackd2-0 libjxr0t64
+  libkadm5clnt-mit12 libkadm5srv-mit12 libkdb5-10t64 libkrb5-dev libmd-dev
+  libnorm-dev liboctomap-dev liboctomap1.9t64 libode-dev libode8t64
+  libogre-1.9-dev libogre-1.9.0t64 libopenal-data libopenal1 libpcre16-3
+  libpcre3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpgm-dev libpoco-dev
+  libpocoactiverecord80t64 libpococrypto80t64 libpocodata80t64
+  libpocodatamysql80t64 libpocodataodbc80t64 libpocodatapostgresql80t64
+  libpocodatasqlite80t64 libpocoencodings80t64 libpocofoundation80t64
+  libpocojson80t64 libpocojwt80t64 libpocomongodb80t64 libpoconet80t64
+  libpoconetssl80t64 libpocoredis80t64 libpocoutil80t64 libpocoxml80t64
+  libpocozip80t64 libpostproc-dev libprotobuf-dev libprotobuf-lite32t64
+  libprotoc-dev libprotoc32t64 libqt5charts5 libqt5location5
+  libqt5location5-plugins libqt5positioning5-plugins libqt5positioningquick5
+  libqt5quickcontrols2-5 libqt5quicktemplates2-5 libqt5serialport5 libraw23t64
+  libruby libruby3.2 libshaderc-dev libshaderc1 libsodium-dev liburdfdom-dev
+  liburdfdom-headers-dev liburdfdom-model-state4.0 liburdfdom-model4.0
+  liburdfdom-sensor4.0 liburdfdom-world4.0 libx11-xcb-dev libxcb-randr0-dev
+  libxcb-render0-dev libzip-dev libzip4t64 libzmq3-dev libzzip-0-13t64
+  libzzip-dev protobuf-compiler python3-protobuf
+  qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform
+  qml-module-qt-labs-settings qml-module-qtcharts
+  qml-module-qtgraphicaleffects qml-module-qtlocation qml-module-qtpositioning
+  qml-module-qtqml qml-module-qtqml-models2 qml-module-qtquick-controls
+  qml-module-qtquick-controls2 qml-module-qtquick-dialogs
+  qml-module-qtquick-extras qml-module-qtquick-layouts
+  qml-module-qtquick-privatewidgets qml-module-qtquick-templates2
+  qml-module-qtquick-window2 qml-module-qtquick2 qtquickcontrols2-5-dev rake
+  rapidjson-dev ros-jazzy-actuator-msgs
+  ros-jazzy-compressed-depth-image-transport
+  ros-jazzy-compressed-image-transport ros-jazzy-gps-msgs
+  ros-jazzy-gz-common-vendor ros-jazzy-gz-dartsim-vendor
+  ros-jazzy-gz-fuel-tools-vendor ros-jazzy-gz-gui-vendor
+  ros-jazzy-gz-msgs-vendor ros-jazzy-gz-ogre-next-vendor
+  ros-jazzy-gz-physics-vendor ros-jazzy-gz-plugin-vendor
+  ros-jazzy-gz-rendering-vendor ros-jazzy-gz-sensors-vendor
+  ros-jazzy-gz-sim-vendor ros-jazzy-gz-tools-vendor
+  ros-jazzy-gz-transport-vendor ros-jazzy-image-transport-plugins
+  ros-jazzy-marine-acoustic-msgs ros-jazzy-ros-gz ros-jazzy-ros-gz-bridge
+  ros-jazzy-ros-gz-image ros-jazzy-ros-gz-interfaces ros-jazzy-ros-gz-sim
+  ros-jazzy-ros-gz-sim-demos ros-jazzy-sdformat-urdf ros-jazzy-sdformat-vendor
+  ros-jazzy-simulation-interfaces ros-jazzy-theora-image-transport
+  ros-jazzy-vision-msgs ros-jazzy-xacro ros-jazzy-zstd-image-transport ruby
+  ruby-net-telnet ruby-rubygems ruby-sdbm ruby-webrick ruby-xmlrpc ruby3.2
+  rubygems-integration spirv-headers spirv-tools
+0 upgraded, 165 newly installed, 0 to remove and 3 not upgraded.
+Inst qml-module-qtquick-window2 (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qtquick2 (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qtgraphicaleffects (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtqml (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qtqml-models2 (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qtquick-layouts (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qtquick-controls (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst fonts-open-sans (1.11-2 Ubuntu:24.04/noble [all])
+Inst qml-module-qtquick-extras (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst libpgm-dev (5.3.128~dfsg-2.1build1 Ubuntu:24.04/noble [amd64])
+Inst libsodium-dev (1.0.18-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libnorm-dev (1.5.9+dfsg-3.1build1 Ubuntu:24.04/noble [amd64])
+Inst comerr-dev (2.1-1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libgssrpc4t64 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libkadm5clnt-mit12 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libkdb5-10t64 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libkadm5srv-mit12 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst krb5-multidev (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libkrb5-dev (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Inst libmd-dev (1.1.0-2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libbsd-dev (0.12.1-1build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libzmq3-dev (4.3.5-1build2 Ubuntu:24.04/noble [amd64])
+Inst cppzmq-dev (4.10.0-1build1 Ubuntu:24.04/noble [amd64])
+Inst libglut3.12 (3.4.0-1build1 Ubuntu:24.04/noble [amd64])
+Inst libglut-dev (3.4.0-1build1 Ubuntu:24.04/noble [amd64])
+Inst freeglut3-dev (3.4.0-1build1 Ubuntu:24.04/noble [amd64])
+Inst spirv-tools (2025.1~rc1-1~ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst glslang-dev (15.1.0-2~ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libshaderc1 (2023.8-1build1 Ubuntu:24.04/noble [amd64])
+Inst glslc (2023.8-1build1 Ubuntu:24.04/noble [amd64])
+Inst libjack-jackd2-0 (1.9.21~dfsg-3ubuntu3 Ubuntu:24.04/noble [amd64])
+Inst libopenal-data (1:1.23.1-4build1 Ubuntu:24.04/noble [all])
+Inst libopenal1 (1:1.23.1-4build1 Ubuntu:24.04/noble [amd64])
+Inst libavdevice60 (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Inst libpostproc-dev (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Inst libavfilter-dev (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Inst libavdevice-dev (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Inst libbenchmark1.8.3 (1.8.3-3 Ubuntu:24.04/noble [amd64])
+Inst libbenchmark-dev (1.8.3-3 Ubuntu:24.04/noble [amd64])
+Inst libcli11-dev (2.4.1+ds-1 Ubuntu:24.04/noble [all])
+Inst libccd2 (2.1-2 Ubuntu:24.04/noble [amd64])
+Inst liboctomap1.9t64 (1.9.7+dfsg-3.1build3 Ubuntu:24.04/noble [amd64])
+Inst libfcl0.7 (0.7.0-3build2 Ubuntu:24.04/noble [amd64])
+Inst libgflags2.2 (2.2.2-2build1 Ubuntu:24.04/noble [amd64])
+Inst libgflags-dev (2.2.2-2build1 Ubuntu:24.04/noble [amd64])
+Inst libgts-dev (0.7.6+darcs121130-5.2build1 Ubuntu:24.04/noble [amd64])
+Inst libjxr0t64 (1.2~git20170615.f752187-5.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst liboctomap-dev (1.9.7+dfsg-3.1build3 Ubuntu:24.04/noble [amd64])
+Inst libode8t64 (2:0.16.2-1.1build1 Ubuntu:24.04/noble [amd64])
+Inst libode-dev (2:0.16.2-1.1build1 Ubuntu:24.04/noble [amd64])
+Inst libraw23t64 (0.21.2-2.1ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libfreeimage3 (3.18.0+ds2-10build4 Ubuntu:24.04/noble [amd64])
+Inst libzzip-0-13t64 (0.13.72+dfsg.1-1.2build1 Ubuntu:24.04/noble [amd64])
+Inst libogre-1.9.0t64 (1.9.0+dfsg1-14.1build2 Ubuntu:24.04/noble [amd64])
+Inst libogre-1.9-dev (1.9.0+dfsg1-14.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpcre16-3 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Inst libpcre3 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Inst libpcre32-3 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Inst libpcrecpp0v5 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Inst libpcre3-dev (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Inst libpocofoundation80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocodata80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocoactiverecord80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpococrypto80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocoencodings80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocojson80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocojwt80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocodatamysql80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocodatapostgresql80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpoconet80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocomongodb80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocoxml80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocoutil80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpoconetssl80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocodataodbc80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocodatasqlite80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocoredis80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpocozip80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libpoco-dev (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Inst libprotobuf-lite32t64 (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libprotoc32t64 (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libqt5charts5 (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5positioningquick5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5location5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5location5-plugins (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5serialport5 (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5positioning5-plugins (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5quicktemplates2-5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst libqt5quickcontrols2-5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst rubygems-integration (1.18 Ubuntu:24.04/noble [all])
+Inst ruby3.2 (3.2.3-1ubuntu0.24.04.8 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64]) []
+Inst ruby-rubygems (3.4.20-1 Ubuntu:24.04/noble [all]) []
+Inst ruby (1:3.2~ubuntu1 Ubuntu:24.04/noble [amd64]) []
+Inst rake (13.0.6-3 Ubuntu:24.04/noble [all]) []
+Inst ruby-net-telnet (0.2.0-1 Ubuntu:24.04/noble [all]) []
+Inst ruby-webrick (1.8.1-1ubuntu0.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all]) []
+Inst ruby-xmlrpc (0.3.2-2 Ubuntu:24.04/noble [all]) []
+Inst ruby-sdbm (1.0.0-5build4 Ubuntu:24.04/noble [amd64]) []
+Inst libruby3.2 (3.2.3-1ubuntu0.24.04.8 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64]) []
+Inst libruby (1:3.2~ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst spirv-headers (1.6.1+1.4.309.0-1~ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Inst libshaderc-dev (2023.8-1build1 Ubuntu:24.04/noble [amd64])
+Inst liburdfdom-model-state4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst liburdfdom-model4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst liburdfdom-sensor4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst liburdfdom-world4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst libx11-xcb-dev (2:1.8.7-1build1 Ubuntu:24.04/noble [amd64])
+Inst libxcb-render0-dev (1.15-1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libxcb-randr0-dev (1.15-1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libzip4t64 (1.7.3-1.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libzip-dev (1.7.3-1.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libzzip-dev (0.13.72+dfsg.1-1.2build1 Ubuntu:24.04/noble [amd64])
+Inst python3-protobuf (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst qml-module-qt-labs-folderlistmodel (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qt-labs-platform (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qt-labs-settings (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst qml-module-qtcharts (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtlocation (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtpositioning (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtquick-templates2 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtquick-controls2 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtquick-privatewidgets (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst qml-module-qtquick-dialogs (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Inst qtquickcontrols2-5-dev (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Inst rapidjson-dev (1.1.0+dfsg2-7.2 Ubuntu:24.04/noble [all])
+Inst ros-jazzy-actuator-msgs (0.0.1-4noble.20260902.024100 ROS noble:noble [amd64])
+Inst ros-jazzy-compressed-depth-image-transport (4.0.7-1noble.20260903.071753 ROS noble:noble [amd64])
+Inst ros-jazzy-compressed-image-transport (4.0.7-1noble.20260903.072043 ROS noble:noble [amd64])
+Inst ros-jazzy-gps-msgs (3.1.1-1noble.20260902.030750 ROS noble:noble [amd64])
+Inst libfreeimage-dev (3.18.0+ds2-10build4 Ubuntu:24.04/noble [amd64])
+Inst ros-jazzy-gz-common-vendor (0.0.10-1noble.20260905.033536 ROS noble:noble [amd64])
+Inst libccd-dev (2.1-2 Ubuntu:24.04/noble [amd64])
+Inst libfcl-dev (0.7.0-3build2 Ubuntu:24.04/noble [amd64])
+Inst liburdfdom-headers-dev (1.0.5-3 Ubuntu:24.04/noble [all])
+Inst liburdfdom-dev (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Inst ros-jazzy-gz-dartsim-vendor (0.0.3-1noble.20260225.232143 ROS noble:noble [amd64])
+Inst libprotobuf-dev (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libprotoc-dev (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst protobuf-compiler (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst ros-jazzy-gz-tools-vendor (0.0.8-1noble.20260820.143431 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-msgs-vendor (0.0.8-1noble.20260905.033532 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-fuel-tools-vendor (0.0.6-1noble.20260905.065120 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-plugin-vendor (0.0.5-1noble.20260820.145930 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-ogre-next-vendor (0.0.5-1noble.20260225.232146 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-rendering-vendor (0.0.7-1noble.20260905.065113 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-transport-vendor (0.0.9-1noble.20260905.065154 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-gui-vendor (0.0.5-1noble.20260905.071619 ROS noble:noble [amd64])
+Inst ros-jazzy-sdformat-vendor (0.0.14-1noble.20260905.033543 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-physics-vendor (0.0.9-1noble.20260905.065116 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-sensors-vendor (0.0.6-1noble.20260905.071631 ROS noble:noble [amd64])
+Inst ros-jazzy-gz-sim-vendor (0.0.13-1noble.20260905.073557 ROS noble:noble [amd64])
+Inst ros-jazzy-theora-image-transport (4.0.7-1noble.20260903.073409 ROS noble:noble [amd64])
+Inst ros-jazzy-zstd-image-transport (4.0.7-1noble.20260903.073902 ROS noble:noble [amd64])
+Inst ros-jazzy-image-transport-plugins (4.0.7-1noble.20260903.082819 ROS noble:noble [amd64])
+Inst ros-jazzy-marine-acoustic-msgs (2.1.0-2noble.20260902.033749 ROS noble:noble [amd64])
+Inst ros-jazzy-ros-gz-interfaces (1.0.24-1noble.20260902.041547 ROS noble:noble [amd64])
+Inst ros-jazzy-vision-msgs (4.1.1-3noble.20260902.034028 ROS noble:noble [amd64])
+Inst ros-jazzy-ros-gz-bridge (1.0.24-1noble.20260905.070149 ROS noble:noble [amd64])
+Inst ros-jazzy-ros-gz-image (1.0.24-1noble.20260905.072745 ROS noble:noble [amd64])
+Inst ros-jazzy-simulation-interfaces (1.5.1-1noble.20260902.041638 ROS noble:noble [amd64])
+Inst ros-jazzy-ros-gz-sim (1.0.24-1noble.20260905.085151 ROS noble:noble [amd64])
+Inst ros-jazzy-sdformat-urdf (1.0.2-1noble.20260905.070219 ROS noble:noble [amd64])
+Inst ros-jazzy-xacro (2.1.1-1noble.20260519.011123 ROS noble:noble [amd64])
+Inst ros-jazzy-ros-gz-sim-demos (1.0.24-1noble.20260905.085920 ROS noble:noble [amd64])
+Inst ros-jazzy-ros-gz (1.0.24-1noble.20260905.090616 ROS noble:noble [amd64])
+Conf qml-module-qtquick-window2 (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qtquick2 (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qtgraphicaleffects (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtqml (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qtqml-models2 (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qtquick-layouts (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qtquick-controls (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf fonts-open-sans (1.11-2 Ubuntu:24.04/noble [all])
+Conf qml-module-qtquick-extras (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf libpgm-dev (5.3.128~dfsg-2.1build1 Ubuntu:24.04/noble [amd64])
+Conf libsodium-dev (1.0.18-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libnorm-dev (1.5.9+dfsg-3.1build1 Ubuntu:24.04/noble [amd64])
+Conf comerr-dev (2.1-1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libgssrpc4t64 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libkadm5clnt-mit12 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libkdb5-10t64 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libkadm5srv-mit12 (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf krb5-multidev (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libkrb5-dev (1.20.1-6ubuntu2.10 Ubuntu:24.04/noble-updates [amd64])
+Conf libmd-dev (1.1.0-2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libbsd-dev (0.12.1-1build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libzmq3-dev (4.3.5-1build2 Ubuntu:24.04/noble [amd64])
+Conf cppzmq-dev (4.10.0-1build1 Ubuntu:24.04/noble [amd64])
+Conf libglut3.12 (3.4.0-1build1 Ubuntu:24.04/noble [amd64])
+Conf libglut-dev (3.4.0-1build1 Ubuntu:24.04/noble [amd64])
+Conf freeglut3-dev (3.4.0-1build1 Ubuntu:24.04/noble [amd64])
+Conf spirv-tools (2025.1~rc1-1~ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf glslang-dev (15.1.0-2~ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libshaderc1 (2023.8-1build1 Ubuntu:24.04/noble [amd64])
+Conf glslc (2023.8-1build1 Ubuntu:24.04/noble [amd64])
+Conf libjack-jackd2-0 (1.9.21~dfsg-3ubuntu3 Ubuntu:24.04/noble [amd64])
+Conf libopenal-data (1:1.23.1-4build1 Ubuntu:24.04/noble [all])
+Conf libopenal1 (1:1.23.1-4build1 Ubuntu:24.04/noble [amd64])
+Conf libavdevice60 (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Conf libpostproc-dev (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Conf libavfilter-dev (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Conf libavdevice-dev (7:6.1.1-3ubuntu5 Ubuntu:24.04/noble [amd64])
+Conf libbenchmark1.8.3 (1.8.3-3 Ubuntu:24.04/noble [amd64])
+Conf libbenchmark-dev (1.8.3-3 Ubuntu:24.04/noble [amd64])
+Conf libcli11-dev (2.4.1+ds-1 Ubuntu:24.04/noble [all])
+Conf libccd2 (2.1-2 Ubuntu:24.04/noble [amd64])
+Conf liboctomap1.9t64 (1.9.7+dfsg-3.1build3 Ubuntu:24.04/noble [amd64])
+Conf libfcl0.7 (0.7.0-3build2 Ubuntu:24.04/noble [amd64])
+Conf libgflags2.2 (2.2.2-2build1 Ubuntu:24.04/noble [amd64])
+Conf libgflags-dev (2.2.2-2build1 Ubuntu:24.04/noble [amd64])
+Conf libgts-dev (0.7.6+darcs121130-5.2build1 Ubuntu:24.04/noble [amd64])
+Conf libjxr0t64 (1.2~git20170615.f752187-5.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf liboctomap-dev (1.9.7+dfsg-3.1build3 Ubuntu:24.04/noble [amd64])
+Conf libode8t64 (2:0.16.2-1.1build1 Ubuntu:24.04/noble [amd64])
+Conf libode-dev (2:0.16.2-1.1build1 Ubuntu:24.04/noble [amd64])
+Conf libraw23t64 (0.21.2-2.1ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libfreeimage3 (3.18.0+ds2-10build4 Ubuntu:24.04/noble [amd64])
+Conf libzzip-0-13t64 (0.13.72+dfsg.1-1.2build1 Ubuntu:24.04/noble [amd64])
+Conf libogre-1.9.0t64 (1.9.0+dfsg1-14.1build2 Ubuntu:24.04/noble [amd64])
+Conf libogre-1.9-dev (1.9.0+dfsg1-14.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpcre16-3 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Conf libpcre3 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Conf libpcre32-3 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Conf libpcrecpp0v5 (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Conf libpcre3-dev (2:8.39-15build1 Ubuntu:24.04/noble [amd64])
+Conf libpocofoundation80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocodata80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocoactiverecord80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpococrypto80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocoencodings80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocojson80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocojwt80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocodatamysql80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocodatapostgresql80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpoconet80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocomongodb80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocoxml80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocoutil80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpoconetssl80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocodataodbc80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocodatasqlite80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocoredis80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpocozip80t64 (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libpoco-dev (1.11.0-4.1build2 Ubuntu:24.04/noble [amd64])
+Conf libprotobuf-lite32t64 (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libprotoc32t64 (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libqt5charts5 (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5positioningquick5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5location5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5location5-plugins (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5serialport5 (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5positioning5-plugins (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5quicktemplates2-5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf libqt5quickcontrols2-5 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf rubygems-integration (1.18 Ubuntu:24.04/noble [all])
+Conf ruby3.2 (3.2.3-1ubuntu0.24.04.8 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf ruby-rubygems (3.4.20-1 Ubuntu:24.04/noble [all])
+Conf ruby (1:3.2~ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf rake (13.0.6-3 Ubuntu:24.04/noble [all])
+Conf ruby-net-telnet (0.2.0-1 Ubuntu:24.04/noble [all])
+Conf ruby-webrick (1.8.1-1ubuntu0.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Conf ruby-xmlrpc (0.3.2-2 Ubuntu:24.04/noble [all])
+Conf ruby-sdbm (1.0.0-5build4 Ubuntu:24.04/noble [amd64])
+Conf libruby3.2 (3.2.3-1ubuntu0.24.04.8 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libruby (1:3.2~ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf spirv-headers (1.6.1+1.4.309.0-1~ubuntu0.24.04.2 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Conf libshaderc-dev (2023.8-1build1 Ubuntu:24.04/noble [amd64])
+Conf liburdfdom-model-state4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf liburdfdom-model4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf liburdfdom-sensor4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf liburdfdom-world4.0 (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf libx11-xcb-dev (2:1.8.7-1build1 Ubuntu:24.04/noble [amd64])
+Conf libxcb-render0-dev (1.15-1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libxcb-randr0-dev (1.15-1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libzip4t64 (1.7.3-1.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libzip-dev (1.7.3-1.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libzzip-dev (0.13.72+dfsg.1-1.2build1 Ubuntu:24.04/noble [amd64])
+Conf python3-protobuf (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf qml-module-qt-labs-folderlistmodel (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qt-labs-platform (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qt-labs-settings (5.15.13+dfsg-1ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf qml-module-qtcharts (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtlocation (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtpositioning (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtquick-templates2 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtquick-controls2 (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtquick-privatewidgets (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf qml-module-qtquick-dialogs (5.15.13-1 Ubuntu:24.04/noble [amd64])
+Conf qtquickcontrols2-5-dev (5.15.13+dfsg-1 Ubuntu:24.04/noble [amd64])
+Conf rapidjson-dev (1.1.0+dfsg2-7.2 Ubuntu:24.04/noble [all])
+Conf ros-jazzy-actuator-msgs (0.0.1-4noble.20260902.024100 ROS noble:noble [amd64])
+Conf ros-jazzy-compressed-depth-image-transport (4.0.7-1noble.20260903.071753 ROS noble:noble [amd64])
+Conf ros-jazzy-compressed-image-transport (4.0.7-1noble.20260903.072043 ROS noble:noble [amd64])
+Conf ros-jazzy-gps-msgs (3.1.1-1noble.20260902.030750 ROS noble:noble [amd64])
+Conf libfreeimage-dev (3.18.0+ds2-10build4 Ubuntu:24.04/noble [amd64])
+Conf ros-jazzy-gz-common-vendor (0.0.10-1noble.20260905.033536 ROS noble:noble [amd64])
+Conf libccd-dev (2.1-2 Ubuntu:24.04/noble [amd64])
+Conf libfcl-dev (0.7.0-3build2 Ubuntu:24.04/noble [amd64])
+Conf liburdfdom-headers-dev (1.0.5-3 Ubuntu:24.04/noble [all])
+Conf liburdfdom-dev (4.0.0-0ubuntu1 Ubuntu:24.04/noble [amd64])
+Conf ros-jazzy-gz-dartsim-vendor (0.0.3-1noble.20260225.232143 ROS noble:noble [amd64])
+Conf libprotobuf-dev (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libprotoc-dev (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf protobuf-compiler (3.21.12-8.2ubuntu0.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf ros-jazzy-gz-tools-vendor (0.0.8-1noble.20260820.143431 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-msgs-vendor (0.0.8-1noble.20260905.033532 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-fuel-tools-vendor (0.0.6-1noble.20260905.065120 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-plugin-vendor (0.0.5-1noble.20260820.145930 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-ogre-next-vendor (0.0.5-1noble.20260225.232146 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-rendering-vendor (0.0.7-1noble.20260905.065113 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-transport-vendor (0.0.9-1noble.20260905.065154 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-gui-vendor (0.0.5-1noble.20260905.071619 ROS noble:noble [amd64])
+Conf ros-jazzy-sdformat-vendor (0.0.14-1noble.20260905.033543 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-physics-vendor (0.0.9-1noble.20260905.065116 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-sensors-vendor (0.0.6-1noble.20260905.071631 ROS noble:noble [amd64])
+Conf ros-jazzy-gz-sim-vendor (0.0.13-1noble.20260905.073557 ROS noble:noble [amd64])
+Conf ros-jazzy-theora-image-transport (4.0.7-1noble.20260903.073409 ROS noble:noble [amd64])
+Conf ros-jazzy-zstd-image-transport (4.0.7-1noble.20260903.073902 ROS noble:noble [amd64])
+Conf ros-jazzy-image-transport-plugins (4.0.7-1noble.20260903.082819 ROS noble:noble [amd64])
+Conf ros-jazzy-marine-acoustic-msgs (2.1.0-2noble.20260902.033749 ROS noble:noble [amd64])
+Conf ros-jazzy-ros-gz-interfaces (1.0.24-1noble.20260902.041547 ROS noble:noble [amd64])
+Conf ros-jazzy-vision-msgs (4.1.1-3noble.20260902.034028 ROS noble:noble [amd64])
+Conf ros-jazzy-ros-gz-bridge (1.0.24-1noble.20260905.070149 ROS noble:noble [amd64])
+Conf ros-jazzy-ros-gz-image (1.0.24-1noble.20260905.072745 ROS noble:noble [amd64])
+Conf ros-jazzy-simulation-interfaces (1.5.1-1noble.20260902.041638 ROS noble:noble [amd64])
+Conf ros-jazzy-ros-gz-sim (1.0.24-1noble.20260905.085151 ROS noble:noble [amd64])
+Conf ros-jazzy-sdformat-urdf (1.0.2-1noble.20260905.070219 ROS noble:noble [amd64])
+Conf ros-jazzy-xacro (2.1.1-1noble.20260519.011123 ROS noble:noble [amd64])
+Conf ros-jazzy-ros-gz-sim-demos (1.0.24-1noble.20260905.085920 ROS noble:noble [amd64])
+Conf ros-jazzy-ros-gz (1.0.24-1noble.20260905.090616 ROS noble:noble [amd64])

@@ -1,0 +1,340 @@
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  libfwupd2
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  graphicsmagick-libmagick-dev-compat libamd3 libbtf2 libcamd3 libcap-dev
+  libccolamd3 libceres-dev libceres4t64 libcholmod5 libcolamd3 libcxsparse4
+  libdw-dev libelf-dev libexpected-dev libgeographiclib-dev libgeographiclib26
+  libgoogle-glog-dev libgoogle-glog0v6t64 libgraphics-magick-perl
+  libgraphicsmagick++-q16-12t64 libgraphicsmagick++1-dev
+  libgraphicsmagick-q16-3t64 libgraphicsmagick1-dev libhwy-dev libjxl-dev
+  libklu2 liblcms2-dev libldl3 libnanoflann-dev libomp-18-dev libomp-dev
+  libomp5-18 libparu0 librbio4 libspex2 libspqr4 libsuitesparse-dev
+  libsuitesparse-mongoose3 libsuitesparseconfig7 libumfpack6 libunwind-dev
+  libwmf-dev libxsimd-dev libxtensor-dev nlohmann-json3-dev python3-typeguard
+  ros-jazzy-backward-ros ros-jazzy-behaviortree-cpp ros-jazzy-bond
+  ros-jazzy-bondcpp ros-jazzy-control-msgs ros-jazzy-control-toolbox
+  ros-jazzy-controller-interface ros-jazzy-costmap-queue
+  ros-jazzy-diagnostic-updater ros-jazzy-diff-drive-controller
+  ros-jazzy-dwb-core ros-jazzy-dwb-critics ros-jazzy-dwb-msgs
+  ros-jazzy-dwb-plugins ros-jazzy-filters ros-jazzy-generate-parameter-library
+  ros-jazzy-generate-parameter-library-py ros-jazzy-geographic-msgs
+  ros-jazzy-hardware-interface ros-jazzy-joint-limits
+  ros-jazzy-joint-state-broadcaster ros-jazzy-joint-state-publisher
+  ros-jazzy-nav-2d-msgs ros-jazzy-nav-2d-utils ros-jazzy-nav2-amcl
+  ros-jazzy-nav2-behavior-tree ros-jazzy-nav2-behaviors
+  ros-jazzy-nav2-bt-navigator ros-jazzy-nav2-collision-monitor
+  ros-jazzy-nav2-common ros-jazzy-nav2-constrained-smoother
+  ros-jazzy-nav2-controller ros-jazzy-nav2-core ros-jazzy-nav2-costmap-2d
+  ros-jazzy-nav2-dwb-controller ros-jazzy-nav2-graceful-controller
+  ros-jazzy-nav2-lifecycle-manager ros-jazzy-nav2-map-server
+  ros-jazzy-nav2-minimal-tb4-description ros-jazzy-nav2-minimal-tb4-sim
+  ros-jazzy-nav2-mppi-controller ros-jazzy-nav2-msgs
+  ros-jazzy-nav2-navfn-planner ros-jazzy-nav2-planner
+  ros-jazzy-nav2-regulated-pure-pursuit-controller
+  ros-jazzy-nav2-rotation-shim-controller ros-jazzy-nav2-rviz-plugins
+  ros-jazzy-nav2-simple-commander ros-jazzy-nav2-smac-planner
+  ros-jazzy-nav2-smoother ros-jazzy-nav2-theta-star-planner
+  ros-jazzy-nav2-util ros-jazzy-nav2-velocity-smoother
+  ros-jazzy-nav2-voxel-grid ros-jazzy-nav2-waypoint-follower ros-jazzy-ompl
+  ros-jazzy-opennav-docking ros-jazzy-opennav-docking-bt
+  ros-jazzy-opennav-docking-core ros-jazzy-pal-statistics
+  ros-jazzy-pal-statistics-msgs ros-jazzy-parameter-traits
+  ros-jazzy-realtime-tools ros-jazzy-rsl ros-jazzy-slam-toolbox
+  ros-jazzy-smclib ros-jazzy-tcb-span ros-jazzy-tl-expected xtl-dev
+Suggested packages:
+  geographiclib-doc geographiclib-tools graphicsmagick-dbg graphicsmagick
+  libomp-18-doc libwmf-doc libxsimd-doc xtensor-doc
+Recommended packages:
+  libgraphblas-dev
+The following NEW packages will be installed:
+  graphicsmagick-libmagick-dev-compat libamd3 libbtf2 libcamd3 libcap-dev
+  libccolamd3 libceres-dev libceres4t64 libcholmod5 libcolamd3 libcxsparse4
+  libdw-dev libelf-dev libexpected-dev libgeographiclib-dev libgeographiclib26
+  libgoogle-glog-dev libgoogle-glog0v6t64 libgraphics-magick-perl
+  libgraphicsmagick++-q16-12t64 libgraphicsmagick++1-dev
+  libgraphicsmagick-q16-3t64 libgraphicsmagick1-dev libhwy-dev libjxl-dev
+  libklu2 liblcms2-dev libldl3 libnanoflann-dev libomp-18-dev libomp-dev
+  libomp5-18 libparu0 librbio4 libspex2 libspqr4 libsuitesparse-dev
+  libsuitesparse-mongoose3 libsuitesparseconfig7 libumfpack6 libunwind-dev
+  libwmf-dev libxsimd-dev libxtensor-dev nlohmann-json3-dev python3-typeguard
+  ros-jazzy-backward-ros ros-jazzy-behaviortree-cpp ros-jazzy-bond
+  ros-jazzy-bondcpp ros-jazzy-control-msgs ros-jazzy-control-toolbox
+  ros-jazzy-controller-interface ros-jazzy-costmap-queue
+  ros-jazzy-diagnostic-updater ros-jazzy-diff-drive-controller
+  ros-jazzy-dwb-core ros-jazzy-dwb-critics ros-jazzy-dwb-msgs
+  ros-jazzy-dwb-plugins ros-jazzy-filters ros-jazzy-generate-parameter-library
+  ros-jazzy-generate-parameter-library-py ros-jazzy-geographic-msgs
+  ros-jazzy-hardware-interface ros-jazzy-joint-limits
+  ros-jazzy-joint-state-broadcaster ros-jazzy-joint-state-publisher
+  ros-jazzy-nav-2d-msgs ros-jazzy-nav-2d-utils ros-jazzy-nav2-amcl
+  ros-jazzy-nav2-behavior-tree ros-jazzy-nav2-behaviors ros-jazzy-nav2-bringup
+  ros-jazzy-nav2-bt-navigator ros-jazzy-nav2-collision-monitor
+  ros-jazzy-nav2-common ros-jazzy-nav2-constrained-smoother
+  ros-jazzy-nav2-controller ros-jazzy-nav2-core ros-jazzy-nav2-costmap-2d
+  ros-jazzy-nav2-dwb-controller ros-jazzy-nav2-graceful-controller
+  ros-jazzy-nav2-lifecycle-manager ros-jazzy-nav2-map-server
+  ros-jazzy-nav2-minimal-tb3-sim ros-jazzy-nav2-minimal-tb4-description
+  ros-jazzy-nav2-minimal-tb4-sim ros-jazzy-nav2-mppi-controller
+  ros-jazzy-nav2-msgs ros-jazzy-nav2-navfn-planner ros-jazzy-nav2-planner
+  ros-jazzy-nav2-regulated-pure-pursuit-controller
+  ros-jazzy-nav2-rotation-shim-controller ros-jazzy-nav2-route
+  ros-jazzy-nav2-rviz-plugins ros-jazzy-nav2-simple-commander
+  ros-jazzy-nav2-smac-planner ros-jazzy-nav2-smoother
+  ros-jazzy-nav2-theta-star-planner ros-jazzy-nav2-util
+  ros-jazzy-nav2-velocity-smoother ros-jazzy-nav2-voxel-grid
+  ros-jazzy-nav2-waypoint-follower ros-jazzy-navigation2 ros-jazzy-ompl
+  ros-jazzy-opennav-docking ros-jazzy-opennav-docking-bt
+  ros-jazzy-opennav-docking-core ros-jazzy-pal-statistics
+  ros-jazzy-pal-statistics-msgs ros-jazzy-parameter-traits
+  ros-jazzy-realtime-tools ros-jazzy-robot-localization ros-jazzy-rsl
+  ros-jazzy-slam-toolbox ros-jazzy-smclib ros-jazzy-tcb-span
+  ros-jazzy-tl-expected xtl-dev
+0 upgraded, 120 newly installed, 0 to remove and 3 not upgraded.
+Inst libsuitesparseconfig7 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libbtf2 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libcamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libcap-dev (1:2.66-5ubuntu2.4 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libccolamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libcolamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libcholmod5 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libgoogle-glog0v6t64 (0.6.0-2.1build1 Ubuntu:24.04/noble [amd64])
+Inst libspqr4 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libceres4t64 (2.2.0+dfsg-4.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libunwind-dev (1.6.2-3build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libgoogle-glog-dev (0.6.0-2.1build1 Ubuntu:24.04/noble [amd64])
+Inst libcxsparse4 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libklu2 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libldl3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libsuitesparse-mongoose3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libumfpack6 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst librbio4 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libspex2 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libparu0 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libsuitesparse-dev (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Inst libceres-dev (2.2.0+dfsg-4.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Inst libelf-dev (0.190-1.1ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libdw-dev (0.190-1.1ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libexpected-dev (1.1.0-2 Ubuntu:24.04/noble [all])
+Inst libgeographiclib26 (2.3-1build1 Ubuntu:24.04/noble [amd64])
+Inst libgeographiclib-dev (2.3-1build1 Ubuntu:24.04/noble [amd64])
+Inst libgraphicsmagick-q16-3t64 (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Inst libgraphics-magick-perl (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Inst libgraphicsmagick++-q16-12t64 (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Inst liblcms2-dev (2.14-2ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libwmf-dev (0.2.13-1.1build3 Ubuntu:24.04/noble [amd64])
+Inst libhwy-dev (1.0.7-8.1build1 Ubuntu:24.04/noble [amd64])
+Inst libjxl-dev (0.7.0-10.2ubuntu6.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libgraphicsmagick1-dev (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Inst libgraphicsmagick++1-dev (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Inst libnanoflann-dev (1.5.4+ds-1 Ubuntu:24.04/noble [all])
+Inst libomp5-18 (1:18.1.3-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libomp-18-dev (1:18.1.3-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst xtl-dev (0.7.5-3 Ubuntu:24.04/noble [all])
+Inst libxsimd-dev (12.1.1-3build1 Ubuntu:24.04/noble [amd64])
+Inst nlohmann-json3-dev (3.11.3-1 Ubuntu:24.04/noble [all])
+Inst libxtensor-dev (0.25.0-1 Ubuntu:24.04/noble [all])
+Inst python3-typeguard (4.1.5-1 Ubuntu:24.04/noble [all])
+Inst ros-jazzy-backward-ros (1.0.8-1noble.20260225.051215 ROS noble:noble [amd64])
+Inst ros-jazzy-behaviortree-cpp (4.10.0-1noble.20260902.082337 ROS noble:noble [amd64])
+Inst ros-jazzy-bond (4.2.0-1noble.20260902.034242 ROS noble:noble [amd64])
+Inst ros-jazzy-smclib (4.2.0-1noble.20260317.155007 ROS noble:noble [amd64])
+Inst ros-jazzy-bondcpp (4.2.0-1noble.20260903.012116 ROS noble:noble [amd64])
+Inst ros-jazzy-control-msgs (5.9.0-1noble.20260902.042746 ROS noble:noble [amd64])
+Inst ros-jazzy-filters (2.2.2-1noble.20260902.082527 ROS noble:noble [amd64])
+Inst ros-jazzy-generate-parameter-library-py (0.7.6-1noble.20260810.122749 ROS noble:noble [amd64])
+Inst ros-jazzy-tcb-span (1.3.2-1noble.20260618.160922 ROS noble:noble [amd64])
+Inst ros-jazzy-rsl (1.3.0-1noble.20260902.084118 ROS noble:noble [amd64])
+Inst ros-jazzy-tl-expected (1.3.2-1noble.20260618.160931 ROS noble:noble [amd64])
+Inst ros-jazzy-parameter-traits (0.7.6-1noble.20260903.014924 ROS noble:noble [amd64])
+Inst ros-jazzy-generate-parameter-library (0.7.6-1noble.20260903.015253 ROS noble:noble [amd64])
+Inst ros-jazzy-realtime-tools (3.12.0-1noble.20260903.202759 ROS noble:noble [amd64])
+Inst ros-jazzy-control-toolbox (4.11.1-1noble.20260905.031621 ROS noble:noble [amd64])
+Inst ros-jazzy-joint-limits (4.48.0-1noble.20260905.031740 ROS noble:noble [amd64])
+Inst ros-jazzy-pal-statistics-msgs (2.8.2-1noble.20260902.030951 ROS noble:noble [amd64])
+Inst ros-jazzy-pal-statistics (2.8.2-1noble.20260903.011933 ROS noble:noble [amd64])
+Inst ros-jazzy-hardware-interface (4.48.0-1noble.20260905.070541 ROS noble:noble [amd64])
+Inst ros-jazzy-controller-interface (4.48.0-1noble.20260905.072534 ROS noble:noble [amd64])
+Inst ros-jazzy-geographic-msgs (1.0.6-2noble.20260902.041337 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-msgs (1.3.13-1noble.20260902.082014 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-common (1.3.13-1noble.20260902.081418 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-util (1.3.13-1noble.20260903.023450 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-voxel-grid (1.3.13-1noble.20260902.082710 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-costmap-2d (1.3.13-1noble.20260903.024922 ROS noble:noble [amd64])
+Inst ros-jazzy-costmap-queue (1.3.13-1noble.20260903.030125 ROS noble:noble [amd64])
+Inst ros-jazzy-diagnostic-updater (4.2.7-1noble.20260902.061455 ROS noble:noble [amd64])
+Inst ros-jazzy-diff-drive-controller (4.42.1-1noble.20260905.073042 ROS noble:noble [amd64])
+Inst ros-jazzy-nav-2d-msgs (1.3.13-1noble.20260902.033922 ROS noble:noble [amd64])
+Inst ros-jazzy-dwb-msgs (1.3.13-1noble.20260902.043539 ROS noble:noble [amd64])
+Inst ros-jazzy-nav-2d-utils (1.3.13-1noble.20260903.025051 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-behavior-tree (1.3.13-1noble.20260903.024922 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-core (1.3.13-1noble.20260903.031226 ROS noble:noble [amd64])
+Inst ros-jazzy-dwb-core (1.3.13-1noble.20260903.031920 ROS noble:noble [amd64])
+Inst ros-jazzy-dwb-critics (1.3.13-1noble.20260903.032514 ROS noble:noble [amd64])
+Inst ros-jazzy-dwb-plugins (1.3.13-1noble.20260903.032445 ROS noble:noble [amd64])
+Inst ros-jazzy-joint-state-broadcaster (4.42.1-1noble.20260905.074155 ROS noble:noble [amd64])
+Inst ros-jazzy-joint-state-publisher (2.4.3-1noble.20260902.054703 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-amcl (1.3.13-1noble.20260903.024944 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-behaviors (1.3.13-1noble.20260903.032321 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-minimal-tb3-sim (1.0.1-1noble.20260905.085912 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-minimal-tb4-description (1.0.1-1noble.20260903.022723 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-minimal-tb4-sim (1.0.1-1noble.20260907.023002 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-bt-navigator (1.3.13-1noble.20260903.032108 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-collision-monitor (1.3.13-1noble.20260903.031125 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-constrained-smoother (1.3.13-1noble.20260903.031935 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-controller (1.3.13-1noble.20260903.032018 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-dwb-controller (1.3.13-1noble.20260903.033038 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-graceful-controller (1.3.13-1noble.20260903.032134 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-lifecycle-manager (1.3.13-1noble.20260903.024931 ROS noble:noble [amd64])
+Inst graphicsmagick-libmagick-dev-compat (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [all])
+Inst ros-jazzy-nav2-map-server (1.3.13-1noble.20260903.025026 ROS noble:noble [amd64])
+Inst libomp-dev (1:18.0-59~exp2 Ubuntu:24.04/noble [amd64])
+Inst ros-jazzy-nav2-mppi-controller (1.3.13-1noble.20260903.032340 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-navfn-planner (1.3.13-1noble.20260903.031832 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-planner (1.3.13-1noble.20260903.031918 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-regulated-pure-pursuit-controller (1.3.13-1noble.20260903.031928 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-rotation-shim-controller (1.3.13-1noble.20260903.032741 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-route (1.3.13-1noble.20260903.032339 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-rviz-plugins (1.3.13-1noble.20260905.070215 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-simple-commander (1.3.13-1noble.20260903.065856 ROS noble:noble [amd64])
+Inst ros-jazzy-ompl (1.7.0-2noble.20260225.055751 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-smac-planner (1.3.13-1noble.20260903.032637 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-smoother (1.3.13-1noble.20260903.031926 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-theta-star-planner (1.3.13-1noble.20260903.031907 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-velocity-smoother (1.3.13-1noble.20260903.025045 ROS noble:noble [amd64])
+Inst ros-jazzy-robot-localization (3.8.3-1noble.20260903.023731 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-waypoint-follower (1.3.13-1noble.20260903.071402 ROS noble:noble [amd64])
+Inst ros-jazzy-opennav-docking-core (1.3.13-1noble.20260903.025100 ROS noble:noble [amd64])
+Inst ros-jazzy-opennav-docking (1.3.13-1noble.20260903.033326 ROS noble:noble [amd64])
+Inst ros-jazzy-opennav-docking-bt (1.3.13-1noble.20260903.031904 ROS noble:noble [amd64])
+Inst ros-jazzy-navigation2 (1.3.13-1noble.20260905.072714 ROS noble:noble [amd64])
+Inst ros-jazzy-slam-toolbox (2.8.5-1noble.20260905.070219 ROS noble:noble [amd64])
+Inst ros-jazzy-nav2-bringup (1.3.13-1noble.20260907.023821 ROS noble:noble [amd64])
+Conf libsuitesparseconfig7 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libbtf2 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libcamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libcap-dev (1:2.66-5ubuntu2.4 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libccolamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libcolamd3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libcholmod5 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libgoogle-glog0v6t64 (0.6.0-2.1build1 Ubuntu:24.04/noble [amd64])
+Conf libspqr4 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libceres4t64 (2.2.0+dfsg-4.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libunwind-dev (1.6.2-3build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libgoogle-glog-dev (0.6.0-2.1build1 Ubuntu:24.04/noble [amd64])
+Conf libcxsparse4 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libklu2 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libldl3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libsuitesparse-mongoose3 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libumfpack6 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf librbio4 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libspex2 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libparu0 (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libsuitesparse-dev (1:7.6.1+dfsg-1build1 Ubuntu:24.04/noble [amd64])
+Conf libceres-dev (2.2.0+dfsg-4.1ubuntu2 Ubuntu:24.04/noble [amd64])
+Conf libelf-dev (0.190-1.1ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libdw-dev (0.190-1.1ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libexpected-dev (1.1.0-2 Ubuntu:24.04/noble [all])
+Conf libgeographiclib26 (2.3-1build1 Ubuntu:24.04/noble [amd64])
+Conf libgeographiclib-dev (2.3-1build1 Ubuntu:24.04/noble [amd64])
+Conf libgraphicsmagick-q16-3t64 (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Conf libgraphics-magick-perl (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Conf libgraphicsmagick++-q16-12t64 (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Conf liblcms2-dev (2.14-2ubuntu0.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libwmf-dev (0.2.13-1.1build3 Ubuntu:24.04/noble [amd64])
+Conf libhwy-dev (1.0.7-8.1build1 Ubuntu:24.04/noble [amd64])
+Conf libjxl-dev (0.7.0-10.2ubuntu6.1 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libgraphicsmagick1-dev (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Conf libgraphicsmagick++1-dev (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [amd64])
+Conf libnanoflann-dev (1.5.4+ds-1 Ubuntu:24.04/noble [all])
+Conf libomp5-18 (1:18.1.3-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libomp-18-dev (1:18.1.3-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf xtl-dev (0.7.5-3 Ubuntu:24.04/noble [all])
+Conf libxsimd-dev (12.1.1-3build1 Ubuntu:24.04/noble [amd64])
+Conf nlohmann-json3-dev (3.11.3-1 Ubuntu:24.04/noble [all])
+Conf libxtensor-dev (0.25.0-1 Ubuntu:24.04/noble [all])
+Conf python3-typeguard (4.1.5-1 Ubuntu:24.04/noble [all])
+Conf ros-jazzy-backward-ros (1.0.8-1noble.20260225.051215 ROS noble:noble [amd64])
+Conf ros-jazzy-behaviortree-cpp (4.10.0-1noble.20260902.082337 ROS noble:noble [amd64])
+Conf ros-jazzy-bond (4.2.0-1noble.20260902.034242 ROS noble:noble [amd64])
+Conf ros-jazzy-smclib (4.2.0-1noble.20260317.155007 ROS noble:noble [amd64])
+Conf ros-jazzy-bondcpp (4.2.0-1noble.20260903.012116 ROS noble:noble [amd64])
+Conf ros-jazzy-control-msgs (5.9.0-1noble.20260902.042746 ROS noble:noble [amd64])
+Conf ros-jazzy-filters (2.2.2-1noble.20260902.082527 ROS noble:noble [amd64])
+Conf ros-jazzy-generate-parameter-library-py (0.7.6-1noble.20260810.122749 ROS noble:noble [amd64])
+Conf ros-jazzy-tcb-span (1.3.2-1noble.20260618.160922 ROS noble:noble [amd64])
+Conf ros-jazzy-rsl (1.3.0-1noble.20260902.084118 ROS noble:noble [amd64])
+Conf ros-jazzy-tl-expected (1.3.2-1noble.20260618.160931 ROS noble:noble [amd64])
+Conf ros-jazzy-parameter-traits (0.7.6-1noble.20260903.014924 ROS noble:noble [amd64])
+Conf ros-jazzy-generate-parameter-library (0.7.6-1noble.20260903.015253 ROS noble:noble [amd64])
+Conf ros-jazzy-realtime-tools (3.12.0-1noble.20260903.202759 ROS noble:noble [amd64])
+Conf ros-jazzy-control-toolbox (4.11.1-1noble.20260905.031621 ROS noble:noble [amd64])
+Conf ros-jazzy-joint-limits (4.48.0-1noble.20260905.031740 ROS noble:noble [amd64])
+Conf ros-jazzy-pal-statistics-msgs (2.8.2-1noble.20260902.030951 ROS noble:noble [amd64])
+Conf ros-jazzy-pal-statistics (2.8.2-1noble.20260903.011933 ROS noble:noble [amd64])
+Conf ros-jazzy-hardware-interface (4.48.0-1noble.20260905.070541 ROS noble:noble [amd64])
+Conf ros-jazzy-controller-interface (4.48.0-1noble.20260905.072534 ROS noble:noble [amd64])
+Conf ros-jazzy-geographic-msgs (1.0.6-2noble.20260902.041337 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-msgs (1.3.13-1noble.20260902.082014 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-common (1.3.13-1noble.20260902.081418 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-util (1.3.13-1noble.20260903.023450 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-voxel-grid (1.3.13-1noble.20260902.082710 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-costmap-2d (1.3.13-1noble.20260903.024922 ROS noble:noble [amd64])
+Conf ros-jazzy-costmap-queue (1.3.13-1noble.20260903.030125 ROS noble:noble [amd64])
+Conf ros-jazzy-diagnostic-updater (4.2.7-1noble.20260902.061455 ROS noble:noble [amd64])
+Conf ros-jazzy-diff-drive-controller (4.42.1-1noble.20260905.073042 ROS noble:noble [amd64])
+Conf ros-jazzy-nav-2d-msgs (1.3.13-1noble.20260902.033922 ROS noble:noble [amd64])
+Conf ros-jazzy-dwb-msgs (1.3.13-1noble.20260902.043539 ROS noble:noble [amd64])
+Conf ros-jazzy-nav-2d-utils (1.3.13-1noble.20260903.025051 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-behavior-tree (1.3.13-1noble.20260903.024922 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-core (1.3.13-1noble.20260903.031226 ROS noble:noble [amd64])
+Conf ros-jazzy-dwb-core (1.3.13-1noble.20260903.031920 ROS noble:noble [amd64])
+Conf ros-jazzy-dwb-critics (1.3.13-1noble.20260903.032514 ROS noble:noble [amd64])
+Conf ros-jazzy-dwb-plugins (1.3.13-1noble.20260903.032445 ROS noble:noble [amd64])
+Conf ros-jazzy-joint-state-broadcaster (4.42.1-1noble.20260905.074155 ROS noble:noble [amd64])
+Conf ros-jazzy-joint-state-publisher (2.4.3-1noble.20260902.054703 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-amcl (1.3.13-1noble.20260903.024944 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-behaviors (1.3.13-1noble.20260903.032321 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-minimal-tb3-sim (1.0.1-1noble.20260905.085912 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-minimal-tb4-description (1.0.1-1noble.20260903.022723 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-minimal-tb4-sim (1.0.1-1noble.20260907.023002 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-bt-navigator (1.3.13-1noble.20260903.032108 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-collision-monitor (1.3.13-1noble.20260903.031125 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-constrained-smoother (1.3.13-1noble.20260903.031935 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-controller (1.3.13-1noble.20260903.032018 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-dwb-controller (1.3.13-1noble.20260903.033038 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-graceful-controller (1.3.13-1noble.20260903.032134 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-lifecycle-manager (1.3.13-1noble.20260903.024931 ROS noble:noble [amd64])
+Conf graphicsmagick-libmagick-dev-compat (1.4+really1.3.42-1.1build3 Ubuntu:24.04/noble [all])
+Conf ros-jazzy-nav2-map-server (1.3.13-1noble.20260903.025026 ROS noble:noble [amd64])
+Conf libomp-dev (1:18.0-59~exp2 Ubuntu:24.04/noble [amd64])
+Conf ros-jazzy-nav2-mppi-controller (1.3.13-1noble.20260903.032340 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-navfn-planner (1.3.13-1noble.20260903.031832 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-planner (1.3.13-1noble.20260903.031918 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-regulated-pure-pursuit-controller (1.3.13-1noble.20260903.031928 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-rotation-shim-controller (1.3.13-1noble.20260903.032741 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-route (1.3.13-1noble.20260903.032339 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-rviz-plugins (1.3.13-1noble.20260905.070215 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-simple-commander (1.3.13-1noble.20260903.065856 ROS noble:noble [amd64])
+Conf ros-jazzy-ompl (1.7.0-2noble.20260225.055751 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-smac-planner (1.3.13-1noble.20260903.032637 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-smoother (1.3.13-1noble.20260903.031926 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-theta-star-planner (1.3.13-1noble.20260903.031907 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-velocity-smoother (1.3.13-1noble.20260903.025045 ROS noble:noble [amd64])
+Conf ros-jazzy-robot-localization (3.8.3-1noble.20260903.023731 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-waypoint-follower (1.3.13-1noble.20260903.071402 ROS noble:noble [amd64])
+Conf ros-jazzy-opennav-docking-core (1.3.13-1noble.20260903.025100 ROS noble:noble [amd64])
+Conf ros-jazzy-opennav-docking (1.3.13-1noble.20260903.033326 ROS noble:noble [amd64])
+Conf ros-jazzy-opennav-docking-bt (1.3.13-1noble.20260903.031904 ROS noble:noble [amd64])
+Conf ros-jazzy-navigation2 (1.3.13-1noble.20260905.072714 ROS noble:noble [amd64])
+Conf ros-jazzy-slam-toolbox (2.8.5-1noble.20260905.070219 ROS noble:noble [amd64])
+Conf ros-jazzy-nav2-bringup (1.3.13-1noble.20260907.023821 ROS noble:noble [amd64])

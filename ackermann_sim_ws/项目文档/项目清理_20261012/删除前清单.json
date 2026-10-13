@@ -1,0 +1,3714 @@
+{
+  "root": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car",
+  "delete_files": [
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/audit_nav.cpython-312.pyc",
+      "size": 15823,
+      "blocks_bytes": 16384,
+      "sha256": "fb727d7c0649c711f05348191df072fadb4be642a73ceedd7659367a20a7b28f",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/bag_safety.cpython-312.pyc",
+      "size": 7966,
+      "blocks_bytes": 8192,
+      "sha256": "c3a4962428a63104728c323ea3cb31483cc9c8af2f144f4af2b81c553ea5e06d",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/validate_nav.cpython-312.pyc",
+      "size": 14377,
+      "blocks_bytes": 16384,
+      "sha256": "c4a014975092b370024e092f6b39f2bc28a7ee4ad7f069586c5df4eb8f9f360c",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/plot_nav.cpython-312.pyc",
+      "size": 4149,
+      "blocks_bytes": 8192,
+      "sha256": "8dd2988f243a480ef9f2f9963ae24eab0375880ee829d89aa5b8af02abf7f3be",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/window_capture.cpython-312.pyc",
+      "size": 9779,
+      "blocks_bytes": 12288,
+      "sha256": "d36d2367a257601305c9b80042ed0da46914638140e3a40409301db604357460",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/validate_motion.cpython-312.pyc",
+      "size": 28702,
+      "blocks_bytes": 32768,
+      "sha256": "b742c0f6ef38bc9f43f41441d794f89f3b557ee9289e12a7d0246827b1ccc39e",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/plot_results.cpython-312.pyc",
+      "size": 7640,
+      "blocks_bytes": 8192,
+      "sha256": "d0cc473aecfc81c3b5b6614602be444c77313ebada50cea0d48ba78f37aac4dd",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/probe_contact.cpython-312.pyc",
+      "size": 4961,
+      "blocks_bytes": 8192,
+      "sha256": "62941b2af758dbfe7abddb09d4484b8eab6f4cd34da50e68e1adc6e2243d7cf3",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/validate_watchdog.cpython-312.pyc",
+      "size": 4746,
+      "blocks_bytes": 8192,
+      "sha256": "16ab7cfa4fc87184824c0180e1d9080d2c55a3d32dbd81e576c0c1c937df3982",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/__pycache__/check_nav_guard.cpython-312.pyc",
+      "size": 4491,
+      "blocks_bytes": 8192,
+      "sha256": "e2cd5e9c2971704b24e7174cbcc120c405b4c07aa09edc1c5ed75c1a544563b8",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/__pycache__/assets.cpython-312.pyc",
+      "size": 8876,
+      "blocks_bytes": 12288,
+      "sha256": "5e25ebbf4dda99a6391d7c23e7a612cff602c9db6c61f87d0a1d03907c2abf13",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/__pycache__/__init__.cpython-312.pyc",
+      "size": 239,
+      "blocks_bytes": 4096,
+      "sha256": "f2703a81a4d45a2439733c85465bdae70d4ae109d6cf1d27be830f4abdecfa23",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/__pycache__/truth_localization.cpython-312.pyc",
+      "size": 5527,
+      "blocks_bytes": 8192,
+      "sha256": "222fa57d343d4f26aa1a54c3de4a16fa8579e95c35323d891a92004da6514879",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__pycache__/assets.cpython-312.pyc",
+      "size": 15075,
+      "blocks_bytes": 16384,
+      "sha256": "91bf4a216d21bf792048ccca1f3f8b2ccebd1c0bcec053d93d476496d97122f9",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__pycache__/guard.cpython-312.pyc",
+      "size": 7328,
+      "blocks_bytes": 8192,
+      "sha256": "ea55b74f72d5887db9f3701fc3d0df09491785d63c0fed92210eca3cd0ea4df5",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__pycache__/__init__.cpython-312.pyc",
+      "size": 140,
+      "blocks_bytes": 4096,
+      "sha256": "dfcca42e4004dd78bc41877e85e5d661e53278789f211a7f8b342e0816814875",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__pycache__/observer.cpython-312.pyc",
+      "size": 4940,
+      "blocks_bytes": 8192,
+      "sha256": "4dfeb6ea9f6f35705fa69578e939e5468330297f5343df5bbe5330d6ce0eeeb1",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/launch/__pycache__/sim.launch.cpython-312.pyc",
+      "size": 3006,
+      "blocks_bytes": 4096,
+      "sha256": "cc07641782b32af76a0c1b5402941746d0b1e6d32ff39ac6a56fe41f9095ceb7",
+      "category": "Python缓存",
+      "reason": "解释器由原源码生成，无独立实验数据",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/logger_all.log",
+      "size": 26988,
+      "blocks_bytes": 28672,
+      "sha256": "cef2a9377ea7fab7f47516a45bf1665d96d45673eb3e0e3866bcf6eeaf672400",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/events.log",
+      "size": 10320,
+      "blocks_bytes": 12288,
+      "sha256": "878cb19dd544a97f823a2cdf68f676a1c8910bb5e349caded47b1b6502747532",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "511018ef29b9ef6b12459f0495e67fd113593b9eb3b60fa6f84e7244ca22b4f6",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-51/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/logger_all.log",
+      "size": 38212,
+      "blocks_bytes": 40960,
+      "sha256": "ae54ad5a20ae321dc6918472517409dfcf8b6444fc96deb4bdbf2eed761ce9c9",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/events.log",
+      "size": 10616,
+      "blocks_bytes": 12288,
+      "sha256": "df93ab1d8d176eaefb02f003ff6c9dc9a3ada93f056d5abf01350c2ea7e51ecb",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/ackermann_sim/stdout_stderr.log",
+      "size": 1456,
+      "blocks_bytes": 4096,
+      "sha256": "87834707838e8cd04ff0e48da4f5a4f62ac99acf202fabad6fe480bde541a5ae",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/ackermann_sim/stdout.log",
+      "size": 1456,
+      "blocks_bytes": 4096,
+      "sha256": "87834707838e8cd04ff0e48da4f5a4f62ac99acf202fabad6fe480bde541a5ae",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/ackermann_sim/streams.log",
+      "size": 3375,
+      "blocks_bytes": 4096,
+      "sha256": "ad7b93ca78fc35b03008ab102cbbe2b16bc5f62efe7a6cad67ac16ce8ff1224c",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_21-52-36/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/logger_all.log",
+      "size": 41806,
+      "blocks_bytes": 45056,
+      "sha256": "43cfa58eb7b55f34abfe5be9ebbf03bc30c1c24314698cc7cdd8ed8a30062169",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/events.log",
+      "size": 10290,
+      "blocks_bytes": 12288,
+      "sha256": "b3092ab9871ef6eaa4ded6dbf6ef4ed429d9caad353c2bd993955e9ec21e7cab",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "7535fda52cb81bcfd5b5328f34278f382f98728c288cf1f9874af6f78ff1d10f",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-54/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/logger_all.log",
+      "size": 61785,
+      "blocks_bytes": 65536,
+      "sha256": "779ef58850259c16f3e06fde5164411c1f0b72b2e061658d29a91cb8366d6736",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/events.log",
+      "size": 24785,
+      "blocks_bytes": 28672,
+      "sha256": "59c0de71b2f54e87957c1455aae5da3a0e38377cce59e23e7554b00284315822",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_nav/stdout_stderr.log",
+      "size": 4180,
+      "blocks_bytes": 8192,
+      "sha256": "334b10f4f322e1619d80738f143c2acf99d2af56d1ea292280d1ff2fd288fac0",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_nav/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_nav/stdout.log",
+      "size": 4180,
+      "blocks_bytes": 8192,
+      "sha256": "334b10f4f322e1619d80738f143c2acf99d2af56d1ea292280d1ff2fd288fac0",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_nav/streams.log",
+      "size": 7062,
+      "blocks_bytes": 8192,
+      "sha256": "8cd00a0b8c2e053d5c73c1172c4ab1ef438757f5646cc1b71bac594a8bee22be",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_nav/command.log",
+      "size": 2594,
+      "blocks_bytes": 4096,
+      "sha256": "17653ac690f7c082009d264b82a9b4e63a4e6a6b157803a0ae0b16e7db4bf248",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "5e1389d19a46dbdda7025eadf5773f28111baa09fb563835ab1aab092f25e24e",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/logger_all.log",
+      "size": 63461,
+      "blocks_bytes": 65536,
+      "sha256": "4f8446982ca1c82608f052e96d432dab1e7ead7683866870b8e4b08982669af0",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/events.log",
+      "size": 21111,
+      "blocks_bytes": 24576,
+      "sha256": "b816f49a614d3daa3298c0e420c337e5b247b494af9ff0a0028380fe96ceb675",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_nav/stdout_stderr.log",
+      "size": 1292,
+      "blocks_bytes": 4096,
+      "sha256": "3befc9d9fd66efa2c0fbe637d98bb22f78c79f06c9ca1618b0fba3ceb1e666a9",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_nav/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_nav/stdout.log",
+      "size": 1292,
+      "blocks_bytes": 4096,
+      "sha256": "3befc9d9fd66efa2c0fbe637d98bb22f78c79f06c9ca1618b0fba3ceb1e666a9",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_nav/streams.log",
+      "size": 4048,
+      "blocks_bytes": 4096,
+      "sha256": "74f027c97a04a4da9673b92a6ca466a88fb7d6fd7b3b7602e7e469cc73e68f9d",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_nav/command.log",
+      "size": 2594,
+      "blocks_bytes": 4096,
+      "sha256": "17653ac690f7c082009d264b82a9b4e63a4e6a6b157803a0ae0b16e7db4bf248",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "ddff727027f25a8fd6b049e3a299785e8392ee4201a505dd88a8b700de4b6d2a",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/logger_all.log",
+      "size": 66795,
+      "blocks_bytes": 69632,
+      "sha256": "5ec1b1e43e2584a61f68a9370e8ef9d371a5a81eced66121e7ebf6d4b6b40300",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/events.log",
+      "size": 20782,
+      "blocks_bytes": 24576,
+      "sha256": "9d6605ea8639d1c1d3209284a2e81d39c5a4137b999d900130709c7d57d39c36",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_nav/stdout_stderr.log",
+      "size": 987,
+      "blocks_bytes": 4096,
+      "sha256": "82e6d7de2fdae8a1deaa5c5de7011c79ec7a937cabd89bea577b56ea0e698cc6",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_nav/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_nav/stdout.log",
+      "size": 987,
+      "blocks_bytes": 4096,
+      "sha256": "82e6d7de2fdae8a1deaa5c5de7011c79ec7a937cabd89bea577b56ea0e698cc6",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_nav/streams.log",
+      "size": 3734,
+      "blocks_bytes": 4096,
+      "sha256": "8479b63d97ad5152817c288ebf291282c706cc21ce3f2958d447d42c252cd21a",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_nav/command.log",
+      "size": 2594,
+      "blocks_bytes": 4096,
+      "sha256": "17653ac690f7c082009d264b82a9b4e63a4e6a6b157803a0ae0b16e7db4bf248",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "1663d9a2caa80cc2958976429552325ed80f47cbf79c035527e2f272bb3b6d20",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/logger_all.log",
+      "size": 70259,
+      "blocks_bytes": 73728,
+      "sha256": "3a87e9f0e80bf1f531a20a60204a6f215968792227cf8d02a0228bd7c945ddf1",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/events.log",
+      "size": 20782,
+      "blocks_bytes": 24576,
+      "sha256": "3711935a7a90cf950b4c1dc812f5a58925829f2a3cebd3c54979f46dc40186dc",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_nav/stdout_stderr.log",
+      "size": 987,
+      "blocks_bytes": 4096,
+      "sha256": "82e6d7de2fdae8a1deaa5c5de7011c79ec7a937cabd89bea577b56ea0e698cc6",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_nav/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_nav/stdout.log",
+      "size": 987,
+      "blocks_bytes": 4096,
+      "sha256": "82e6d7de2fdae8a1deaa5c5de7011c79ec7a937cabd89bea577b56ea0e698cc6",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_nav/streams.log",
+      "size": 3734,
+      "blocks_bytes": 4096,
+      "sha256": "9dc490f5c2356f9d2c69bd268f0262ccb8cf69429bfb1d3d99c92375a7175df8",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_nav/command.log",
+      "size": 2594,
+      "blocks_bytes": 4096,
+      "sha256": "17653ac690f7c082009d264b82a9b4e63a4e6a6b157803a0ae0b16e7db4bf248",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "a9a0428e3ba311969432182c379c3bab5ddd286c3b17be939dc92b7d28368d9e",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/logger_all.log",
+      "size": 81159,
+      "blocks_bytes": 81920,
+      "sha256": "644d0cf15a92dae1a9dbcc057c80b1e58d81a48d3db68c50c2a5f07b97be7064",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/events.log",
+      "size": 21290,
+      "blocks_bytes": 24576,
+      "sha256": "7c574bfe1b79a05ec146f9436ee676453508f678f3675747e30e9f3a49e5d679",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_nav/stdout_stderr.log",
+      "size": 1291,
+      "blocks_bytes": 4096,
+      "sha256": "8bdb64e73db59560775817cf05b1ac8cdbb0c8a261a53f8974eedd8eb6699702",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_nav/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_nav/stdout.log",
+      "size": 1291,
+      "blocks_bytes": 4096,
+      "sha256": "8bdb64e73db59560775817cf05b1ac8cdbb0c8a261a53f8974eedd8eb6699702",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_nav/streams.log",
+      "size": 4047,
+      "blocks_bytes": 4096,
+      "sha256": "66d3defdc91ef5fe777774b022022dc3322ef54bf73ebb5f1c9ec4a8603c86d2",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_nav/command.log",
+      "size": 2594,
+      "blocks_bytes": 4096,
+      "sha256": "17653ac690f7c082009d264b82a9b4e63a4e6a6b157803a0ae0b16e7db4bf248",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "ddb4efa93d82fc749c4cde1bf34008b94753f476cdbaf1e7adbf6119809cc236",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/logger_all.log",
+      "size": 81159,
+      "blocks_bytes": 81920,
+      "sha256": "01b9a26f09253e0f507f7c432203a9060e3a0776ad366400bab931df4c6fb92b",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/events.log",
+      "size": 21138,
+      "blocks_bytes": 24576,
+      "sha256": "8769ec0d5f4f8ca8dfa3b2d24d50e5f7e3ea318e966e31475bfe3565fa4ba1d5",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_nav/stdout_stderr.log",
+      "size": 1289,
+      "blocks_bytes": 4096,
+      "sha256": "04a5327410ac14430d4cfbbda663b8e6c0d0303b023b0e4d154815a6eea92aa5",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_nav/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_nav/stdout.log",
+      "size": 1289,
+      "blocks_bytes": 4096,
+      "sha256": "04a5327410ac14430d4cfbbda663b8e6c0d0303b023b0e4d154815a6eea92aa5",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_nav/streams.log",
+      "size": 4045,
+      "blocks_bytes": 4096,
+      "sha256": "8c966f6b11d4c6165960dd5a43bede39fc84bb845a129c7cc11779c5a9cbba27",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_nav/command.log",
+      "size": 2594,
+      "blocks_bytes": 4096,
+      "sha256": "17653ac690f7c082009d264b82a9b4e63a4e6a6b157803a0ae0b16e7db4bf248",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_sim/stdout_stderr.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_sim/stderr.log",
+      "size": 0,
+      "blocks_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_sim/stdout.log",
+      "size": 1154,
+      "blocks_bytes": 4096,
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_sim/streams.log",
+      "size": 3064,
+      "blocks_bytes": 4096,
+      "sha256": "660b1418db148b3cd65260a2435c36cee31d6e5a78604ca24d4703d756a9f8b2",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_sim/command.log",
+      "size": 1748,
+      "blocks_bytes": 4096,
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710",
+      "category": "过期成功构建日志",
+      "reason": "已完成rc=0且stderr为空，保留首个、最新和失败构建；不用于启动/构建/恢复",
+      "regenerable": false
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/moved-navigation-bag-info.txt",
+      "size": 2580,
+      "blocks_bytes": 4096,
+      "sha256": "936c5c5eb12f51d7257f58f2f559a663a06d8d6aee93a169213176e50a7a9afa",
+      "category": "重复摘要",
+      "reason": "SHA256一致，保留中文目录迁移/导航录包读取.txt；以相对链接保留引用",
+      "regenerable": true
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/bag-info.txt",
+      "size": 2580,
+      "blocks_bytes": 4096,
+      "sha256": "936c5c5eb12f51d7257f58f2f559a663a06d8d6aee93a169213176e50a7a9afa",
+      "category": "重复摘要",
+      "reason": "SHA256一致，保留中文目录迁移/导航录包读取.txt；以相对链接保留引用",
+      "regenerable": true
+    }
+  ],
+  "remove_empty_dirs": [
+    "ackermann_sim_ws/scripts/__pycache__",
+    "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/__pycache__",
+    "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__pycache__",
+    "ackermann_sim_ws/src/ackermann_sim/launch/__pycache__",
+    "ackermann_sim_ws/log/build_2026-10-03_15-56-51/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-03_15-56-51",
+    "ackermann_sim_ws/log/build_2026-10-03_21-52-36/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-03_21-52-36",
+    "ackermann_sim_ws/log/build_2026-10-12_17-40-54/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_17-40-54",
+    "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_nav",
+    "ackermann_sim_ws/log/build_2026-10-12_17-46-06/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_17-46-06",
+    "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_nav",
+    "ackermann_sim_ws/log/build_2026-10-12_17-46-22/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_17-46-22",
+    "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_nav",
+    "ackermann_sim_ws/log/build_2026-10-12_17-52-03/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_17-52-03",
+    "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_nav",
+    "ackermann_sim_ws/log/build_2026-10-12_17-54-57/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_17-54-57",
+    "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_nav",
+    "ackermann_sim_ws/log/build_2026-10-12_18-13-22/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_18-13-22",
+    "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_nav",
+    "ackermann_sim_ws/log/build_2026-10-12_18-14-41/ackermann_sim",
+    "ackermann_sim_ws/log/build_2026-10-12_18-14-41"
+  ],
+  "duplicate_canonical": "ackermann_sim_ws/项目文档/中文目录迁移/导航录包读取.txt",
+  "protected_files": [
+    {
+      "path": "m0_dev_ws/.gitignore",
+      "sha256": "4663f6477769c531e2ce7572cf9e395a2c2e129f9f2a9278dae4f77b0a2190ae"
+    },
+    {
+      "path": "m0_dev_ws/log/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/logger_all.log",
+      "sha256": "de0c0c9922f2fa69bddfb5384ddf63d9be047e188fc16ff6f2911d2a86a6c8a5"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/events.log",
+      "sha256": "924457a6426408b6f9a6c198687b80605c30141df395b92a454c9c9fad85d6aa"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/m0_smoke/stdout_stderr.log",
+      "sha256": "3e5ba97cbd98728b52b69e44f0dc66d0f357d7f55cfd99658c2ccaaa21de02cf"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/m0_smoke/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/m0_smoke/stdout.log",
+      "sha256": "3e5ba97cbd98728b52b69e44f0dc66d0f357d7f55cfd99658c2ccaaa21de02cf"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/m0_smoke/streams.log",
+      "sha256": "67f132c27117b4a4d6e577f6422ea392f50d43f2a569dbb78ebb82dd2068fb03"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-12_19-31-38/m0_smoke/command.log",
+      "sha256": "216f7494f2cddea14b532289a4e089d4d2c3318b5f615ecceb3a938ef26f3122"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/logger_all.log",
+      "sha256": "dfda8e33ba25b3f18cea09231f1d7222afef9d6ec48a19c8c1c7c2978efc71e9"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/events.log",
+      "sha256": "65741f01bd5110fca0202c5f42bbaab4cf236004b541623a8bc86969297d2cc6"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/m0_smoke/stdout_stderr.log",
+      "sha256": "1704517484fc605dc000dbb090b5d1432af47e3f99d68b24c9ba291a118238de"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/m0_smoke/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/m0_smoke/stdout.log",
+      "sha256": "1704517484fc605dc000dbb090b5d1432af47e3f99d68b24c9ba291a118238de"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/m0_smoke/streams.log",
+      "sha256": "a154b348ae2b0d8389b2eecb5369970ae3c131249590d0f6e28a141f9647ce69"
+    },
+    {
+      "path": "m0_dev_ws/log/build_2026-10-03_15-26-13/m0_smoke/command.log",
+      "sha256": "541340925a93cc24ff95adca85a874bba7b87b6f113db50ede0ee539ce908841"
+    },
+    {
+      "path": "m0_dev_ws/scripts/session.bash",
+      "sha256": "6f108e703596e42b744bb1caff4c381ecf0e376b64a8bcba2238225fc9e4f0ac"
+    },
+    {
+      "path": "m0_dev_ws/scripts/verify_ros.py",
+      "sha256": "179002c1462049e5134640e00fadadad4085b5dd86b4081dab254dabf50d8624"
+    },
+    {
+      "path": "m0_dev_ws/scripts/nav2_goal.py",
+      "sha256": "bf410c21870d0c46e0c0adb79abed301c5adbf13534eef1711b69db28425f3b5"
+    },
+    {
+      "path": "m0_dev_ws/build/.built_by",
+      "sha256": "d16cd6e1ca1feefc1e7897d9357700f5f509e530b5b76b031c635e02eccdca12"
+    },
+    {
+      "path": "m0_dev_ws/build/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/colcon_command_prefix_build.sh",
+      "sha256": "025a07cb442dfaedc93a955d89fdf6d1b21420ad6f4257ab63d3d853f9e5e176"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/colcon_command_prefix_build.sh.env",
+      "sha256": "57f97a6642015e5b99dc5790b0efacafad6ae926af3ddbe09501d13d2ec80915"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeCache.txt",
+      "sha256": "9b928dfde91b405e141a2d013ad69c5517f980e232ccc8f4d509f2173e3db542"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CTestTestfile.cmake",
+      "sha256": "9e7131ecd74368b5a8a6e665cadf4a30c9eb46243d2388e123b2806168e75e46"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/AMENT_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/install_manifest.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/colcon_build.rc",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/cmake_args.last",
+      "sha256": "dc5c9a866a45253af1d33d378ae80d8afffd8e007aeb5aea10b2b49751898e8b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/smoke_node",
+      "sha256": "974138fefa8484d8b5d7f70db50a205319f554a09950ff7f2cac5bcaa696a534"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install_targets_0_.cmake",
+      "sha256": "e0bb988ff25cce58fc03ec6089e899a59ca4ac506eb60ed82312247411cc3ff3"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/cmake_install.cmake",
+      "sha256": "db124dc486c676d93e62411303012ec1ed2609922c0210c56f653e768e1b6a2e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/symlink_install_manifest.txt",
+      "sha256": "0d360720d5af6a8d468c21bf2ceaedce1ade4f3d88cde13c0a56ba6a883a1ca8"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CTestCustom.cmake",
+      "sha256": "604987db904b472a78182f761db384fc8115f0ade6bb2cfed0d2242259f36bf0"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/Makefile",
+      "sha256": "c240d28ac3facd3917a607ba641aa53dc3e65ba498961560f47ea80aa7197464"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CTestConfiguration.ini",
+      "sha256": "13c28826eccb9a9272da6296947150c1232fd9a004810d241cb59f7ab6802504"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/m0_smoke",
+      "sha256": "34fa0469ea858244220097e0f3dc1c7b9e0202b13c0b0e9725fb5002be71bf5b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_index/share/ament_index/resource_index/packages/m0_smoke",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/m0_smoke",
+      "sha256": "c935c0e21d789d00e95ddb4f96b9836332fb2151e8c1e11868f33245a21ff421"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/ament_prefix_path.dsv",
+      "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.zsh",
+      "sha256": "56942873096201f4e7fe5e7b9bd87e56cc42ced33fadb53fbc25766fd9149c81"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.dsv",
+      "sha256": "e30936164977b6bdb5ff6b1d25ba328422f975b88910e07cd08874f11ea4b920"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.bash",
+      "sha256": "41b30b6c107da94a2478e43953b8cbd0d920f5e8fc1ea847c61a213623d623b0"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.sh",
+      "sha256": "f777011d2b0c8a33462c08d156b0103069a6632a24ffe24f11e4e4c4892ab223"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/path.dsv",
+      "sha256": "3f2cdf6234ea2525c1670c140b6a03700d98a2408e7a232107791fa96c08b58b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/package.dsv",
+      "sha256": "31445024fc38436968ce924a266d9af1584e2d6215dc1cdf1c6709218b0626ba"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_package_templates/templates.cmake",
+      "sha256": "0bd4d2e887197f7f9771d2238eff41586d61b13acc51ce8748b36ebcf55753f3"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake",
+      "sha256": "5764894f009ee1b3cb059a53815ffdb422c8681ccd885d5938ed17a408392e93"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+      "sha256": "65fae2e27fb68bd18f6bb1a9bc8ddf56f68f355a32b77c148eb184630f37b0ee"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake",
+      "sha256": "e4a1750b6e1a9d692702f95717a0ad8b90e82384d63e718b119400bba8dcabc2"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/progress.marks",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/TargetDirectories.txt",
+      "sha256": "f1481f6b3e7733ef9a976871688217db667501bee8c88c7f68facb022dd93b78"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/Makefile2",
+      "sha256": "05682e4108b535aeaedc23489482ffc88fdebd7581d9c2439d04bd2c5a23fa28"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeConfigureLog.yaml",
+      "sha256": "f83327215d89b3afc0978011f5b6b5fe61e6147dd2a22ee279ccd3cfaa033d35"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/Makefile.cmake",
+      "sha256": "d75b9cf2e77212b36599fcade4094773db894487e9d95c167b66ed5279632a8d"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeDirectoryInformation.cmake",
+      "sha256": "cceddb140d58c310ec5e41beb497ad7c4e7ed187aad012270eb7cf807068c91e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeRuleHashes.txt",
+      "sha256": "fec13a70c7689b16a3395daf99c31d76877a166c1acb8e02714605155b399c1a"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/cmake.check_cache",
+      "sha256": "a26189e394421da57f45706a07713c5720acd200a41711b0c0c590c3c63371c4"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/DependInfo.cmake",
+      "sha256": "b2ca23380b5c9dd7f07b120e32fb11a157a4def74d801994559b1c8c88f92f55"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/build.make",
+      "sha256": "7de0e8716c1e09dbb01f0808817feb5d91328f3168dcb63f10e6d24e2f25874e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/compiler_depend.make",
+      "sha256": "2de89cf32ec13bff1aa6128a4e46e8d0a4b381aaf2725c3ad6507fa044d3f75b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/compiler_depend.ts",
+      "sha256": "310498b8067ec0b639525a985c5d9cf724c2c82a280101cb3eb505d8d74c4796"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/cmake_clean.cmake",
+      "sha256": "b0f5aaafe072f6815691d20a7eea085d3a115f68fe3104276ee01b51ccfc375d"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/progress.make",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "sha256": "879b5d31eac14d7b0ca6cd3b96320041ad8d87b538fea24a17e8707f0656bc96"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeSystem.cmake",
+      "sha256": "e6dd9890a5f68bed86fe6a79a06176a48a0d2a9c39c50313df0f1cdafe697e47"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "sha256": "ba6646aa78bf3dd0a7997f89bcc1154630fcb86d28103e0bfcd5200b21f54c7c"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeCCompiler.cmake",
+      "sha256": "b5aad1667b4986e327d85cefeec26e17c6cb3dedf285649b05c522599a3cb824"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+      "sha256": "12aa7c8bbf1cab72086c6cf13c49e3efb595ce9a89e3a1cbc73bf019b660bd12"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+      "sha256": "9b1ebe4919c111011dba043f743e42ada0f1e3804b211e42191d773e7043282c"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c",
+      "sha256": "9a95913d134b6c5dca36f23acb80765b86313bcfd8da754e5ceb2e259e954074"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/DependInfo.cmake",
+      "sha256": "b2ca23380b5c9dd7f07b120e32fb11a157a4def74d801994559b1c8c88f92f55"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/build.make",
+      "sha256": "32213af315587ec03108ea54ebd12905cf7cf6643124fa880a4edff4b77e44e5"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/compiler_depend.make",
+      "sha256": "544b5020e80145b8265862c76a0811c3dd31a0820e2834b26038f646fa99c80b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/compiler_depend.ts",
+      "sha256": "5f7329b918c868b9e2549e3175c8cab0d6c02deccfa5f2700ee294575108f150"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/cmake_clean.cmake",
+      "sha256": "e51440eea639df67acafb145cd82e07a0d47a18935f82ef48527ded743c08d36"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/progress.make",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/link.txt",
+      "sha256": "1602520a473f6583941279cdf04d2d04c5db793b3f3b123591d22463e7d7f5d7"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/DependInfo.cmake",
+      "sha256": "9bb7c108e97540644fc8554ff184da45ab2f3fce41828f2958f9faf979a6123b"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/smoke_node.cpp.o.d",
+      "sha256": "5e5e1e21f66cb2cdf6c4a17cfaaf2dbf2387b360eba6c73d5786a7b3f1758291"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/smoke_node.cpp.o",
+      "sha256": "368d7429f9a831e9c130bf8cdb53fef9acb7dcd3ca05a18712302d2c599c13b3"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/build.make",
+      "sha256": "f4ffe9f51674fb83321a6a811aa642554a62fe67a9cadb4408f9bb6afae52c9e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/depend.make",
+      "sha256": "eb172fd743236cb7fcae925b0e8a239df36aab66a45e8da84b0501d913c3bc54"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/compiler_depend.internal",
+      "sha256": "e2a4639fcc2a582b78c3001bc68eb4dab10e605e98763de8aa34934e74c28aa5"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/flags.make",
+      "sha256": "f6fbd0b6d767d0b8233d673b7e5493d2f490d7d44ad92726c267bbf6e2cadee9"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/compiler_depend.make",
+      "sha256": "8256ad61a6f73d43bee22b9fb23cbc78f2a4f9c72edb2e124f4181af5093dd21"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/compiler_depend.ts",
+      "sha256": "25ee396fb17af1b1e867ca842ae0e0e1f948232b1be62b1aafacc67c74754220"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/cmake_clean.cmake",
+      "sha256": "b4aea7290053c493b377ccb0535aeaa5d2285a488e8d142b4f8f1531b1129a25"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/progress.make",
+      "sha256": "c06e644090b09d41eaddf59d10bcf03c6db6499eb51fa0d03e5128e5a165cc3c"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/package.cmake",
+      "sha256": "ca1f38bb85aeeacd82d123feef0b4424f92e0ce9ff74b45edb4519e8b539f703"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/m0_smokeConfig-version.cmake",
+      "sha256": "8d90190338f12d0ec2a9f00681df1f5bec139fc85de99b1291a47f942ad513f3"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/m0_smokeConfig.cmake",
+      "sha256": "e9509c277ddbe05551edc0357e6e961d220fe2100bff3b506b07291b960b3e4e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/templates_2_cmake.py.stamp",
+      "sha256": "696037d4de7b593bce6ca467480ee35076eb3efc49a94fa0af7e909fe0c96ebb"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/nameConfig.cmake.in.stamp",
+      "sha256": "475c990e5f6557e84b0e645df64dc684bae777b164f4b30a0b0016d2b41c0ef4"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/ament_prefix_path.sh.stamp",
+      "sha256": "6658f14efe913e291c0bf2c74059a9e14fb8abdb5a31628bef61d3b41e206679"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/package_xml_2_cmake.py.stamp",
+      "sha256": "859f5201d2902e2ac6d014cf07dde11d25497b2cf7d498cfad6fc74dddf02ff5"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/path.sh.stamp",
+      "sha256": "abe10a0452bc4b93f665fc343a7e6d32fe3f3a2b6beb90d338044a71d2583f18"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/package.xml.stamp",
+      "sha256": "0a7708dd5bf5adfe3cccbc74e1f4a7053ed0240b293c848c3bd4eceed2e11e6d"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/nameConfig-version.cmake.in.stamp",
+      "sha256": "0d535f3b3ada62eb97bee9c38dc8fab0cab97ff8d690cdca0b88a731fcd7669d"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/query/client-colcon-cmake/codemodel-v2",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/index-2026-10-12T11-31-39-0309.json",
+      "sha256": "b37eadcfab61a0c85765da135c96626cb14b9fc34411344d5831b0d3c071c176"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-m0_smoke_uninstall-8272a7364e15b674c7f9.json",
+      "sha256": "27688363da73a55eafebccf7edcc24d21bd1073f6917a808d08b7c652731ec6a"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/directory-.-4b9e9627be5cdf99972d.json",
+      "sha256": "4d6184f3160f6cd13b7dcb6ac20d77ff02ec4474e0f8b49f6997322dc8d5892f"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/codemodel-v2-b967f34922e1fd108809.json",
+      "sha256": "e0cce6a0171c9a28c44d6d1b4ae707735752c47e4917b8c6bae10a4911419a4e"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-smoke_node-a31999b146a5e22c99c9.json",
+      "sha256": "5ee5e3b23bdb23fd4f53c813108ca563af180977b39b80d9761eb74d1ac0e8cc"
+    },
+    {
+      "path": "m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-uninstall-f782189349ffdad0b0f3.json",
+      "sha256": "4bb4acf1820bc36b095fec713e188a261d8f3d72454fb91ae65c8a512175f4b1"
+    },
+    {
+      "path": "m0_dev_ws/安装下载/ros2-apt-source_1.3.0.noble_all.deb",
+      "sha256": "f31d84adf5054c7d60ded0e82c0f776a77ea33af53d08f40b9ad7c94cca55296"
+    },
+    {
+      "path": "m0_dev_ws/src/m0_smoke/CMakeLists.txt",
+      "sha256": "ed5eba68f143ae908842e2691980a78da28521067c4eb737142d5b212093494b"
+    },
+    {
+      "path": "m0_dev_ws/src/m0_smoke/smoke_node.cpp",
+      "sha256": "1658ceeb1b82a6547a5625ec5c1fb1b65b361d627bcc20a42765d3ee8c740e67"
+    },
+    {
+      "path": "m0_dev_ws/src/m0_smoke/package.xml",
+      "sha256": "0a7708dd5bf5adfe3cccbc74e1f4a7053ed0240b293c848c3bd4eceed2e11e6d"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nodes.txt",
+      "sha256": "e9c1fc31495fca36738b426f80f55e0e444406be4cff5b06bbac96264b266c3e"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nav2-goal-result.json",
+      "sha256": "976e45e00f100cb8886dafb25b7fcc2d93094e14504204e2526aa5a04ed5dabd"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/rviz.log",
+      "sha256": "a77d4ee0d3da049953dc8121c6061c4245dff2ef1976183b22b34fa93b601032"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nav2-gazebo.png",
+      "sha256": "d81ce58eeda589f6faad037a0e846ab85f0ff8d1f0c9dc04fb5e2a0ff182e817"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/relocation-verification.json",
+      "sha256": "e8053a33e2341adfecd392b8333acaef66c9276ecf715dac9e172b869e106aa0"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/stage4-plan.txt",
+      "sha256": "c53659ad8946f3ef5b70f96d30b18ff5c8b4f640de5be2c489b7fe480003041c"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/gazebo-topics.txt",
+      "sha256": "e8ffe474e28a97362d4e0c8a1900cee21ebcd46587b2defe3a56848807db8240"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/chatter_info.txt",
+      "sha256": "2a299f4c72f9b2045178f2cb2328001813401d61f7d85a3acdd757745d233e2f"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/official-package-candidates.json",
+      "sha256": "f2c9368c52a94694b4fe45c9bd692e74821705ce97d86728fb19cf076cb63dd8"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/relocation-build.log",
+      "sha256": "f62569d15f46ac8ebba384aaeb4a37a7a509e87cf7c4a989fb8585e69cd30c59"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/verification-results.json",
+      "sha256": "c05c115eeb342eeadecf58f4984aa514aa2d47e6d602e0ae7c5fab1566b1dae3"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nav2-scan.txt",
+      "sha256": "466a9a034bf7a14fd2640ba64c9a19c56d48b55e4a053f1f4c2befde3f206d5e"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/listener.log",
+      "sha256": "f81e89afa46eee0fbd56d1f66fe9acb67dc1fe0ffa835fe0e6a45a692298558b"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/workspace-run.log",
+      "sha256": "d4346c1b59959c2d8313e292e3eeb79acb12e94b4fa587d866d1b60d62d45ada"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/stage2-minimal-plan.txt",
+      "sha256": "d7e16ba271fc90340c7159a497919f1d78a51ea9b05f7e41c28353edc548b8dd"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/stage1-plan.txt",
+      "sha256": "80f6b9439ff295dbec5280f56ccda4dfa170665524ade13366809a1b414e9e56"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nav2-sim.log",
+      "sha256": "bf3ef09b543a731d018403c20f2f093c7648823171120e27528ce2d6ac56cc16"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/gazebo-window.png",
+      "sha256": "8111b0b3275829d200df4860b9389c1893155b0c6eab1be07de6c320821ff7e1"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/apt-history.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/stage3-plan.txt",
+      "sha256": "4f27b79b4993c6b20f9b548dc05c9afe1519434fb93f576aa83a66be3a3c5027"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/ros-installed-all.tsv",
+      "sha256": "100023795895545e9d339f621c65f4fa9a7452febcbcbebf9dab9c4bcd779972"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/topics.txt",
+      "sha256": "c6dcdb29baad65fc29e1239cf6cca25e61fc0a47cf42c053753828ad7d5d7dfb"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/talker.log",
+      "sha256": "c443b6e1796f9b71c60d84dafbb62112bc7d2dbd04de5c59fc4080058282a292"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nav2-clock.txt",
+      "sha256": "94f2fcb20e687723cad3acbbaebe02d51e85345fa6ddf149bcf2680c441c494e"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/terminal-proxy-presence.json",
+      "sha256": "f7fda75fe5831709fc1279e77ecec57ee265d53f39e66923d2c10f5993d3e82d"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/rviz-window.png",
+      "sha256": "4269321f3dac712ffec296e340508e98f30675c2dfc4b8dac6a0cc69b2be5714"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/workspace-topic.txt",
+      "sha256": "09bee96605ab00220d955100928e357be2d11320752b77d722d73cfb8d316c2d"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/nav2-goal.log",
+      "sha256": "d37447d11e874ae7d0ed3cd760cf72a1b3b4d659a49787aff4ff1c6d7ab9f955"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/source-package.json",
+      "sha256": "bb5d4f81d011a272d25e0727413eb3f14a30148e0b80c3a609dbddfd4a654c62"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/gazebo-gui.log",
+      "sha256": "249871adc979c0751c73a19f240ed38293a1a9ca935d545a36b5d89c47cafa62"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/installed-versions.tsv",
+      "sha256": "82322267e001048efeb0dff7f4e22044329f5063d0ba247d52f5b8f88a46a419"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/apt-candidates.txt",
+      "sha256": "90c824ad7f7d71ec5b7af1a095bab1af9041a83ebbdfe0e2ee6c633414d08b86"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/stage2-plan.txt",
+      "sha256": "66f6c9a72deb1846a1d7d3e1b18dfda3fa554a91cb26d94cf5e1811ab3082c91"
+    },
+    {
+      "path": "m0_dev_ws/验证报告/rviz-recheck.log",
+      "sha256": "e5cc10a69b56978b1fa89b6ed536bfb38cdaa44327fdd5b4b4dc735fe14faa4c"
+    },
+    {
+      "path": "m0_dev_ws/install/local_setup.zsh",
+      "sha256": "5fc7b5cfa0b484f14c21854fdcbb31653d831dc235e214b8ed88a63f6d2c4c02"
+    },
+    {
+      "path": "m0_dev_ws/install/setup.bash",
+      "sha256": "d1552370ac06943878b92be07f1ff59443d00a60275f687ddd08683f1cff795f"
+    },
+    {
+      "path": "m0_dev_ws/install/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "m0_dev_ws/install/setup.zsh",
+      "sha256": "6bd5525dd74811468bee9af1bcc881fbd44acdc386911a96b065ece463087ebf"
+    },
+    {
+      "path": "m0_dev_ws/install/_local_setup_util_ps1.py",
+      "sha256": "6bd62f5634832008b01eb0ccf38600512b7ee47c735ca53af22f92319f7e5a60"
+    },
+    {
+      "path": "m0_dev_ws/install/setup.sh",
+      "sha256": "6bcc005acd2b840292207673da8c9139e89fc821b8c4bb94b4c98c241e6cbf28"
+    },
+    {
+      "path": "m0_dev_ws/install/_local_setup_util_sh.py",
+      "sha256": "3f6e8b7fae1039cdc824678256f56160cb425ac6fd4e17e441b98d5cefab9f57"
+    },
+    {
+      "path": "m0_dev_ws/install/.colcon_install_layout",
+      "sha256": "9b8d77949b6e468746790cc1ada9432ca9984c51533a086544c8d0c01f18cc66"
+    },
+    {
+      "path": "m0_dev_ws/install/local_setup.bash",
+      "sha256": "0e10d666bbf43cf559467b11b75cf6d26cf8d210e7f94e79dfe5a7dddb2fe91c"
+    },
+    {
+      "path": "m0_dev_ws/install/local_setup.sh",
+      "sha256": "fd9cc3baf054d247909d33c4d42d2c7e115ff218050a45b24db3cab388155621"
+    },
+    {
+      "path": "m0_dev_ws/install/setup.ps1",
+      "sha256": "9e14de8573afa3d1254db86b2874f605b0602eb64f999ab58799cf36f9f6d128"
+    },
+    {
+      "path": "m0_dev_ws/install/local_setup.ps1",
+      "sha256": "79cfdc40aa006498cb2a008f05efe6563f311dcc1ab5b1c385c9c84f128feacb"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/colcon-core/packages/m0_smoke",
+      "sha256": "5fea54069218c9de62f3f46b514d692f38f0c435fbf4c0df14711c9eddf91a98"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.zsh",
+      "sha256": "6ac6f8fa632d1aea39294ee3ca3d6aff3e9ae8eb381a540dd92939e4801e51fc"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.bash",
+      "sha256": "7b4c367d935eb705487d344af18c435a0e66a1e40d1e79b4c9f24a3422e6fa6b"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.ps1",
+      "sha256": "45e89355731dadf4693cebc3759215c52f07dba58a65320b059de75bcc00cd66"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.dsv",
+      "sha256": "a597d5860d065478e7722876ff964d8e19aac6519b5488ac0ee2c5006ae97c65"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/package.sh",
+      "sha256": "248efa537eb31235ae1217d7a32d4204c569cdacfebd9805e9cde43d2075b362"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/hook/cmake_prefix_path.ps1",
+      "sha256": "0c7394c1d89765deec81cb10e59a36d0d98867690b4b8781d5bc9186fc67885a"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/hook/cmake_prefix_path.dsv",
+      "sha256": "7ab2eb0a25c282f9a5bf62596b4c098865cd3a8aa5740601a9efa8620acd69d3"
+    },
+    {
+      "path": "m0_dev_ws/install/m0_smoke/share/m0_smoke/hook/cmake_prefix_path.sh",
+      "sha256": "ee9849def404b669097010f38735aa521e0731366a319b6e1abe996c793494b2"
+    },
+    {
+      "path": "ackermann_sim_ws/.gitignore",
+      "sha256": "28fe8bf81400c4959b3c511eb20facee6f450f90e297133c84d8665bdd08c2d6"
+    },
+    {
+      "path": "ackermann_sim_ws/log/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/logger_all.log",
+      "sha256": "1a769569bc99bd5e76fbabde41f88d384c4ebdb8e18086cfdfbdfa368df3a4e6"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/events.log",
+      "sha256": "7f8600eaff5dd70d767de06b2c4102a976f0db5acc207fd713c52da3b5a9de40"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/ackermann_sim/stdout_stderr.log",
+      "sha256": "1b2d7c3a2eb4d138f3706e0698d5a322bf0f317c35c4db54a0c3f66d7ea29cc8"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/ackermann_sim/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/ackermann_sim/stdout.log",
+      "sha256": "1b2d7c3a2eb4d138f3706e0698d5a322bf0f317c35c4db54a0c3f66d7ea29cc8"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/ackermann_sim/streams.log",
+      "sha256": "06ba2851967d447728daa7d4a2cc54719b8705daf72c7b50fb419eea860e4ba2"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-03_15-56-03/ackermann_sim/command.log",
+      "sha256": "4e95a9429b26258bd181896d57b245d8b51181aa498b066f8e567730c59fe710"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/logger_all.log",
+      "sha256": "bef6e9bd58cdf369867d6038b0c0222014db1e8619c659f68fbab07899f0ca6a"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/events.log",
+      "sha256": "ee9c6a234c1bd96dfdf330f813c8e7ef0cba3f06b125c42c3d5d9a89b611148b"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_nav/stdout_stderr.log",
+      "sha256": "2e9e6867456e997191f4a1f96cafaaf7bc2fde6c2cfba27a3ec98f968dc19745"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_nav/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_nav/stdout.log",
+      "sha256": "2e9e6867456e997191f4a1f96cafaaf7bc2fde6c2cfba27a3ec98f968dc19745"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_nav/streams.log",
+      "sha256": "0fb5350fb637bfeff38333618b3c17278fd68151a31f681fd0b9d862d15d518f"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_nav/command.log",
+      "sha256": "b4d3d8bf85ac42ce94284207a6ede1af522fa07e176893bf5c45092b0f39da5f"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_sim/stdout_stderr.log",
+      "sha256": "f6c9ab5621f5b6d103c677b5e02ba110cccc29bf005419f6bd8e8249f863239e"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_sim/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_sim/stdout.log",
+      "sha256": "f6c9ab5621f5b6d103c677b5e02ba110cccc29bf005419f6bd8e8249f863239e"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_sim/streams.log",
+      "sha256": "c59ca91c0f1eed5788ea7a8fad88635b6c0c4dfc59d2f95ee09919d3f2279d5c"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_19-31-39/ackermann_sim/command.log",
+      "sha256": "2eda88ffc9d0ab837bfd31b190ab27e1d90a49bf4ec520133832d123339fa607"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/logger_all.log",
+      "sha256": "b7c2e948fd672b949611ad94673c112f931964c638f19c89469e10fd50176801"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/events.log",
+      "sha256": "edb5d79723b1e76a2ab56ecb6bda7af92f6239ec83a23c35a1ce6bc1cb576fcc"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/ackermann_sim/stdout_stderr.log",
+      "sha256": "f929aa0b89d32b7b96a906b6a06a2cdd3dd0a8304f0dd6e4eeab874319cf5303"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/ackermann_sim/stderr.log",
+      "sha256": "688c12bb0153d0e89a0f63db9ba0f6bd9fdb749b8674497a2dcfdf349d990c25"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/ackermann_sim/stdout.log",
+      "sha256": "129f8da2d29ce368afa8762cb395b63e02b00e58ac9a0b699a4e874874081087"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/ackermann_sim/streams.log",
+      "sha256": "aef34ebf7082a798dbf5ca1823c2a767a24f7d9ace4b8384eeecabd1d917f97a"
+    },
+    {
+      "path": "ackermann_sim_ws/log/build_2026-10-12_17-40-34/ackermann_sim/command.log",
+      "sha256": "4afc8e71cafddbd43abab34acd418fb9869034714e453ded4695cee0a0506318"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_motion.py",
+      "sha256": "19aeec353bbebcb768b6adea8d1dcbb95ce2baa1771fa8c415c2c6278f3e810f"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/start_nav.bash",
+      "sha256": "2c937592972b3b8bdaba2dc2a6c3aa6215be4698c5e9dc29a5164aa8052c0bd7"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/plot_nav.py",
+      "sha256": "c61a59b8b78220f12d4149638474c20ed10074c6859c5b86a810611ef899e5f1"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/bag_safety.py",
+      "sha256": "d7f39763343cd5e07025fee4249d5b07e5970d0e008666d110a766e202d94356"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_nav.py",
+      "sha256": "eac4c7e9d324ad7fcd413ddb18a752fd97f3861ee8c9b35a6dcb8f8665943868"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/control.bash",
+      "sha256": "db6d5def5a43e344e6988c2a17525fe2b3791ae70ddb08d80abed12512b8f9da"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_watchdog.py",
+      "sha256": "887b1aa2fc987e1a6ef596e4bc3f6036449a6f482bf4549716d854f71c440a5c"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/probe_contact.py",
+      "sha256": "d275bd2b924a93d304098d5c03cff6863da65cb4ee1211b82d707950c4f1e523"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/start.bash",
+      "sha256": "7fe617b0af414105a2cc8c8206987228b68966cf2ac36382f85a9046a93b31c0"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/audit_nav.py",
+      "sha256": "d8e72d8bbdb205c8f50746303137ba53336edbaccfd271915dcf785ac275c718"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/plot_results.py",
+      "sha256": "500889d503ce25db6abd466b7dee2252f1bffbe2b33cee85b2f8e61a6bdac88b"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/check_nav_guard.py",
+      "sha256": "f3a93b6c1021b134386a8e67d86da28226d5862ab821c1d43856f1f36215b184"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/window_capture.py",
+      "sha256": "ec04f46c698d3c0bf5eb58430dfff7c8ba730152d4f467c13d9010b8b5cb449c"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate.bash",
+      "sha256": "7af97b89f7d96d18c9982d15f6d314f071396b6c9b1c18055cab2afb5ee953e7"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_nav.bash",
+      "sha256": "63b815441357684d50e1564351393358698644c8979e5f026705c3819bdc2d02"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-clean-startup.log",
+      "sha256": "9115865836a7b3206d64983022b035f2fb54e9ac25618ff01c9123a1c8303802"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-startup-verification.json",
+      "sha256": "abd9e4b95ad04c51b3a6fda255bbae842903d575350a822830d250215f37698b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-build.log",
+      "sha256": "96d48736fc669adadd92fc81517df92080343e532e4f939fc22a5dcf5bcd94fb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/basic-launch-resource-check.txt",
+      "sha256": "eaa91692205e453d57b263897e749049b1e7c0de92150f34a8477519f55205b2"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-gazebo.png",
+      "sha256": "0f9b49c8d31cba76a0467d9c844b80436990f473124f9d40d43631d350276dfb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-fresh-startup.log",
+      "sha256": "1bef4656c949ac7900934c5ec60811ed9a7fe6ab81538d786f0241dd57c3d869"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-rviz.png",
+      "sha256": "f40d0271c25b1565cb52f4ff18e8e81da6068004dbee12740ba3c93d75b4e28d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-nav-startup.log",
+      "sha256": "9e319ad73fca5a2ee5b7b976cfb2ddccb0947600aa47d81b5d46db551c546b4e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/relocation-repair.json",
+      "sha256": "ec8a7fafd71f0823b27cc08d4ee187ff98bc8baa1b60c57d555708333307e765"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/organization-manifest.json",
+      "sha256": "bf6ef540b931ec5015b786c8f9e0fded7989ebd32e0a2da580a19dfb7ad775c5"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/organization-verification.json",
+      "sha256": "db35ba081b5ebbcdb4235ba17501670bb2141d837a9bad19cdc8f6db2bc037f0"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/nav-launch-resource-check.txt",
+      "sha256": "a9df37ab885e379ac5d44c6837704a99b19ecb0f76cc38c5e3bfdf942946d5c2"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动核验_干净场景/relocation-gazebo.png",
+      "sha256": "aaa3a6a7714d9fbb56a79b03126547d1bf5b7852dd28bfbe8815a6cd2f766fce"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动核验_干净场景/relocation-rviz.png",
+      "sha256": "bc47a2983d775243bc005a8d4e0359faec05a411e7821ef2d0f74509280fe84a"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动核验_干净场景/verification.json",
+      "sha256": "0adb524ae07cfaaf348b2b60238cb15d9b12e2443784d9b49f3e71e6ad7f9113"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/基础仿真核验.json",
+      "sha256": "19926089f0aa5c6a4bd16c78552b23f932ec3434db221e9266a55e43cab08e54"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/迁移清单.json",
+      "sha256": "2dc582b9f9f0bf7ce346497a598250df4e5adbd32d5d825c53240470d4aa70c4"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/核验结果.json",
+      "sha256": "063928b9fcdb3fce372c01df3caec43f63d016bfa00b1e77aadba2c780b8e0f4"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具路径修改.json",
+      "sha256": "c50537a9ece16d0a1c09e82e9dd9cc8079108251b51e6f32d45b6d8b539755ff"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/导航录包读取.txt",
+      "sha256": "936c5c5eb12f51d7257f58f2f559a663a06d8d6aee93a169213176e50a7a9afa"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/Nav2启动.log",
+      "sha256": "4de0b3a7bc8d1a265e20b614c3167e86aff526aacf0303225c11d0bfccdd10ba"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/Nav2核验.json",
+      "sha256": "e14d07e3295fcb10158a3fb9ea219c442d4a00087274efa61271c4b1ebb7b081"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/基础仿真启动.log",
+      "sha256": "259502db719c008e0b351b66943bcb7b638c28ca70d2e44b49b7a38290e2ad1e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/m0_dev_ws/verify_ros.py",
+      "sha256": "b84d5992ff4ac3cb8082e264003f7551823bb02908cd456666bf8b3153ac2d57"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/m0_dev_ws/nav2_goal.py",
+      "sha256": "a08a152a7fecabab901d952e3086e31e3434d33481a5275a436dc4bc34dcf32c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/ackermann_sim_ws/plot_nav.py",
+      "sha256": "0ef19aa9f48a4df4ecd52e284f588bab7fa966525b296e6a7e0a4e2a75fb35a7"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/ackermann_sim_ws/validate_watchdog.py",
+      "sha256": "7a5bffd90199f2167d47eccf6ddec45a2578a9907babec94c045d45fbac9f0c0"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/ackermann_sim_ws/probe_contact.py",
+      "sha256": "c92089be688f3d1b39c8347b22220b87f34e12282e76171b08ebfe60d660bccf"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/ackermann_sim_ws/plot_results.py",
+      "sha256": "0890018c2c599a0801677deb1bb63420de0422be8d4d6b165307d89dc835ad67"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/ackermann_sim_ws/check_nav_guard.py",
+      "sha256": "b0f6e96500a4f56b15c2905077f3479bc21b2801706243c41078f98732b494a1"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/工具原稿/ackermann_sim_ws/validate.bash",
+      "sha256": "7857b2b5b5028aaef3839fa5ab291fbd0cb96ebdbed3b8088c73248483fb1851"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M1_底盘与控制__过程记录__仿真_基础控制录像遮挡调试__说明.md__细分前",
+      "sha256": "3d1217f8a53d56b6581307ba2ffe633cabc8907333569d14242f319e2e026882"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__跨阶段_安全验证__验收成果__仿真_车身接触检测正向测试__说明.md__细分前",
+      "sha256": "2d4d8ab4fe7fdc875ad1e6038675b7237b49fea268dcf7f808fbf09a0d2d8d07"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M1_底盘与控制__过程记录__仿真_基础车辆控制旧版本__说明.md__细分前",
+      "sha256": "13032173fa2dcb6b5be5d63891ed8decb2dfd512eb3ac54953659e3ffd5bd95d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__跨阶段_安全验证__验收成果__仿真_完整负载断指令停车__说明.md__细分前",
+      "sha256": "c0339c88b7ca0f04fb99f8ad018167815ac8681cfd8f686d47a6e3e7b3a9bf27"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__项目文档__organization.md__细分前",
+      "sha256": "a4630e6f871a148c84ab6758826331828f735345c5e3fa9f9d42a164038e1f9c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__gitignore",
+      "sha256": "49a34ee21107b2d5a4a57ab5f6f848da36a2a55242dd67567aadb14de03f226d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__验证报告__README.md__细分前",
+      "sha256": "94180e04242e7316fd666d81f0c7ea7feb5d5c50da0bc30c30d5c7fa31b52f04"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M1_底盘与控制__过程记录__仿真_基础控制窗口匹配调试__说明.md__细分前",
+      "sha256": "48f2fbc53fce62cd31b465154655bb4c5edf56fa1893df33ff12988faa3b19cb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M3_导航__验收成果__仿真_简单场地导航__说明.md__细分前",
+      "sha256": "33f62c976b5c409b4820d8064961778756bb88e0e403c6453d1db070489d1c06"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M3_导航__过程记录__仿真_转弯绕圈未通过__说明.md__细分前",
+      "sha256": "ef90f2a3e395925c87b90daba3a21acc12f7d40dd47c60f56043e78616589a83"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M1_底盘与控制__过程记录__仿真_基础控制数值类型失败__说明.md__细分前",
+      "sha256": "68516724c3eb22d1289f58db93ff07c3df14388226bb5ce258d292f69428ca2e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/m0_dev_ws__gitignore",
+      "sha256": "f8954a82714e5991409942232ef01e456e1cb11b69d54c82018cba5a9c8c2a9e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__项目文档__m3-navigation.md__细分前",
+      "sha256": "9fadb960873cfe53a59e70ce79926a26f6cbc633de59dc9ca0e638a83c88b121"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__项目文档__basic-control.md__细分前",
+      "sha256": "018a66bb05534c354c173ec4f52859bbced74727c524c0425cd69b4ba63b713a"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__跨阶段_安全验证__过程记录__仿真_停车保护80ms方案未通过__说明.md__细分前",
+      "sha256": "1906897912a35c4af0ca7e702aab9f1e57c3a5c7b094e2f37d0472038bb6b671"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__项目文档__README.md__细分前",
+      "sha256": "b5d69bbce52a44a30208b8797b8ee6c664dfc71242594eadbfbb367e0b622a54"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__跨阶段_安全验证__过程记录__仿真_基础负载断指令停车__说明.md__细分前",
+      "sha256": "dfbc482e0134bc1876b991f447f1b7f0eaa214af4dcf89db59f8df0ee0ec5e70"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__M3_导航__过程记录__仿真_近终点单点路径未通过__说明.md__细分前",
+      "sha256": "81837ab0efbf1df73687290eb958687b7a03661190e1cd7520dd1b555fa277c5"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/中文目录迁移/原文备份/ackermann_sim_ws__实验记录__README.md__细分前",
+      "sha256": "ad686b61c791d393b445c8c327a4d8c5f4de9895831b396cc75e9063875fc1b5"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动复查_暂停恢复/relocation-gazebo.png",
+      "sha256": "70798a2b6fe9a7f98722d1fbb26428231fe12740adb2237c73dfec2700d030c3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动复查_暂停恢复/relocation-rviz.png",
+      "sha256": "bb031eb51c39361c6286e7b13a008af87846c51ded806bc8a530d7959e02f7d9"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动复查_暂停恢复/verification.json",
+      "sha256": "05bc15a9859a9d6772ef7cfc1d60800386447274d0d2dfbd496709270c5ecac6"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/manifest.json",
+      "sha256": "e65a9409b459cc37ab899e6d003c3e1fc7a0994e4c5cec68db970bfc7f7f593b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/verification.json",
+      "sha256": "77bab9dd0c1fa1f554f96ad03926e5f51c43cd1339a305790ee842612f4e3ddf"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/original-scripts/plot_nav.py",
+      "sha256": "7eae03addb116f5a004174bfb3536bec7104418e8880ec17f93226b495dbfb33"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/original-scripts/validate_watchdog.py",
+      "sha256": "d2afeaf16cc027302b5a44115fb5266d3ed6d53f1a147283e5756c1143ed239b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/original-scripts/probe_contact.py",
+      "sha256": "c8d9ba270ef2bcef7b825429e6234053fb828441409988c8aba27e55757bb182"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/original-scripts/plot_results.py",
+      "sha256": "aa5f0d8aa23c149b791b23f19464f4f4ec4c9948965ad7fc748eb2384539e045"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/实验记录整理档案/original-scripts/check_nav_guard.py",
+      "sha256": "70de0efb010baafe6fa655c2354ae485fd837884f2e58b49f54c025b8d3985f9"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/.built_by",
+      "sha256": "d16cd6e1ca1feefc1e7897d9357700f5f509e530b5b76b031c635e02eccdca12"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/colcon_command_prefix_build.sh",
+      "sha256": "025a07cb442dfaedc93a955d89fdf6d1b21420ad6f4257ab63d3d853f9e5e176"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/colcon_command_prefix_build.sh.env",
+      "sha256": "c644f936c76c278293ce29c04ce95cf5ce8316cdb6011c39de42698ce2aa8550"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeCache.txt",
+      "sha256": "64836734a222f87d4d66af104a91f1e85867e6fa237aa84e531623ee0b3c0e38"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CTestTestfile.cmake",
+      "sha256": "41d465298cc362c9e06bc890748e48f51aaeeaf6e9662ace533b69d86d1d77e8"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/AMENT_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/install_manifest.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/colcon_build.rc",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/cmake_args.last",
+      "sha256": "dc5c9a866a45253af1d33d378ae80d8afffd8e007aeb5aea10b2b49751898e8b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/smoke_node",
+      "sha256": "974138fefa8484d8b5d7f70db50a205319f554a09950ff7f2cac5bcaa696a534"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install_targets_0_.cmake",
+      "sha256": "1f81ee3f8621cd751998345bcb85566fd840399f6a38cf4d1cdd694e088dc34f"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/cmake_install.cmake",
+      "sha256": "b34ae82e0ff084e224448a6a79ed607d0a6987425ca2e9ee69bffbdd10025ab7"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/symlink_install_manifest.txt",
+      "sha256": "5681279f22c9867904571adbd8693121544721e2463e0ab71652c54f529a77e3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CTestCustom.cmake",
+      "sha256": "604987db904b472a78182f761db384fc8115f0ade6bb2cfed0d2242259f36bf0"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/Makefile",
+      "sha256": "4a1ce3cd2dc54ead7fac017f0d76a756ae5d6bf5f42ff51d1c5abb6896e1821b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CTestConfiguration.ini",
+      "sha256": "70ad2218d1ab1f234279c8decb3516fff3a19a93818e19232c1fe42d04af0f77"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/m0_smoke",
+      "sha256": "34fa0469ea858244220097e0f3dc1c7b9e0202b13c0b0e9725fb5002be71bf5b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_index/share/ament_index/resource_index/packages/m0_smoke",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/m0_smoke",
+      "sha256": "c935c0e21d789d00e95ddb4f96b9836332fb2151e8c1e11868f33245a21ff421"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/ament_prefix_path.dsv",
+      "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.zsh",
+      "sha256": "56942873096201f4e7fe5e7b9bd87e56cc42ced33fadb53fbc25766fd9149c81"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.dsv",
+      "sha256": "e30936164977b6bdb5ff6b1d25ba328422f975b88910e07cd08874f11ea4b920"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.bash",
+      "sha256": "41b30b6c107da94a2478e43953b8cbd0d920f5e8fc1ea847c61a213623d623b0"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/local_setup.sh",
+      "sha256": "a5387444cfdc11b6374ce6964432796dc03f5d40b677db8f8a43b9d5f955c011"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/path.dsv",
+      "sha256": "3f2cdf6234ea2525c1670c140b6a03700d98a2408e7a232107791fa96c08b58b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_environment_hooks/package.dsv",
+      "sha256": "31445024fc38436968ce924a266d9af1584e2d6215dc1cdf1c6709218b0626ba"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_package_templates/templates.cmake",
+      "sha256": "0bd4d2e887197f7f9771d2238eff41586d61b13acc51ce8748b36ebcf55753f3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake",
+      "sha256": "68b02da50a35665b3999d307ff49261e207fc3fec99c09f724e60a401caa55b3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+      "sha256": "b980f6fc408a3d516b3864ccafcb3bc85b347689e06c1f676db1c13f34725bac"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake",
+      "sha256": "3f63f10d322f7dcd57ff4cd6b9008e244226719562204b6221d0d3d04ff94055"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/progress.marks",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/TargetDirectories.txt",
+      "sha256": "5b292459a2006aeed3ddd71bdc2b1cab3809302a1d4e44389b1b11834f3ea8e6"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/Makefile2",
+      "sha256": "a9e680734cf03c3b22c372b27c5c89ea72a07217398b3a4e6e28f345c24827a1"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeConfigureLog.yaml",
+      "sha256": "13df2faff6e8b906beb8087a8685aa5ef5901ef6b76b9296f66aa3ac133ab356"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/Makefile.cmake",
+      "sha256": "32b203f712ea654bc56a11427d330aa818165c48698f7f71ce9c69ceb58ca8e9"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeDirectoryInformation.cmake",
+      "sha256": "be99bc83c9e308e4a3b409e35bcc3e6fdd5b20ca7c8596d71c5c02be8baba1ae"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/CMakeRuleHashes.txt",
+      "sha256": "983c546995df8c9f0768994161d9ea97b18a9a1fe817eb11c34194ea3895a21c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/cmake.check_cache",
+      "sha256": "a26189e394421da57f45706a07713c5720acd200a41711b0c0c590c3c63371c4"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/DependInfo.cmake",
+      "sha256": "b2ca23380b5c9dd7f07b120e32fb11a157a4def74d801994559b1c8c88f92f55"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/build.make",
+      "sha256": "91fa35953e7d020ec0c72d1d5219c4d1a5c2cfeb82fac4e2c2a511c33eecf905"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/compiler_depend.make",
+      "sha256": "2de89cf32ec13bff1aa6128a4e46e8d0a4b381aaf2725c3ad6507fa044d3f75b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/compiler_depend.ts",
+      "sha256": "310498b8067ec0b639525a985c5d9cf724c2c82a280101cb3eb505d8d74c4796"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/cmake_clean.cmake",
+      "sha256": "b0f5aaafe072f6815691d20a7eea085d3a115f68fe3104276ee01b51ccfc375d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/m0_smoke_uninstall.dir/progress.make",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "sha256": "879b5d31eac14d7b0ca6cd3b96320041ad8d87b538fea24a17e8707f0656bc96"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeSystem.cmake",
+      "sha256": "e6dd9890a5f68bed86fe6a79a06176a48a0d2a9c39c50313df0f1cdafe697e47"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "sha256": "ba6646aa78bf3dd0a7997f89bcc1154630fcb86d28103e0bfcd5200b21f54c7c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeCCompiler.cmake",
+      "sha256": "b5aad1667b4986e327d85cefeec26e17c6cb3dedf285649b05c522599a3cb824"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+      "sha256": "12aa7c8bbf1cab72086c6cf13c49e3efb595ce9a89e3a1cbc73bf019b660bd12"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+      "sha256": "9b1ebe4919c111011dba043f743e42ada0f1e3804b211e42191d773e7043282c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c",
+      "sha256": "9a95913d134b6c5dca36f23acb80765b86313bcfd8da754e5ceb2e259e954074"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/DependInfo.cmake",
+      "sha256": "b2ca23380b5c9dd7f07b120e32fb11a157a4def74d801994559b1c8c88f92f55"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/build.make",
+      "sha256": "c43367b6835c577227066088939e7b87507dfcb56c670deb73f46b34f88b921e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/compiler_depend.make",
+      "sha256": "544b5020e80145b8265862c76a0811c3dd31a0820e2834b26038f646fa99c80b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/compiler_depend.ts",
+      "sha256": "5f7329b918c868b9e2549e3175c8cab0d6c02deccfa5f2700ee294575108f150"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/cmake_clean.cmake",
+      "sha256": "e51440eea639df67acafb145cd82e07a0d47a18935f82ef48527ded743c08d36"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/uninstall.dir/progress.make",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/link.txt",
+      "sha256": "1602520a473f6583941279cdf04d2d04c5db793b3f3b123591d22463e7d7f5d7"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/DependInfo.cmake",
+      "sha256": "868d5c541c7c0c676c2eee9aaf4b1d91ce060e58b4ec7e3f3b1f1b3461e1c64d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/smoke_node.cpp.o.d",
+      "sha256": "4aaf9d0314e7edf74c39d00439f958866bf6e9e3ec748417f37b17b68d483b38"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/smoke_node.cpp.o",
+      "sha256": "368d7429f9a831e9c130bf8cdb53fef9acb7dcd3ca05a18712302d2c599c13b3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/build.make",
+      "sha256": "3390d6a5a0440839ab3bf445cc231bc53e77edf5a5abf788e99ef75741e12380"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/depend.make",
+      "sha256": "eb172fd743236cb7fcae925b0e8a239df36aab66a45e8da84b0501d913c3bc54"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/flags.make",
+      "sha256": "f6fbd0b6d767d0b8233d673b7e5493d2f490d7d44ad92726c267bbf6e2cadee9"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/compiler_depend.make",
+      "sha256": "9f3040484b404d104d0ffdedc5fb3c7aabd1830897d3999e2bcbcb3c58748e64"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/compiler_depend.ts",
+      "sha256": "25ee396fb17af1b1e867ca842ae0e0e1f948232b1be62b1aafacc67c74754220"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/cmake_clean.cmake",
+      "sha256": "b4aea7290053c493b377ccb0535aeaa5d2285a488e8d142b4f8f1531b1129a25"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/CMakeFiles/smoke_node.dir/progress.make",
+      "sha256": "c06e644090b09d41eaddf59d10bcf03c6db6499eb51fa0d03e5128e5a165cc3c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/package.cmake",
+      "sha256": "ca1f38bb85aeeacd82d123feef0b4424f92e0ce9ff74b45edb4519e8b539f703"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/m0_smokeConfig-version.cmake",
+      "sha256": "8d90190338f12d0ec2a9f00681df1f5bec139fc85de99b1291a47f942ad513f3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/m0_smokeConfig.cmake",
+      "sha256": "e9509c277ddbe05551edc0357e6e961d220fe2100bff3b506b07291b960b3e4e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/templates_2_cmake.py.stamp",
+      "sha256": "696037d4de7b593bce6ca467480ee35076eb3efc49a94fa0af7e909fe0c96ebb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/nameConfig.cmake.in.stamp",
+      "sha256": "475c990e5f6557e84b0e645df64dc684bae777b164f4b30a0b0016d2b41c0ef4"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/ament_prefix_path.sh.stamp",
+      "sha256": "6658f14efe913e291c0bf2c74059a9e14fb8abdb5a31628bef61d3b41e206679"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/package_xml_2_cmake.py.stamp",
+      "sha256": "859f5201d2902e2ac6d014cf07dde11d25497b2cf7d498cfad6fc74dddf02ff5"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/path.sh.stamp",
+      "sha256": "abe10a0452bc4b93f665fc343a7e6d32fe3f3a2b6beb90d338044a71d2583f18"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/package.xml.stamp",
+      "sha256": "0a7708dd5bf5adfe3cccbc74e1f4a7053ed0240b293c848c3bd4eceed2e11e6d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/ament_cmake_core/stamps/nameConfig-version.cmake.in.stamp",
+      "sha256": "0d535f3b3ada62eb97bee9c38dc8fab0cab97ff8d690cdca0b88a731fcd7669d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/query/client-colcon-cmake/codemodel-v2",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-m0_smoke_uninstall-0dfd564b44cbc338e1b6.json",
+      "sha256": "4c7825f378aae96af4c9c0d883461c0a77b0a858e719c4ed0cb4cc9951f36b08"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/codemodel-v2-51091afae91ba9b2b39b.json",
+      "sha256": "faf4b09469478e9d980151fbf9b1952fbcac5d8b9b3fbd3cf521a8c20996117b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/index-2026-10-03T07-26-14-0688.json",
+      "sha256": "123c52abd11848bae54ac1c8317a35a768bc975f71f17be9a754859bd327092e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/directory-.-693f3d81b98277a4aa37.json",
+      "sha256": "6c3a9c8b1c24365dfa3edb1d98a6f47923bfb26ee0add43a1f94b8def073c139"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-smoke_node-a31999b146a5e22c99c9.json",
+      "sha256": "5ee5e3b23bdb23fd4f53c813108ca563af180977b39b80d9761eb74d1ac0e8cc"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/build/m0_smoke/.cmake/api/v1/reply/target-uninstall-f782189349ffdad0b0f3.json",
+      "sha256": "4bb4acf1820bc36b095fec713e188a261d8f3d72454fb91ae65c8a512175f4b1"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/local_setup.zsh",
+      "sha256": "5fc7b5cfa0b484f14c21854fdcbb31653d831dc235e214b8ed88a63f6d2c4c02"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/setup.bash",
+      "sha256": "d1552370ac06943878b92be07f1ff59443d00a60275f687ddd08683f1cff795f"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/setup.zsh",
+      "sha256": "6bd5525dd74811468bee9af1bcc881fbd44acdc386911a96b065ece463087ebf"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/_local_setup_util_ps1.py",
+      "sha256": "6bd62f5634832008b01eb0ccf38600512b7ee47c735ca53af22f92319f7e5a60"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/setup.sh",
+      "sha256": "2259452533f51d38666fcb835898d1bd5da75627c59e86ed9e1218615eacf122"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/_local_setup_util_sh.py",
+      "sha256": "3f6e8b7fae1039cdc824678256f56160cb425ac6fd4e17e441b98d5cefab9f57"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/.colcon_install_layout",
+      "sha256": "9b8d77949b6e468746790cc1ada9432ca9984c51533a086544c8d0c01f18cc66"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/local_setup.bash",
+      "sha256": "0e10d666bbf43cf559467b11b75cf6d26cf8d210e7f94e79dfe5a7dddb2fe91c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/local_setup.sh",
+      "sha256": "274b395416097d78d6be941db7e9b975f4d3cc5c7368bd5fd4557bc3fcd70ee1"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/setup.ps1",
+      "sha256": "9e14de8573afa3d1254db86b2874f605b0602eb64f999ab58799cf36f9f6d128"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/local_setup.ps1",
+      "sha256": "79cfdc40aa006498cb2a008f05efe6563f311dcc1ab5b1c385c9c84f128feacb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/colcon-core/packages/m0_smoke",
+      "sha256": "5fea54069218c9de62f3f46b514d692f38f0c435fbf4c0df14711c9eddf91a98"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/package.zsh",
+      "sha256": "6ac6f8fa632d1aea39294ee3ca3d6aff3e9ae8eb381a540dd92939e4801e51fc"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/package.bash",
+      "sha256": "7b4c367d935eb705487d344af18c435a0e66a1e40d1e79b4c9f24a3422e6fa6b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/package.ps1",
+      "sha256": "45e89355731dadf4693cebc3759215c52f07dba58a65320b059de75bcc00cd66"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/package.dsv",
+      "sha256": "a597d5860d065478e7722876ff964d8e19aac6519b5488ac0ee2c5006ae97c65"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/package.sh",
+      "sha256": "79d49a9d642cfec863866573e7437d317fc2aba08c0f7323ddd5d086c5642cdf"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/hook/cmake_prefix_path.ps1",
+      "sha256": "0c7394c1d89765deec81cb10e59a36d0d98867690b4b8781d5bc9186fc67885a"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/hook/cmake_prefix_path.dsv",
+      "sha256": "7ab2eb0a25c282f9a5bf62596b4c098865cd3a8aa5740601a9efa8620acd69d3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/m0_dev_ws/install/m0_smoke/share/m0_smoke/hook/cmake_prefix_path.sh",
+      "sha256": "ee9849def404b669097010f38735aa521e0731366a319b6e1abe996c793494b2"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/.built_by",
+      "sha256": "d16cd6e1ca1feefc1e7897d9357700f5f509e530b5b76b031c635e02eccdca12"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/colcon_build.rc",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/colcon_command_prefix_setup_py.sh.env",
+      "sha256": "e0ae85820769b1e12cec1f5149675b65ef4dd1aa67f3bad28010d8ef0c229108"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/colcon_command_prefix_setup_py.sh",
+      "sha256": "36da28fc18b173dd97aef912809dd7f08835ab555a581b9f16e9e17d94fe350c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/top_level.txt",
+      "sha256": "a34372cab8de3935a218e81993e078fedcc647b23bea67081476ba2e54fc988d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/zip-safe",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/entry_points.txt",
+      "sha256": "a197c5a4bd888a0412e3bc28166ecc63509976bf873816ce433d8780b1c73dba"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/SOURCES.txt",
+      "sha256": "c3ec70577c4303ce644a63de4cfdc5515100a4ec87cca6a220544c469c0c0b9f"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/PKG-INFO",
+      "sha256": "5b976164de221dfd876884a82c1c398bc63150eae05c104bf86d116281a0e767"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/requires.txt",
+      "sha256": "4e34d3b17ef5dd1e34865d1d3245f1a40158ec9bc19ea6d3547423a3fb96e916"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/prefix_override/sitecustomize.py",
+      "sha256": "9319506bd54eaf34b08dee3ecb8c09fb12ead38c3e2a07b8f73c7b82d478867d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.ps1",
+      "sha256": "01f6bb90a84f23a72c7b6d7b6aeb379a93d49ae695858ce7757ac75a11dcfe82"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.dsv",
+      "sha256": "e33eae78052f7fca2bfa2050ad70d03529240790dae57b55873ac0e2f880b114"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.sh",
+      "sha256": "554ee07563d9a69dbbf0995a3366257ec476b75243d61ec5da185540e90e61c8"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/colcon_build.rc",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/colcon_command_prefix_setup_py.sh.env",
+      "sha256": "ddc09d1fd12ff80832b987c18d36cd873eaa125d37364ecae44d282309d7e9a0"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/colcon_command_prefix_setup_py.sh",
+      "sha256": "025a07cb442dfaedc93a955d89fdf6d1b21420ad6f4257ab63d3d853f9e5e176"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/prefix_override/sitecustomize.py",
+      "sha256": "7e23c4439c3de60726806095f0e86e07e227c6d84cb2dc755731b5a832ccfbc3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.ps1",
+      "sha256": "e1f4bc52e3614c2588d87eb171918a0d772a071cc449b0089f7ab39fc9b24810"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.dsv",
+      "sha256": "f32a245309054e7bb21a5f963a0c04638fabf1af8a2169f66540c6b5680bf02a"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.sh",
+      "sha256": "a7b0c0407fe2c728ac9ac4f0e49461d2b53ed56855c9d477fbca593aee2dc342"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/top_level.txt",
+      "sha256": "5f611dc9d09d692dc6a1017871ba5758e5143a166ae5a3c05722c1e961b1be71"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/zip-safe",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/entry_points.txt",
+      "sha256": "0ce63c5ce1dd6ef37ea9976f3cf089122c39a4abdc5bd9096afc43a3967dfa53"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/SOURCES.txt",
+      "sha256": "21a588a87921a7b8080da2bb7db4dd308a34a01b2d7ca596602e4bba16c6d9a2"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/PKG-INFO",
+      "sha256": "597a9ae49be6190e58c3711dae613f12d4e7d3a4fc9755bf624de70a01923be6"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/requires.txt",
+      "sha256": "4e34d3b17ef5dd1e34865d1d3245f1a40158ec9bc19ea6d3547423a3fb96e916"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/local_setup.zsh",
+      "sha256": "5fc7b5cfa0b484f14c21854fdcbb31653d831dc235e214b8ed88a63f6d2c4c02"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/setup.bash",
+      "sha256": "d1552370ac06943878b92be07f1ff59443d00a60275f687ddd08683f1cff795f"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/setup.zsh",
+      "sha256": "6bd5525dd74811468bee9af1bcc881fbd44acdc386911a96b065ece463087ebf"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/_local_setup_util_ps1.py",
+      "sha256": "6bd62f5634832008b01eb0ccf38600512b7ee47c735ca53af22f92319f7e5a60"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/setup.sh",
+      "sha256": "7e29135b2338d878124cea86a8e49173c37c6140429b9d98248d7d4fa5306df4"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/_local_setup_util_sh.py",
+      "sha256": "3f6e8b7fae1039cdc824678256f56160cb425ac6fd4e17e441b98d5cefab9f57"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/.colcon_install_layout",
+      "sha256": "9b8d77949b6e468746790cc1ada9432ca9984c51533a086544c8d0c01f18cc66"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/local_setup.bash",
+      "sha256": "0e10d666bbf43cf559467b11b75cf6d26cf8d210e7f94e79dfe5a7dddb2fe91c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/local_setup.sh",
+      "sha256": "6f991c22fc254c30413b88833bb53ce30f685ad4378a9a28dfe0685a0360f3a3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/setup.ps1",
+      "sha256": "9e14de8573afa3d1254db86b2874f605b0602eb64f999ab58799cf36f9f6d128"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/local_setup.ps1",
+      "sha256": "79cfdc40aa006498cb2a008f05efe6563f311dcc1ab5b1c385c9c84f128feacb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.zsh",
+      "sha256": "f342c7a0b6900e6d15d03b5118b743e4bc006d9a318131096c98aed5a0fca596"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.bash",
+      "sha256": "8ea0955986bf7c2bb962f8c46e451fe9686aeb264b700d56f54d541ddb69417d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.ps1",
+      "sha256": "cdcb1cec17b07d528af70f329ad45eed979ad3f562e08e7a4b163bcc9ce12dd8"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.dsv",
+      "sha256": "6932b6f4adef543efa67d3d256f05ff9bb1f39af4f6e95bfb26843a4008ccf86"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.sh",
+      "sha256": "eb4229731ae1227b449011a38166e7dc1c1aadd73c9f237eeb2e7ce88b2081b3"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/pythonpath.sh",
+      "sha256": "15a6191c43b0d92b5c726b638e710e045a711c8683875cfdead77f9e759e27aa"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/ament_prefix_path.dsv",
+      "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/pythonpath.dsv",
+      "sha256": "070ebe43e03af540d1d1e1a820dcdba2b6fac511fcecc16664eea6fc0e9a6691"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/ament_prefix_path.sh",
+      "sha256": "c07f082a166d9644cabb3237d58e59177e5830868363f0fc32b646e1fb5cb3a5"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/pythonpath.ps1",
+      "sha256": "151b30bbc3f8389f5b3125f0a8f6512625f04d77be5c317187b409f8640b0cc9"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/ament_prefix_path.ps1",
+      "sha256": "0aad623e5d52cbe955cc1d27b5002c3ce9a4c1f8de754b6afd4e6ac27e1eb2dd"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/share/colcon-core/packages/ackermann_nav",
+      "sha256": "6f560eb866d4b587e0143cf527d8ceb7579436161d4de3315fce30f237be6b8c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/lib/ackermann_nav/truth_localization",
+      "sha256": "21ca47aa993bd1c2928409a5b92fd012863bb8d8d6c9f23c9b3677cce22ad5ca"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_nav/lib/python3.12/site-packages/ackermann-nav.egg-link",
+      "sha256": "e15300f509373b341d4b45a4bf1897aff0ef53b9ea07dc817431c3bd3b59e8cc"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.zsh",
+      "sha256": "44b2193701bfa0af48417a112544a3be22ae4743e89d7dee540d72cc1817c422"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.bash",
+      "sha256": "617bfd186310f8c28d986094a9ea5ce7d5b8550b560f30479313c90705e598bb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.ps1",
+      "sha256": "f94788febd138cb9b3ba05e8b310ecaedb4042ef53a26a5d46caae1e8cc2fcfb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.dsv",
+      "sha256": "c8a33a5c2cb8ba28d7bd8389fc8cd4b4e4a5f61ce232b578e8d8677ba5c79a6a"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.sh",
+      "sha256": "fc1f2a2a2cc4a9c1f6c8f2d3dcb74a76b0752ea3dc5ecd7c0c54df7a70ddaa2d"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/pythonpath.sh",
+      "sha256": "15a6191c43b0d92b5c726b638e710e045a711c8683875cfdead77f9e759e27aa"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/ament_prefix_path.dsv",
+      "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/pythonpath.dsv",
+      "sha256": "070ebe43e03af540d1d1e1a820dcdba2b6fac511fcecc16664eea6fc0e9a6691"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/ament_prefix_path.sh",
+      "sha256": "c07f082a166d9644cabb3237d58e59177e5830868363f0fc32b646e1fb5cb3a5"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/pythonpath.ps1",
+      "sha256": "151b30bbc3f8389f5b3125f0a8f6512625f04d77be5c317187b409f8640b0cc9"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/ament_prefix_path.ps1",
+      "sha256": "0aad623e5d52cbe955cc1d27b5002c3ce9a4c1f8de754b6afd4e6ac27e1eb2dd"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/share/colcon-core/packages/ackermann_sim",
+      "sha256": "0921a0c08482d80c46bfc56f4d0db6f0e2f64abfbecf7bde385794b1f3e73ffb"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/lib/python3.12/site-packages/ackermann-sim.egg-link",
+      "sha256": "0a55ac8541d1b3e7316354936687956c66e61998bd1fa91a95cdee2474e5d240"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/lib/ackermann_sim/command_guard",
+      "sha256": "b84985f341658c7622a486d9526cfa675f7aa6f4f1451d9e6eb43fd88782091c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/路径修复备份/ackermann_sim_ws/install/ackermann_sim/lib/ackermann_sim/path_observer",
+      "sha256": "05720c0b8d7b36f243e793e8e7634aad15dfdc2d418de924b572ccadb1396de0"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动复查_快速重启/relocation-gazebo.png",
+      "sha256": "c14581cfea6638d0262679b51e014c354705081fd4eb0e393c09389e4c9e50d7"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动复查_快速重启/relocation-rviz.png",
+      "sha256": "a9929bcb5561b4621b4d8dd548b57e583163d112d92e099d8bb3e50552ddfb2c"
+    },
+    {
+      "path": "ackermann_sim_ws/项目文档/启动复查_快速重启/verification.json",
+      "sha256": "7494f613ce6a99b4affac04c4dff6eed2185dd4519ad412afa63d0dd2e697391"
+    },
+    {
+      "path": "ackermann_sim_ws/build/.built_by",
+      "sha256": "d16cd6e1ca1feefc1e7897d9357700f5f509e530b5b76b031c635e02eccdca12"
+    },
+    {
+      "path": "ackermann_sim_ws/build/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/colcon_build.rc",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/colcon_command_prefix_setup_py.sh.env",
+      "sha256": "cd5fbd367b0eb932577adb74350f84e6b0498fb2517702a95c8ca44f0c118e5f"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/colcon_command_prefix_setup_py.sh",
+      "sha256": "587cec0c44640573c69508772e057fad5152eb2bb05443769c907a20d4afd644"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/top_level.txt",
+      "sha256": "a34372cab8de3935a218e81993e078fedcc647b23bea67081476ba2e54fc988d"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/zip-safe",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/entry_points.txt",
+      "sha256": "a197c5a4bd888a0412e3bc28166ecc63509976bf873816ce433d8780b1c73dba"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/SOURCES.txt",
+      "sha256": "c3ec70577c4303ce644a63de4cfdc5515100a4ec87cca6a220544c469c0c0b9f"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/PKG-INFO",
+      "sha256": "5b976164de221dfd876884a82c1c398bc63150eae05c104bf86d116281a0e767"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/ackermann_nav.egg-info/requires.txt",
+      "sha256": "4e34d3b17ef5dd1e34865d1d3245f1a40158ec9bc19ea6d3547423a3fb96e916"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/prefix_override/sitecustomize.py",
+      "sha256": "23afd20860b9828a6f77f5baec3d33397b872e5a913659bd0197c40ab8fbfac0"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.ps1",
+      "sha256": "d45b257cef661c730b79d49f5d54d3cc60f5e35ea6461d39c1b4a44b3bc8bb3c"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.dsv",
+      "sha256": "134bdd6429ece940f08407f67c590e1e5f52d810961a161afaf18319ab1f9378"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_nav/share/ackermann_nav/hook/pythonpath_develop.sh",
+      "sha256": "fae87658a884e6492f1cbc8c77904bd34c93afa4442c0584d02f7a4d75a71389"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/colcon_build.rc",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/colcon_command_prefix_setup_py.sh.env",
+      "sha256": "1680565740d945ca1a9f0ebd28838633b9bf403936ab9bef5a0766b003af9a91"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/colcon_command_prefix_setup_py.sh",
+      "sha256": "025a07cb442dfaedc93a955d89fdf6d1b21420ad6f4257ab63d3d853f9e5e176"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/prefix_override/sitecustomize.py",
+      "sha256": "30ebf9bf1a5f22670bdc13320a0775ac124ec6be19232944e3f2a40b25077513"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.ps1",
+      "sha256": "06481dcaba04d810d7ae13f49aa8ab6c0aa8400b9c1f764af7e0daf195a19d91"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.dsv",
+      "sha256": "368efe59bebf0df91ac66833134c2a66941daefb9facdc212cd248366faa1c83"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/share/ackermann_sim/hook/pythonpath_develop.sh",
+      "sha256": "9d194ef2377283686d81c15754a20d0c53ab5ecfd679fbe99a6939d8dae6bc43"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/top_level.txt",
+      "sha256": "5f611dc9d09d692dc6a1017871ba5758e5143a166ae5a3c05722c1e961b1be71"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/zip-safe",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/entry_points.txt",
+      "sha256": "0ce63c5ce1dd6ef37ea9976f3cf089122c39a4abdc5bd9096afc43a3967dfa53"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/SOURCES.txt",
+      "sha256": "21a588a87921a7b8080da2bb7db4dd308a34a01b2d7ca596602e4bba16c6d9a2"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/PKG-INFO",
+      "sha256": "597a9ae49be6190e58c3711dae613f12d4e7d3a4fc9755bf624de70a01923be6"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ackermann_sim_ws/build/ackermann_sim/ackermann_sim.egg-info/requires.txt",
+      "sha256": "4e34d3b17ef5dd1e34865d1d3245f1a40158ec9bc19ea6d3547423a3fb96e916"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-360.png",
+      "sha256": "dac1938d0bc42dffbf6d563ba6f7bfee9c1bd7dd8e14cba12c1a2a15abf062d3"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/video-check-200.png",
+      "sha256": "1f0e509ecd625ec2ba8c4052bcba043f5d0e6d2d65e2bfc25e8ae6c198eea170"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/video-check-450.png",
+      "sha256": "cf46086030c3a42814da986b28209bf1b1189b1464797e792e81d057c89d10bf"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-1.png",
+      "sha256": "185ada45248405a0444a6a04f577f40fc25d466c7636311e07a69435d490597f"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-300.png",
+      "sha256": "84700cc17c95bc1c821eb229ae071713798d418022e95c7aa9bea2ead0cc6b9c"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/video-check-600.png",
+      "sha256": "8d5037489327df6c083545ff9bbe9d30c76c3e684280fe6f84866571e7f6c977"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/preview-120.png",
+      "sha256": "5fdb09b10442e92ac1a733afaa4f7cd3b6da34255e176c8226004d2f35ebcc26"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/轨迹或分析图/navigation_trajectory.png",
+      "sha256": "cfd7a2c59d0281bb099767b55aadae542c47e627c38eddc45b6350f39ab4a22d"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/演示视频/demo.mp4",
+      "sha256": "dfca36ad066287d6b408abb3a1e630506c18b66d2acdd37348692ca1e0eb4a45"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/原始数据/bag-record.log",
+      "sha256": "cceb9e80ed2aaafb629d5a1625d19289ef124043fad7c50a6944fe385c38bba3"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/原始数据/bag/metadata.yaml",
+      "sha256": "574721621cbc8dc4fb478be920125c86cb1f2232b41639e293b7f1a8d63d4de8"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/原始数据/bag/bag_0.mcap",
+      "sha256": "5de00ef61f82d6d06174431467756669f15059d0ad24686b37c4d05fb0e67145"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/测试结果/trajectory.json",
+      "sha256": "51f86a73213c4f3ed7a47da90eedb412e06e8c47dd5934c68fd6b5364e317b1d"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/测试结果/goal-results.json",
+      "sha256": "9dc41a26a3d6efc542280e58c57d0172198663e6e7369fbddf1f2558eae21758"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/测试结果/video-verification.json",
+      "sha256": "f93c2b80671651dd4c03c2834374267e9b2d23ba585d58fd4d588b77d72b7b6d"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/验收成果/仿真_简单场地导航/测试结果/results.json",
+      "sha256": "93d409d794f9b369a4741462ae66cce48e209fe8fe952fab99a9ee4127067f26"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/轨迹或分析图/preview-1.png",
+      "sha256": "e6ae71ac4423c65c5a72cf7cb18828582a163d0a728d236be4a8543f61a15300"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/轨迹或分析图/preview-300.png",
+      "sha256": "9064bc6b623c959ed52d0868467150d73adc4cd8213f15348f7796675f231037"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/轨迹或分析图/preview-120.png",
+      "sha256": "839eb4ac1d02426f2ed37f85e60901c51b01e8b4f4528cbb445bbc0af5ead28c"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/演示视频/demo.mp4",
+      "sha256": "5a20b94e20829a5cb10338da38026b685223f89641b8f8cf66572aaa54d9bc53"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag-record.log",
+      "sha256": "488cc555725913fe9a4e81bac1fecff9fc9eaf9433809063820d9cffbc6f23de"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag/metadata.yaml",
+      "sha256": "3a781bb7f4d9cc9e106dae1b1a120a72440edad8483016cab163b1537eef316c"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/原始数据/bag/bag_0.mcap",
+      "sha256": "9f1a76e3d1ffa44868080eb2deaf6374dd324df85f4e5d7425275f134aceb107"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_近终点单点路径未通过/测试结果/goal-results.json",
+      "sha256": "c6e64d3dd4c35c43851480d70a3f2af0ba09b245c628634bc704d01b76e165a2"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag-record.log",
+      "sha256": "f189a44bfbe7a83620b04c9fcdbc9964eca1352b4936f9a5b9a58508dfd09d5a"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag/metadata.yaml",
+      "sha256": "727e908c05e52a9b43588d0f0e160cfcb64539d4a0a47c5950b8f40189435713"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_转弯绕圈未通过/原始数据/bag/bag_0.mcap",
+      "sha256": "387bfb42f31daf3d19d3a9cb594d5ec6152194a43684d289c9f7a546db1a1739"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_转弯绕圈未通过/测试结果/failed-bag-audit.json",
+      "sha256": "be9ef5362f1c286331ac839f041b45e7631066377d0535c651ea97318b4738f2"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-360.png",
+      "sha256": "0f11f5d6223715a96b863f72b82cceb19338850a34e02c5d1467f7705f68ca88"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-1.png",
+      "sha256": "40c94de701f5126bf7d70b42e524c47a54163cf00e7ecee98ec3bc8e486c8f41"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-300.png",
+      "sha256": "efc2102de8fd82461f479de7e20ae8b4dd7cdf99aeb51ae8ef932d5f17de7d2e"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/trajectory.png",
+      "sha256": "a56cd291b5bc63c440a070ee7e35a0c81239a5a06efbcc7b714c35d37b708027"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/preview-120.png",
+      "sha256": "ad8b86d021b8ab5eee6d23bf7d6c10717ff76933d1709667a71317c5e7063933"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/轨迹或分析图/stopping.png",
+      "sha256": "97b9042071ac33b7c78f3a7d97d9e8a214cab511c97dcb2cf17ec079ee6dca87"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/演示视频/demo.mp4",
+      "sha256": "4b38a159556c2ce44c992d7fae9b315dc3467e9de3eacb4305d60096dde21681"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag-record.log",
+      "sha256": "5a4d0fe9ef726d9372da06ef01654b54b06f20072bb569d71c63b3102d582002"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/observations.json",
+      "sha256": "d3f049787811d3872c5f4fa678a1107fd71156762e581a51e5f71bdd5ae5ccfa"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag/metadata.yaml",
+      "sha256": "eb6d3c3ab0527ba3be77e91c28d9341e97fa7be9ff760cc9f26fb59d2efc5f71"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/原始数据/bag/bag_0.mcap",
+      "sha256": "079f83fded452f85ab2e5230ac4aa0c835f08dd767077c5fe991850bc8922b85"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础车辆控制旧版本/测试结果/results.json",
+      "sha256": "88dad86d3cb02856dc833492e8a32e9501eb4599a576b0b79bdc778ae47c4a23"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/轨迹或分析图/demo-frame.png",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/演示视频/demo.mp4",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag-record.log",
+      "sha256": "25a7268737f14a906c484dc8965fcca0b3115523bfc71ac7e3f785508ce98e52"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/observations.json",
+      "sha256": "2b0d9a97db6d0e356151782bd472a0c20aadf843df24b7e7247241370dfce71e"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag/metadata.yaml",
+      "sha256": "8c59164f3a2e37aa10251c650604cc9417b256890a0d1856a62b235798024d45"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/原始数据/bag/bag_0.mcap",
+      "sha256": "881b44b626ee7cad8ba4a9af28d15a1255d53e39cea4f71a0faf58ed7c0abdc7"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制录像遮挡调试/测试结果/results.json",
+      "sha256": "c709a27331f00c0f922f0d8d3921caa2d0ae03e0e80d91c14e2fff6ce1bb44d6"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/演示视频/demo.mp4",
+      "sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag-record.log",
+      "sha256": "f9702c5def6c75b47b180a30871f1b284e19a3b180a8d4a5427f8d52989d99ad"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag/metadata.yaml",
+      "sha256": "9c31da957129159ac702a0dbb12025233430de56425d52755f4eef95c5a76b29"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制数值类型失败/原始数据/bag/bag_0.mcap",
+      "sha256": "55b9a1c3863d254c67b39896302c11cce387c15040fc4a78ebc3db745afc392f"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/M1_底盘与控制/过程记录/仿真_基础控制窗口匹配调试/原始数据/bag-record.log",
+      "sha256": "d67f08154517956d827779262d072bc449ef768444189695a807929c779e0759"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/原始数据/bag-record.log",
+      "sha256": "492fdd475a57b1b225dd8ad757908c2e7ab0c26e44757c24a042a99eb683f8bc"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/原始数据/bag/metadata.yaml",
+      "sha256": "dd57aebdce9a1ab1ce05d7d477c3cc6733a607cd07cc4889bed67ec87830b70b"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/原始数据/bag/bag_0.mcap",
+      "sha256": "e609280e0a44b76af710fb4eda5eab70ff4af9b01c99ab102e65ef1bcf0c5ccd"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/测试结果/guard-rejections.json",
+      "sha256": "ee94226ee52fb861fd2f7f471c835857dfe06d8ee166745f7084b5ee003992de"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_完整负载断指令停车/测试结果/results.json",
+      "sha256": "23793b03dce1a2b70470d0c50fc54a401ff56ad5f05330efb1e5ee5223cdbe3c"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_车身接触检测正向测试/原始数据/spawn.log",
+      "sha256": "4b99a4c963ee0e7f62cbaa32566a7805916137e33b71537a2d72f6a4fdf7f862"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/验收成果/仿真_车身接触检测正向测试/测试结果/results.json",
+      "sha256": "ef8e237d81a743388d049bdcb0269b3edf2e2f136356359b8f62b2194dcd41bc"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/原始数据/bag-record.log",
+      "sha256": "f09c8d73c225fbae0faa671bb6ae4534ce520925f18b97dc64a9ac3210c46e68"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/原始数据/bag/metadata.yaml",
+      "sha256": "49500803da0743ce38a5a47a616e267802cc4ae758c8f359b42d731e6ed985e3"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/原始数据/bag/bag_0.mcap",
+      "sha256": "7c8895c9ae8da2d7361505ef376be36ef0496834534e862093b9add1297d2afd"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_基础负载断指令停车/测试结果/results.json",
+      "sha256": "21a4f4d98e3287566392e4928f89363c20211c8a1c48033ac01f4a7d56824805"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/原始数据/bag-record.log",
+      "sha256": "d88fdc5fda2d4f0c1b87a55a0f273b972b2bf65b37f6cf427055636bbec33525"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/原始数据/bag/metadata.yaml",
+      "sha256": "797e32358182c19ab41e9e1c47cecfde29f6e3f8351313f99afd86fed3e64fdf"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/原始数据/bag/bag_0.mcap",
+      "sha256": "023e5759edd51c3bd61495146fe6bd7003696554cdedbc6790f7a83f6e607a92"
+    },
+    {
+      "path": "ackermann_sim_ws/实验记录/跨阶段_安全验证/过程记录/仿真_停车保护80ms方案未通过/测试结果/results.json",
+      "sha256": "9b7d4ad7cd2acf8cc0e9a7601e419cc640d0ce7627f19be16cfa1e5879a7bd0b"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/setup.py",
+      "sha256": "070a33e02b0f1291ab4e27af1e248544936cbcea5d0d844ca89bee0ade0a54c0"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/package.xml",
+      "sha256": "29b07fdedb2260e276f64e19e214402e515db7a1962524f61234dfebf0923b6c"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/setup.cfg",
+      "sha256": "bd587550906d09a5f1a7815df943af8775d0bbf3a34bc39b3b00447a431934f1"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/assets.py",
+      "sha256": "ecd004be98c863c2e56d0c0435715d68929788271e06229eb766d31096799ff4"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/truth_localization.py",
+      "sha256": "a0db89fdac39dc2e56514ab06b624feff15237b2aac653a172e89c9310a4ecb5"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/rviz/ackermann.rviz",
+      "sha256": "ea87761fb66782e30604f1a7165f0f9f0a6cf06935dc79146fb91d67118846b6"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/resource/ackermann_nav",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/launch/navigation.launch.py",
+      "sha256": "7d7810309f75beb15f8605bec216f346a6f6ddb932351fb0b57cf1836e37b1f3"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/test_scene.yaml",
+      "sha256": "38870e9d7b42d650752a379c768a8f99ed47fb19a1318171dca499a02a6378f6"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/nav2.yaml",
+      "sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/forward_only.xml",
+      "sha256": "8299634b8145a38416206d4cf4a3883400561106a19046314793d6ff5902017e"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/gui.config",
+      "sha256": "8d5e70de444354fa99d7372494ea265cf3557e6aa78edcf4641100acca4121d8"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/setup.py",
+      "sha256": "d6ce120b1e1f8a1eb44a70425a72a2fa9bcb998443d9a6c13eb3c447cc20042c"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/package.xml",
+      "sha256": "dabfe2222d1007c7a3ac9551aa362b81fc580925c950a2501c0f7e688a47a3cd"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/setup.cfg",
+      "sha256": "3fd252f9a6c24f608ff5920f4e565b4e046ae5e9fa31816e9cbb31d4d260fee2"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/rviz/ackermann.rviz",
+      "sha256": "5404d06d16a34bb6f7db47ea3ad2e94ff18f3ababf1bd9c704be088159f9407e"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/resource/ackermann_sim",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/vendor/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/vendor/ackermann_steering.sdf",
+      "sha256": "37baf9ed43371946899ff02bcffeb4df48b27487d3cf933cb88fb070f1323dfe"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/guard.py",
+      "sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/assets.py",
+      "sha256": "e4013cb631f5686c133a402d3a35e3df48456601614a568a62e985fde57b2dbd"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/observer.py",
+      "sha256": "babc15cd6959ff9820f714cb2386f76fa4f46689d5b5f9822e2f9aaf3ebf3ca9"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/launch/sim.launch.py",
+      "sha256": "1248fb4a9043293bff9403c018551314b2550a2e716283ef9861f5bb905da073"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/config/vehicle.yaml",
+      "sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/config/gui.config",
+      "sha256": "92c4355425d724f057f4034895853ad2fb71d853cd517f4f597f3f6c2de705b4"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-nav-final-v2-validation.log",
+      "sha256": "fd05cbd752712a7ee70fe078a043f978b2d470fed369575cd2fdd7c3697a05f8"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-watchdog-v2-startup.log",
+      "sha256": "6b982cbead632e607940abfd3ee2433b9b700a039e8cba0966b054985b0987f4"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-nav-headless-validation.log",
+      "sha256": "9eb0034d47f75be22899ed4981740b69190e3cfe1bb955ef5ec02c41107edccf"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-nav-final-validation.log",
+      "sha256": "ca0cb5b6e93fccddb01a11a8ec3822769ff905bc158dd9d2f8af78894d783449"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-nav-gui-v2.log",
+      "sha256": "5921bbf0be622d13a8da69a64d53eccb41f8355028d7b4779fdb01ea5fa32e26"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-watchdog-loaded-validation.log",
+      "sha256": "70ca3c456a7ba2cd01393078d02e6b27556cc36676079283074308378c65d827"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/final-validation.log",
+      "sha256": "15b5aa1687ac90e01ecd8a0d5143e80bbdc0bb93d3a526e6707e9cd8530ddff3"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-nav-gui.log",
+      "sha256": "85f327f9428e32de84f365529dd8eaadafd7f624b97eecfcd077f03e668283ec"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-guard-rejections.log",
+      "sha256": "76dfff78c55df636604095f106f5c3079ca81f9aea8c02f107adbe8a5040b013"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/startup.log",
+      "sha256": "a46bf86c9e948d48392bbb484e3651b0cab7b0e2bd57de59ce732b37cc117148"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/startup-fixed.log",
+      "sha256": "a634ae26ee6b144cf7631e3e46af6d96c8d633dd70d365d66107eff4f2e460ad"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/validation-run-001.log",
+      "sha256": "0f56d481724f145f41f40c4b517a71078a74efd30be79ce7c0e6e2012bf264e7"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-watchdog-validation.log",
+      "sha256": "f691b94688c7bf44803a5a3847ce777f87cee952764de450effc09536ac580b1"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/validation-run-003.log",
+      "sha256": "29eeb245fcfecaca79cfc2a73a7689d028607cc5125a3a59fdcb94aeb35ec665"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-watchdog-loaded-startup.log",
+      "sha256": "f2c40cbf0a6c47dc4f1ea90b94861b04611ec623adbc7b393f0a55e38ad56314"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-watchdog-startup.log",
+      "sha256": "6cfb11bb111383ad86d7206b844914f7c0fc432673a0bea8686bcf613a969cbe"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/validation-run-002.log",
+      "sha256": "5444af50713c8239b01527f548b0231d304b73e108eb594dbb09b35398a74e62"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-watchdog-v2-validation.log",
+      "sha256": "ab38d4ca61919044903855910eaee25e8a89a71764c8fbbf6ebbf8decdf8b4de"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-nav-headless.log",
+      "sha256": "2f709c1af2e2c2bf265b2c7b4b850481b89d176bfb73d997dc85ec5b44a80559"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/m3-contact-probe.log",
+      "sha256": "069f9272b0848ec32541f865f715b3c67e99692ff4a01a6052000897a7038755"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/运行日志/final-startup.log",
+      "sha256": "8cb877fc1f3e979f21f4f26da5835b974f6fbf5e533c6035912ec85f4a993c2c"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/sources.json",
+      "sha256": "b4d566022a1d2ebc4fe0b42d6af7fb94d09092c47b7aa5c5c4938ff35461b455"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/运行参数/navigator.yaml",
+      "sha256": "e071ea8df376f196a7f9a746b3670438c85ee4741a6d10ee7f100ffe9a159910"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/运行参数/behaviors.yaml",
+      "sha256": "6c70b3611b9e3d198546ea83ee0dcb816bb999f4e242501171678112e1da65bc"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/运行参数/planner.yaml",
+      "sha256": "ba4e04d66e3e158cebe7b0c26abee9f7911b891a5259c4c82e8d8374b0c95c6b"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/运行参数/controller.yaml",
+      "sha256": "7b60a47b301147b512df8d09816fb402d9ec6d29bab0466b2af2e02c795117cf"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/运行参数/guard.yaml",
+      "sha256": "4b7119591036d053d25cb46e1c36fc6c43a587e9213e73eb8a3757f73742d326"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/bridge.yaml",
+      "sha256": "66851717d70ef6e146c3600dd51d7a3f6c6efe5ae4ef6b3e6788e2af1da44803"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/test_map.pgm",
+      "sha256": "7896252857441246a68eb999ecc44fe20604edc5edb74fb33375f3cf83035350"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/nav2.yaml",
+      "sha256": "94a5af54a0bb3f1aebf5989074b63eec1b57cb52def5fea001174476383b4c01"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/test_map.yaml",
+      "sha256": "22a41c7063ba574a5b6b572e2be8bd3ff73592455bfa2d1efd6cb6d1f06a0f20"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/derived_parameters.yaml",
+      "sha256": "fd2cc817d7d8e51dde6194c84f097b9ecf487a6bd6cea9f37ec82f0f1fc729c0"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/vehicle.urdf",
+      "sha256": "e1fbf5d89a38157ec777dd295c3b77ac04382ddeabb1d233a207fbc9e47220ed"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/配置快照/生成配置/test_world.sdf",
+      "sha256": "ffcaf4fffdc4ac16b421b54ad1aaf63881af65640974df104848f027d1093de8"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/接口证据/odom-publishers.txt",
+      "sha256": "f8be3ede83ee1cd95390960107f2e76914bb21f4e6d39327761a1b6a64830512"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/当前有效/M3_前置仿真/接口证据/tf-publishers.txt",
+      "sha256": "e0c6c853e3b3fd10cd2d2471e590d1f2affe9e46fbb9b88d34148df17f70cf61"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/final-bag-info.txt",
+      "sha256": "7ffa626b38eb5c41ad12fb75a1869371200c3ac2ff114a012a66d9e03d1b0f3e"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/final-verdict.json",
+      "sha256": "41cd4f02263d1b3db3eb82746289c4cccd51f3c9ec24fc4369ce586699e5944d"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/rviz-app-buffer.png",
+      "sha256": "9a9dc53af322b35e611f6e5ba6bcea1991da454fccecf906acad1f4b2145eecb"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/sources.json",
+      "sha256": "fe3abb550dd7638009f2d5440b7562cbf6cc34ce70d0d99409d95d405025e84d"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/gazebo-app-buffer.png",
+      "sha256": "e35675c75dd5a25848c31350422d68308d8697b67bfbccb3f1ed8f4c3c3ef8f6"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/environment-versions.tsv",
+      "sha256": "9f68f4c0b8aaf7b20f1b6003d4d3aea96c086c1dc9fa5c2142c3ad68e08625b9"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/generated/bridge.yaml",
+      "sha256": "7af5d93a0056e712f98d2fb6792b1f20ca272b3d6f52584c98c36cd1df4e5bad"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/generated/vehicle.urdf",
+      "sha256": "e1fbf5d89a38157ec777dd295c3b77ac04382ddeabb1d233a207fbc9e47220ed"
+    },
+    {
+      "path": "ackermann_sim_ws/验证报告/历史记录/基础仿真/generated/test_world.sdf",
+      "sha256": "04a3bca5be7d9a483008149c2dab74e707589221fb345ead1bc30dd4b8584b5c"
+    },
+    {
+      "path": "ackermann_sim_ws/install/local_setup.zsh",
+      "sha256": "5fc7b5cfa0b484f14c21854fdcbb31653d831dc235e214b8ed88a63f6d2c4c02"
+    },
+    {
+      "path": "ackermann_sim_ws/install/setup.bash",
+      "sha256": "d1552370ac06943878b92be07f1ff59443d00a60275f687ddd08683f1cff795f"
+    },
+    {
+      "path": "ackermann_sim_ws/install/COLCON_IGNORE",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/install/setup.zsh",
+      "sha256": "6bd5525dd74811468bee9af1bcc881fbd44acdc386911a96b065ece463087ebf"
+    },
+    {
+      "path": "ackermann_sim_ws/install/_local_setup_util_ps1.py",
+      "sha256": "6bd62f5634832008b01eb0ccf38600512b7ee47c735ca53af22f92319f7e5a60"
+    },
+    {
+      "path": "ackermann_sim_ws/install/setup.sh",
+      "sha256": "0fa822b8fdcca4c6d0ebca5599dc40d664496db0e0df1df90e525b4a13bd588d"
+    },
+    {
+      "path": "ackermann_sim_ws/install/_local_setup_util_sh.py",
+      "sha256": "3f6e8b7fae1039cdc824678256f56160cb425ac6fd4e17e441b98d5cefab9f57"
+    },
+    {
+      "path": "ackermann_sim_ws/install/.colcon_install_layout",
+      "sha256": "9b8d77949b6e468746790cc1ada9432ca9984c51533a086544c8d0c01f18cc66"
+    },
+    {
+      "path": "ackermann_sim_ws/install/local_setup.bash",
+      "sha256": "0e10d666bbf43cf559467b11b75cf6d26cf8d210e7f94e79dfe5a7dddb2fe91c"
+    },
+    {
+      "path": "ackermann_sim_ws/install/local_setup.sh",
+      "sha256": "36ff97690235e34a2d8250fe87b5768dbb62dab7f0446e1cd2c08e832e0d071d"
+    },
+    {
+      "path": "ackermann_sim_ws/install/setup.ps1",
+      "sha256": "9e14de8573afa3d1254db86b2874f605b0602eb64f999ab58799cf36f9f6d128"
+    },
+    {
+      "path": "ackermann_sim_ws/install/local_setup.ps1",
+      "sha256": "79cfdc40aa006498cb2a008f05efe6563f311dcc1ab5b1c385c9c84f128feacb"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.zsh",
+      "sha256": "f342c7a0b6900e6d15d03b5118b743e4bc006d9a318131096c98aed5a0fca596"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.bash",
+      "sha256": "8ea0955986bf7c2bb962f8c46e451fe9686aeb264b700d56f54d541ddb69417d"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.ps1",
+      "sha256": "cdcb1cec17b07d528af70f329ad45eed979ad3f562e08e7a4b163bcc9ce12dd8"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.dsv",
+      "sha256": "6932b6f4adef543efa67d3d256f05ff9bb1f39af4f6e95bfb26843a4008ccf86"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/package.sh",
+      "sha256": "c1e211950506d4e524e661753bbaa4eedb31d5af2431e3b62c62b0a7c69e9032"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/pythonpath.sh",
+      "sha256": "15a6191c43b0d92b5c726b638e710e045a711c8683875cfdead77f9e759e27aa"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/ament_prefix_path.dsv",
+      "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/pythonpath.dsv",
+      "sha256": "070ebe43e03af540d1d1e1a820dcdba2b6fac511fcecc16664eea6fc0e9a6691"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/ament_prefix_path.sh",
+      "sha256": "c07f082a166d9644cabb3237d58e59177e5830868363f0fc32b646e1fb5cb3a5"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/pythonpath.ps1",
+      "sha256": "151b30bbc3f8389f5b3125f0a8f6512625f04d77be5c317187b409f8640b0cc9"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/ackermann_nav/hook/ament_prefix_path.ps1",
+      "sha256": "0aad623e5d52cbe955cc1d27b5002c3ce9a4c1f8de754b6afd4e6ac27e1eb2dd"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/share/colcon-core/packages/ackermann_nav",
+      "sha256": "6f560eb866d4b587e0143cf527d8ceb7579436161d4de3315fce30f237be6b8c"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/lib/ackermann_nav/truth_localization",
+      "sha256": "21ca47aa993bd1c2928409a5b92fd012863bb8d8d6c9f23c9b3677cce22ad5ca"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_nav/lib/python3.12/site-packages/ackermann-nav.egg-link",
+      "sha256": "974af193e42c8e5c3f010aa6d51ba2d6d976e123b3f6408a400200604f9c8f28"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.zsh",
+      "sha256": "44b2193701bfa0af48417a112544a3be22ae4743e89d7dee540d72cc1817c422"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.bash",
+      "sha256": "617bfd186310f8c28d986094a9ea5ce7d5b8550b560f30479313c90705e598bb"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.ps1",
+      "sha256": "f94788febd138cb9b3ba05e8b310ecaedb4042ef53a26a5d46caae1e8cc2fcfb"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.dsv",
+      "sha256": "c8a33a5c2cb8ba28d7bd8389fc8cd4b4e4a5f61ce232b578e8d8677ba5c79a6a"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/package.sh",
+      "sha256": "b17b2fd5787e613c70b58eae4c7c6b1be218d44e3ca3d81b9456d12480a269ca"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/pythonpath.sh",
+      "sha256": "15a6191c43b0d92b5c726b638e710e045a711c8683875cfdead77f9e759e27aa"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/ament_prefix_path.dsv",
+      "sha256": "c4797d0a0670c70b4d3bcb5b7d47563635c7950595603f3af66f70af546ad57e"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/pythonpath.dsv",
+      "sha256": "070ebe43e03af540d1d1e1a820dcdba2b6fac511fcecc16664eea6fc0e9a6691"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/ament_prefix_path.sh",
+      "sha256": "c07f082a166d9644cabb3237d58e59177e5830868363f0fc32b646e1fb5cb3a5"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/pythonpath.ps1",
+      "sha256": "151b30bbc3f8389f5b3125f0a8f6512625f04d77be5c317187b409f8640b0cc9"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/ackermann_sim/hook/ament_prefix_path.ps1",
+      "sha256": "0aad623e5d52cbe955cc1d27b5002c3ce9a4c1f8de754b6afd4e6ac27e1eb2dd"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/share/colcon-core/packages/ackermann_sim",
+      "sha256": "0921a0c08482d80c46bfc56f4d0db6f0e2f64abfbecf7bde385794b1f3e73ffb"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/lib/python3.12/site-packages/ackermann-sim.egg-link",
+      "sha256": "69ccb62496955090613e99e2598f6812b47e0b6916f2cd0a433ed4e224fa1877"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/lib/ackermann_sim/command_guard",
+      "sha256": "b84985f341658c7622a486d9526cfa675f7aa6f4f1451d9e6eb43fd88782091c"
+    },
+    {
+      "path": "ackermann_sim_ws/install/ackermann_sim/lib/ackermann_sim/path_observer",
+      "sha256": "05720c0b8d7b36f243e793e8e7634aad15dfdc2d418de924b572ccadb1396de0"
+    }
+  ],
+  "logical_bytes": 972944,
+  "allocated_file_bytes": 1200128,
+  "du_before_bytes": 497197056
+}

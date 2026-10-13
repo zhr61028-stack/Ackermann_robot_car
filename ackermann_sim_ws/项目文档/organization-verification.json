@@ -1,0 +1,62 @@
+{
+  "moved_original_bytes_preserved": {
+    "files": 119,
+    "failures": []
+  },
+  "source_scripts_references_unchanged": {
+    "files": 51,
+    "failures": []
+  },
+  "markdown_local_links": {
+    "checked": 85,
+    "failures": []
+  },
+  "legacy_paths_compatible": {
+    "failures": []
+  },
+  "scripts_syntax": {
+    "failures": []
+  },
+  "startup_resources": {
+    "status": "static_paths_available",
+    "broken_generated_links_count": 0,
+    "examples": [],
+    "actual_gui_navigation_run": "Startup only passed; driving/goals/stopping were not rerun",
+    "actual_gui_navigation_startup": {
+      "nav2_lifecycle": "active [3]",
+      "topics_readable": [
+        "clock",
+        "map",
+        "odom"
+      ],
+      "map_frame": "odom",
+      "odom_frame": "odom",
+      "tf_checked": [
+        "base_footprint",
+        "base_link",
+        "front_left_wheel",
+        "rear_right_wheel"
+      ],
+      "actual_gui_captures": [
+        "docs/startup-clean-check/relocation-gazebo.png",
+        "docs/startup-clean-check/relocation-rviz.png"
+      ],
+      "no_goal_or_velocity_sent": true,
+      "pass": true
+    }
+  },
+  "no_data_deletion": {
+    "mcap_files_preserved": 9,
+    "mp4_files_preserved": 5
+  },
+  "organization_checks_pass": true,
+  "m0_runtime": {
+    "received": [
+      "m0_workspace_ok",
+      "m0_workspace_ok",
+      "m0_workspace_ok"
+    ],
+    "pass": true
+  },
+  "moved_rosbag_info_readable": true
+}

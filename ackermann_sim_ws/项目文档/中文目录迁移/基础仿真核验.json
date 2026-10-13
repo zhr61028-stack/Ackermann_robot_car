@@ -1,0 +1,11 @@
+{
+  "mode": "基础仿真",
+  "topics": [
+    "clock",
+    "odom"
+  ],
+  "odom_to_base_link": true,
+  "nav2_lifecycle": "not applicable",
+  "pass": true,
+  "no_motion_goal_sent": true
+}

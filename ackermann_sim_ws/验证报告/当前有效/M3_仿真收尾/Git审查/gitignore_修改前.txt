@@ -1,0 +1,56 @@
+build/
+install/
+log/
+**/__pycache__/
+验证报告/**/*.log
+验证报告/*.log
+实验记录/**/bag/
+实验记录/**/observations.json
+实验记录/run-*/
+
+# Failed M3 experiments retained locally for diagnosis
+/实验记录/m3-nav-headless/
+/实验记录/m3-nav-final/
+/实验记录/m3-watchdog/
+
+# Actual locations of preserved historical failures
+/实验记录/history/nav-headless-failed/
+/实验记录/history/nav-first-gui-failed/
+/实验记录/history/watchdog-80ms-failed/
+/实验记录/history/basic-run-*/
+# Legacy aliases, actual data are classified under latest/history
+/实验记录/final-run
+/实验记录/m3-nav-final-v2
+/实验记录/m3-watchdog-loaded
+/实验记录/m3-contact-probe
+/实验记录/m3-watchdog-v2
+
+# Original generated artifacts backed up for root-path repair
+/项目文档/relocation-backup/
+
+# Organization-time diagnostic logs
+/项目文档/*.log
+
+# Phase-organized original data and historical experiments
+实验记录/**/原始数据/
+实验记录/**/bag
+实验记录/**/observations.json
+/实验记录/M1_底盘与控制/过程记录/
+/实验记录/M3_导航/过程记录/
+/实验记录/跨阶段_安全验证/过程记录/
+/项目文档/artifacts-reorganization/legacy-aliases/
+# Legacy root basenames inside experiments are references, not duplicate tracked data
+实验记录/**/demo.mp4
+!实验记录/**/演示视频/demo.mp4
+实验记录/**/results.json
+!实验记录/**/测试结果/results.json
+
+# Historical compatibility entry points; actual files use Chinese directories
+/records
+/docs
+/artifacts
+/downloads
+
+# Chinese names of preserved historical repair archives
+/项目文档/路径修复备份/
+/项目文档/实验记录整理档案/legacy-aliases/

@@ -1,0 +1,480 @@
+[
+  {
+    "case": {
+      "name": "310米_验证1",
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/long_distance/道路_310米.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/long_distance/路网_310米.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": false,
+      "start": "A",
+      "goal": 6,
+      "target": [
+        290,
+        0,
+        0
+      ],
+      "expected": "FINISHED",
+      "expected_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "required_junctions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "graph_route_length_m": 310,
+      "minimum_graph_length_m": 300,
+      "timeout_s": 1455.0,
+      "video": true
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_长距离粗路网_310米_验证1_20261013_310米正式",
+    "all_pass": true,
+    "results": {
+      "audit.json": {
+        "all_pass": true,
+        "checks": {
+          "wheel_contacts_present": true,
+          "expected_terminal": true,
+          "road_footprint_inside": true,
+          "no_non_ground_contact": true,
+          "command_constraints": true,
+          "actual_curvature": true,
+          "forward_only": true,
+          "no_in_place_rotation": true,
+          "steering_limits": true,
+          "local_goals_within_window": true,
+          "odom_frame": true,
+          "no_intermediate_stops": true,
+          "endpoint_position": true,
+          "endpoint_yaw": true,
+          "junction_order": true,
+          "route_selection": true
+        },
+        "route": [
+          {
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "edges": [
+              100,
+              101,
+              102,
+              103,
+              104
+            ],
+            "cost": 310.0,
+            "frame": "odom"
+          }
+        ],
+        "terminal": {
+          "state": "FINISHED",
+          "reason": "",
+          "progress_m": 305.5039415367319,
+          "visited_junctions": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "local_path_sequence": 375,
+          "monotonic_s": 7990.205406409
+        },
+        "endpoint_position_error_m": 0.19701953656118143,
+        "endpoint_yaw_error_rad": 0.0007858070415719264,
+        "road_outside_pose_samples": 0,
+        "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+        "maximum_local_goal_axis_extent_m": 4.0172317363481795,
+        "truth_samples": 38402,
+        "minimum_actual_radius_m": 1.8924944913474182,
+        "physical_minimum_radius_m": 1.8921779360312885,
+        "safe_command_violations": 0,
+        "raw_nav_constraint_violations": 43,
+        "max_steering_joint_rad": 0.4532529784168896,
+        "non_ground_contact_count": 0,
+        "contact_messages": {
+          "/sim/contacts/rear_right_wheel": 768038,
+          "/sim/contacts/front_right_wheel": 768037,
+          "/sim/contacts/rear_left_wheel": 768037,
+          "/sim/contacts/front_left_wheel": 768033
+        },
+        "intermediate_stops_s": [],
+        "failure_stop": {},
+        "local_goal_count": 375,
+        "plan_count": 375,
+        "actual_path_length_m": 303.8076935844634,
+        "localization": "TEST_GAZEBO_TRUTH",
+        "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+        "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+      },
+      "supplemental_audit.json": {
+        "no_intermediate_pause": true,
+        "intermediate_pauses": [],
+        "maximum_route_point_distance_m": 0.43851189335952023,
+        "maximum_current_plan_point_distance_m": 0.066792625526107,
+        "junction_transitions": [
+          {
+            "t": 1791892212.6759589,
+            "junctions": [
+              2
+            ]
+          },
+          {
+            "t": 1791892234.0761504,
+            "junctions": [
+              2,
+              3
+            ]
+          },
+          {
+            "t": 1791892455.4820793,
+            "junctions": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "t": 1791892477.0823574,
+            "junctions": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "all_pass": true
+      },
+      "long_metrics.json": {
+        "graph_selected_length_m": 310.0,
+        "route_smoothed_length_m": 305.7077074058727,
+        "actual_odom_integrated_position_distance_m": 303.8076935844634,
+        "start_to_goal_straight_distance_m": 289.99999999998863,
+        "selected_route": [
+          {
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "edges": [
+              100,
+              101,
+              102,
+              103,
+              104
+            ],
+            "cost": 310.0,
+            "frame": "odom"
+          }
+        ],
+        "final_goal_requests": [
+          {
+            "goal_id": 6
+          }
+        ],
+        "manual_interventions": 0,
+        "navigation_terminal_wall_s": 763.2970634809999,
+        "total_observation_wall_s": 765.2970814989994,
+        "navigation_sim_time_s": 768.02,
+        "planning_requests": 375,
+        "published_plan_messages_all": 376,
+        "route_server_plan_messages_before_local_goal": 1,
+        "published_local_plans": 375,
+        "unanswered_local_goal_indices": [],
+        "planning_failed_attempts": 0,
+        "planning_response_observed_s": {
+          "mean": 0.005875498453776042,
+          "p95": 0.00797131061553955,
+          "max": 0.01036214828491211
+        },
+        "planning_timing_note": "goal topic received to plan topic received; includes DDS/action dispatch/scheduling, not pure algorithm CPU duration",
+        "raw_control_interval_s": {
+          "mean": 0.02499998937671729,
+          "p95": 0.02511310577392578,
+          "max": 0.026868104934692383,
+          "above_60ms": 0
+        },
+        "guard_expired_samples_while_running": 0,
+        "all_phase_intermediate_pauses": [],
+        "map": {
+          "width": 5960,
+          "height": 440,
+          "cells": 2622400,
+          "resolution": 0.05000000074505806
+        },
+        "resource": {
+          "samples": 382,
+          "aggregate_rss_peak_bytes": 3288592384,
+          "system_available_min_bytes": 24974364672,
+          "cpu_percent_mean": 609.3707781387083,
+          "cpu_percent_max": 638.3884047619399,
+          "cpu_note": "100%=one logical core; launch, both GUI groups, validator and bag; RSS shared pages may duplicate",
+          "mean_sim_realtime_factor": 1.0007384485898005
+        },
+        "checks": {
+          "length": true,
+          "autonomous_single_task": true,
+          "no_planner_failure": true,
+          "no_intermediate_pause": true,
+          "no_running_watchdog_expiry": true,
+          "memory_available": true
+        },
+        "all_pass": true
+      }
+    }
+  },
+  {
+    "case": {
+      "name": "310米_验证2",
+      "roads": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/long_distance/道路_310米.yaml",
+      "graph": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/long_distance/路网_310米.geojson",
+      "route_params": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/src/ackermann_route/config/route_server.yaml",
+      "map_updates": false,
+      "start": "A",
+      "goal": 6,
+      "target": [
+        290,
+        0,
+        0
+      ],
+      "expected": "FINISHED",
+      "expected_nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "required_junctions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "graph_route_length_m": 310,
+      "minimum_graph_length_m": 300,
+      "timeout_s": 1455.0,
+      "video": true
+    },
+    "output": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car/ackermann_sim_ws/实验记录/M3_导航/过程记录/仿真_长距离粗路网_310米_验证2_20261013_310米正式",
+    "all_pass": true,
+    "results": {
+      "audit.json": {
+        "all_pass": true,
+        "checks": {
+          "wheel_contacts_present": true,
+          "expected_terminal": true,
+          "road_footprint_inside": true,
+          "no_non_ground_contact": true,
+          "command_constraints": true,
+          "actual_curvature": true,
+          "forward_only": true,
+          "no_in_place_rotation": true,
+          "steering_limits": true,
+          "local_goals_within_window": true,
+          "odom_frame": true,
+          "no_intermediate_stops": true,
+          "endpoint_position": true,
+          "endpoint_yaw": true,
+          "junction_order": true,
+          "route_selection": true
+        },
+        "route": [
+          {
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "edges": [
+              100,
+              101,
+              102,
+              103,
+              104
+            ],
+            "cost": 310.0,
+            "frame": "odom"
+          }
+        ],
+        "terminal": {
+          "state": "FINISHED",
+          "reason": "",
+          "progress_m": 305.5039415367319,
+          "visited_junctions": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "local_path_sequence": 375,
+          "monotonic_s": 9007.934516349
+        },
+        "endpoint_position_error_m": 0.19603942417681036,
+        "endpoint_yaw_error_rad": 0.0005482505543608642,
+        "road_outside_pose_samples": 0,
+        "road_footprint_method": "Oriented conservative vehicle rectangle SAT versus exact rectangular complement of road union",
+        "maximum_local_goal_axis_extent_m": 4.014108567452496,
+        "truth_samples": 38398,
+        "minimum_actual_radius_m": 1.8923181297928957,
+        "physical_minimum_radius_m": 1.8921779360312885,
+        "safe_command_violations": 0,
+        "raw_nav_constraint_violations": 47,
+        "max_steering_joint_rad": 0.45329105338954384,
+        "non_ground_contact_count": 0,
+        "contact_messages": {
+          "/sim/contacts/rear_right_wheel": 767953,
+          "/sim/contacts/front_right_wheel": 767952,
+          "/sim/contacts/rear_left_wheel": 767952,
+          "/sim/contacts/front_left_wheel": 767951
+        },
+        "intermediate_stops_s": [],
+        "failure_stop": {},
+        "local_goal_count": 375,
+        "plan_count": 375,
+        "actual_path_length_m": 303.8101745161724,
+        "localization": "TEST_GAZEBO_TRUTH",
+        "road_boundary": "KNOWN_TEST_OCCUPANCY_MAP",
+        "measurement": "Bag reception times for failure delays; odometry velocities from simulated truth pose differences, not hardware timing."
+      },
+      "supplemental_audit.json": {
+        "no_intermediate_pause": true,
+        "intermediate_pauses": [],
+        "maximum_route_point_distance_m": 0.4344568634526537,
+        "maximum_current_plan_point_distance_m": 0.06667292385539918,
+        "junction_transitions": [
+          {
+            "t": 1791893230.34742,
+            "junctions": [
+              2
+            ]
+          },
+          {
+            "t": 1791893251.6977031,
+            "junctions": [
+              2,
+              3
+            ]
+          },
+          {
+            "t": 1791893473.208389,
+            "junctions": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "t": 1791893494.7137733,
+            "junctions": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "all_pass": true
+      },
+      "long_metrics.json": {
+        "graph_selected_length_m": 310.0,
+        "route_smoothed_length_m": 305.7077074058727,
+        "actual_odom_integrated_position_distance_m": 303.8101745161724,
+        "start_to_goal_straight_distance_m": 289.99999999998863,
+        "selected_route": [
+          {
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "edges": [
+              100,
+              101,
+              102,
+              103,
+              104
+            ],
+            "cost": 310.0,
+            "frame": "odom"
+          }
+        ],
+        "final_goal_requests": [
+          {
+            "goal_id": 6
+          }
+        ],
+        "manual_interventions": 0,
+        "navigation_terminal_wall_s": 763.7442916349992,
+        "total_observation_wall_s": 765.744741262999,
+        "navigation_sim_time_s": 767.66,
+        "planning_requests": 375,
+        "published_plan_messages_all": 376,
+        "route_server_plan_messages_before_local_goal": 1,
+        "published_local_plans": 375,
+        "unanswered_local_goal_indices": [],
+        "planning_failed_attempts": 0,
+        "planning_response_observed_s": {
+          "mean": 0.00577932866414388,
+          "p95": 0.007870340347290039,
+          "max": 0.010701894760131836
+        },
+        "planning_timing_note": "goal topic received to plan topic received; includes DDS/action dispatch/scheduling, not pure algorithm CPU duration",
+        "raw_control_interval_s": {
+          "mean": 0.02499999250780368,
+          "p95": 0.025112152099609375,
+          "max": 0.026259183883666992,
+          "above_60ms": 0
+        },
+        "guard_expired_samples_while_running": 0,
+        "all_phase_intermediate_pauses": [],
+        "map": {
+          "width": 5960,
+          "height": 440,
+          "cells": 2622400,
+          "resolution": 0.05000000074505806
+        },
+        "resource": {
+          "samples": 383,
+          "aggregate_rss_peak_bytes": 3249303552,
+          "system_available_min_bytes": 24868556800,
+          "cpu_percent_mean": 597.0409987348243,
+          "cpu_percent_max": 646.118750415758,
+          "cpu_note": "100%=one logical core; launch, both GUI groups, validator and bag; RSS shared pages may duplicate",
+          "mean_sim_realtime_factor": 1.000203543252333
+        },
+        "checks": {
+          "length": true,
+          "autonomous_single_task": true,
+          "no_planner_failure": true,
+          "no_intermediate_pause": true,
+          "no_running_watchdog_expiry": true,
+          "memory_available": true
+        },
+        "all_pass": true
+      }
+    }
+  }
+]

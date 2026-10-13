@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "project": "/home/zhanghaoran/.codex/.chatgpt-projects/Ackermann_robot_car",
+  "archive_files_unchanged": true,
+  "archive_checksum_errors": [],
+  "original_configuration_unchanged": {
+    "src/ackermann_sim/config/vehicle.yaml": true,
+    "src/ackermann_sim/ackermann_sim/guard.py": true,
+    "src/ackermann_nav/config/nav2.yaml": true,
+    "src/ackermann_route/config/roads.yaml": true,
+    "src/ackermann_route/config/local_test_graph.geojson": true,
+    "src/ackermann_route/config/route_server.yaml": true
+  },
+  "markdown_checked": 18,
+  "broken_links": [],
+  "broken_runtime_symlinks": [],
+  "official_experiments": 9,
+  "official_files": 262,
+  "official_bytes": 1789039856,
+  "disk_free_bytes": 46137737216,
+  "video_visual_review": [
+    "途中封路_时钟一致复测1:末帧实体墙、FAIL状态与零速",
+    "连续路口分支_复测1:中段转弯、Route与规划路径可见"
+  ],
+  "verification_scope": "本轮11次实际仿真；便携批量入口仅语法与dry-run复核，未重复全批运行"
+}

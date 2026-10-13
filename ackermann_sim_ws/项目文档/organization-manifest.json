@@ -1,0 +1,1127 @@
+{
+  "scope": "Documentation and evidence organization only; no raw data edits",
+  "moves": [
+    [
+      "ackermann_sim_ws/README.md",
+      "ackermann_sim_ws/docs/history/README-basic-before-organization.md"
+    ],
+    [
+      "ackermann_sim_ws/README-M3.md",
+      "ackermann_sim_ws/docs/history/README-M3-before-organization.md"
+    ],
+    [
+      "ackermann_sim_ws/records/M3-preliminary-report.md",
+      "ackermann_sim_ws/records/latest/m3/report.md"
+    ],
+    [
+      "ackermann_sim_ws/records/M3-issues.md",
+      "ackermann_sim_ws/records/latest/m3/issues.md"
+    ],
+    [
+      "ackermann_sim_ws/records/M3-sources.json",
+      "ackermann_sim_ws/records/latest/m3/sources.json"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-generated",
+      "ackermann_sim_ws/records/latest/m3/snapshots/generated"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-runtime-params",
+      "ackermann_sim_ws/records/latest/m3/snapshots/runtime"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-odom-publishers.txt",
+      "ackermann_sim_ws/records/latest/m3/evidence/odom-publishers.txt"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-tf-publishers.txt",
+      "ackermann_sim_ws/records/latest/m3/evidence/tf-publishers.txt"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-nav-final-v2-validation.log",
+      "ackermann_sim_ws/records/logs/m3-nav-final-v2-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/issues.md",
+      "ackermann_sim_ws/records/history/basic/issues.md"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-watchdog-v2-startup.log",
+      "ackermann_sim_ws/records/logs/m3-watchdog-v2-startup.log"
+    ],
+    [
+      "ackermann_sim_ws/records/generated",
+      "ackermann_sim_ws/records/history/basic/generated"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-nav-headless-validation.log",
+      "ackermann_sim_ws/records/logs/m3-nav-headless-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-nav-final-validation.log",
+      "ackermann_sim_ws/records/logs/m3-nav-final-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-nav-gui-v2.log",
+      "ackermann_sim_ws/records/logs/m3-nav-gui-v2.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-watchdog-loaded-validation.log",
+      "ackermann_sim_ws/records/logs/m3-watchdog-loaded-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/final-validation.log",
+      "ackermann_sim_ws/records/logs/final-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/final-bag-info.txt",
+      "ackermann_sim_ws/records/history/basic/final-bag-info.txt"
+    ],
+    [
+      "ackermann_sim_ws/records/final-verdict.json",
+      "ackermann_sim_ws/records/history/basic/final-verdict.json"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-nav-gui.log",
+      "ackermann_sim_ws/records/logs/m3-nav-gui.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-guard-rejections.log",
+      "ackermann_sim_ws/records/logs/m3-guard-rejections.log"
+    ],
+    [
+      "ackermann_sim_ws/records/rviz-app-buffer.png",
+      "ackermann_sim_ws/records/history/basic/rviz-app-buffer.png"
+    ],
+    [
+      "ackermann_sim_ws/records/sources.json",
+      "ackermann_sim_ws/records/history/basic/sources.json"
+    ],
+    [
+      "ackermann_sim_ws/records/startup.log",
+      "ackermann_sim_ws/records/logs/startup.log"
+    ],
+    [
+      "ackermann_sim_ws/records/startup-fixed.log",
+      "ackermann_sim_ws/records/logs/startup-fixed.log"
+    ],
+    [
+      "ackermann_sim_ws/records/validation-run-001.log",
+      "ackermann_sim_ws/records/logs/validation-run-001.log"
+    ],
+    [
+      "ackermann_sim_ws/records/gazebo-app-buffer.png",
+      "ackermann_sim_ws/records/history/basic/gazebo-app-buffer.png"
+    ],
+    [
+      "ackermann_sim_ws/records/report.md",
+      "ackermann_sim_ws/records/history/basic/report.md"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-watchdog-validation.log",
+      "ackermann_sim_ws/records/logs/m3-watchdog-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/validation-run-003.log",
+      "ackermann_sim_ws/records/logs/validation-run-003.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-watchdog-loaded-startup.log",
+      "ackermann_sim_ws/records/logs/m3-watchdog-loaded-startup.log"
+    ],
+    [
+      "ackermann_sim_ws/records/environment-versions.tsv",
+      "ackermann_sim_ws/records/history/basic/environment-versions.tsv"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-watchdog-startup.log",
+      "ackermann_sim_ws/records/logs/m3-watchdog-startup.log"
+    ],
+    [
+      "ackermann_sim_ws/records/validation-run-002.log",
+      "ackermann_sim_ws/records/logs/validation-run-002.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-watchdog-v2-validation.log",
+      "ackermann_sim_ws/records/logs/m3-watchdog-v2-validation.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-nav-headless.log",
+      "ackermann_sim_ws/records/logs/m3-nav-headless.log"
+    ],
+    [
+      "ackermann_sim_ws/records/m3-contact-probe.log",
+      "ackermann_sim_ws/records/logs/m3-contact-probe.log"
+    ],
+    [
+      "ackermann_sim_ws/records/final-startup.log",
+      "ackermann_sim_ws/records/logs/final-startup.log"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-nav-final-v2",
+      "ackermann_sim_ws/artifacts/latest/navigation"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-watchdog-loaded",
+      "ackermann_sim_ws/artifacts/latest/watchdog"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-contact-probe",
+      "ackermann_sim_ws/artifacts/latest/contact-probe"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-watchdog-v2",
+      "ackermann_sim_ws/artifacts/history/watchdog-unloaded-pass"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/final-run",
+      "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-nav-headless",
+      "ackermann_sim_ws/artifacts/history/nav-headless-failed"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-nav-final",
+      "ackermann_sim_ws/artifacts/history/nav-first-gui-failed"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/m3-watchdog",
+      "ackermann_sim_ws/artifacts/history/watchdog-80ms-failed"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/run-001",
+      "ackermann_sim_ws/artifacts/history/basic-run-001"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/run-002",
+      "ackermann_sim_ws/artifacts/history/basic-run-002"
+    ],
+    [
+      "ackermann_sim_ws/artifacts/run-003",
+      "ackermann_sim_ws/artifacts/history/basic-run-003"
+    ]
+  ],
+  "files": [
+    {
+      "before": "ackermann_sim_ws/README.md",
+      "after": "ackermann_sim_ws/docs/history/README-basic-before-organization.md",
+      "size": 4257,
+      "sha256": "2ed86a97d52c3fcfd4cc74b08184cde31bcd7fd8ae42be096b10dc873b11a270"
+    },
+    {
+      "before": "ackermann_sim_ws/README-M3.md",
+      "after": "ackermann_sim_ws/docs/history/README-M3-before-organization.md",
+      "size": 5357,
+      "sha256": "3fdfe1e0de8f3fb0bce307fc928d50f97699e4780eabe5a2e0d5dd193042e273"
+    },
+    {
+      "before": "ackermann_sim_ws/records/M3-preliminary-report.md",
+      "after": "ackermann_sim_ws/records/latest/m3/report.md",
+      "size": 10528,
+      "sha256": "3f4cee9b39a865b0ff8bfec21ae2b881ab99c0a0336f61df3861a2c60cfe345e"
+    },
+    {
+      "before": "ackermann_sim_ws/records/M3-issues.md",
+      "after": "ackermann_sim_ws/records/latest/m3/issues.md",
+      "size": 2603,
+      "sha256": "a5f3fda8f613573f29c5f9b8baf8e25cb5dff79a5c0fe92916e090912131e42d"
+    },
+    {
+      "before": "ackermann_sim_ws/records/M3-sources.json",
+      "after": "ackermann_sim_ws/records/latest/m3/sources.json",
+      "size": 1471,
+      "sha256": "b4d566022a1d2ebc4fe0b42d6af7fb94d09092c47b7aa5c5c4938ff35461b455"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/bridge.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/bridge.yaml",
+      "size": 1896,
+      "sha256": "66851717d70ef6e146c3600dd51d7a3f6c6efe5ae4ef6b3e6788e2af1da44803"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/derived_parameters.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/derived_parameters.yaml",
+      "size": 933,
+      "sha256": "fd2cc817d7d8e51dde6194c84f097b9ecf487a6bd6cea9f37ec82f0f1fc729c0"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/nav2.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/nav2.yaml",
+      "size": 5885,
+      "sha256": "94a5af54a0bb3f1aebf5989074b63eec1b57cb52def5fea001174476383b4c01"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/test_map.pgm",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/test_map.pgm",
+      "size": 232015,
+      "sha256": "7896252857441246a68eb999ecc44fe20604edc5edb74fb33375f3cf83035350"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/test_map.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/test_map.yaml",
+      "size": 130,
+      "sha256": "22a41c7063ba574a5b6b572e2be8bd3ff73592455bfa2d1efd6cb6d1f06a0f20"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/test_world.sdf",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/test_world.sdf",
+      "size": 34942,
+      "sha256": "ffcaf4fffdc4ac16b421b54ad1aaf63881af65640974df104848f027d1093de8"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-generated/vehicle.urdf",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/generated/vehicle.urdf",
+      "size": 3348,
+      "sha256": "e1fbf5d89a38157ec777dd295c3b77ac04382ddeabb1d233a207fbc9e47220ed"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-runtime-params/behaviors.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/runtime/behaviors.yaml",
+      "size": 1153,
+      "sha256": "6c70b3611b9e3d198546ea83ee0dcb816bb999f4e242501171678112e1da65bc"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-runtime-params/controller.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/runtime/controller.yaml",
+      "size": 2456,
+      "sha256": "7b60a47b301147b512df8d09816fb402d9ec6d29bab0466b2af2e02c795117cf"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-runtime-params/guard.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/runtime/guard.yaml",
+      "size": 300,
+      "sha256": "4b7119591036d053d25cb46e1c36fc6c43a587e9213e73eb8a3757f73742d326"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-runtime-params/navigator.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/runtime/navigator.yaml",
+      "size": 1483,
+      "sha256": "e071ea8df376f196a7f9a746b3670438c85ee4741a6d10ee7f100ffe9a159910"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-runtime-params/planner.yaml",
+      "after": "ackermann_sim_ws/records/latest/m3/snapshots/runtime/planner.yaml",
+      "size": 1676,
+      "sha256": "ba4e04d66e3e158cebe7b0c26abee9f7911b891a5259c4c82e8d8374b0c95c6b"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-odom-publishers.txt",
+      "after": "ackermann_sim_ws/records/latest/m3/evidence/odom-publishers.txt",
+      "size": 69,
+      "sha256": "f8be3ede83ee1cd95390960107f2e76914bb21f4e6d39327761a1b6a64830512"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-tf-publishers.txt",
+      "after": "ackermann_sim_ws/records/latest/m3/evidence/tf-publishers.txt",
+      "size": 3234,
+      "sha256": "e0c6c853e3b3fd10cd2d2471e590d1f2affe9e46fbb9b88d34148df17f70cf61"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-nav-final-v2-validation.log",
+      "after": "ackermann_sim_ws/records/logs/m3-nav-final-v2-validation.log",
+      "size": 2049,
+      "sha256": "fd05cbd752712a7ee70fe078a043f978b2d470fed369575cd2fdd7c3697a05f8"
+    },
+    {
+      "before": "ackermann_sim_ws/records/issues.md",
+      "after": "ackermann_sim_ws/records/history/basic/issues.md",
+      "size": 2132,
+      "sha256": "7affff3f425edf371d63b1dcc02fa731fe8f6c630477d1b6783baba52ae32116"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-watchdog-v2-startup.log",
+      "after": "ackermann_sim_ws/records/logs/m3-watchdog-v2-startup.log",
+      "size": 7374,
+      "sha256": "6b982cbead632e607940abfd3ee2433b9b700a039e8cba0966b054985b0987f4"
+    },
+    {
+      "before": "ackermann_sim_ws/records/generated/bridge.yaml",
+      "after": "ackermann_sim_ws/records/history/basic/generated/bridge.yaml",
+      "size": 992,
+      "sha256": "7af5d93a0056e712f98d2fb6792b1f20ca272b3d6f52584c98c36cd1df4e5bad"
+    },
+    {
+      "before": "ackermann_sim_ws/records/generated/test_world.sdf",
+      "after": "ackermann_sim_ws/records/history/basic/generated/test_world.sdf",
+      "size": 32661,
+      "sha256": "04a3bca5be7d9a483008149c2dab74e707589221fb345ead1bc30dd4b8584b5c"
+    },
+    {
+      "before": "ackermann_sim_ws/records/generated/vehicle.urdf",
+      "after": "ackermann_sim_ws/records/history/basic/generated/vehicle.urdf",
+      "size": 3348,
+      "sha256": "e1fbf5d89a38157ec777dd295c3b77ac04382ddeabb1d233a207fbc9e47220ed"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-nav-headless-validation.log",
+      "after": "ackermann_sim_ws/records/logs/m3-nav-headless-validation.log",
+      "size": 1061,
+      "sha256": "9eb0034d47f75be22899ed4981740b69190e3cfe1bb955ef5ec02c41107edccf"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-nav-final-validation.log",
+      "after": "ackermann_sim_ws/records/logs/m3-nav-final-validation.log",
+      "size": 1495,
+      "sha256": "ca0cb5b6e93fccddb01a11a8ec3822769ff905bc158dd9d2f8af78894d783449"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-nav-gui-v2.log",
+      "after": "ackermann_sim_ws/records/logs/m3-nav-gui-v2.log",
+      "size": 33134,
+      "sha256": "5921bbf0be622d13a8da69a64d53eccb41f8355028d7b4779fdb01ea5fa32e26"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-watchdog-loaded-validation.log",
+      "after": "ackermann_sim_ws/records/logs/m3-watchdog-loaded-validation.log",
+      "size": 6335,
+      "sha256": "70ca3c456a7ba2cd01393078d02e6b27556cc36676079283074308378c65d827"
+    },
+    {
+      "before": "ackermann_sim_ws/records/final-validation.log",
+      "after": "ackermann_sim_ws/records/logs/final-validation.log",
+      "size": 7796,
+      "sha256": "15b5aa1687ac90e01ecd8a0d5143e80bbdc0bb93d3a526e6707e9cd8530ddff3"
+    },
+    {
+      "before": "ackermann_sim_ws/records/final-bag-info.txt",
+      "after": "ackermann_sim_ws/records/history/basic/final-bag-info.txt",
+      "size": 1454,
+      "sha256": "7ffa626b38eb5c41ad12fb75a1869371200c3ac2ff114a012a66d9e03d1b0f3e"
+    },
+    {
+      "before": "ackermann_sim_ws/records/final-verdict.json",
+      "after": "ackermann_sim_ws/records/history/basic/final-verdict.json",
+      "size": 166,
+      "sha256": "41cd4f02263d1b3db3eb82746289c4cccd51f3c9ec24fc4369ce586699e5944d"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-nav-gui.log",
+      "after": "ackermann_sim_ws/records/logs/m3-nav-gui.log",
+      "size": 35709,
+      "sha256": "85f327f9428e32de84f365529dd8eaadafd7f624b97eecfcd077f03e668283ec"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-guard-rejections.log",
+      "after": "ackermann_sim_ws/records/logs/m3-guard-rejections.log",
+      "size": 215,
+      "sha256": "76dfff78c55df636604095f106f5c3079ca81f9aea8c02f107adbe8a5040b013"
+    },
+    {
+      "before": "ackermann_sim_ws/records/rviz-app-buffer.png",
+      "after": "ackermann_sim_ws/records/history/basic/rviz-app-buffer.png",
+      "size": 148958,
+      "sha256": "9a9dc53af322b35e611f6e5ba6bcea1991da454fccecf906acad1f4b2145eecb"
+    },
+    {
+      "before": "ackermann_sim_ws/records/sources.json",
+      "after": "ackermann_sim_ws/records/history/basic/sources.json",
+      "size": 777,
+      "sha256": "fe3abb550dd7638009f2d5440b7562cbf6cc34ce70d0d99409d95d405025e84d"
+    },
+    {
+      "before": "ackermann_sim_ws/records/startup.log",
+      "after": "ackermann_sim_ws/records/logs/startup.log",
+      "size": 6587,
+      "sha256": "a46bf86c9e948d48392bbb484e3651b0cab7b0e2bd57de59ce732b37cc117148"
+    },
+    {
+      "before": "ackermann_sim_ws/records/startup-fixed.log",
+      "after": "ackermann_sim_ws/records/logs/startup-fixed.log",
+      "size": 5262,
+      "sha256": "a634ae26ee6b144cf7631e3e46af6d96c8d633dd70d365d66107eff4f2e460ad"
+    },
+    {
+      "before": "ackermann_sim_ws/records/validation-run-001.log",
+      "after": "ackermann_sim_ws/records/logs/validation-run-001.log",
+      "size": 890,
+      "sha256": "0f56d481724f145f41f40c4b517a71078a74efd30be79ce7c0e6e2012bf264e7"
+    },
+    {
+      "before": "ackermann_sim_ws/records/gazebo-app-buffer.png",
+      "after": "ackermann_sim_ws/records/history/basic/gazebo-app-buffer.png",
+      "size": 678818,
+      "sha256": "e35675c75dd5a25848c31350422d68308d8697b67bfbccb3f1ed8f4c3c3ef8f6"
+    },
+    {
+      "before": "ackermann_sim_ws/records/report.md",
+      "after": "ackermann_sim_ws/records/history/basic/report.md",
+      "size": 8153,
+      "sha256": "642ebd03f1eb99027e9dd6cb49b008b55e20b2c06712645f916f7a7da89b90ef"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-watchdog-validation.log",
+      "after": "ackermann_sim_ws/records/logs/m3-watchdog-validation.log",
+      "size": 6710,
+      "sha256": "f691b94688c7bf44803a5a3847ce777f87cee952764de450effc09536ac580b1"
+    },
+    {
+      "before": "ackermann_sim_ws/records/validation-run-003.log",
+      "after": "ackermann_sim_ws/records/logs/validation-run-003.log",
+      "size": 7163,
+      "sha256": "29eeb245fcfecaca79cfc2a73a7689d028607cc5125a3a59fdcb94aeb35ec665"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-watchdog-loaded-startup.log",
+      "after": "ackermann_sim_ws/records/logs/m3-watchdog-loaded-startup.log",
+      "size": 27044,
+      "sha256": "f2c40cbf0a6c47dc4f1ea90b94861b04611ec623adbc7b393f0a55e38ad56314"
+    },
+    {
+      "before": "ackermann_sim_ws/records/environment-versions.tsv",
+      "after": "ackermann_sim_ws/records/history/basic/environment-versions.tsv",
+      "size": 275,
+      "sha256": "9f68f4c0b8aaf7b20f1b6003d4d3aea96c086c1dc9fa5c2142c3ad68e08625b9"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-watchdog-startup.log",
+      "after": "ackermann_sim_ws/records/logs/m3-watchdog-startup.log",
+      "size": 12959,
+      "sha256": "6cfb11bb111383ad86d7206b844914f7c0fc432673a0bea8686bcf613a969cbe"
+    },
+    {
+      "before": "ackermann_sim_ws/records/validation-run-002.log",
+      "after": "ackermann_sim_ws/records/logs/validation-run-002.log",
+      "size": 188,
+      "sha256": "5444af50713c8239b01527f548b0231d304b73e108eb594dbb09b35398a74e62"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-watchdog-v2-validation.log",
+      "after": "ackermann_sim_ws/records/logs/m3-watchdog-v2-validation.log",
+      "size": 6325,
+      "sha256": "ab38d4ca61919044903855910eaee25e8a89a71764c8fbbf6ebbf8decdf8b4de"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-nav-headless.log",
+      "after": "ackermann_sim_ws/records/logs/m3-nav-headless.log",
+      "size": 44385,
+      "sha256": "2f709c1af2e2c2bf265b2c7b4b850481b89d176bfb73d997dc85ec5b44a80559"
+    },
+    {
+      "before": "ackermann_sim_ws/records/m3-contact-probe.log",
+      "after": "ackermann_sim_ws/records/logs/m3-contact-probe.log",
+      "size": 281,
+      "sha256": "069f9272b0848ec32541f865f715b3c67e99692ff4a01a6052000897a7038755"
+    },
+    {
+      "before": "ackermann_sim_ws/records/final-startup.log",
+      "after": "ackermann_sim_ws/records/logs/final-startup.log",
+      "size": 7063,
+      "sha256": "8cb877fc1f3e979f21f4f26da5835b974f6fbf5e533c6035912ec85f4a993c2c"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/bag/bag_0.mcap",
+      "size": 210576653,
+      "sha256": "5de00ef61f82d6d06174431467756669f15059d0ad24686b37c4d05fb0e67145"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/bag/metadata.yaml",
+      "size": 15253,
+      "sha256": "574721621cbc8dc4fb478be920125c86cb1f2232b41639e293b7f1a8d63d4de8"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/bag-record.log",
+      "size": 2946,
+      "sha256": "cceb9e80ed2aaafb629d5a1625d19289ef124043fad7c50a6944fe385c38bba3"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/demo.mp4",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/demo.mp4",
+      "size": 538820,
+      "sha256": "dfca36ad066287d6b408abb3a1e630506c18b66d2acdd37348692ca1e0eb4a45"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/goal-results.json",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/goal-results.json",
+      "size": 1721,
+      "sha256": "9dc41a26a3d6efc542280e58c57d0172198663e6e7369fbddf1f2558eae21758"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/navigation_trajectory.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/navigation_trajectory.png",
+      "size": 100266,
+      "sha256": "cfd7a2c59d0281bb099767b55aadae542c47e627c38eddc45b6350f39ab4a22d"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/preview-1.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/preview-1.png",
+      "size": 228263,
+      "sha256": "185ada45248405a0444a6a04f577f40fc25d466c7636311e07a69435d490597f"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/preview-120.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/preview-120.png",
+      "size": 227261,
+      "sha256": "5fdb09b10442e92ac1a733afaa4f7cd3b6da34255e176c8226004d2f35ebcc26"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/preview-300.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/preview-300.png",
+      "size": 231207,
+      "sha256": "84700cc17c95bc1c821eb229ae071713798d418022e95c7aa9bea2ead0cc6b9c"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/preview-360.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/preview-360.png",
+      "size": 233303,
+      "sha256": "dac1938d0bc42dffbf6d563ba6f7bfee9c1bd7dd8e14cba12c1a2a15abf062d3"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/results.json",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/results.json",
+      "size": 6717,
+      "sha256": "93d409d794f9b369a4741462ae66cce48e209fe8fe952fab99a9ee4127067f26"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/trajectory.json",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/trajectory.json",
+      "size": 312430,
+      "sha256": "51f86a73213c4f3ed7a47da90eedb412e06e8c47dd5934c68fd6b5364e317b1d"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/video-check-200.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/video-check-200.png",
+      "size": 348204,
+      "sha256": "1f0e509ecd625ec2ba8c4052bcba043f5d0e6d2d65e2bfc25e8ae6c198eea170"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/video-check-450.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/video-check-450.png",
+      "size": 352633,
+      "sha256": "cf46086030c3a42814da986b28209bf1b1189b1464797e792e81d057c89d10bf"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/video-check-600.png",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/video-check-600.png",
+      "size": 350724,
+      "sha256": "8d5037489327df6c083545ff9bbe9d30c76c3e684280fe6f84866571e7f6c977"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final-v2/video-verification.json",
+      "after": "ackermann_sim_ws/artifacts/latest/navigation/video-verification.json",
+      "size": 126,
+      "sha256": "f93c2b80671651dd4c03c2834374267e9b2d23ba585d58fd4d588b77d72b7b6d"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-loaded/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/latest/watchdog/bag/bag_0.mcap",
+      "size": 3477661,
+      "sha256": "e609280e0a44b76af710fb4eda5eab70ff4af9b01c99ab102e65ef1bcf0c5ccd"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-loaded/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/latest/watchdog/bag/metadata.yaml",
+      "size": 4253,
+      "sha256": "dd57aebdce9a1ab1ce05d7d477c3cc6733a607cd07cc4889bed67ec87830b70b"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-loaded/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/latest/watchdog/bag-record.log",
+      "size": 1700,
+      "sha256": "492fdd475a57b1b225dd8ad757908c2e7ab0c26e44757c24a042a99eb683f8bc"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-loaded/guard-rejections.json",
+      "after": "ackermann_sim_ws/artifacts/latest/watchdog/guard-rejections.json",
+      "size": 254,
+      "sha256": "ee94226ee52fb861fd2f7f471c835857dfe06d8ee166745f7084b5ee003992de"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-loaded/results.json",
+      "after": "ackermann_sim_ws/artifacts/latest/watchdog/results.json",
+      "size": 6334,
+      "sha256": "23793b03dce1a2b70470d0c50fc54a401ff56ad5f05330efb1e5ee5223cdbe3c"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-contact-probe/results.json",
+      "after": "ackermann_sim_ws/artifacts/latest/contact-probe/results.json",
+      "size": 298,
+      "sha256": "ef8e237d81a743388d049bdcb0269b3edf2e2f136356359b8f62b2194dcd41bc"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-contact-probe/spawn.log",
+      "after": "ackermann_sim_ws/artifacts/latest/contact-probe/spawn.log",
+      "size": 72,
+      "sha256": "4b99a4c963ee0e7f62cbaa32566a7805916137e33b71537a2d72f6a4fdf7f862"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-v2/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-unloaded-pass/bag/bag_0.mcap",
+      "size": 3481075,
+      "sha256": "7c8895c9ae8da2d7361505ef376be36ef0496834534e862093b9add1297d2afd"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-v2/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-unloaded-pass/bag/metadata.yaml",
+      "size": 4253,
+      "sha256": "49500803da0743ce38a5a47a616e267802cc4ae758c8f359b42d731e6ed985e3"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-v2/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-unloaded-pass/bag-record.log",
+      "size": 1696,
+      "sha256": "f09c8d73c225fbae0faa671bb6ae4534ce520925f18b97dc64a9ac3210c46e68"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog-v2/results.json",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-unloaded-pass/results.json",
+      "size": 6324,
+      "sha256": "21a4f4d98e3287566392e4928f89363c20211c8a1c48033ac01f4a7d56824805"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/bag/bag_0.mcap",
+      "size": 21688952,
+      "sha256": "079f83fded452f85ab2e5230ac4aa0c835f08dd767077c5fe991850bc8922b85"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/bag/metadata.yaml",
+      "size": 8426,
+      "sha256": "eb6d3c3ab0527ba3be77e91c28d9341e97fa7be9ff760cc9f26fb59d2efc5f71"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/bag-record.log",
+      "size": 1995,
+      "sha256": "5a4d0fe9ef726d9372da06ef01654b54b06f20072bb569d71c63b3102d582002"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/demo.mp4",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/demo.mp4",
+      "size": 409887,
+      "sha256": "4b38a159556c2ce44c992d7fae9b315dc3467e9de3eacb4305d60096dde21681"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/observations.json",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/observations.json",
+      "size": 1168126,
+      "sha256": "d3f049787811d3872c5f4fa678a1107fd71156762e581a51e5f71bdd5ae5ccfa"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/preview-1.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/preview-1.png",
+      "size": 153504,
+      "sha256": "40c94de701f5126bf7d70b42e524c47a54163cf00e7ecee98ec3bc8e486c8f41"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/preview-120.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/preview-120.png",
+      "size": 156154,
+      "sha256": "ad8b86d021b8ab5eee6d23bf7d6c10717ff76933d1709667a71317c5e7063933"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/preview-300.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/preview-300.png",
+      "size": 104827,
+      "sha256": "efc2102de8fd82461f479de7e20ae8b4dd7cdf99aeb51ae8ef932d5f17de7d2e"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/preview-360.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/preview-360.png",
+      "size": 157742,
+      "sha256": "0f11f5d6223715a96b863f72b82cceb19338850a34e02c5d1467f7705f68ca88"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/results.json",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/results.json",
+      "size": 8061,
+      "sha256": "88dad86d3cb02856dc833492e8a32e9501eb4599a576b0b79bdc778ae47c4a23"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/stopping.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/stopping.png",
+      "size": 73997,
+      "sha256": "97b9042071ac33b7c78f3a7d97d9e8a214cab511c97dcb2cf17ec079ee6dca87"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/final-run/trajectory.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-pass-2026-10-03/trajectory.png",
+      "size": 79532,
+      "sha256": "a56cd291b5bc63c440a070ee7e35a0c81239a5a06efbcc7b714c35d37b708027"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-headless/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/nav-headless-failed/bag/bag_0.mcap",
+      "size": 120277082,
+      "sha256": "387bfb42f31daf3d19d3a9cb594d5ec6152194a43684d289c9f7a546db1a1739"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-headless/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/nav-headless-failed/bag/metadata.yaml",
+      "size": 14778,
+      "sha256": "727e908c05e52a9b43588d0f0e160cfcb64539d4a0a47c5950b8f40189435713"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-headless/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/nav-headless-failed/bag-record.log",
+      "size": 2943,
+      "sha256": "f189a44bfbe7a83620b04c9fcdbc9964eca1352b4936f9a5b9a58508dfd09d5a"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-headless/failed-bag-audit.json",
+      "after": "ackermann_sim_ws/artifacts/history/nav-headless-failed/failed-bag-audit.json",
+      "size": 1344,
+      "sha256": "be9ef5362f1c286331ac839f041b45e7631066377d0535c651ea97318b4738f2"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/bag/bag_0.mcap",
+      "size": 30788487,
+      "sha256": "9f1a76e3d1ffa44868080eb2deaf6374dd324df85f4e5d7425275f134aceb107"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/bag/metadata.yaml",
+      "size": 14772,
+      "sha256": "3a781bb7f4d9cc9e106dae1b1a120a72440edad8483016cab163b1537eef316c"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/bag-record.log",
+      "size": 2940,
+      "sha256": "488cc555725913fe9a4e81bac1fecff9fc9eaf9433809063820d9cffbc6f23de"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/demo.mp4",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/demo.mp4",
+      "size": 530392,
+      "sha256": "5a20b94e20829a5cb10338da38026b685223f89641b8f8cf66572aaa54d9bc53"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/goal-results.json",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/goal-results.json",
+      "size": 1140,
+      "sha256": "c6e64d3dd4c35c43851480d70a3f2af0ba09b245c628634bc704d01b76e165a2"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/preview-1.png",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/preview-1.png",
+      "size": 227476,
+      "sha256": "e6ae71ac4423c65c5a72cf7cb18828582a163d0a728d236be4a8543f61a15300"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/preview-120.png",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/preview-120.png",
+      "size": 166343,
+      "sha256": "839eb4ac1d02426f2ed37f85e60901c51b01e8b4f4528cbb445bbc0af5ead28c"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-nav-final/preview-300.png",
+      "after": "ackermann_sim_ws/artifacts/history/nav-first-gui-failed/preview-300.png",
+      "size": 178312,
+      "sha256": "9064bc6b623c959ed52d0868467150d73adc4cd8213f15348f7796675f231037"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-80ms-failed/bag/bag_0.mcap",
+      "size": 3467831,
+      "sha256": "023e5759edd51c3bd61495146fe6bd7003696554cdedbc6790f7a83f6e607a92"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-80ms-failed/bag/metadata.yaml",
+      "size": 4253,
+      "sha256": "797e32358182c19ab41e9e1c47cecfde29f6e3f8351313f99afd86fed3e64fdf"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-80ms-failed/bag-record.log",
+      "size": 1693,
+      "sha256": "d88fdc5fda2d4f0c1b87a55a0f273b972b2bf65b37f6cf427055636bbec33525"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/m3-watchdog/results.json",
+      "after": "ackermann_sim_ws/artifacts/history/watchdog-80ms-failed/results.json",
+      "size": 6330,
+      "sha256": "9b7d4ad7cd2acf8cc0e9a7601e419cc640d0ce7627f19be16cfa1e5879a7bd0b"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-001/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-001/bag-record.log",
+      "size": 3010,
+      "sha256": "d67f08154517956d827779262d072bc449ef768444189695a807929c779e0759"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-002/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-002/bag/bag_0.mcap",
+      "size": 49662305,
+      "sha256": "55b9a1c3863d254c67b39896302c11cce387c15040fc4a78ebc3db745afc392f"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-002/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-002/bag/metadata.yaml",
+      "size": 6946,
+      "sha256": "9c31da957129159ac702a0dbb12025233430de56425d52755f4eef95c5a76b29"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-002/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-002/bag-record.log",
+      "size": 1815,
+      "sha256": "f9702c5def6c75b47b180a30871f1b284e19a3b180a8d4a5427f8d52989d99ad"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-002/demo.mp4",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-002/demo.mp4",
+      "size": 48,
+      "sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/VIDEO_NOT_RETAINED.md",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/VIDEO_NOT_RETAINED.md",
+      "size": 182,
+      "sha256": "5bb84bb8dee5129ae2cd95f7a18720199d778a7c54d3f3b9ae133683432f0a2b"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/bag/bag_0.mcap",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/bag/bag_0.mcap",
+      "size": 21568404,
+      "sha256": "881b44b626ee7cad8ba4a9af28d15a1255d53e39cea4f71a0faf58ed7c0abdc7"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/bag/metadata.yaml",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/bag/metadata.yaml",
+      "size": 7961,
+      "sha256": "8c59164f3a2e37aa10251c650604cc9417b256890a0d1856a62b235798024d45"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/bag-record.log",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/bag-record.log",
+      "size": 2093,
+      "sha256": "25a7268737f14a906c484dc8965fcca0b3115523bfc71ac7e3f785508ce98e52"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/demo-frame.png",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/demo-frame.png",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/demo.mp4",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/demo.mp4",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/observations.json",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/observations.json",
+      "size": 2009196,
+      "sha256": "2b0d9a97db6d0e356151782bd472a0c20aadf843df24b7e7247241370dfce71e"
+    },
+    {
+      "before": "ackermann_sim_ws/artifacts/run-003/results.json",
+      "after": "ackermann_sim_ws/artifacts/history/basic-run-003/results.json",
+      "size": 6965,
+      "sha256": "c709a27331f00c0f922f0d8d3921caa2d0ae03e0e80d91c14e2fff6ce1bb44d6"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "m0_dev_ws/src/m0_smoke/CMakeLists.txt",
+      "sha256": "ed5eba68f143ae908842e2691980a78da28521067c4eb737142d5b212093494b"
+    },
+    {
+      "path": "m0_dev_ws/src/m0_smoke/package.xml",
+      "sha256": "0a7708dd5bf5adfe3cccbc74e1f4a7053ed0240b293c848c3bd4eceed2e11e6d"
+    },
+    {
+      "path": "m0_dev_ws/src/m0_smoke/smoke_node.cpp",
+      "sha256": "1658ceeb1b82a6547a5625ec5c1fb1b65b361d627bcc20a42765d3ee8c740e67"
+    },
+    {
+      "path": "m0_dev_ws/scripts/nav2_goal.py",
+      "sha256": "a08a152a7fecabab901d952e3086e31e3434d33481a5275a436dc4bc34dcf32c"
+    },
+    {
+      "path": "m0_dev_ws/scripts/session.bash",
+      "sha256": "6f108e703596e42b744bb1caff4c381ecf0e376b64a8bcba2238225fc9e4f0ac"
+    },
+    {
+      "path": "m0_dev_ws/scripts/verify_ros.py",
+      "sha256": "b84d5992ff4ac3cb8082e264003f7551823bb02908cd456666bf8b3153ac2d57"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/assets.py",
+      "sha256": "ecd004be98c863c2e56d0c0435715d68929788271e06229eb766d31096799ff4"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/ackermann_nav/truth_localization.py",
+      "sha256": "a0db89fdac39dc2e56514ab06b624feff15237b2aac653a172e89c9310a4ecb5"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/NOTICE.md",
+      "sha256": "54400fb149e44c53b71067d498cc4fa7464dcbeb7c2a979c4eb92bfb107b8b78"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/forward_only.xml",
+      "sha256": "8299634b8145a38416206d4cf4a3883400561106a19046314793d6ff5902017e"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/gui.config",
+      "sha256": "8d5e70de444354fa99d7372494ea265cf3557e6aa78edcf4641100acca4121d8"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/nav2.yaml",
+      "sha256": "70a2412725ba7b941e174f18388067b9f371f0db41e363fb0554f0d45f9b8663"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/config/test_scene.yaml",
+      "sha256": "38870e9d7b42d650752a379c768a8f99ed47fb19a1318171dca499a02a6378f6"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/launch/navigation.launch.py",
+      "sha256": "7d7810309f75beb15f8605bec216f346a6f6ddb932351fb0b57cf1836e37b1f3"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/package.xml",
+      "sha256": "29b07fdedb2260e276f64e19e214402e515db7a1962524f61234dfebf0923b6c"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/resource/ackermann_nav",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/rviz/ackermann.rviz",
+      "sha256": "ea87761fb66782e30604f1a7165f0f9f0a6cf06935dc79146fb91d67118846b6"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/setup.cfg",
+      "sha256": "bd587550906d09a5f1a7815df943af8775d0bbf3a34bc39b3b00447a431934f1"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_nav/setup.py",
+      "sha256": "070a33e02b0f1291ab4e27af1e248544936cbcea5d0d844ca89bee0ade0a54c0"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/assets.py",
+      "sha256": "e4013cb631f5686c133a402d3a35e3df48456601614a568a62e985fde57b2dbd"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/guard.py",
+      "sha256": "eb6b383cad027ab56828970f08cfd1d8b4d80d7bce000964edb374c674b36b35"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/ackermann_sim/observer.py",
+      "sha256": "babc15cd6959ff9820f714cb2386f76fa4f46689d5b5f9822e2f9aaf3ebf3ca9"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/config/gui.config",
+      "sha256": "92c4355425d724f057f4034895853ad2fb71d853cd517f4f597f3f6c2de705b4"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/config/vehicle.yaml",
+      "sha256": "986af2dd8470e9ec8cbbc08f347d3d8dbeeec0f0e758be4e3aa9ae1147b778e6"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/launch/sim.launch.py",
+      "sha256": "1248fb4a9043293bff9403c018551314b2550a2e716283ef9861f5bb905da073"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/package.xml",
+      "sha256": "dabfe2222d1007c7a3ac9551aa362b81fc580925c950a2501c0f7e688a47a3cd"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/resource/ackermann_sim",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/rviz/ackermann.rviz",
+      "sha256": "5404d06d16a34bb6f7db47ea3ad2e94ff18f3ababf1bd9c704be088159f9407e"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/setup.cfg",
+      "sha256": "3fd252f9a6c24f608ff5920f4e565b4e046ae5e9fa31816e9cbb31d4d260fee2"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/setup.py",
+      "sha256": "d6ce120b1e1f8a1eb44a70425a72a2fa9bcb998443d9a6c13eb3c447cc20042c"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/vendor/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/vendor/NOTICE.md",
+      "sha256": "f995cb8c37bbb51f444479e7fe3d203502e28ac130025af33e09564d468da322"
+    },
+    {
+      "path": "ackermann_sim_ws/src/ackermann_sim/vendor/ackermann_steering.sdf",
+      "sha256": "37baf9ed43371946899ff02bcffeb4df48b27487d3cf933cb88fb070f1323dfe"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/audit_nav.py",
+      "sha256": "d8e72d8bbdb205c8f50746303137ba53336edbaccfd271915dcf785ac275c718"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/bag_safety.py",
+      "sha256": "d7f39763343cd5e07025fee4249d5b07e5970d0e008666d110a766e202d94356"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/check_nav_guard.py",
+      "sha256": "70de0efb010baafe6fa655c2354ae485fd837884f2e58b49f54c025b8d3985f9"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/control.bash",
+      "sha256": "db6d5def5a43e344e6988c2a17525fe2b3791ae70ddb08d80abed12512b8f9da"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/plot_nav.py",
+      "sha256": "7eae03addb116f5a004174bfb3536bec7104418e8880ec17f93226b495dbfb33"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/plot_results.py",
+      "sha256": "aa5f0d8aa23c149b791b23f19464f4f4ec4c9948965ad7fc748eb2384539e045"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/probe_contact.py",
+      "sha256": "c8d9ba270ef2bcef7b825429e6234053fb828441409988c8aba27e55757bb182"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/start.bash",
+      "sha256": "7fe617b0af414105a2cc8c8206987228b68966cf2ac36382f85a9046a93b31c0"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/start_nav.bash",
+      "sha256": "2c937592972b3b8bdaba2dc2a6c3aa6215be4698c5e9dc29a5164aa8052c0bd7"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate.bash",
+      "sha256": "7857b2b5b5028aaef3839fa5ab291fbd0cb96ebdbed3b8088c73248483fb1851"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_motion.py",
+      "sha256": "19aeec353bbebcb768b6adea8d1dcbb95ce2baa1771fa8c415c2c6278f3e810f"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_nav.bash",
+      "sha256": "63b815441357684d50e1564351393358698644c8979e5f026705c3819bdc2d02"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_nav.py",
+      "sha256": "eac4c7e9d324ad7fcd413ddb18a752fd97f3861ee8c9b35a6dcb8f8665943868"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/validate_watchdog.py",
+      "sha256": "d2afeaf16cc027302b5a44115fb5266d3ed6d53f1a147283e5756c1143ed239b"
+    },
+    {
+      "path": "ackermann_sim_ws/scripts/window_capture.py",
+      "sha256": "ec04f46c698d3c0bf5eb58430dfff7c8ba730152d4f467c13d9010b8b5cb449c"
+    }
+  ]
+}
